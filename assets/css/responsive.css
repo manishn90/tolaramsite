@@ -1,0 +1,126 @@
+@media (max-width: 320px) {
+
+            .m_jumbotron.full .carousel .client{
+                font-size: 2rem;
+            }
+
+            .m_jumbotron.full .carousel .tagline{
+                font-size: 1.2rem;
+            }
+            .m_jumbotron.full .carousel .to-case-studies{
+                
+            }
+
+            
+ }
+
+@media only screen and (min-width: 480px) and (max-width: 780px) and (orientation: landscape){
+            .m_jumbotron.full .carousel .client{
+                font-size: 2rem;
+                padding-top: 127px;
+            }
+
+
+            .m_jumbotron.full .carousel .item > .positioning{
+                padding-left: 0;
+                text-align: center;
+            }
+
+            .m_jumbotron.full .carousel .to-case-studies{
+                top: 80%;
+            }
+
+            .m_jumbotron.full .carousel .item > .inner{
+                padding-left: 22px;
+            }
+}
+
+@media (max-width:  414px) {
+            #features .item{
+                background-position: 97% 87px;
+}
+
+.m_jumbotron.full .carousel .item > .inner{
+                padding-left: 40px;
+                padding-top: 25px;
+                padding-bottom: 10px;
+}
+
+.m_jumbotron.full .carousel .item > .positioning{
+                left: 0;
+                padding-left: 0;
+                padding-top: 105px;
+                text-align: center;
+}
+
+            .m_jumbotron.full .carousel .tagline {
+                width: 80%;
+                margin-bottom: -1.5rem;
+            }
+
+            .m_jumbotron.full .carousel .case-study{
+                padding-top: 25vh;
+            }
+        }
+
+      
+
+
+        @media (min-width:  415px) and (max-width:  768px) and and (orientation:portrait) {
+            .m_jumbotron.full .carousel .item > .inner{
+                padding-left: 42px;
+                padding-top: 110px;
+            }
+
+            .m_jumbotron.full .carousel .item > .positioning{
+                left: 0;
+                padding-left: 22px;
+                padding-top: 105px;
+            }
+
+            .m_jumbotron.full .carousel .tagline {
+                width: 80%;
+            }
+
+            .m_jumbotron.full .carousel .case-study{
+                padding-top: 25vh;
+            }
+        }
+
+
+        @media (width:  800px) {
+            .m_jumbotron.full .carousel .item > .positioning{
+                left: 0;
+            }
+
+            .m_jumbotron.full .carousel .item > .inner{
+                padding-left: 80px;
+                width: 1300px;
+            }
+            
+        }
+
+        @media (min-width:  1201px) {
+
+        }
+
+
+
+
+
+
+
+
+
+        @media (min-width: 520px){
+            .st-menu {
+                width: 23%;
+                padding-right: 7%;
+            }
+        }
+
+        @media (max-width: 520px){
+             .menu-open .brand .letter{
+                fill: rgb(133, 31, 18) !important;
+            }
+        }
