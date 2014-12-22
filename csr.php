@@ -119,10 +119,7 @@
 				navigation: false,
 				navigationPosition: 'right',
 				navigationTooltips: ['ABOUT US', 'VALUES', 'VISION & MISSION', 'SHAREHOLDERS'],
-				responsive: 0,
-				verticalCentered: true,
-				horizontalCentered:false,
-
+				responsive: 992,
 			});
 
 			$('.csr_btn').click(function(e){
