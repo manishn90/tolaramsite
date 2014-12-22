@@ -166,7 +166,21 @@
 			text-transform: capitalize;
 		}
 
-	
+		::-webkit-input-placeholder { /* WebKit browsers */
+		    color:    #FFF !important;
+		}
+		:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		   color:    #FFF !important;
+		   opacity:  1;
+		}
+		::-moz-placeholder { /* Mozilla Firefox 19+ */
+		   color:    #FFF !important;
+		   opacity:  1;
+		}
+		:-ms-input-placeholder { /* Internet Explorer 10+ */
+		   color:    #FFF !important;
+		}
+
 		
 	</style>
 	<script type="text/javascript">
