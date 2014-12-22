@@ -19,17 +19,21 @@
             padding-left: 21px!important;
             padding-right: 21px!important;
         }
-        .menu-trigger span.before_active {
-          transform:rotate(45deg);
-          background:#000;
+        .menu-trigger span.before_active_white {
+          background:#000 !important;
         }
 
-        .menu-trigger span.after_active{
-          transform:rotate(-45deg);
-          background:#000;
+        .menu-trigger span.after_active_white{
+          background:#000 !important;
         }
-        .menu-trigger span, .menu-trigger span.before, .menu-trigger span.after{
-            background-color: #000!important;
+        .menu-trigger span.before_active_white, 
+        .menu-trigger span.before_active_black {
+          transform:rotate(45deg);
+        }
+
+        .menu-trigger span.after_active_white, 
+        .menu-trigger span.after_active_black{
+          transform:rotate(-45deg);
         }
     </style>
 </head>
