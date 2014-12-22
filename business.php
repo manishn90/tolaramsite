@@ -76,7 +76,7 @@
 			                            <a href="ajax/project2.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="Amar Bank">
 			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/amar800x600_tmp.png" alt="">
+			                                    <img src="assets/img/our_business/sector/amarbank_bg.png" alt="">
 			                                </div>
 			                                <div class="cbp-caption-activeWrap">
 			                                    <div class="cbp-l-caption-alignLeft">
@@ -92,7 +92,7 @@
 			                            <a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="Arzu Utama Realty">
 			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/arzu.png" alt="">
+			                                    <img src="assets/img/our_business/sector/arzu_bg.png" alt="">
 			                                </div>
 			                                <div class="cbp-caption-activeWrap">
 			                                    <div class="cbp-l-caption-alignLeft">
@@ -108,7 +108,7 @@
 			                            <a href="ajax/project4.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="Asuransi Rama">
 			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/asuransi_rama_800x600.png" alt="">
+			                                    <img src="assets/img/our_business/sector/rama_bg.png" alt="">
 			                                </div>
 			                                <div class="cbp-caption-activeWrap">
 			                                    <div class="cbp-l-caption-alignLeft">
@@ -124,7 +124,7 @@
 			                            <a href="ajax/project5.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="BHN">
 			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/bhn_800x600.png" alt="">
+			                                    <img src="assets/img/our_business/sector/bhn_bg.png" alt="">
 			                                </div>
 			                                <div class="cbp-caption-activeWrap">
 			                                    <div class="cbp-l-caption-alignLeft">
@@ -140,7 +140,7 @@
 			                            <a href="ajax/project6.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="Dufil Prima Foods">
 			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/dufill_800x600_tmp.png" alt="">
+			                                    <img src="assets/img/our_business/sector/dufil.png" alt="">
 			                                </div>
 			                                <div class="cbp-caption-activeWrap">
 			                                    <div class="cbp-l-caption-alignLeft">
@@ -153,10 +153,10 @@
 			                            </a>
 			                        </li>
 			                         <li class="cbp-item distribution">
-                            <a href="ajax/project6.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Remind~Me Widget<br>by Tiberiu Neamu">
+                            <a href="ajax/project7.html" class="cbp-caption cbp-singlePageInline"
+                               data-title="First Choice Retailing">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/firstchoice_800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/first.choice_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
@@ -169,10 +169,10 @@
                             </a>
                         </li>
                         <li class="cbp-item paper">
-                            <a href="ajax/project7.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project8.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Horizon Pulp & Paper">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/horizonpaper_800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/horizon.paper_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
@@ -185,10 +185,10 @@
                             </a>
                         </li>
                         <li class="cbp-item consumer">
-                            <a href="ajax/project8.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Horizon Tissue">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/horizontisue800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/horizon.tisue_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
@@ -201,10 +201,10 @@
                             </a>
                         </li>
                         <li class="cbp-item consumer">
-                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project10.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Hypo Bleach">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/hypo_800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/hypo_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
@@ -218,10 +218,10 @@
                         </li>
                         <!-- end of default business -->
                          <li class="cbp-item infrastructure">
-                            <a href="ajax/project10.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project11.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Lagos Free Trade Zone">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/lftz_800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/lagosfreetradezone_lftz_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
@@ -234,10 +234,10 @@
                             </a>
                         </li>
                          <li class="cbp-item infrastructure">
-                            <a href="ajax/project11.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project12.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Lekki Deep Sea Port">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/lekki800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/lekki.port_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
@@ -250,10 +250,10 @@
                             </a>
                         </li>
                         <li class="cbp-item textiles">
-                            <a href="ajax/project12.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project13.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Lotus Indah">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/lotus_indah_800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/lotus.indah_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
@@ -266,10 +266,10 @@
                             </a>
                         </li>
                         <li class="cbp-item textiles">
-                            <a href="ajax/project13.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project14.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Lucky Fibres">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/luckyfibre_800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/lucky.fabries_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
@@ -282,10 +282,10 @@
                             </a>
                         </li>
                         <li class="cbp-item energy">
-                            <a href="ajax/project14.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project15.html" class="cbp-caption cbp-singlePageInline"
                                data-title="MBH Power">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/energy_power_800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/mbh.power_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
@@ -298,10 +298,10 @@
                             </a>
                         </li>
                         <li class="cbp-item distribution">
-                            <a href="ajax/project15.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project16.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Multi Pro Enterprises">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/multipro_800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/multipro_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
@@ -314,10 +314,10 @@
                             </a>
                         </li>
                         <li class="cbp-item real">
-                            <a href="ajax/project16.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project17.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Tolaram Investments">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/tolaraminvest800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/tolaram.investment_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
@@ -330,10 +330,10 @@
                             </a>
                         </li>
                         <li class="cbp-item digital">
-                            <a href="ajax/project17.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project18.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Tunaiku">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/tunaiku800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/tunaiku_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
@@ -346,10 +346,10 @@
                             </a>
                         </li>
                         <li class="cbp-item digital">
-                            <a href="ajax/project18.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project19.html" class="cbp-caption cbp-singlePageInline"
                                data-title="VConnect">
                                 <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/vconnect800x600.png" alt="">
+                                    <img src="assets/img/our_business/sector/vconnect_bg.png" alt="">
                                 </div>
                                 <div class="cbp-caption-activeWrap">
                                     <div class="cbp-l-caption-alignLeft">
