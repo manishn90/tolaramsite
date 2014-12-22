@@ -106,7 +106,7 @@
 			                        </li>
 			                        <li class="cbp-item financial">
 			                            <a href="ajax/project4.html" class="cbp-caption cbp-singlePageInline"
-			                               data-title="WhereTO App<br>by Tiberiu Neamu">
+			                               data-title="Asuransi Rama">
 			                                <div class="cbp-caption-defaultWrap">
 			                                    <img src="demos/asuransi_rama_800x600.png" alt="">
 			                                </div>
