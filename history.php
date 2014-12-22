@@ -57,7 +57,6 @@
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				sectionsColor: ['#EAEAEA', '#4BBFC3', '#7BAABE', 'whitesmoke'],
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
 				menu: '#menu'
 			});
 		});

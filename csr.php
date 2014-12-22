@@ -114,7 +114,6 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['aboutUs', 'values', 'visionMission', 'shareholders'],
 				sectionsColor: ['#FFF', '#FFF', '#FFF', '#FFF'],
 				navigation: false,
 				navigationPosition: 'right',

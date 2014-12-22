@@ -153,7 +153,7 @@ header{
   padding-top: 30px !important;
   overflow: hidden;
   z-index: 1900;
-  height: 125px;
+  height:160px;
 }
 
 header > .brand{

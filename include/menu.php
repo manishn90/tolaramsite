@@ -14,7 +14,7 @@
             </nav>
     </div>
     <header>
-            <div class="brand">
+            <div class="brand black_nav_trigger">
                 <a href="index.php" style="background: transparent;">
                     <img src="assets/img/logo.png">
                 </a>
