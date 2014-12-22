@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tolaram</title>
     <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/cubeportfolio.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome/css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/tympanus/default.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/tympanus/component.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/fullpage/jquery.fullPage.css">
+
     <script src="assets/js/jquery.min.js"></script>
 
     <style type="text/css">

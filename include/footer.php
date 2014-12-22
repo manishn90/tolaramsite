@@ -1,9 +1,16 @@
 	
 	<script src="assets/css/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/js/business/retina.js"></script>
+    <script src="assets/js/business/jquery.prettyPhoto.js"></script>
+    <script src="assets/js/business/owl.carousel.js"></script>
+    <script src="assets/js/business/custom.js"></script>
+    <script src="assets/js/business/jquery.cubeportfolio.min.js"></script>
+    <script type="text/javascript" src="assets/js/business/main.js"></script>
 	<script src="assets/js/vendor/modernizr.custom.js"></script>
 	<script src="assets/js/vendor/jquery.vide.js"></script>
     <script src="assets/js/vendor/classie.js"></script>
     <script src="assets/js/vendor/jquery.fullPage.js"></script>
+
 
     <script type="text/javascript">
     	/* Menu Trigger */

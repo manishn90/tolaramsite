@@ -1,556 +1,134 @@
-html, body {
-  margin: 0;
-  height: 100%;
-}
+/*  ################################################################
 
-@font-face {
-    font-family: gothamMedium;
-    src: url(../fonts/gotham/Gotham-Medium.otf);
-}
-
-@font-face {
-    font-family: gothamBook;
-    src: url(../fonts/gotham/Gotham-Book.otf);
-}
-
-@font-face {
-    font-family: gothamBookItalic;
-    src: url(../fonts/gotham/Gotham-BookIta.otf);
-}
-
-
-/* Menu Trigger */
-
-.menu-trigger{
-  pointer-events: auto;
-  position: relative;
-  top: 23px;
-  margin-right: 7%;
-  float: right;
-  z-index: 110;
-  display: block;
-  width: 25px;
-  height: 22px;
-  cursor: pointer;
-}
-
-.menu-trigger span {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 4px;
-  font-size: 0;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-
-}
-
-.menu-trigger span.before {
-  -webkit-transform: translateY(-10px);
-  -ms-transform: translateY(-10px);
-  transform: translateY(-10px);
-}
-
-.menu-trigger span.after {
-  -webkit-transform: translateY(10px);
-  -ms-transform: translateY(10px);
-  transform: translateY(10px);
-}
-
-
-
-
-.menu-trigger span.before, .menu-trigger span.after {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  content: '';
-  -webkit-transition: -webkit-transform .3s;
-  transition: transform .3s;
+  File Name: style.css
+  Template Name: Bloxo
+  Created By: Filiz OZER
+  http://themeforest.net/user/jollythemes
   
-}
-
-/*.menu-trigger span, .menu-trigger span.before, .menu-trigger span.after {
-  background-color: #FFFFFF;
-}*/
-
-/* ---------- End Menu Trigger  ----------- */ 
-
-
-/* Header Fixed */
-
-
-.header_fixed{
-  width: 100%;
-  height: 135px;
-  background-color: #FFF;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-}
-
-
-/* End Header Fixed*/
-
-
-.cbp-spmenu{
-  background-color: #FFFFFF;
-}
-.cbp-spmenu-vertical{
-  width: 386px;
-  right: -481px;
-  padding-right: 7%;
-}
-.cbp-spmenu-vertical a{
-  font-size: 0.9em;
-  text-decoration: none;
-}
-
-.cbp-spmenu-vertical a:hover{
-  background:none;
-  text-decoration: none;
-}
-.cbp-spmenu-vertical a, .cbp-spmenu-vertical ul{
-  text-align: right;
-  border:0;
-  color: #757572;
-  padding: 0.4em;
-  font-weight: 400;
-}
-
-.cbp-spmenu-vertical ul{
-  list-style: none;
-}
-
-.cbp-spmenu-vertical ul li a{
-  color: #f6364d;
-  font-size: 0.6em;
-  line-height: 10px;
-  font-weight: 0;
-}
-
-
-.cbp-spmenu-vertical nav[role="navigation"]{
-  position: relative;
-  top: 40%;
-  font-family: gothamMedium;
-}
-
-
-
-header{
-  padding: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  padding: 0px !important;
-  padding-top: 30px !important;
-  overflow: hidden;
-  z-index: 1900;
-  height:160px;
-}
-
-header > .brand{
-  float: left;
-  float: left;
-  margin-left: 7%;
-  
-}
-header > .brand > a{
-  position: relative;
-  top: -30px;
-  padding: 30px 10px 30px;
-  width: 155px;
-  display: block;
-  background: #FFFFFF;
-  -webkit-border-bottom-left-radius: 40px;
-  -khtml-border-bottom-left-radius: 40px;
-  border-bottom-left-radius: 40px;
-  -moz-border-bottom-right-radius: 40px;
-  -webkit-border-bottom-right-radius: 40px;
-  -khtml-border-bottom-right-radius: 40px;
-  border-bottom-right-radius: 40px;
-}
-
-header > .brand > a > img{
-  max-width: 100%;
-}
-
-header > .title_page{
-  position: absolute;
-  left: 0;
-  right: 0;
-  text-align: center;
-  font-size: 23px;
-  color: #58595b;
-  font-family: gothamBook;
-  font-weight: 400;
-  padding-top: 27px;
-  width: 50%;
-  margin: 0 auto;
-}
-
-div.cbp-spmenu-push{
-  height: 100%;
-}
-.cbp-spmenu-push > .container{
-  position: absolute;
-  top: 40%;
-  left: 0;
-  right: 0;
-}
-
-.cbp-spmenu-push > .container > div {
-  color: #FFF;
-  text-align: center;
-}
-
-h1.title, h3.title, p.content {
-  color: #FFF;
-}
-h3.title {
-  font-family: gothamMedium;
-  padding-bottom: 10px;
-}
-
-h1.title{
-  font-family: gothamBook;
-}
-
-p.content {
-  font-family: gothamBook;
-}
-
-div.video_bg{
-  margin: 0;
-  width: 100%;
-  height: 100%;
-}
-
-
-.bordered_wrapper{
-  padding-top: 135px;
-  border-top:0;
-  border-bottom: 0;
-}
-
-.col-center{
-      position: absolute;
-      margin: 0 auto;
-      left: 0;
-      right: 0;
-    }
-
-
-
-/*  ----- About Us ------ */
-
-  .values{
-      /*margin-top: 4%;*/
-      font-family: gothamBook;
-      color: #666;
-    }
-
-    .values h3{
-      font-size: 18px;
-    }
-
-    .values p{
-      font-size: 12px;
-    }
-
-    .box-trust, 
-    .box-respect, 
-    .box-commitment,
-    .box-humility,
-    .box-courage{
-          transition: all 0.7s ease;
-    }
-    .quote, .author{
-      text-align: center;
-      display: none;
-      font-size: 13px;
-      font-size: gothamMedium;
-      color: #666;
-    }
-    .trust h3.highlight {
-       color: #526cd2!important;
-       font-weight: bold;
-    }
-    .respect h3.highlight {
-       color: #f39140!important;
-       font-weight: bold;
-    }
-    .commitment h3.highlight {
-       color: #639140!important;
-       font-weight: bold;
-    }
-    .courage h3.highlight {
-       color: #d24040!important;
-       font-weight: bold;
-    }
-    .humility h3.highlight {
-       color: #926c50!important;
-       font-weight: bold;
-    }
-
-    .globe{
-      position: relative;
-    }
-    .shareholders1{
-      max-width: 45%;
-    }
-
-    .shareholders2{
-      max-width: 60%;
-
-    }
-
-    .shareholders1, .shareholders2{
-      position: relative;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-    .title_shareholders1,
-    .title_shareholders2{
-      color: #58595b;
-    }
-    .title_shareholders1{
-      font-family: gothamBook;
-      font-size: 15px;
-      padding-top: 5px;
-    }
-    .title_shareholders2{
-      line-height: 0px;
-      font-family: gothamBookItalic;
-      font-size: 11.5px;
-    }
-
-    .fa-search{
-      position: absolute;
-      z-index: 1;
-      left: 0;
-      right: 0;
-      text-align: center;
-      top: 35%;
-      font-size: 33px;
-      color:#FFF;
-      display: none;
-    }
-    .fa-search:hover{
-      cursor: pointer;
-    }
-
-    .vismis{
-      top: 122px;
-    }
-    .mission {
-      color: #939598!important;
-    }
-    .vision_box{
-      margin-bottom: 120px;
-    }
-    .vision{
-      color : #841f10!important;
-    }
-
-    div.shareholders1 div:hover img.blur,
-    div.shareholders2 div:hover img.blur
-    { 
-        filter: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQoJPGZpbHRlciBpZD0iYmx1ciI+DQoJCTxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjEwIiAvPg0KCTwvZmlsdGVyPg0KPC9zdmc+#blur');
-        filter: blur(5px);
-        filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-        transition: 1s filter linear;
-        -webkit-filter: blur(5px); /* Prefixed CSS3 blur filters */
-        -moz-filter: blur(5px);
-        -o-filter: blur(5px);
-        -ms-filter: blur(5px); 
-        width: 100%;
-        height: 100%;
-        cursor: pointer;
-    }
-
-
-/* ------ CSR OVERLAY ----- */
-
-
-    .fullWidth {
-      position: fixed;
-      background: #413B3B;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: -100%;
-      z-index: 100000;
-    }
-
-    .csroverlay {
-      background-color: white !important;
-    }
-
-    .csroverlay .container {
-      padding-top: 50px;
-      margin: 0 auto;
-      overflow: hidden;
-    }
-
-    .csroverlay .container h1,.csroverlay .container p {
-      font-family: gothamBook;
-    }
-
-    .csroverlay .container p {
-      text-align: justify;
-      font-size: 12px;
-      line-height: 1.5em;
-    }
-
-    button.businessClose{
-      background-image: url('../../assets/img/closeBusiness.png');
-      background-color: transparent;
-      border: none;
-      width: 30px;
-      height: 30px;
-      text-indent: -999999px;
-      background-size: 30px 30px;
-      outline: none;
-      margin-right: 50px;
-      position: absolute;
-      top: 30px;
-      right: 30px;
-    }
-    .csrBanner{
-      height: 50%;
-      background-position: 20% 20%;
-      background-repeat: no-repeat;
-      background-size: 100% auto !important;
-    }
-
-
-    .hiddenContent{
-      display: none;
-    }
-
-/* ------ FullContact ------ */
-
-.fullContact{
-    padding-top: 30px;
-    border: 20px solid transparent;
-    position: fixed;
-    width: 100%;
-    height: 50%;
-    bottom: -100%;
-    left: 0px;
-    -ms-transition: bottom 1s; /* For Safari 3.1 to 6.0 */
-    -webkit-transition: bottom 1s; /* For Safari 3.1 to 6.0 */
-    transition: bottom 1s;   
-    background-color: #736e6e;  
-    font-family: gothamBook;     
-}
-.fullContact .container{
-  margin:auto;
-  overflow: hidden;
-}
-.activeContact .fullContact{
-    bottom: 0px;
-    background-color: #736e6e;
-}
-.cotactButton{
-    background-color: transparent;
-    border:1px solid;
-    color: #58595b;
-}
-.fullContact .leftContact input{
-    height: 50px;
-    line-height: 50px;
-    background: transparent;
-    color: #F6F6F6;
-    border: 1.5px solid;    
-    border-radius: 0px;
-    font-size: 0.8em;
-}
-.fullContact textarea{
-    height: 180px;
-    border-radius: 0px;
-    background: transparent;
-    color: #F6F6F6;
-    border: 1.5px solid;   
-}
-.fullContact button[type='submit']{
-    float: right;
-    margin-top: 0px;
-    background: transparent;
-    border: 1.5px solid;
-    height: 50px;
-    border-radius: 0px;
-    color: rgb(212, 210, 210);
-    padding-right: 4em;
-    padding-left: 4em;   
-}
-.closeContact{
-    background-image: url('../img/closeBusiness.png');
-    background-color: transparent;
-    border: none;
-    width: 30px;
-    padding: 0px;
-    height: 30px;
-    text-indent: -999999px;
-    background-size: 30px 30px;
-    outline: none;
-}
-.cotactButton{
-    font-size: 11px;
-    text-transform: uppercase;
-    height: 36px;
-    padding: 0px 20px;
-    line-height: 36px;
-}
-.cotactButton:hover{
-    background:#851F12;
-    color: #FFFFFF;
-}
-
-
-
-
-
-/* Toolip Navigation Right */
-
-#fp-nav ul li .fp-tooltip{
-  font-family: gothamMedium !important;
-}
-
-@media (max-width: 520px){
-  .cbp-spmenu-vertical {
-    width: 100%;
-  }
-
-  .cbp-spmenu-vertical nav[role="navigation"]{
-    top: 30%;
-  }
-
-  header > .title_page{
-    display: none;
-  }
-
-}
-
-
-
-/* Our Business */
+  1) SKELETON
+  2) HEADER STYLES
+  3) FOOTER STYLES
+  4) PORTFOLIO STYLES
+  5) PAGE POST STYLES
+  6) RESPONSIVE
+
+
+################################################################# */ 
+
+/* ----------------------------------------------------
+  SKELETON
+------------------------------------------------------- */
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic);
 
+body {
+overflow-x:hidden;
+overflow-y:scroll;
+background:#fff;
+color:#aeaeae;
+font:400 15px/24px "Roboto",sans-serif;
+-webkit-font-smoothing:antialiased;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 0;
+}
+
+/* ! removes focus line */
+::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+}
+
+* {
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+a {
+  color:#fa903e;
+}
+a:hover,
+a:focus {
+  color:#343434;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+h1,h2,h3,h4,h5,h5,h6 {
+font-family:"Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color:#343434;
+font-weight:bold;
+margin:0;
+}
+
+ul,ol {
+padding:5px 20px;
+}
+
+#sidebar ul,.wps-content ul {
+list-style:none;
+border:none;
+padding:0!important;
+}
+
+a:hover {
+text-decoration:none;
+}
+
+.pointer {
+cursor:pointer!important;
+}
+
+.uppercase {
+text-transform:uppercase;
+}
+
+h1 {
+font-size:32px;
+line-height:48px;
+}
+
+h2 {
+font-size:28px;
+line-height:44px;
+}
+
+h3 {
+font-size:26px;
+line-height:38px;
+}
+
+h4 {
+font-size:21px;
+line-height:40px;
+}
+
+h5 {
+font-size:18px;
+line-height:35px;
+}
+
+h6 {
+font-size:16px;
+font-weight:600;
+margin-bottom:16px;
+}
 
 .hidden {
 display:none;
@@ -1319,8 +897,3 @@ label {
         margin-top: 20px;
     }
 }
-
-
-
-
-

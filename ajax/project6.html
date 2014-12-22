@@ -1,0 +1,25 @@
+<div class="cbp-l-inline">
+    <div class="cbp-l-inline-left">
+        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="demos/dufill_800x600.png" alt=""></a>
+    </div>
+
+    <div class="cbp-l-inline-right">
+        <div class="cbp-l-inline-title">Dufil Prima Foods</div>
+        <div class="cbp-l-inline-subtitle">
+        <p class="lead">Nigeria</p></div>
+
+        <div class="cbp-l-inline-desc">
+        <p>Dufil Prima Foods PLC (a joint venture with Salim Group) manufactures and markets instant noodles, pasta, cooking oil and snack in West Africa with plants located in Nigerian cities of Kaduna, Ota and Port Harcourt. The company also manufactures flour, seasoning and packaging material.</p>
+        <p>Our flagship brands are Indomie instant noodles, Power Pasta, Power Oil and Minimie snack.</p></div>
+    </div>
+</div>
+
+<script type="text/javascript"> 
+(function($) {
+"use strict";
+    jQuery('a[data-gal]').each(function() {
+    jQuery(this).attr('rel', jQuery(this).data('gal'));
+    });     
+    jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:false,overlay_gallery: false,theme:'dark_square',social_tools:false,deeplinking:false});
+})(jQuery);
+</script>
