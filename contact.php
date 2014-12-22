@@ -90,7 +90,7 @@
 				<div class="col-md-5">
 
 					  <div class="form-group">
-					    <textarea class="form-control" rows="3"></textarea>
+					    <textarea class="form-control" rows="3" placeholder="Message"></textarea>
 					  </div>
 
 					  <button type="submit" class="btn btn-default">Submit</button>
