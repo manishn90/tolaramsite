@@ -166,18 +166,35 @@
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/mohan-vaswani.jpg">
 							<p class="title_shareholders1">MOHAN VASWANI</p>
 							<p class="title_shareholders2">CHAIRMAN</p>
+							<span class="hiddenContent">
+								<span>
+                                                         1957 and has since built various businesses across several locations. 
+                                                         He has a wealth of experience in successfully creating and nurturing industrial developments and trading activities.
+                                                         </br></br>He is actively involved in Tolaram Foundation and Rotary Club of Singapore.
+                                                      </span>
+							</span>
 							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-4 col-xs-4" attrId = "2">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/vishamkar-adnani.jpg">
 							<p class="title_shareholders1">VISHAMKAR ADNANI</p>
 							<p class="title_shareholders2">VICE CHAIRMAN</p>
+							<span class="hiddenContent">
+								<span>Vishamkar (Vishu) Adnani joined the Group in 1961 and has helped grow the organisation to its present stature. He played a significant role in building our capability to trade in a range of products, particularly between Asia and Africa. 
+                                                         </br></br>He is actively contributing to the Tolaram Foundation.
+                                                      </span>
+							</span>
 							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-4 col-xs-4" attrId = "3">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/sajen-aswani.jpg">
 							<p class="title_shareholders1">SAJEN ASWANI</p>
 							<p class="title_shareholders2">CHIEF EXECUTIVE</p>
+							<span class="hiddenContent">
+								<span>Sajen Aswani joined the Group in 1984 and became the Chief Executive in 2000. He has a Bachelor’s degree in Economics from University of London and a Masters degree in Management Science from Imperial College, London.
+                                                         </br></br>He is a Director of Family Business Network and member of the Advisory Council to the Nanyang Business School.
+                                                      </span>
+							</span>
 							<i class="fa fa-search"></i>
 						</div>
 					</div>
@@ -186,29 +203,56 @@
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/haresh-aswani.jpg">
 							<p class="title_shareholders1">HARESH ASWANI</p>
 							<p class="title_shareholders2">MANAGING DIRECTOR, Africa</p>
+							<span class="hiddenContent">
+								<span>Haresh Aswani joined the Group in 1984 and has a Bachelor’s degree in Business Administration from University of Houston, USA.
+                                                         </br></br>He has been the Honorary Consul-General for Singapore in Nigeria since 2006. He has also received the Chieftaincy title in Nigeria "Baagbile Korede of Ota by the Olota of Ota" and the National Honour of MFR (Member of the Order of Federal Republic of Nigeria)
+                                                      </span>
+							</span>
 							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-3 col-xs-3" attrId = "5">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/sonny-aswani.jpg">
 							<p class="title_shareholders1">SONNY ASWANI</p>
 							<p class="title_shareholders2">MANAGING DIRECTOR, Estonia</p>
+							<span class="hiddenContent">
+								<span>Sonny Aswani joined the Group in 1985 and has a Bachelor's degree in Business Administration & Economics from Richmond College, UK as well as a Masters Degree in Management Science from University of Kent, UK.
+                                                         </br></br>He has been the Honorary Consul-General for Estonia in Singapore since 2008 and was conferred the White Cross medal by the President of the Republic of Estonia in 2001.
+                                                      </span>
+							</span>
 							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-3 col-xs-3" attrId = "6">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/tom-vaswani.jpg">
 							<p class="title_shareholders1">TOM VASWANI</p>
 							<p class="title_shareholders2">DIRECTOR</p>
+							<span class="hiddenContent">
+							<span>Tom Vaswani joined the Group in 1993 and has a Bachelor’s Degree in Politics & Sociology and a Master’s Degree in Social & Political Thought from the University of Warwick, UK. 
+                                                      </span>
+							</span>
 							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-3 col-xs-3" attrId = "7">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/raj-vaswani.jpg">
 							<p class="title_shareholders1">RAJ VASWANI</p>
 							<p class="title_shareholders2">DIRECTOR</p>
+							<span class="hiddenContent">
+								<span>Raj Vaswani joined the Group in 1995 and has a Bachelor's degree in Business Administration from the Terry College of Business, University of Georgia, USA. 
+                                                      </span>
+							</span>
 							<i class="fa fa-search"></i>
 						</div>
 					</div>
 				</div>
-		</div>
+			</div>
+			<div id='overlay-data' style='display:none;'>
+	            <img id='member-1' src="assets/img/about/mohan-vaswani.jpg"/>
+	            <img id='member-2' src="assets/img/about/vishamkar-adnani.jpg"/>
+	            <img id='member-3' src="assets/img/about/sajen-aswani.jpg"/>
+	            <img id='member-4' src="assets/img/about/haresh-aswani.jpg"/>
+	            <img id='member-5' src="assets/img/about/sonny-aswani.jpg"/>
+	            <img id='member-6' src="assets/img/about/tom-vaswani.jpg"/>x
+	            <img id='member-7' src="assets/img/about/raj-vaswani.jpg"/>
+	      </div>
 	</div>
 	
 	<style type="text/css">
@@ -225,10 +269,6 @@
 		}
 
 
-		img{
-			max-height: 300px;
-		}
-		
 		#fp-nav ul li a span{
 			width: 10px;
 			height: 10px;
@@ -302,14 +342,59 @@
 				top:18%;
 			}
 		}
+		button.businessClose{
+			top: 50px;
+			right: 61px;
+		}
 
-		
-		
+		#about-overlay div.col-md-7 {
+			background: #663333;
+			height: 100%;
+			margin: 0;
+		}
+		#about-overlay .col-md-6 {
+			height: 100%;
+		}
+		#about-overlay .col-md-5 img{
+			position: absolute;
+			margin-top: 10%;
+		}
+		#about-overlay .col-md-6 .text {
+			position: absolute;
+			top: 40%;
+			font-family: gothamBook;
+			color: white;
+			margin-left: 10%;
+		}
+
+		#about-overlay .col-md-6 .text .membername-overlay h5 {
+			font-size: 30px;
+		}
+
+		#about-overlay .col-md-6 .text span {
+			display: block;
+			font-size: 13px;
+			line-height: 20px;
+			margin-top: 5%;
+		}
+		#about-overlay .social {
+			position: absolute;
+			bottom: 10%;
+			right: 22%;
+		}
+		#about-overlay .social ul {
+			list-style: outside none none;
+		}
+		#about-overlay .social ul li {
+			float: left;
+			margin-left: 10px;
+		}
 	</style>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				sectionsColor: ['#FFF', '#FFF', '#FFF', '#FFF'],
+				anchors:['about','values','vision','shareholders'],
 				navigation: true,
 				navigationPosition: 'right',
 				navigationTooltips: ['ABOUT US', 'VALUES', 'VISION & MISSION', 'SHAREHOLDERS'],
@@ -332,15 +417,33 @@
                 $id = $(this).attr('attrId'); 
 
                 $('.fullWidth').css('left',"-100%");
-                var insertHtml = '<div id="about-overlay" class="csroverlay fullWidth row"><div class="masthead ready-to-fix"><div class="brand">'+$('.brand').html()+'</div><button class="businessClose">Close</button></div>';
-                insertHtml += '<div class= "col-sm-5 col-md-5">'+($objImg[0]).outerHTML+'</div>';
-               
+               	$textDescription = $(this).children('.hiddenContent').html();
+	           	$textNameMember1 = $(this).children('.title_shareholders1').text();
+	           	$textNameMember2 = $(this).children('.title_shareholders2').text();
+
+	           	$getLogo = $('.brand').html();
+	           	$objImg = $('#overlay-data').children('#member-'+$id);
+	           	//$imgMember = 
+	           	// dom
+	           $insertHtml = '<div id="about-overlay" class="csroverlay fullWidth row" style="margin: 0;"><header><div class="brand">'+$('.brand').html()+'</div><button class="businessClose">Close</button></header>';
+	           $insertHtml += '<div class= "col-sm-5 col-md-5">'+($objImg[0]).outerHTML+'</div>';
+	           $insertHtml += '<div class= "col-sm-7 col-md-7 row"><div class= "col-md-6"><div class="text"><div class="membername-overlay"><h5>'+$textNameMember1+'</h5><p>'+$textNameMember2+'</p></div>'+$textDescription+'</div></div><div class= "col-md-6"><div class="social"><ul>';
+	           $insertHtml += '<li><a href="javascript:void(0)"><img src="assets/img/about/twitter-overlay.png" alt=""></a></li>';
+	           $insertHtml += '<li><a href="javascript:void(0)"><img src="assets/img/about/facebook_overlay.png" alt=""></a></li>';
+	           $insertHtml += '<li><a href="javascript:void(0)"><img src="assets/img/about/linkin_overlay.png" alt=""></a></li>';
+	           $insertHtml += '</div></ul></div></div>';
      
 
-	           $('body').after(insertHtml);
+	           $('body').after($insertHtml);
 	           $('.fullWidth').animate({left:"0"});
 
 	         });
+			$("html").on("click", ".businessClose",function(){
+            	$('.fullWidth').animate({left:"100%"},
+              	function(){
+                  $('.fullWidth').remove();
+              	})
+          	}); 
 
 		$('.box-trust, .trust').mouseenter(function () {
             $('.box-trust').css({'transform':'translate(0px,-14px) scale(1,1)'});

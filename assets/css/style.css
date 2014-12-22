@@ -127,9 +127,12 @@ html, body {
 
 .cbp-spmenu-vertical ul{
   list-style: none;
-  font-size: 0.6em;
-  line-height: 18px;
+}
+
+.cbp-spmenu-vertical ul li a{
   color: #f6364d;
+  font-size: 0.6em;
+  line-height: 10px;
   font-weight: 0;
 }
 

@@ -1,10 +1,10 @@
 <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
             <nav role="navigation">
-                <a href="about.php">ABOUT US</a>
+                <a href="about.php#about">ABOUT US</a>
                     <ul>
-                        <li>Values</li>
-                        <li>Vision & Mission</li>
-                        <li>Shareholders</li>
+                        <li><a href="about.php#values">Values</a></li>
+                        <li> <a href="about.php#vision">Vision & Mission</a></li>
+                        <li> <a href="about.php#shareholders">Shareholders</a></li>
                     </ul>
                 <a href="history.php">OUR EVOLUTION</a>
                 <a href="#">OUR BUSINESS</a>
