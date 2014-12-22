@@ -31,7 +31,7 @@
 							<div class="col-md-6 newsroom_box">
 								<span>SEPTEMBER 2014</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
-								<a href="">
+								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
@@ -40,7 +40,7 @@
 							<div class="col-md-6 newsroom_box">
 								<span>SEPTEMBER 2014</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
-								<a href="">
+								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/substation.jpg" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
@@ -50,7 +50,7 @@
 							<div class="col-md-6 newsroom_box">
 								<span>SEPTEMBER 2014</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
-								<a href="">
+								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
@@ -58,7 +58,7 @@
 							<div class="col-md-6 newsroom_box">
 								<span>SEPTEMBER 2014</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
-								<a href="">
+								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
@@ -72,7 +72,7 @@
 								<span>SEPTEMBER 2013</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
 								<div>
-									<a href="">
+									<a href="" class="imagebutton">
 										<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
 									</a>
 								</div>
@@ -82,7 +82,7 @@
 								<span>SEPTEMBER 2013</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
 								<div>
-									<a href="">
+									<a href="" class="imagebutton">
 										<img src="assets/img/newsroom/substation.jpg" class="newsroom_img">
 									</a>
 								</div>
@@ -93,7 +93,7 @@
 							<div class="col-md-6 newsroom_box">
 								<span>SEPTEMBER 2013</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
-								<a href="">
+								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
@@ -101,7 +101,7 @@
 							<div class="col-md-6 newsroom_box">
 								<span>SEPTEMBER 2013</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
-								<a href="">
+								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
@@ -115,7 +115,7 @@
 								<span>SEPTEMBER 2012</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
 								<div>
-									<a href="">
+									<a href="" class="imagebutton">
 										<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
 									</a>
 								</div>
@@ -125,7 +125,7 @@
 								<span>SEPTEMBER 2012</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
 								<div>
-									<a href="">
+									<a href="" class="imagebutton">
 										<img src="assets/img/newsroom/substation.jpg" class="newsroom_img">
 									</a>
 								</div>
@@ -136,7 +136,7 @@
 							<div class="col-md-6 newsroom_box">
 								<span>SEPTEMBER 2012</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
-								<a href="">
+								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
@@ -144,7 +144,7 @@
 							<div class="col-md-6 newsroom_box">
 								<span>SEPTEMBER 2012</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
-								<a href="">
+								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
@@ -158,7 +158,7 @@
 								<span>SEPTEMBER 2011</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
 								<div>
-									<a href="">
+									<a href="" class="imagebutton">
 										<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
 									</a>
 								</div>
@@ -168,7 +168,7 @@
 								<span>SEPTEMBER 2011</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
 								<div>
-									<a href="">
+									<a href="" class="imagebutton">
 										<img src="assets/img/newsroom/substation.jpg" class="newsroom_img">
 									</a>
 								</div>
@@ -179,7 +179,7 @@
 							<div class="col-md-6 newsroom_box">
 								<span>SEPTEMBER 2011</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
-								<a href="">
+								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
@@ -187,7 +187,7 @@
 							<div class="col-md-6 newsroom_box">
 								<span>SEPTEMBER 2011</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
-								<a href="">
+								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
@@ -198,42 +198,46 @@
 					<div class="year year-2010">
 						<div class="row newsroom_content">
 							<div class="col-md-6 newsroom_box">
-								<span>SEPTEMBER 2010</span>
-								<h1>Centre for African Studies launched in Singapore</h1>
+								<span>October 2010</span>
+								<h1>Inauguration of Kubwa Substation</h1>
 								<div>
-									<a href="">
-										<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
+									<a href="" class="imagebutton">
+										<img src="assets/img/newsroom/kubwa.jpg" class="newsroom_img">
 									</a>
 								</div>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
+								<p class="hiddenContent">NIGERIA: On the 28th of September 2010, MBH Power commissioned a 2 x 60MVA, 132/33KV transmission substation at Kubwa, Abuja, Nigeria. President Goodluck Jonathan graced the inauguration of the substation.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
-								<span>SEPTEMBER 2010</span>
-								<h1>Centre for African Studies launched in Singapore</h1>
+								<span>October 2010</span>
+								<h1>CSR Awards 2010 – Special mention</h1>
 								<div>
-									<a href="">
-										<img src="assets/img/newsroom/substation.jpg" class="newsroom_img">
+									<a href="" class="imagebutton">
+										<img src="assets/img/newsroom/singapore-compact.jpg" class="newsroom_img">
 									</a>
 								</div>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
+								<p class="hiddenContent">SINGAPORE: On the 6th and 7th of October, delegates from Tolaram Group Singapore attended the 2nd International Singapore Compact CSR Summit. Tolaram Group received a Special Mention Award for our Community Development efforts in Nigeria and Estonia.</p>
 							</div>
 						</div>
 						<div class="row newsroom_content">
 							<div class="col-md-6 newsroom_box">
-								<span>SEPTEMBER 2010</span>
-								<h1>Centre for African Studies launched in Singapore</h1>
-								<a href="">
-									<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
+								<span>August 2010</span>
+								<h1>Lekki Port gets the support of the Federal Government of Nigeria</h1>
+								<a href="" class="imagebutton">
+									<img src="assets/img/newsroom/lekki-port.jpg" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
+								<p class="hiddenContent">NIGERIA: The Federal Government of Nigeria pledged its support for the new Lekki Seaport project being developed by our Group. This was indicated by the Federal Minister of Transport, Alhaji Yusuf Suleiman, who recently visited the site of the proposed Port project at Ibeju-Lekki.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
-								<span>SEPTEMBER 2010</span>
-								<h1>Centre for African Studies launched in Singapore</h1>
-								<a href="">
-									<img src="assets/img/newsroom/african-studies.jpg" class="newsroom_img">
+								<span>July 2010</span>
+								<h1>Gold Sponsor for Africa-Singapore Business Forum</h1>
+								<a href="" class="imagebutton">
+									<img src="assets/img/newsroom/afb2010.jpg" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">READ MORE HERE</a>
+								<p class="hiddenContent">SINGAPORE: Tolaram Group was one of the Gold Sponsors for Africa-Singapore Business Forum organised by International Enterprise (IE) Singapore and Singapore Business Federation on 14th and 15th of July 2010. More than 450 delegates attended the conference with representation from more than ten African countries.</p>
 							</div>
 						</div>
 					</div>
@@ -343,7 +347,7 @@
 	      		return false;
 			});
 
-			$('.newsroom_btn').click(function(e){
+			$('.newsroom_btn, .imagebutton').click(function(e){
                  e.preventDefault();
                  var $parentdiv = $(this).parent('.newsroom_box');
                  var src = $parentdiv.children().children('img').attr('src');  
