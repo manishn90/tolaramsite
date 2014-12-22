@@ -57,7 +57,7 @@
 			                <div id="grid-container" class="cbp-l-grid-gallery">
 			                    <ul>
 			                        <li class="cbp-item">
-			                            <a href="ajax/project1.html" class="cbp-caption cbp-singlePageInline"
+			                            <a href="ajax/project1.html" class="cbp-caption cbp-singlePageInlineInline"
 			                               data-title="Tolaram Corporation">
 			                                <div class="cbp-caption-defaultWrap">
 			                                    <img src="demos/IBP-building-with-train.png" alt="">
@@ -73,7 +73,7 @@
 			                            </a>
 			                        </li>
 			                        <li class="cbp-item financial">
-			                            <a href="ajax/project2.html" class="cbp-caption cbp-singlePageInline"
+			                            <a href="ajax/project2.html" class="cbp-caption cbp-singlePageInlineInline"
 			                               data-title="Amar Bank">
 			                                <div class="cbp-caption-defaultWrap">
 			                                    <img src="demos/amar800x600_tmp.png" alt="">
@@ -89,7 +89,7 @@
 			                            </a>
 			                        </li>
 			                        <li class="cbp-item real">
-			                            <a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline"
+			                            <a href="ajax/project3.html" class="cbp-caption cbp-singlePageInlineInline"
 			                               data-title="Arzu Utama Realty">
 			                                <div class="cbp-caption-defaultWrap">
 			                                    <img src="demos/arzu.png" alt="">
@@ -105,7 +105,7 @@
 			                            </a>
 			                        </li>
 			                        <li class="cbp-item financial">
-			                            <a href="ajax/project4.html" class="cbp-caption cbp-singlePageInline"
+			                            <a href="ajax/project4.html" class="cbp-caption cbp-singlePageInlineInline"
 			                               data-title="Asuransi Rama">
 			                                <div class="cbp-caption-defaultWrap">
 			                                    <img src="demos/asuransi_rama_800x600.png" alt="">
@@ -121,7 +121,7 @@
 			                            </a>
 			                        </li>
 			                        <li class="cbp-item distribution">
-			                            <a href="ajax/project5.html" class="cbp-caption cbp-singlePageInline"
+			                            <a href="ajax/project5.html" class="cbp-caption cbp-singlePageInlineInline"
 			                               data-title="BHN">
 			                                <div class="cbp-caption-defaultWrap">
 			                                    <img src="demos/bhn_800x600.png" alt="">
@@ -137,7 +137,7 @@
 			                            </a>
 			                        </li>
 			                        <li class="cbp-item consumer">
-			                            <a href="ajax/project6.html" class="cbp-caption cbp-singlePageInline"
+			                            <a href="ajax/project6.html" class="cbp-caption cbp-singlePageInlineInline"
 			                               data-title="Dufil Prima Foods">
 			                                <div class="cbp-caption-defaultWrap">
 			                                    <img src="demos/dufill_800x600_tmp.png" alt="">
@@ -153,7 +153,7 @@
 			                            </a>
 			                        </li>
 			                         <li class="cbp-item distribution">
-                            <a href="ajax/project6.html" class="cbp-caption cbp-singlePageInline"
+                            <a href="ajax/project6.html" class="cbp-caption cbp-singlePageInlineInline"
                                data-title="Remind~Me Widget<br>by Tiberiu Neamu">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/firstchoice_800x600.png" alt="">
@@ -169,8 +169,8 @@
                             </a>
                         </li>
                         <li class="cbp-item paper">
-                            <a href="ajax/project7.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Workout Buddy<br>by Tiberiu Neamu">
+                            <a href="ajax/project7.html" class="cbp-caption cbp-singlePageInlineInline"
+                               data-title="Horizon Pulp & Paper">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/horizonpaper_800x600.png" alt="">
                                 </div>
@@ -185,8 +185,8 @@
                             </a>
                         </li>
                         <li class="cbp-item consumer">
-                            <a href="ajax/project8.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Digital Menu<br>by Cosmin Capitanu">
+                            <a href="ajax/project8.html" class="cbp-caption cbp-singlePageInlineInline"
+                               data-title="Horizon Tissue">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/horizontisue800x600.png" alt="">
                                 </div>
@@ -201,8 +201,8 @@
                             </a>
                         </li>
                         <li class="cbp-item consumer">
-                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Holiday Selector<br>by Cosmin Capitanu">
+                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePageInlineInline"
+                               data-title="Hypo Bleach">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/hypo_800x600.png" alt="">
                                 </div>
@@ -218,8 +218,8 @@
                         </li>
                         <!-- end of default business -->
                          <li class="cbp-item infrastructure">
-                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Holiday Selector<br>by Cosmin Capitanu">
+                            <a href="ajax/project10.html" class="cbp-caption cbp-singlePageInlineInline"
+                               data-title="Lagos Free Trade Zone">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/lftz_800x600.png" alt="">
                                 </div>
@@ -234,8 +234,8 @@
                             </a>
                         </li>
                          <li class="cbp-item infrastructure">
-                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Holiday Selector<br>by Cosmin Capitanu">
+                            <a href="ajax/project11.html" class="cbp-caption cbp-singlePageInlineInline"
+                               data-title="Lekki Deep Sea Port">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/lekki800x600.png" alt="">
                                 </div>
@@ -250,8 +250,8 @@
                             </a>
                         </li>
                         <li class="cbp-item textiles">
-                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePage"
-                               data-title="Holiday Selector<br>by Cosmin Capitanu">
+                            <a href="ajax/project12.html" class="cbp-caption cbp-singlePageInline"
+                               data-title="Lotus Indah">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/lotus_indah_800x600.png" alt="">
                                 </div>
@@ -266,8 +266,8 @@
                             </a>
                         </li>
                         <li class="cbp-item textiles">
-                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePage"
-                               data-title="Holiday Selector<br>by Cosmin Capitanu">
+                            <a href="ajax/project13.html" class="cbp-caption cbp-singlePageInline"
+                               data-title="Lucky Fibres">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/luckyfibre_800x600.png" alt="">
                                 </div>
@@ -282,8 +282,8 @@
                             </a>
                         </li>
                         <li class="cbp-item energy">
-                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePage"
-                               data-title="Holiday Selector<br>by Cosmin Capitanu">
+                            <a href="ajax/project14.html" class="cbp-caption cbp-singlePageInline"
+                               data-title="MBH Power">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/energy_power_800x600.png" alt="">
                                 </div>
@@ -298,8 +298,8 @@
                             </a>
                         </li>
                         <li class="cbp-item distribution">
-                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePage"
-                               data-title="Holiday Selector<br>by Cosmin Capitanu">
+                            <a href="ajax/project15.html" class="cbp-caption cbp-singlePageInline"
+                               data-title="Multi Pro Enterprises">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/multipro_800x600.png" alt="">
                                 </div>
@@ -314,8 +314,8 @@
                             </a>
                         </li>
                         <li class="cbp-item real">
-                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePage"
-                               data-title="Holiday Selector<br>by Cosmin Capitanu">
+                            <a href="ajax/project16.html" class="cbp-caption cbp-singlePageInline"
+                               data-title="Tolaram Investments">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/tolaraminvest800x600.png" alt="">
                                 </div>
@@ -330,8 +330,8 @@
                             </a>
                         </li>
                         <li class="cbp-item digital">
-                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePage"
-                               data-title="Holiday Selector<br>by Cosmin Capitanu">
+                            <a href="ajax/project17.html" class="cbp-caption cbp-singlePageInline"
+                               data-title="Tunaiku">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/tunaiku800x600.png" alt="">
                                 </div>
@@ -346,8 +346,8 @@
                             </a>
                         </li>
                         <li class="cbp-item digital">
-                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePage"
-                               data-title="Holiday Selector<br>by Cosmin Capitanu">
+                            <a href="ajax/project18.html" class="cbp-caption cbp-singlePageInline"
+                               data-title="VConnect">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="demos/vconnect800x600.png" alt="">
                                 </div>

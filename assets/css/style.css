@@ -583,9 +583,6 @@ margin:0 0 20px;
 padding:10px 20px;
 }
 
-html,body,html,body,.container {
-height:100%;
-}
 
 ::-moz-selection,::selection {
 color:#fff;
