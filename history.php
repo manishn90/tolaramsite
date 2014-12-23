@@ -96,10 +96,10 @@ Furthering ourselves to become brand builders, we developed and grew brands in t
 				</div>
 			</div>
 		</div>
+		
+		<svg class="timeline" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1250.21px" height="83.333px" viewBox="0 0 1250.21 83.333" enable-background="new 0 0 1250.21 83.333" xml:space="preserve">
 
-		<!--<svg class="timeline" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1250.21px" height="83.333px" viewBox="0 0 1250.21 83.333" enable-background="new 0 0 1250.21 83.333" xml:space="preserve">
-
-			<circle class="hoverTL1 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="43.955" cy="41.918" r="32.452"/>
+			<!--<circle class="hoverTL1 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="43.955" cy="41.918" r="32.452"/>
 			<circle class="hoverTL2 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="171.955" cy="41.918" r="32.452"/>
 			<circle class="hoverTL3 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="300.955" cy="41.918" r="32.452"/>
 			<circle class="hoverTL4 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="429.955" cy="41.918" r="32.452"/>
@@ -108,9 +108,9 @@ Furthering ourselves to become brand builders, we developed and grew brands in t
 			<circle class="hoverTL7 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="816.955" cy="41.918" r="32.452"/>
 			<circle class="hoverTL8 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="945.955" cy="41.918" r="32.452"/>
 			<circle class="hoverTL9 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="1074.955" cy="41.918" r="32.452"/>
-			<circle class="hoverTL10 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="1203.955" cy="41.918" r="32.452"/>
+			<circle class="hoverTL10 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="1203.955" cy="41.918" r="32.452"/>-->
 
-			<a href="#1"><circle class="TL1" alt="1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="44.059" cy="41.585" r="23.786"/></circle></a>
+			<circle class="TL1" alt="1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="44.059" cy="41.585" r="23.786"/></circle>
 			<circle class="TL" alt="2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="172.948" cy="41.585" r="23.786"/>
 			<circle class="TL" alt="3" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="301.837" cy="41.585" r="23.785"/>
 			<circle class="TL" alt="4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="430.726" cy="41.585" r="23.786"/>
@@ -130,7 +130,7 @@ Furthering ourselves to become brand builders, we developed and grew brands in t
 			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="841.178" y1="41.585" x2="922.495" y2="41.585"/>
 			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="970.067" y1="41.585" x2="1051.385" y2="41.585"/>
 			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="1098.956" y1="41.585" x2="1180.273" y2="41.585"/>
-		</svg>-->
+		</svg>
 
 
 	</div>
@@ -228,7 +228,7 @@ Furthering ourselves to become brand builders, we developed and grew brands in t
 			font-size: 13px;
 		}
 
-		/*svg.timeline{
+		svg.timeline{
 			position: absolute;
 			top: 82%;
 			margin: auto;
@@ -237,7 +237,7 @@ Furthering ourselves to become brand builders, we developed and grew brands in t
 			right: 0;
 		}
 
-		circle.hoverTL1,
+		/*circle.hoverTL1,
 		circle.hoverTL2,
 		circle.hoverTL3,
 		circle.hoverTL4,
@@ -249,12 +249,12 @@ Furthering ourselves to become brand builders, we developed and grew brands in t
 		circle.hoverTL10{
 			display: none;
 			cursor: pointer;
-		}
+		}*/
 
-		circle.TL1{
+		circle.TL{
 			fill:rgba(255,255,255,0.0);
 			cursor: pointer;
-		}*/
+		}
 		
 	</style>
 	<script type="text/javascript">
@@ -270,14 +270,24 @@ Furthering ourselves to become brand builders, we developed and grew brands in t
 				$(this).hide();	
 				$('circle.TL').show();
 			});*/
+			
+			
 
 
 
 			$('#fullpage').fullpage({
+				anchors:['firstSlide', 'secondSlide'],
 				sectionsColor: ['#EAEAEA', '#4BBFC3', '#7BAABE', 'whitesmoke'],
 			  	menu: '#menu',
 				
 			});
+
+			$('circle.TL1').click(function () {
+				$.fn.fullpage.moveTo(3,0);
+				
+			});
+
+
 
 		
 		});
