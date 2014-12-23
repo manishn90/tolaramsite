@@ -378,6 +378,9 @@
 		header{
 			height: 136px;
 		}
+		.cbp-l-inline-subtitle{
+			font-family: gothamBook;
+		}
 	</style>
 	<script type="text/javascript">
 		$(document).ready(function () {

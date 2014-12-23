@@ -807,11 +807,11 @@ background:#282828;
 }
 .cbp-l-inline-title {
     color: #343434;
-    font: 700 38px/76px "Roboto",sans-serif;
+    font: 700 38px/76px gothamBook;
     letter-spacing: -1px;
 }
 .cbp-l-inline-desc {
-    font: 400 15px/24px "Roboto",sans-serif;
+    font: 400 15px/24px gothamBook;
     color: #aeaeae;
     margin-top:10px !important;
     letter-spacing: 0px;
@@ -857,7 +857,7 @@ background:#282828;
     padding:0;
     margin-right: 0;
     border-radius: 0;
-    font-family:"Roboto",Helvetica,Arial,sans-serif;
+    font-family:gothamBook;
 }
 .cbp-l-inline {
     padding:0;
