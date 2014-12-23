@@ -448,98 +448,68 @@
 
 		$('.box-trust, .trust').mouseenter(function () {
             $('.box-trust').css({'transform':'translate(0px,-14px) scale(1,1)'});
-            // $('.trust h3').css({'color':'#526cd2'});
             $('.trust h3').toggleClass('highlight');
             $('.trust h3').css('font-size','25px');
-            //$('.trust p').css('font-size','15px');
-             $('.value-quote').css('margin-top','29px');
             $('.q-trust').show();
         });
 
          $('.box-trust, .trust').mouseleave(function () {
             $('.box-trust').css({'transform':'translate(0px,0) scale(1,1)'});
-            // $('.trust h3').css({'color':'#000'});
             $('.trust h3').toggleClass('highlight');
             $('.trust h3').css('font-size','18px');
-            //$('.trust p').css('font-size','14px');
-             $('.value-quote').css('margin-top','100px');
             $('.q-trust').hide();
          });
 
          $('.box-respect, .respect').mouseenter(function () {
             $('.box-respect').css({'transform':'translate(12px,-4px) scale(1,1)'});
-            // $('.respect h3').css({'color':'#f39140'});
             $('.respect h3').toggleClass('highlight');
             $('.respect h3').css('font-size','25px');
-            // $('.respect p').css('font-size','15px');
-            $('.value-quote').css('margin-top','29px');
             $('.q-respect').show();
          });
          $('.box-respect, .respect').mouseleave(function () {
             $('.box-respect').css({'transform':'translate(0,0) scale(1,1)'});
-            // $('.respect h3').css({'color':'#000'});
             $('.respect h3').toggleClass('highlight');
             $('.respect h3').css('font-size','18px');
-            // $('.respect p').css('font-size','14px');
-            $('.value-quote').css('margin-top','100px');
             $('.q-respect').hide();
          });
 
          $('.box-commitment, .commitment').mouseenter(function () {
             $('.box-commitment').css({'transform':'translate(7px,10px) scale(1,1)'});
-            // $('.commitment h3').css({'color':'#639140'});
             $('.commitment h3').toggleClass('highlight');
             $('.commitment h3').css('font-size','25px');
-            // $('.commitment p').css('font-size','15px');
-             $('.value-quote').css('margin-top','29px');
             $('.q-commitment').show();
          });
          $('.box-commitment, .commitment').mouseleave(function () {
             $('.box-commitment').css({'transform':'translate(0,0) scale(1,1)'});
-            // $('.commitment h3').css({'color':'#000'});
             $('.commitment h3').toggleClass('highlight');
             $('.commitment h3').css('font-size','18px');
-            // $('.commitment p').css('font-size','14px');
-             $('.value-quote').css('margin-top','100px');
             $('.q-commitment').hide();
          });
 
          $('.box-courage, .courage').mouseenter(function () {
             $('.box-courage').css({'transform':'translate(-8px,10px) scale(1,1)'});
-            // $('.courage h3').css({'color':'#d24040'});
             $('.courage h3').toggleClass('highlight');
             $('.courage h3').css('font-size','25px');
-            // $('.courage p').css('font-size','15px');
-             $('.value-quote').css('margin-top','29px');
             $('.q-courage').show();
          });
          $('.box-courage, .courage').mouseleave(function () {
             $('.box-courage').css({'transform':'translate(0,0) scale(1,1)'});
-            // $('.courage h4').css({'color':'#000'});
             $('.courage h4').toggleClass('highlight');
             $('.courage h3').css('font-size','18px');
-            $('.value-quote').css('margin-top','100px');
-            // $('.courage p').css('font-size','14px');
             $('.q-courage').hide();
          });
 
          $('.box-humility, .humility').mouseenter(function () {
             $('.box-humility').css({'transform':'translate(-14px,-5px) scale(1,1)'});
-            // $('.humility h3').css({'color':'#926c50'});
             $('.humility h3').toggleClass('highlight');
             $('.humility h3').css('font-size','25px');
-            // $('.humility p').css('font-size','15px');
-            $('.value-quote').css('margin-top','29px');
             $('.q-humility').show();
          });
 
          $('.box-humility, .humility').mouseleave(function () {
             $('.box-humility').css({'transform':'translate(0,0) scale(1,1)'});
-            // $('.humility h3').css({'color':'#000'});
             $('.humility h3').toggleClass('highlight');
             $('.humility h3').css('font-size','18px');
-            // $('.humility p').css('font-size','14px');
-             $('.value-quote').css('margin-top','100px');
             $('.q-humility').hide();
          });
 		});
