@@ -60,7 +60,7 @@
 			                            <a href="ajax/project1.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="Tolaram Corporation">
 			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/IBP-building-with-train.png" alt="">
+			                                    <img src="assets/img/our_business/IBP-building.jpg" alt="">
 			                                </div>
 			                                <div class="cbp-caption-activeWrap">
 			                                    <div class="cbp-l-caption-alignLeft">
