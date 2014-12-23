@@ -55,7 +55,7 @@
 					                    </div>
 				                </div>
 				                <div class="col-md-6 text-center">
-					                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+					                    <div data-filter="*" class="cbp-filter-item cbp-filter-item">
 					                        All <div class="cbp-filter-counter"></div>
 					                    </div>
 					                    <div data-filter=".estonia" class="cbp-filter-item">
