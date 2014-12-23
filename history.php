@@ -93,6 +93,43 @@
 				</div>
 			</div>
 		</div>
+
+		<!--<svg class="timeline" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1250.21px" height="83.333px" viewBox="0 0 1250.21 83.333" enable-background="new 0 0 1250.21 83.333" xml:space="preserve">
+
+			<circle class="hoverTL1 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="43.955" cy="41.918" r="32.452"/>
+			<circle class="hoverTL2 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="171.955" cy="41.918" r="32.452"/>
+			<circle class="hoverTL3 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="300.955" cy="41.918" r="32.452"/>
+			<circle class="hoverTL4 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="429.955" cy="41.918" r="32.452"/>
+			<circle class="hoverTL5 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="558.955" cy="41.918" r="32.452"/>
+			<circle class="hoverTL6 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="687.955" cy="41.918" r="32.452"/>
+			<circle class="hoverTL7 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="816.955" cy="41.918" r="32.452"/>
+			<circle class="hoverTL8 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="945.955" cy="41.918" r="32.452"/>
+			<circle class="hoverTL9 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="1074.955" cy="41.918" r="32.452"/>
+			<circle class="hoverTL10 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="1203.955" cy="41.918" r="32.452"/>
+
+			<a href="#1"><circle class="TL1" alt="1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="44.059" cy="41.585" r="23.786"/></circle></a>
+			<circle class="TL" alt="2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="172.948" cy="41.585" r="23.786"/>
+			<circle class="TL" alt="3" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="301.837" cy="41.585" r="23.785"/>
+			<circle class="TL" alt="4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="430.726" cy="41.585" r="23.786"/>
+			<circle class="TL" alt="5" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="559.615" cy="41.585" r="23.786"/>
+			<circle class="TL" alt="6" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="688.503" cy="41.585" r="23.786"/>
+			<circle class="TL" alt="7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="817.392" cy="41.585" r="23.786"/>
+			<circle class="TL" alt="8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="946.281" cy="41.585" r="23.786"/>
+			<circle class="TL" alt="9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="1075.17" cy="41.585" r="23.786"/>
+			<circle class="TL" alt="10" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="1204.059" cy="41.585" r="23.786"/>
+
+			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="67.845" y1="41.585" x2="149.162" y2="41.585"/>
+			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="196.734" y1="41.585" x2="278.051" y2="41.585"/>
+			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="325.622" y1="41.585" x2="406.94" y2="41.585"/>
+			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="454.512" y1="41.585" x2="535.829" y2="41.585"/>
+			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="583.4" y1="41.585" x2="664.718" y2="41.585"/>
+			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="712.289" y1="41.585" x2="793.606" y2="41.585"/>
+			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="841.178" y1="41.585" x2="922.495" y2="41.585"/>
+			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="970.067" y1="41.585" x2="1051.385" y2="41.585"/>
+			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="1098.956" y1="41.585" x2="1180.273" y2="41.585"/>
+		</svg>-->
+
+
 	</div>
 
 	<style type="text/css">
@@ -188,342 +225,59 @@
 		.history_content p{
 			font-size: 13px;
 		}
-		/*************************************/
-/********** History Page *************/
-/*************************************/
-/*.slickSlide
-{
-    height: 100%;
-}
 
-.slickSlide div#area-1 img
-{
-    width: 100%;
-    height: 100%;
-}
+		/*svg.timeline{
+			position: absolute;
+			top: 82%;
+			margin: auto;
+			width: 100%;
+			left: 0;
+			right: 0;
+		}
 
-.slickSlide div.area-2
-{
-    width: 100%;
-    position: absolute;
-    background: #990000;
-    bottom: 0;
-    opacity: 1;
-    height: auto;
-}
+		circle.hoverTL1,
+		circle.hoverTL2,
+		circle.hoverTL3,
+		circle.hoverTL4,
+		circle.hoverTL5,
+		circle.hoverTL6,
+		circle.hoverTL7,
+		circle.hoverTL8,
+		circle.hoverTL9,
+		circle.hoverTL10{
+			display: none;
+			cursor: pointer;
+		}
 
-.slickSlide div.area-2 ul 
-{
-    margin: 42px auto 72px;
-    text-align: left;
-}
-
-.area-2-top .img-responsive
-{
-    border-radius: 100%;
-    background: #990000;
-
-}
-.image{
-    height: 100%;
-}
-
-.image img{
-    position: fixed;
-    top: 0px;
-    left: 0px   
-}
-
-.area-2-top ul.list-inline
-{
-    padding-left: 8%;
-}
-
-.list-inline div.col-sm-4, .list-inline li.col-sm-4
-{
-    padding: 0;
-}
-
-.area-2-top .list-inline div.col-sm-4
-{
-    background: url('../img/circle-line-history.gif') repeat-x 50% 50%;
-}
-
-.list-inline div.col-sm-4 span
-{
-    font-size: 13px;
-    font-style: italic;
-    color: #fff;
-    padding-top: 10px;
-    font-family: client;
-    position: absolute;
-}
-
-.list-inline div.first-item span
-{
-    position: absolute;
-    left: -17%;
-}
-
-@media (max-width: 1024px)
-{ 
-    .list-inline div.col-sm-4 span
-    {
-        font-size: 11px;
-    }
-}
-
-.area-2-top .list-inline div.last-item
-{
-    background: none!important;
-}
-
-.slickSlide div.area-2-top
-{
-    width: 100%;
-    margin: auto;
-}
-
-.area-2-bottom .col-md-4
-{
-     color: white;
-    font-size: 26px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.area-2-bottom .col-md-8
-{
-     color: white;
-    font-size: 17px;
-    text-align: left;
-    padding-right: 6%;
-}
-
-.clear {clear: both;}
-
-/************************************
-/************* Slick slider **********/
-/*.slick-track,.slick-list
-{
-    height: 100%;
-}
-
-.slickSlide div.inner
-{
-    width: 60%;
-    position: absolute;
-    background: #330000;
-    top: 25%;
-    right: 0;
-    max-height: 350px;
-    max-width: 607px;
-    overflow: hidden;
-    display: block;
-    opacity: 0.6;
-}
-
-.slickSlide div.inner .box-content
-{
-    font-size: 13px;
-    margin: 30px 0 50px 45px;
-    text-align: left;
-    width: 70%;
-}
-
-.slickSlide div.inner .box-content .client{
-    font-size: 28px;
-}
-
-
-.slickSlide div.inner .box-content h2
-{
-    font-size: 28px;
-    color: #ffffff;
-}
-
-.slickSlide div.inner .box-content p
-{
-    color: #ffffff;
-}
-
-.area-2-bottom 
-{
-    padding-bottom: 40px;
-    font-family: client;
-}
-
-.slick-prev:before, .slick-next:before 
-{
-    font-size: 50px;
-    color: transparent;
-}
-
-.slick-prev,.slick-next 
-{
-    width: 50px;
-    height: 52px;
-}
-
-.slick-prev
-{
-    left: 4%!important;
-}
-
-.slick-next 
-{
-    right: 4%!important;
-}
-
-.slick-prev:before {
-    background: url("../img/svg/my-bx-prev.png") no-repeat scroll center center rgba(0, 0, 0, 0);
-}
-
-.slick-next:before {
-    background: url("../img/svg/my-bx-next.png") no-repeat scroll center center rgba(0, 0, 0, 0);
-}
-
-.box-content h2
-{
-    text-transform: lowercase;
-}
-
-.box-content h2.upcase
-{
-    text-transform: uppercase;
-}
-
-/****************************************
-********** Custom ul li slick ***********/
-/*#slick-dots
-{
-    width: 100%;
-    overflow: visible;
-    height: 130px;
-}
-
-#slick-dots-container
-{
-    width: 100%;
-    position: absolute;
-    bottom: 24%;
-    display: block;
-    height: 130px;
-    z-index: 1;
-}
-
-#slick-dots-container .list-inline div.first-item span {
-    left: -17%;
-}
-
-#slick-dots-container .list-inline div.col-sm-1 span {
-    color: #fff;
-    font-family: client;
-    font-size: 13px;
-    font-style: italic;
-    width: 100%;
-    left: -1%;
-}
-
-.slickSlide div.area-2 ul {
-    margin: 50px auto 68px;
-    text-align: left;
-}
-
-#slick-dots ul.list-inline {
-    height: 130px;
-    padding-left: 8%;
-}
-
-#slick-dots div.outter-img .line
-{
-    background: url('assets/img/svg/circle-line.svg') repeat-x 50% 50%;
-    height: 7%;
-    margin-left: 32px;
-   margin-left: 29px;
-position: absolute;
-top: 40%;
-width: 77%;
-}
-
-.outter-img 
-{
-    overflow: hidden;
-}
-
-#slick-dots .col-sm-1
-{
-    padding-top: 1%;
-    padding-left: 0;
-    padding-right: 0;
-    height: 100%;
-    width:9.333333% !important;
-    float:left;
-}
-
-#dot-9.last-item img
-{
-    margin-left: 1px;
-}
-
-#slick-dots .ishover .line, #slick-dots .actived .line
-{
-    margin-left: 40px!important;
-    top: 46%!important;
-    width: 100%!important;
-}
-
-.slick-disabled 
-{
-    display: none;
-}
-
-.slick-next.slick-disabled:before
-{
-    opacity: 0.75!important;
-}
-
-.slick-next.slick-disabled:hover:before
-{
-    opacity: 1!important;
-}
-
-.slickSlide div.item 
-{
-    /* tofu&tomato: display full-width background */
-    /*background-size: 100% 100%!important;*/
-/*}
-
-div.actived, div.ishover
-{
-    margin-top: -4px;
-    margin-left: -4px;
-}
-*/
+		circle.TL1{
+			fill:rgba(255,255,255,0.0);
+			cursor: pointer;
+		}*/
+		
 	</style>
 	<script type="text/javascript">
 		$(document).ready(function() {
+			/*$('circle.TL').mouseenter(function () {
+				var a = $(this).attr('alt');
+
+				$('circle.hoverTL' + a).show();	
+				$(this).hide();
+			});
+
+			$('circle.leaveTL').mouseleave(function () {
+				$(this).hide();	
+				$('circle.TL').show();
+			});*/
+
+
+
 			$('#fullpage').fullpage({
 				sectionsColor: ['#EAEAEA', '#4BBFC3', '#7BAABE', 'whitesmoke'],
-				menu: '#menu'
+			  	menu: '#menu',
 				
 			});
 
-			$html_dot = "<div id='slick-dots-container' class='row' style='display:block'><div class='col-md-1'></div><div class='col-md-10'>";
-		        $html_dot += "<div id='slick-dots' class='container'><ul class='list-inline row'><li class='col-sm-12 col-xs-12'>";
-		        $html_dot += "<div id='dot-0' class='col-sm-1 col-xs-1'><div class='outter-img'><img attr = '0' class='img-responsive' src='assets/img/svg/circle-slide-history.svg'/><div class='line'></div></div><span>OUR ORIGINS</span></div>";
-		        $html_dot += "<div id='dot-1' class='col-sm-1 col-xs-1'><div class='outter-img'><img attr = '1'  class='img-responsive' src='assets/img/svg/circle-slide-history.svg'/><div class='line'></div></div><span>1940s</span></div>";
-		        $html_dot += "<div id='dot-2' class='col-sm-1 col-xs-1'><div class='outter-img'><img attr = '2' class='img-responsive' src='assets/img/svg/circle-slide-history.svg'/><div class='line'></div></div><span>1950s</span></div>";
-		        $html_dot += "<div id='dot-3' class='col-sm-1 col-xs-1'><div class='outter-img'><img attr = '3' class='img-responsive' src='assets/img/svg/circle-slide-history.svg'/><div class='line'></div></div><span>1960s</span></div>";
-		        $html_dot += "<div id='dot-4' class='col-sm-1 col-xs-1'><div class='outter-img'><img attr = '4' class='img-responsive'' src='assets/img/svg/circle-slide-history.svg'/><div class='line'></div></div><span>1970s</span></div>";
-		        $html_dot += "<div id='dot-5' class='col-sm-1 col-xs-1'><div class='outter-img'><img attr = '5' class='img-responsive' src='assets/img/svg/circle-slide-history.svg'/><div class='line'></div></div><span>1980s</span></div>";
-		        $html_dot += "<div id='dot-6' class='col-sm-1 col-xs-1'><div class='outter-img'><img attr = '6' class='img-responsive' src='assets/img/svg/circle-slide-history.svg'/><div class='line'></div></div><span>1990s</span></div>";
-		        $html_dot += "<div id='dot-7' class='col-sm-1 col-xs-1'><div class='outter-img'><img attr = '7' class='img-responsive' src='assets/img/svg/circle-slide-history.svg'/><div class='line'></div></div><span>2000s</span></div>";
-		        $html_dot += "<div id='dot-8' class='col-sm-1 col-xs-1'><div class='outter-img'><img attr = '8' class='img-responsive' src='assets/img/svg/circle-slide-history.svg'/><div class='line'></div></div><span>2010s</span></div>";
-		        $html_dot += "<div id='dot-9' class='col-sm-1 col-xs-1 last-item'><div class='outter-img'><img attr = '9' class='img-responsive' src='assets/img/svg/circle-slide-history.svg'/></div><span>TODAY</span></div></li></ul></div>";
-		        $html_dot += "<div class='clearfix'></div></div><div class='col-md-1'></div>";
-
-		        $('#fullpage').append($html_dot);
+		
 		});
 	</script>
 <?php
