@@ -16,7 +16,7 @@
 						<div class="col-md-6 csr_box">
 							<img src="assets/img/csr/csr01.jpg" class="img_responsive" style="background-position: 50% 18%;">
 							<span class="csr_content">
-								<h1 class="title vision">CENTRE FOR AFRICAN STUDIES, SINGAPORE</h1>
+								<h1 class="title">CENTRE FOR AFRICAN STUDIES, SINGAPORE</h1>
 								<a class="csr_btn" href="">READ MORE HERE</a>
 								<span class="hiddenContent">ISHK Limb Centre is a prosthetic limbs centre launched in Lagos, Nigeria in 2009. The centre provides artificial limbs for the unfortunate who have missing limbs. These are provided free of cost.
 								Over the years, the centre has fitted over 4,000 limbs held at various camps around Nigeria.</span>
@@ -25,7 +25,7 @@
 						<div class="col-md-6 csr_box">
 							<img src="assets/img/csr/csr02.jpg" class="img_responsive" style="background-position: 50% 50%;">
 							<span class="csr_content">
-								<h1 class="title vision">CENTRE FOR AFRICAN STUDIES, SINGAPORE</h1>
+								<h1 class="title">CENTRE FOR AFRICAN STUDIES, SINGAPORE</h1>
 								<a class="csr_btn" href="">READ MORE HERE</a>
 								<span class="hiddenContent">ISHK Limb Centre is a prosthetic limbs centre launched in Lagos, Nigeria in 2009. The centre provides artificial limbs for the unfortunate who have missing limbs. These are provided free of cost.
 								Over the years, the centre has fitted over 4,000 limbs held at various camps around Nigeria.</span>
@@ -40,7 +40,7 @@
 						<div class="col-md-6 csr_box">
 							<img src="assets/img/csr/csr03.jpg" class="img_responsive" style="background-position: 50% 57%;">
 							<span class="csr_content">
-								<h1 class="title vision">CENTRE FOR AFRICAN STUDIES, SINGAPORE</h1>
+								<h1 class="title">CENTRE FOR AFRICAN STUDIES, SINGAPORE</h1>
 								<a class="csr_btn" href="">READ MORE HERE</a>
 								<span class="hiddenContent">ISHK Limb Centre is a prosthetic limbs centre launched in Lagos, Nigeria in 2009. The centre provides artificial limbs for the unfortunate who have missing limbs. These are provided free of cost.
 								Over the years, the centre has fitted over 4,000 limbs held at various camps around Nigeria.</span>
@@ -49,7 +49,7 @@
 						<div class="col-md-6 csr_box">
 							<img src="assets/img/csr/csr04.jpg" class="img_responsive" style="background-position: 50% 8%;">
 							<span class="csr_content">
-								<h1 class="title vision">CENTRE FOR AFRICAN STUDIES, SINGAPORE</h1>
+								<h1 class="title">CENTRE FOR AFRICAN STUDIES, SINGAPORE</h1>
 								<a class="csr_btn" href="">READ MORE HERE</a>
 								<span class="hiddenContent">ISHK Limb Centre is a prosthetic limbs centre launched in Lagos, Nigeria in 2009. The centre provides artificial limbs for the unfortunate who have missing limbs. These are provided free of cost.
 								Over the years, the centre has fitted over 4,000 limbs held at various camps around Nigeria.</span>
@@ -83,6 +83,7 @@
 			margin-top: -66px;
 			font-size: 30px;
 			line-height: 40px;
+			color: #FFF;
 		}
 		.csr_btn{
 			color: #171717;
