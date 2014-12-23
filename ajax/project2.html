@@ -1,20 +1,33 @@
 <div class="cbp-l-inline">
     <div class="cbp-l-inline-left">
-        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/amar800x600.png" alt=""></a>
-    </div>
-
-    <div class="cbp-l-inline-right">
         <div class="cbp-l-inline-title">Amar Bank</div>
         <div class="cbp-l-inline-subtitle">
         <p class="lead">Indonesia</p></div>
 
         <div class="cbp-l-inline-desc">
-        <p>Established in 1991, Amar Bank offers retail banking through branches in Surabaya and Jakarta.</p>
-            <div class="cbp-l-inline-right">B. BUDIJANTO JAHJA<br/>President Director</div>
-            <div class="cbp-l-inline-right"><img src="demos/amar800x600.png" alt=""></div>
+            <p>Established in 1991, Amar Bank offers retail banking through branches in Surabaya and Jakarta.</p>
         </div>
 
     </div>
+    <div class="cbp-l-inline-right">
+        <img src="assets/img/our_business/amar800x600.png" alt="">
+    </div>
+</div>
+
+<div class="row" class="margin-bottom: 40px;">
+    <div class="col-sm-2"></div>
+
+    <div class="col-sm-2">
+        <img src="assets/img/ceos/no-photo.gif" style="width: 140px" alt="">
+    </div>
+
+    <div class="col-sm-6 cbp-l-inline-desc">
+        <span class="lead">B. BUDIJANTO JAHJA</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">President Director</span>
+        <p>###<br/>###<br/>###<br/>###<br/>###<br/>###<br/>###<br/></p>
+        <p>&nbsp;&nbsp;</p>
+    </div>
+
+    <div class="col-sm-2"></div>
 </div>
 
 <script type="text/javascript"> 
@@ -23,6 +36,6 @@
     jQuery('a[data-gal]').each(function() {
     jQuery(this).attr('rel', jQuery(this).data('gal'));
     });     
-    jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:false,overlay_gallery: false,theme:'dark_square',social_tools:false,deeplinking:false});
+    jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:false,overlay_gallery: false,theme:'dark_square',social_tools:true,deeplinking:false});
 })(jQuery);
 </script>

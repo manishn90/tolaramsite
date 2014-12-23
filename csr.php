@@ -1,4 +1,5 @@
 <?php
+	$pageTitle = 'Giving Back'; 
 	include('include/header.php');
 ?>
 

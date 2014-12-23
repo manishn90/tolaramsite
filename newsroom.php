@@ -1,4 +1,5 @@
 <?php
+	$pageTitle = 'News Room'; 
 	include('include/header.php');
 ?>
 
@@ -267,7 +268,7 @@
 							</div>
 							<div class="col-md-6 newsroom_box">
 								<span>May 2010</span>
-								<h1>Corporate Headquarters relocated to 1A@IBP/h1>
+								<h1>Corporate Headquarters relocated to 1A@IBP</h1>
 								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/ibp.jpg" class="newsroom_img">
 								</a>

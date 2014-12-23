@@ -1,4 +1,5 @@
 <?php
+	$pageTitle = 'Our Evolution'; 
 	include('include/header.php');
 ?>
 

@@ -20,7 +20,7 @@
                 </a>
             </div>
             <div class="title_page">
-                <p>ABOUT US</p>
+                <p><?php echo strtoupper($pageTitle); ?></p>
             </div>
             <nav class="menu-trigger" id="menu-trigger">
                         <!--<label id="trigger-button" for="nav-trigger"></label>-->
