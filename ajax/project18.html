@@ -1,0 +1,41 @@
+<div class="cbp-l-inline">
+    <div class="cbp-l-inline-right">
+        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/tunaiku800x600.png" alt=""></a>
+    </div>
+
+    <div class="cbp-l-inline-left">
+        <div class="cbp-l-inline-title">TUNAIKU</div>
+        <div class="cbp-l-inline-subtitle">
+        <p class="lead">Indonesia</p></div>
+
+        <div class="cbp-l-inline-desc">
+            <p>Tunaiku is an IT data analytics company, focusing on financial services.</p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-2"></div>
+
+    <div class="col-sm-2">
+        <img src="assets/img/ceos/photo.jpg" style="width: 150px;" alt="">
+    </div>
+
+    <div class="col-sm-6 cbp-l-inline-desc">
+        <span class="lead">VISHAL TULSIAN</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">CEO</span>
+        <p>Vishal Tulsian joined the Group in May 2003 as a Finance Manager. He became the CEO of Horizon Tissue and Horizon Pulp & Paper in 2006. He is currently the Group Head of Business Development in Indonesia. <br/>He holds a degree in Chartered Accountancy from The Institute of Chartered Accountants in India and has completed in Masters in Business Administration from London. </p>
+        <p>&nbsp;&nbsp;</p>
+    </div>
+
+    <div class="col-sm-2"></div>
+</div>
+
+<script type="text/javascript"> 
+(function($) {
+"use strict";
+    jQuery('a[data-gal]').each(function() {
+    jQuery(this).attr('rel', jQuery(this).data('gal'));
+    });     
+    jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:false,overlay_gallery: false,theme:'dark_square',social_tools:false,deeplinking:false});
+})(jQuery);
+</script>
