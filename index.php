@@ -47,6 +47,9 @@
         html{
             padding: 0 !important;
         }
+        h3.title{
+            font-size: 40px;
+        }
     </style>
 <?php
     include('include/footer.php');

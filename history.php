@@ -12,44 +12,83 @@
 			<div class="section" id="section0">
 			    <div class="slide" id="slide1">
 					<div class="intro">
+						<div class="history_content col-md-6">
+							<h1>OUR ORIGINS</h1>
+							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						</div>
 					</div>
-
 				</div>
 			    <div class="slide" id="slide2">
 					<div class="intro">
+						<div class="history_content">
+							<h1>OUR ORIGINS</h1>
+							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						</div>
 					</div>
 				</div>
 			    <div class="slide" id="slide3">
 					<div class="intro">
+						<div class="history_content">
+							<h1>OUR ORIGINS</h1>
+							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						</div>
 					</div>
 				</div>
 			    <div class="slide" id="slide4">
 					<div class="intro">
+						<div class="history_content">
+							<h1>OUR ORIGINS</h1>
+							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						</div>
 					</div>
 				</div>
 				<div class="slide" id="slide5">
 					<div class="intro">
+						<div class="history_content">
+							<h1>OUR ORIGINS</h1>
+							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						</div>
 					</div>
 
 				</div>
 			    <div class="slide" id="slide6">
 					<div class="intro">
+						<div class="history_content">
+							<h1>OUR ORIGINS</h1>
+							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						</div>
 					</div>
 				</div>
 			    <div class="slide" id="slide7">
 					<div class="intro">
+						<div class="history_content">
+							<h1>OUR ORIGINS</h1>
+							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						</div>
 					</div>
 				</div>
 			    <div class="slide" id="slide8">
 					<div class="intro">
+						<div class="history_content">
+							<h1>OUR ORIGINS</h1>
+							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						</div>
 					</div>
 				</div>
 				<div class="slide" id="slide9">
 					<div class="intro">
+						<div class="history_content">
+							<h1>OUR ORIGINS</h1>
+							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						</div>
 					</div>
 				</div>
 			    <div class="slide" id="slide10">
 					<div class="intro">
+						<div class="history_content">
+							<h1>OUR ORIGINS</h1>
+							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -104,7 +143,7 @@
 		}
 		#slide7{
 			background:url(assets/img/our_evolution/history7.jpg);
-			background-position: 97% 20%;
+			background-position: 97% 71%;
 			width: 25%;
 			background-size: cover;
 		}
@@ -118,7 +157,7 @@
 		}
 		#slide9{
 			background:url(assets/img/our_evolution/history9.jpg);
-			background-position: 16% 20%;
+			background-position: 16% 70%;
 			width: 25%;
 			background-size: cover;
 		}
@@ -131,10 +170,28 @@
 
 		}
 
+		.history_content{
+			width: 40%;
+			height: auto;
+			position: relative;
+			float: right;
+			padding: 15px 6% 50px 50px;
+			background-color: rgba(51,0,0,0.6);
+			top: 221px;
+		}
+
+		.history_content h1, .history_content p{
+			color: #FFF;
+			font-family: gothamBook;
+		}
+
+		.history_content p{
+			font-size: 13px;
+		}
 		/*************************************/
 /********** History Page *************/
 /*************************************/
-.slickSlide
+/*.slickSlide
 {
     height: 100%;
 }
@@ -247,7 +304,7 @@
 
 /************************************
 /************* Slick slider **********/
-.slick-track,.slick-list
+/*.slick-track,.slick-list
 {
     height: 100%;
 }
@@ -338,7 +395,7 @@
 
 /****************************************
 ********** Custom ul li slick ***********/
-#slick-dots
+/*#slick-dots
 {
     width: 100%;
     overflow: visible;
@@ -435,14 +492,14 @@ width: 77%;
 {
     /* tofu&tomato: display full-width background */
     /*background-size: 100% 100%!important;*/
-}
+/*}
 
 div.actived, div.ishover
 {
     margin-top: -4px;
     margin-left: -4px;
 }
-
+*/
 	</style>
 	<script type="text/javascript">
 		$(document).ready(function() {
