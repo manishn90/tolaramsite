@@ -1,4 +1,5 @@
 <?php
+    $pageTitle = 'Home'; 
     include('include/header.php');
 ?>
     <div class="cbp-spmenu-push">

@@ -1,4 +1,5 @@
 <?php
+	$pageTitle = 'News Room'; 
 	include('include/header.php');
 ?>
 
