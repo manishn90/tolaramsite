@@ -22,7 +22,7 @@
         <header>
             <div class="brand white_nav_trigger">
                 <a href="index.php">
-                    <img src="assets/img/logo.png">
+                    <img src="assets/img/logo_new.png">
                 </a>
             </div>
             <nav class="menu-trigger" id="menu-trigger">
