@@ -320,7 +320,7 @@
 		}
 
 		.newsroom_content h1{
-			height: 70px;
+			height: 46px;
 		}
 
 		/*.newsroom_container  div.newsroom_content {
@@ -333,7 +333,7 @@
 			color:#000;
 		}
 		.newsroom_container div.newsroom_content h1{
-			font-size: 1.9em ;
+			font-size: 1.3em ;
 		}
 		img.newsroom_img{
 			max-width: 100%;
