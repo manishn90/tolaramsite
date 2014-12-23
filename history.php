@@ -13,7 +13,7 @@
 			<div class="section" id="section0">
 			    <div class="slide" id="slide1">
 					<div class="intro">
-						<div class="history_content col-md-6">
+						<div class="history_content col-md-5 col-sm-7">
 							<h1>OUR ORIGINS</h1>
 							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
 						</div>
@@ -21,74 +21,76 @@
 				</div>
 			    <div class="slide" id="slide2">
 					<div class="intro">
-						<div class="history_content">
-							<h1>OUR ORIGINS</h1>
-							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						<div class="history_content col-md-5 col-sm-7">
+							<h1>1940S</h1>
+							<p>Seth Tolaram's youngest son, Khanchand Vaswani, migrated to Indonesia from Sindh and set up Tailor Tolaram, a retail shop in Malang, thus planting the roots of the Group.</p>
 						</div>
 					</div>
 				</div>
 			    <div class="slide" id="slide3">
 					<div class="intro">
-						<div class="history_content">
-							<h1>OUR ORIGINS</h1>
-							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						<div class="history_content col-md-5 col-sm-7">
+							<h1>1950</h1>
+							<p>Khanchand Vaswani's son, Mohan Vaswani (our Chairman) joined the family business in 1957.</p>
 						</div>
 					</div>
 				</div>
 			    <div class="slide" id="slide4">
 					<div class="intro">
-						<div class="history_content">
-							<h1>OUR ORIGINS</h1>
-							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						<div class="history_content col-md-5 col-sm-7">
+							<h1>1960S</h1>
+							<p>Our Vice Chairman, Vishamkar Adnani joined the Group in 1961 and helped grow the textile shop into a larger retail, wholesale and trading business of fabrics and garments.</p>
 						</div>
 					</div>
 				</div>
 				<div class="slide" id="slide5">
 					<div class="intro">
-						<div class="history_content">
-							<h1>OUR ORIGINS</h1>
-							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						<div class="history_content col-md-5 col-sm-7">
+							<h1>1970S</h1>
+							<p>We became Textiles manufacturers with our first facility set up in Batu, Indonesia in 1970. Subsequently more textiles related manufacturing plants were established in Indonesia and other countries.</p>
 						</div>
 					</div>
 
 				</div>
 			    <div class="slide" id="slide6">
 					<div class="intro">
-						<div class="history_content">
-							<h1>OUR ORIGINS</h1>
-							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						<div class="history_content col-md-5 col-sm-7">
+							<h1>1980S</h1>
+							<p>The Group diversified from its core textiles businesses into Real Estate and Consumer Goods. It also marked the introduction of the third-generation family members into the business.</p>
 						</div>
 					</div>
 				</div>
 			    <div class="slide" id="slide7">
 					<div class="intro">
-						<div class="history_content">
-							<h1>OUR ORIGINS</h1>
-							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						<div class="history_content col-md-5 col-sm-7">
+							<h1>1990S</h1>
+							<p>We embarked on an expansion phase and took our manufacturing presence to 18 countries across the globe. We also diversified further into other industries like Paper Products, Distribution, Minerals etc.</p>
 						</div>
 					</div>
 				</div>
 			    <div class="slide" id="slide8">
 					<div class="intro">
-						<div class="history_content">
-							<h1>OUR ORIGINS</h1>
+						<div class="history_content col-md-5 col-sm-7">
+							<h1>2000S</h1>
 							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+							<p>We expanded our presence in Consumer Goods sectors and made forays in the Infrastructure, Energy and Digital Services sectors.</p>
 						</div>
 					</div>
 				</div>
 				<div class="slide" id="slide9">
 					<div class="intro">
-						<div class="history_content">
-							<h1>OUR ORIGINS</h1>
-							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						<div class="history_content col-md-5 col-sm-7">
+							<h1>2010S</h1>
+							<p>The Group completed building and relocated our Corporate Headquarters in Singapore to 1A International Business Park.
+Furthering ourselves to become brand builders, we developed and grew brands in the Consumer Goods sector which remain as market leaders in their respective segment. We also made our name known in the Digital Services sector in Nigeria and Indonesia.</p>
 						</div>
 					</div>
 				</div>
 			    <div class="slide" id="slide10">
 					<div class="intro">
-						<div class="history_content">
-							<h1>OUR ORIGINS</h1>
-							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+						<div class="history_content col-md-5 col-sm-7">
+							<h1>TODAY</h1>
+							<p>The Group celebrated over 60 years of successful international entrepreneurship. We are focused on growth in these four business spheres: Consumer Goods, Digital Services, Energy and Infrastructure in Africa, Asia and Europe.</p>
 						</div>
 					</div>
 				</div>
@@ -209,11 +211,10 @@
 		}
 
 		.history_content{
-			width: 40%;
 			height: auto;
 			position: relative;
 			float: right;
-			padding: 15px 6% 50px 50px;
+			padding: 15px 16% 50px 64px;
 			background-color: rgba(51,0,0,0.6);
 			top: 221px;
 		}
