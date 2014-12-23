@@ -18,45 +18,72 @@
 
 			        <div class="portfolio-wrapper clearfix">
 			            <div class="container">
-			                <div id="filters-container" class="cbp-l-filters-button">
-			                	<div style="text-align: center;">
-				                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-				                        All <div class="cbp-filter-counter"></div>
-				                    </div>
-				                    <div data-filter=".consumer" class="cbp-filter-item">
-				                        Consumer Goods <div class="cbp-filter-counter"></div>
-				                    </div>
-				                    <div data-filter=".digital" class="cbp-filter-item">
-				                        Digital Services <div class="cbp-filter-counter"></div>
-				                    </div>
-				                    <div data-filter=".distribution" class="cbp-filter-item">
-				                        Distribution <div class="cbp-filter-counter"></div>
-				                    </div>
-				                     <div data-filter=".energy" class="cbp-filter-item">
-				                        Energy <div class="cbp-filter-counter"></div>
-				                    </div>
-				                    <div data-filter=".financial" class="cbp-filter-item">
-				                        Financial Services <div class="cbp-filter-counter"></div>
-				                    </div>
-			                    </div>
-			                    <div style="text-align: center;">
-			                    	<div data-filter=".infrastructure" class="cbp-filter-item">
-				                        Infrastructure <div class="cbp-filter-counter"></div>
-				                    </div>
-				                    <div data-filter=".paper" class="cbp-filter-item">
-				                        Paper Products <div class="cbp-filter-counter"></div>
-				                    </div>
-				                     <div data-filter=".real" class="cbp-filter-item">
-				                        Real Estates <div class="cbp-filter-counter"></div>
-				                    </div>
-				                    <div data-filter=".textiles" class="cbp-filter-item">
-				                        Textiles <div class="cbp-filter-counter"></div>
-				                    </div>
-			                    </div>
-			                </div>
+
+			            	<!-- Filter Button -->
+				            <div id="filters-container" class="cbp-l-filters-button row">
+
+			            		<div class="col-md-6 text-center">
+					                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+					                        All <div class="cbp-filter-counter"></div>
+					                    </div>
+					                    <div data-filter=".consumer" class="cbp-filter-item">
+					                        Consumer Goods <div class="cbp-filter-counter"></div>
+					                    </div>
+					                    <div data-filter=".digital" class="cbp-filter-item">
+					                        Digital Services <div class="cbp-filter-counter"></div>
+					                    </div>
+					                    <div data-filter=".distribution" class="cbp-filter-item">
+					                        Distribution <div class="cbp-filter-counter"></div>
+					                    </div>
+					                     <div data-filter=".energy" class="cbp-filter-item">
+					                        Energy <div class="cbp-filter-counter"></div>
+					                    </div>
+					                    <div data-filter=".financial" class="cbp-filter-item">
+					                        Financial Services <div class="cbp-filter-counter"></div>
+					                    </div>
+				                    	<div data-filter=".infrastructure" class="cbp-filter-item">
+					                        Infrastructure <div class="cbp-filter-counter"></div>
+					                    </div>
+					                    <div data-filter=".paper" class="cbp-filter-item">
+					                        Paper Products <div class="cbp-filter-counter"></div>
+					                    </div>
+					                     <div data-filter=".real" class="cbp-filter-item">
+					                        Real Estates <div class="cbp-filter-counter"></div>
+					                    </div>
+					                    <div data-filter=".textiles" class="cbp-filter-item">
+					                        Textiles <div class="cbp-filter-counter"></div>
+					                    </div>
+				                </div>
+				                <div class="col-md-6 text-center">
+					                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+					                        All <div class="cbp-filter-counter"></div>
+					                    </div>
+					                    <div data-filter=".estonia" class="cbp-filter-item">
+					                        Estonia <div class="cbp-filter-counter"></div>
+					                    </div>
+					                    <div data-filter=".ghana" class="cbp-filter-item">
+					                        Ghana <div class="cbp-filter-counter"></div>
+					                    </div>
+					                    <div data-filter=".india" class="cbp-filter-item">
+					                        India <div class="cbp-filter-counter"></div>
+					                    </div>
+				                    	<div data-filter=".indonesia" class="cbp-filter-item">
+					                        Indonesia <div class="cbp-filter-counter"></div>
+					                    </div>
+					                    <div data-filter=".nigeria" class="cbp-filter-item">
+					                        Nigeria <div class="cbp-filter-counter"></div>
+					                    </div>
+				                    	<div data-filter=".singapore" class="cbp-filter-item">
+					                        Singapore <div class="cbp-filter-counter"></div>
+					                    </div>
+				            	</div>
+
+				            </div>
+			               
+
 			                <div id="grid-container" class="cbp-l-grid-gallery">
 			                    <ul>
-			                        <li class="cbp-item">
+			                        <li class="cbp-item singapore">
 			                            <a href="ajax/project1.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="Tolaram Corporation">
 			                                <div class="cbp-caption-defaultWrap">
@@ -72,7 +99,7 @@
 			                                </div>
 			                            </a>
 			                        </li>
-			                        <li class="cbp-item financial">
+			                        <li class="cbp-item financial indonesia">
 			                            <a href="ajax/project2.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="Amar Bank">
 			                                <div class="cbp-caption-defaultWrap">
@@ -88,7 +115,7 @@
 			                                </div>
 			                            </a>
 			                        </li>
-			                        <li class="cbp-item real">
+			                        <li class="cbp-item real indonesia">
 			                            <a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="Arzu Utama Realty">
 			                                <div class="cbp-caption-defaultWrap">
@@ -104,7 +131,7 @@
 			                                </div>
 			                            </a>
 			                        </li>
-			                        <li class="cbp-item financial">
+			                        <li class="cbp-item financial indonesia">
 			                            <a href="ajax/project4.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="Asuransi Rama">
 			                                <div class="cbp-caption-defaultWrap">
@@ -120,7 +147,7 @@
 			                                </div>
 			                            </a>
 			                        </li>
-			                        <li class="cbp-item distribution">
+			                        <li class="cbp-item distribution nigeria">
 			                            <a href="ajax/project5.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="BHN">
 			                                <div class="cbp-caption-defaultWrap">
@@ -136,7 +163,7 @@
 			                                </div>
 			                            </a>
 			                        </li>
-			                        <li class="cbp-item consumer">
+			                        <li class="cbp-item consumer nigeria">
 			                            <a href="ajax/project6.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="Dufil Prima Foods">
 			                                <div class="cbp-caption-defaultWrap">
@@ -152,7 +179,7 @@
 			                                </div>
 			                            </a>
 			                        </li>
-			                         <li class="cbp-item distribution">
+			                         <li class="cbp-item distribution nigeria">
                             <a href="ajax/project7.html" class="cbp-caption cbp-singlePageInline"
                                data-title="First Choice Retailing">
                                 <div class="cbp-caption-defaultWrap">
@@ -168,7 +195,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="cbp-item paper">
+                        <li class="cbp-item paper estonia">
                             <a href="ajax/project8.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Horizon Pulp & Paper">
                                 <div class="cbp-caption-defaultWrap">
@@ -184,7 +211,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="cbp-item consumer">
+                        <li class="cbp-item consumer estonia">
                             <a href="ajax/project9.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Horizon Tissue">
                                 <div class="cbp-caption-defaultWrap">
@@ -200,7 +227,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="cbp-item consumer">
+                        <li class="cbp-item consumer nigeria">
                             <a href="ajax/project10.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Hypo Bleach">
                                 <div class="cbp-caption-defaultWrap">
@@ -217,7 +244,7 @@
                             </a>
                         </li>
                         <!-- end of default business -->
-                         <li class="cbp-item infrastructure">
+                         <li class="cbp-item infrastructure nigeria">
                             <a href="ajax/project11.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Lagos Free Trade Zone">
                                 <div class="cbp-caption-defaultWrap">
@@ -233,7 +260,7 @@
                                 </div>
                             </a>
                         </li>
-                         <li class="cbp-item infrastructure">
+                         <li class="cbp-item infrastructure nigeria">
                             <a href="ajax/project12.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Lekki Deep Sea Port">
                                 <div class="cbp-caption-defaultWrap">
@@ -249,7 +276,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="cbp-item textiles">
+                        <li class="cbp-item textiles indonesia">
                             <a href="ajax/project13.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Lotus Indah">
                                 <div class="cbp-caption-defaultWrap">
@@ -265,7 +292,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="cbp-item textiles">
+                        <li class="cbp-item textiles nigeria">
                             <a href="ajax/project14.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Lucky Fibres">
                                 <div class="cbp-caption-defaultWrap">
@@ -281,7 +308,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="cbp-item energy">
+                        <li class="cbp-item energy ghana india nigeria">
                             <a href="ajax/project15.html" class="cbp-caption cbp-singlePageInline"
                                data-title="MBH Power">
                                 <div class="cbp-caption-defaultWrap">
@@ -297,7 +324,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="cbp-item distribution">
+                        <li class="cbp-item distribution ghana nigeria">
                             <a href="ajax/project16.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Multi Pro Enterprises">
                                 <div class="cbp-caption-defaultWrap">
@@ -313,7 +340,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="cbp-item real">
+                        <li class="cbp-item real estonia">
                             <a href="ajax/project17.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Tolaram Investments">
                                 <div class="cbp-caption-defaultWrap">
@@ -329,7 +356,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="cbp-item digital">
+                        <li class="cbp-item digital indonesia">
                             <a href="ajax/project18.html" class="cbp-caption cbp-singlePageInline"
                                data-title="Tunaiku">
                                 <div class="cbp-caption-defaultWrap">
@@ -345,7 +372,7 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="cbp-item digital">
+                        <li class="cbp-item digital nigeria">
                             <a href="ajax/project19.html" class="cbp-caption cbp-singlePageInline"
                                data-title="VConnect">
                                 <div class="cbp-caption-defaultWrap">
