@@ -10,6 +10,9 @@
 	<script src="assets/js/vendor/jquery.vide.js"></script>
     <script src="assets/js/vendor/classie.js"></script>
     <script src="assets/js/vendor/jquery.fullPage.js"></script>
+    <script src="assets/js/magnific/jquery.magnific-popup.js"></script>
+
+    
 
 
     <script type="text/javascript">

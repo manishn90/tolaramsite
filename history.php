@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = 'Our Evolution'; 
+	$pageTitle = 'OUR EVOLUTION'; 
 	include('include/header.php');
 ?>
 
@@ -9,287 +9,440 @@
 		?>
 	</div>
 	<div class="bordered_wrapper">
-		<div id="fullpage">
-			<div class="section" id="section0">
-			    <div class="slide" id="slide1">
-					<div class="intro">
-						<div class="history_content col-md-5 col-sm-7">
-							<h1>OUR ORIGINS</h1>
-							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+		<div class="popUp-history pop-up1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/img/our_evolution/bg1.png" class="img-responvsive" style="width:100%;">
+					</div>
+					<div class="col-md-6 box-pop-up">
+						<i class="fa fa-times close_btn"></i>
+						<div class="box-content-popup">
+							OUR ORIGIN
+						</div>
+						<div class="pop-up-title">
+							<p>
+								The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor &amp; sickly and the Group carries his philanthropic ideals to this day.
+							</p>
 						</div>
 					</div>
 				</div>
-			    <div class="slide" id="slide2">
-					<div class="intro">
-						<div class="history_content col-md-5 col-sm-7">
-							<h1>1940S</h1>
-							<p>Seth Tolaram's youngest son, Khanchand Vaswani, migrated to Indonesia from Sindh and set up Tailor Tolaram, a retail shop in Malang, thus planting the roots of the Group.</p>
-						</div>
-					</div>
+				<div class="before_btn">
+					<i class="fa fa-chevron-left"></i>
 				</div>
-			    <div class="slide" id="slide3">
-					<div class="intro">
-						<div class="history_content col-md-5 col-sm-7">
-							<h1>1950</h1>
-							<p>Khanchand Vaswani's son, Mohan Vaswani (our Chairman) joined the family business in 1957.</p>
-						</div>
-					</div>
+				<div class="next_btn">
+					<i class="fa fa-chevron-right"></i>
 				</div>
-			    <div class="slide" id="slide4">
-					<div class="intro">
-						<div class="history_content col-md-5 col-sm-7">
-							<h1>1960S</h1>
-							<p>Our Vice Chairman, Vishamkar Adnani joined the Group in 1961 and helped grow the textile shop into a larger retail, wholesale and trading business of fabrics and garments.</p>
-						</div>
+			</div>
+		</div>
+		<div class="popUp-history pop-up2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/img/our_evolution/bg2.png" class="img-responvsive" style="width:100%;">
 					</div>
-				</div>
-				<div class="slide" id="slide5">
-					<div class="intro">
-						<div class="history_content col-md-5 col-sm-7">
-							<h1>1970S</h1>
-							<p>We became Textiles manufacturers with our first facility set up in Batu, Indonesia in 1970. Subsequently more textiles related manufacturing plants were established in Indonesia and other countries.</p>
+					<div class="col-md-6 box-pop-up">
+						<i class="fa fa-times close_btn"></i>
+						<div class="box-content-popup">
+							1040s
 						</div>
-					</div>
-
-				</div>
-			    <div class="slide" id="slide6">
-					<div class="intro">
-						<div class="history_content col-md-5 col-sm-7">
-							<h1>1980S</h1>
-							<p>The Group diversified from its core textiles businesses into Real Estate and Consumer Goods. It also marked the introduction of the third-generation family members into the business.</p>
-						</div>
-					</div>
-				</div>
-			    <div class="slide" id="slide7">
-					<div class="intro">
-						<div class="history_content col-md-5 col-sm-7">
-							<h1>1990S</h1>
-							<p>We embarked on an expansion phase and took our manufacturing presence to 18 countries across the globe. We also diversified further into other industries like Paper Products, Distribution, Minerals etc.</p>
-						</div>
-					</div>
-				</div>
-			    <div class="slide" id="slide8">
-					<div class="intro">
-						<div class="history_content col-md-5 col-sm-7">
-							<h1>2000S</h1>
-							<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
-							<p>We expanded our presence in Consumer Goods sectors and made forays in the Infrastructure, Energy and Digital Services sectors.</p>
-						</div>
-					</div>
-				</div>
-				<div class="slide" id="slide9">
-					<div class="intro">
-						<div class="history_content col-md-5 col-sm-7">
-							<h1>2010S</h1>
-							<p>The Group completed building and relocated our Corporate Headquarters in Singapore to 1A International Business Park.
-Furthering ourselves to become brand builders, we developed and grew brands in the Consumer Goods sector which remain as market leaders in their respective segment. We also made our name known in the Digital Services sector in Nigeria and Indonesia.</p>
-						</div>
-					</div>
-				</div>
-			    <div class="slide" id="slide10">
-					<div class="intro">
-						<div class="history_content col-md-5 col-sm-7">
-							<h1>TODAY</h1>
-							<p>The Group celebrated over 60 years of successful international entrepreneurship. We are focused on growth in these four business spheres: Consumer Goods, Digital Services, Energy and Infrastructure in Africa, Asia and Europe.</p>
+						<div class="pop-up-title">
+							<p>
+								The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor &amp; sickly and the Group carries his philanthropic ideals to this day.
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
-		<svg class="timeline" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1250.21px" height="83.333px" viewBox="0 0 1250.21 83.333" enable-background="new 0 0 1250.21 83.333" xml:space="preserve">
-
-			<!--<circle class="hoverTL1 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="43.955" cy="41.918" r="32.452"/>
-			<circle class="hoverTL2 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="171.955" cy="41.918" r="32.452"/>
-			<circle class="hoverTL3 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="300.955" cy="41.918" r="32.452"/>
-			<circle class="hoverTL4 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="429.955" cy="41.918" r="32.452"/>
-			<circle class="hoverTL5 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="558.955" cy="41.918" r="32.452"/>
-			<circle class="hoverTL6 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="687.955" cy="41.918" r="32.452"/>
-			<circle class="hoverTL7 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="816.955" cy="41.918" r="32.452"/>
-			<circle class="hoverTL8 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="945.955" cy="41.918" r="32.452"/>
-			<circle class="hoverTL9 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="1074.955" cy="41.918" r="32.452"/>
-			<circle class="hoverTL10 leaveTL" fill="#841f10" stroke="#FFFFFF" stroke-width="4.5" stroke-miterlimit="10" cx="1203.955" cy="41.918" r="32.452"/>-->
-
-			<circle class="TL1" alt="1" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="44.059" cy="41.585" r="23.786"/></circle>
-			<circle class="TL" alt="2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="172.948" cy="41.585" r="23.786"/>
-			<circle class="TL" alt="3" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="301.837" cy="41.585" r="23.785"/>
-			<circle class="TL" alt="4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="430.726" cy="41.585" r="23.786"/>
-			<circle class="TL" alt="5" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="559.615" cy="41.585" r="23.786"/>
-			<circle class="TL" alt="6" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="688.503" cy="41.585" r="23.786"/>
-			<circle class="TL" alt="7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="817.392" cy="41.585" r="23.786"/>
-			<circle class="TL" alt="8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="946.281" cy="41.585" r="23.786"/>
-			<circle class="TL" alt="9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="1075.17" cy="41.585" r="23.786"/>
-			<circle class="TL" alt="10" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="1204.059" cy="41.585" r="23.786"/>
-
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="67.845" y1="41.585" x2="149.162" y2="41.585"/>
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="196.734" y1="41.585" x2="278.051" y2="41.585"/>
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="325.622" y1="41.585" x2="406.94" y2="41.585"/>
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="454.512" y1="41.585" x2="535.829" y2="41.585"/>
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="583.4" y1="41.585" x2="664.718" y2="41.585"/>
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="712.289" y1="41.585" x2="793.606" y2="41.585"/>
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="841.178" y1="41.585" x2="922.495" y2="41.585"/>
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="970.067" y1="41.585" x2="1051.385" y2="41.585"/>
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="1098.956" y1="41.585" x2="1180.273" y2="41.585"/>
-		</svg>
-
-
+		<div class="popUp-history pop-up3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/img/our_evolution/bg3.png" class="img-responvsive" style="width:100%;">
+					</div>
+					<div class="col-md-6 box-pop-up">
+						<i class="fa fa-times close_btn"></i>
+						<div class="box-content-popup">
+							1050s
+						</div>
+						<div class="pop-up-title">
+							<p>
+								The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor &amp; sickly and the Group carries his philanthropic ideals to this day.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popUp-history pop-up4">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/img/our_evolution/bg4.png" class="img-responvsive" style="width:100%;">
+					</div>
+					<div class="col-md-6 box-pop-up">
+						<i class="fa fa-times close_btn"></i>
+						<div class="box-content-popup">
+							1060s
+						</div>
+						<div class="pop-up-title">
+							<p>
+								The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor &amp; sickly and the Group carries his philanthropic ideals to this day.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popUp-history pop-up5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/img/our_evolution/bg5.png" class="img-responvsive" style="width:100%;">
+					</div>
+					<div class="col-md-6 box-pop-up">
+						<i class="fa fa-times close_btn"></i>
+						<div class="box-content-popup">
+							1070s
+						</div>
+						<div class="pop-up-title">
+							<p>
+								The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor &amp; sickly and the Group carries his philanthropic ideals to this day.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popUp-history pop-up6">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/img/our_evolution/bg6.png" class="img-responvsive" style="width:100%;">
+					</div>
+					<div class="col-md-6 box-pop-up">
+						<i class="fa fa-times close_btn"></i>
+						<div class="box-content-popup">
+							1080s
+						</div>
+						<div class="pop-up-title">
+							<p>
+								The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor &amp; sickly and the Group carries his philanthropic ideals to this day.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popUp-history pop-up7">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/img/our_evolution/bg7.png" class="img-responvsive" style="width:100%;">
+					</div>
+					<div class="col-md-6 box-pop-up">
+						<i class="fa fa-times close_btn"></i>
+						<div class="box-content-popup">
+							1090s
+						</div>
+						<div class="pop-up-title">
+							<p>
+								The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor &amp; sickly and the Group carries his philanthropic ideals to this day.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popUp-history pop-up8">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/img/our_evolution/bg8.png" class="img-responvsive" style="width:100%;">
+					</div>
+					<div class="col-md-6 box-pop-up">
+						<i class="fa fa-times close_btn"></i>
+						<div class="box-content-popup">
+							2000s
+						</div>
+						<div class="pop-up-title">
+							<p>
+								The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor &amp; sickly and the Group carries his philanthropic ideals to this day.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popUp-history pop-up9">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/img/our_evolution/bg9.png" class="img-responvsive" style="width:100%;">
+					</div>
+					<div class="col-md-6 box-pop-up">
+						<i class="fa fa-times close_btn"></i>
+						<div class="box-content-popup">
+							2010s
+						</div>
+						<div class="pop-up-title">
+							<p>
+								The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor &amp; sickly and the Group carries his philanthropic ideals to this day.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popUp-history pop-up10">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/img/our_evolution/bg10.png" class="img-responvsive" style="width:100%;">
+					</div>
+					<div class="col-md-6 box-pop-up">
+						<i class="fa fa-times close_btn"></i>
+						<div class="box-content-popup">
+							TODAY
+						</div>
+						<div class="pop-up-title">
+							<p>
+								The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor &amp; sickly and the Group carries his philanthropic ideals to this day.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="fullpage">
+			<div class="section " id="section0">
+				<div class="container history_box">
+					<div class="row history_title">
+						<div class="col-md-4">
+							<h1>OUR EVOLUTION</h1>
+						</div>
+						<div class="col-md-8" style="padding-left:0">
+							<p>With over 60 years of successful entrepreneurship, Tolaram Group has evolved from being traders to manufacturers to brand builders, establishing our leadership in several industries across different geographies.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-4 pop-up">
+							<img src="assets/img/our_evolution/bg1.png" class="img-responvsive" alt='1'>
+							<div class="cover">
+								<h1>OUR ORIGIN</h1>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 pop-up">
+							<img src="assets/img/our_evolution/bg2.png" class="img-responvsive" alt='2'>
+							<div class="cover">
+								<h1>1940s</h1>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 pop-up">
+							<img src="assets/img/our_evolution/bg3.png" class="img-responvsive" alt='3'>
+							<div class="cover">
+								<h1>1950s</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-4 pop-up">
+							<img src="assets/img/our_evolution/bg4.png" class="img-responvsive" alt='4'>
+							<div class="cover">
+								<h1>1960s</h1>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 pop-up">
+							<img src="assets/img/our_evolution/bg5.png" class="img-responvsive" alt='5'>
+							<div class="cover">
+								<h1>1970s</h1>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 pop-up">
+							<img src="assets/img/our_evolution/bg6.png" class="img-responvsive" alt='6'>
+							<div class="cover">
+								<h1>1980s</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-4 pop-up">
+							<img src="assets/img/our_evolution/bg7.png" class="img-responvsive" alt='7'>
+							<div class="cover">
+								<h1>1990s</h1>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 pop-up">
+							<img src="assets/img/our_evolution/bg8.png" class="img-responvsive" alt='8'>
+							<div class="cover">
+								<h1>2000s</h1>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 pop-up">
+							<img src="assets/img/our_evolution/bg9.png" class="img-responvsive" alt='9'>
+							<div class="cover">
+								<h1>2010s</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+						</div>
+						<div class="col-md-4 col-sm-4 pop-up">
+							<img src="assets/img/our_evolution/bg10.png" class="img-responvsive" alt='10'>
+							<div class="cover">
+								<h1>TODAY</h1>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-
+	
+	
 	<style type="text/css">
-		.fp-controlArrow{
-			top: 40%;
+		body{
+			overflow: visible!important;
 		}
-		#slide1{
-			background:url(assets/img/our_evolution/history.jpg);
-			background-position: 26% 20%;
-			width: 25%;
-			background-size: cover;
-		}
-
-		#slide2{
-			background:url(assets/img/our_evolution/history2.jpg);
-			background-position: 10% 95%;
-			width: 25%;
-			background-size: cover;
-
-		}
-		#slide3{
-			background:url(assets/img/our_evolution/history3.jpg);
-			background-position: 59% 20%;
-			width: 25%;
-			background-size: cover;
-		}
-
-		#slide4{
-			background:url(assets/img/our_evolution/history4new.jpg);
-			background-position: 65% 10%;
-			width: 25%;
-			background-size: cover;
-
-		}
-		#slide5{
-			background:url(assets/img/our_evolution/history5.jpg);
-			background-position: 80% 20%;
-			width: 25%;
-			background-size: cover;
-		}
-
-		#slide6{
-			background:url(assets/img/our_evolution/history6.jpg);
-			background-position: 32% 138%;
-			width: 25%;
-			background-size: cover;
-
-		}
-		#slide7{
-			background:url(assets/img/our_evolution/history7.jpg);
-			background-position: 97% 71%;
-			width: 25%;
-			background-size: cover;
-		}
-
-		#slide8{
-			background:url(assets/img/our_evolution/history8.jpg);
-			background-position: 61% 95%;
-			width: 25%;
-			background-size: cover;
-
-		}
-		#slide9{
-			background:url(assets/img/our_evolution/history9.jpg);
-			background-position: 16% 70%;
-			width: 25%;
-			background-size: cover;
-		}
-
-		#slide10{
-			background:url(assets/img/our_evolution/history10.jpg);
-			background-position: 71% 65%;
-			width: 25%;
-			background-size: cover;
-
-		}
-
-		.history_content{
-			height: auto;
-			position: relative;
-			float: right;
-			padding: 15px 16% 50px 64px;
-			background-color: rgba(51,0,0,0.6);
-			top: 221px;
-		}
-
-		.history_content h1, .history_content p{
+		.before_btn,.next_btn{
 			color: #FFF;
-			font-family: gothamBook;
-		}
+			font-size: 35px;
+			top:50%;
 
-		.history_content p{
-			font-size: 13px;
 		}
-
-		svg.timeline{
+		.before_btn{
 			position: absolute;
-			top: 82%;
-			margin: auto;
+			left: 0;
+			padding-left: 7%;
+		}
+		.next_btn{
+			position: absolute;
+			right: 0;
+			padding-right: 7%;
+		}
+		.fa-times{
+			position: absolute;
+			right: 0;
+			padding: 10px 10px 0 0;
+			cursor: pointer;
+			color: rgb(179,61,61);
+			padding-top: 38px;
+			padding-right:38px;
+			font-size: 18px;
+		}
+		.popUp-history{
 			width: 100%;
+			height: 100%;
+			position: fixed;
 			left: 0;
 			right: 0;
-		}
-
-		/*circle.hoverTL1,
-		circle.hoverTL2,
-		circle.hoverTL3,
-		circle.hoverTL4,
-		circle.hoverTL5,
-		circle.hoverTL6,
-		circle.hoverTL7,
-		circle.hoverTL8,
-		circle.hoverTL9,
-		circle.hoverTL10{
+			background-color: rgba(0,0,0,0.8);
+			z-index: 1;
 			display: none;
-			cursor: pointer;
-		}*/
+			padding-top: 12%;
+		}
+		.popUp-history .col-md-6{
+			padding-right: 0;
+			padding-left: 0;
+		}
+		.box-pop-up{
+			background: #FFF;
+			height:100%;
+			height: 439px;
+		}
+		.box-content-popup{
+			width: 200px;
+			height: 100px;
+			background-color:  rgb(179,61,61);
+			margin-top: 80px;
+			color: #FFF;
+			text-align: center;
+			padding-top: 38px;
+			font-family: gothamBook;
+			font-size: 21px;
+		}	
 
-		circle.TL{
-			fill:rgba(255,255,255,0.0);
+		.pop-up-title{
+			color: #5d5d5d;
+			font-family: gothamBook;
+			padding: 35px;
+			font-size: 14px;
+		}	
+		.history_box{
+			margin-top: 83px;
+			 margin-bottom: 40px;
+
+		}
+		.history_box img{
+			width: 100%;
 			cursor: pointer;
 		}
+		.cover {
+		    height: 100%;
+		    width: 100%;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    background: rgb(179,61,61);
+		    display:none;
+		    cursor: pointer;
+		    color: #FFF;
+		    font-family: gothamBook;
+		    text-align: center;
+		    padding-top: 100px;
+		}
+
+		.history_box .col-md-4:hover .cover {
+		    display:block;    
+		}
 		
+
+		.history_box .col-md-4{
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.history_title{
+			margin-bottom: 25px;
+		}
+		.history_title h1{
+			margin-top: -1px;
+			
+		}
+		.history_title h1, .history_title p{
+			font-family: gothamBook;
+			color: #58595B;
+		}
 	</style>
+	
 	<script type="text/javascript">
+
 		$(document).ready(function() {
-			/*$('circle.TL').mouseenter(function () {
-				var a = $(this).attr('alt');
-
-				$('circle.hoverTL' + a).show();	
-				$(this).hide();
-			});
-
-			$('circle.leaveTL').mouseleave(function () {
-				$(this).hide();	
-				$('circle.TL').show();
-			});*/
-			
-			
-
-
-
 			$('#fullpage').fullpage({
-				anchors:['firstSlide', 'secondSlide'],
-				sectionsColor: ['#EAEAEA', '#4BBFC3', '#7BAABE', 'whitesmoke'],
-			  	menu: '#menu',
-				
-			});
+				navigation: false,
+				responsive: 0,
+				verticalCentered: true,
+				horizontalCentered:false,
+				autoScrolling: false
 
-			$('circle.TL1').click(function () {
-				$.fn.fullpage.moveTo(3,0);
-				
 			});
 
 
+			$('.pop-up').click( function() {
+				$('body').css('overflow','hidden');
+				var altDiv = $(this).children('img').attr('alt');
+				$('.pop-up'+altDiv).css('top','0').show();
 
-		
+			});
+
+			$('.close_btn').click(function () {
+				$('.popUp-history').hide();
+			});
+			
 		});
 	</script>
 <?php
