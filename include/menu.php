@@ -16,7 +16,7 @@
     <header>
             <div class="brand black_nav_trigger">
                 <a href="index.php" style="background: transparent;">
-                    <img src="assets/img/logo.png">
+                    <img src="assets/img/logo_new.png">
                 </a>
             </div>
             <div class="title_page">

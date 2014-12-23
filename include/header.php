@@ -16,11 +16,6 @@
     <script src="assets/js/jquery.min.js"></script>
 
     <style type="text/css">
-        html{
-            padding-bottom: 21px!important;
-            padding-left: 21px!important;
-            padding-right: 21px!important;
-        }
         .menu-trigger span.before_active_white {
           background:#000 !important;
         }

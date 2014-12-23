@@ -127,7 +127,7 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-12">
-							<div class="value-quote">
+							<div class="value-quote" style="padding-top: 55px;">
                                 <p class="quote q-trust">&#34; When the trust account is high, communication is easy, instant and effective.&#34;</p><p class='author q-trust'>Stephen R. Covey</p>
                                 <p class="quote q-respect">&#34; When people honour each other, there is a trust established that leads to synergy, interdependence, and deep respect. Both parties make decisions and choices based on what is right, what is best, what is valued most highly. &#34;</p><p class='author q-respect'>Blaine lee</p>
                                 <p class="quote q-commitment">&#34; Desire is the key to motivation, but it’s determination and commitment to an unrelenting pursuit of your goal – a commitment to excellence - that will enable you to attain the success you seek. &#34; </p><p class='author q-commitment'>Mario Andretti</p>

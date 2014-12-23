@@ -320,7 +320,9 @@
 		}
 
 		.newsroom_content h1{
-			height: 46px;
+			height: 30px;
+			top: -14px;
+			position: relative;
 		}
 
 		/*.newsroom_container  div.newsroom_content {
@@ -351,7 +353,7 @@
 			transition: .2s ease;
 			margin-top: 18px;
 			display: inline-block;
-			margin-bottom: 24px;
+			margin-bottom: 45px;
 		}
 
 		.newsroom_btn:hover{
