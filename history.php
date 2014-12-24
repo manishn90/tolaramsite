@@ -29,63 +29,63 @@
 						<li>
 							<figure>
 							<div class="des"><h1>OUR ORIGIN</h1></div>
-								<img src="assets/grid/img/our_evolution/bg1.png" alt="img01"/>
+								<img src="assets/img/our_evolution/bg1.png" alt="img01"/>
 							</figure>
 						</li>
 						<li>
 							<figure>
 							<div class="des"><h1>1940s</h1></div>
-								<img src="assets/grid/img/our_evolution/bg2.png" alt="img02"/>
+								<img src="assets/img/our_evolution/bg2.png" alt="img02"/>
 							</figure>
 						</li>
 						<li>
 							<figure>
 							<div class="des"><h1>1950s</h1></div>
-								<img src="assets/grid/img/our_evolution/bg3.png" alt="img03"/>
+								<img src="assets/img/our_evolution/bg3.png" alt="img03"/>
 							</figure>
 						</li>
 						<li>
 							<figure>
 							<div class="des"><h1>1960s</h1></div>
-								<img src="assets/grid/img/our_evolution/bg4.png" alt="img01"/>
+								<img src="assets/img/our_evolution/bg4.png" alt="img01"/>
 								
 							</figure>
 						</li>
 						<li>
 							<figure>
 							<div class="des"><h1>1970s</h1></div>
-								<img src="assets/grid/img/our_evolution/bg5.png" alt="img02"/>
+								<img src="assets/img/our_evolution/bg5.png" alt="img02"/>
 							</figure> 	
 						</li>
 						<li>
 							<figure>
 							<div class="des"><h1>1980s</h1></div>
-								<img src="assets/grid/img/our_evolution/bg6.png" alt="img03"/>
+								<img src="assets/img/our_evolution/bg6.png" alt="img03"/>
 							</figure>
 						</li>
 						<li>
 							<figure>
 							<div class="des"><h1>1990s</h1></div>
-								<img src="assets/grid/img/our_evolution/bg7.png" alt="img01"/>
+								<img src="assets/img/our_evolution/bg7.png" alt="img01"/>
 								
 							</figure>
 						</li>
 						<li>
 							<figure>
 							<div class="des"><h1>2000s</h1></div>
-								<img src="assets/grid/img/our_evolution/bg8.png" alt="img02"/>
+								<img src="assets/img/our_evolution/bg8.png" alt="img02"/>
 							</figure>
 						</li>
 						<li>
 							<figure>
 							<div class="des"><h1>2010s</h1></div>
-								<img src="assets/grid/img/our_evolution/bg9.png" alt="img03"/>
+								<img src="assets/img/our_evolution/bg9.png" alt="img03"/>
 							</figure>
 						</li>
 						<li>
 							<figure>
 							<div class="des"><h1>TODAY</h1></div>
-								<img src="assets/grid/img/our_evolution/bg10.png" alt="img03"/>
+								<img src="assets/img/our_evolution/bg10.png" alt="img03"/>
 							</figure>
 						</li>
 						
@@ -95,7 +95,7 @@
 					<ul>
 						<li>
 							<figure>
-								<img src="assets/grid/img/our_evolution/bg1.png" alt="img01"/>
+								<img src="assets/img/our_evolution/bg1.png" alt="img01"/>
 								<figcaption>
 									<h3>OUR ORIGIN</h3>
 									<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
@@ -104,7 +104,7 @@
 						</li>
 						<li>
 							<figure>
-								<img src="assets/grid/img/our_evolution/bg2.png" alt="img02"/>
+								<img src="assets/img/our_evolution/bg2.png" alt="img02"/>
 								<figcaption>
 									<h3>1940s</h3>
 									<p>Seth Tolaram's youngest son, Khanchand Vaswani, migrated to Indonesia from Sindh and set up Tailor Tolaram, a retail shop in Malang, thus planting the roots of the Group.</p>
@@ -113,7 +113,7 @@
 						</li>
 						<li>
 							<figure>
-								<img src="assets/grid/img/our_evolution/bg3.png" alt="img03"/>
+								<img src="assets/img/our_evolution/bg3.png" alt="img03"/>
 								<figcaption>
 									<h3>1950s</h3>
 									<p>Khanchand Vaswani's son, Mohan Vaswani (current Chairman) joined the family business in 1957.</p>
@@ -122,7 +122,7 @@
 						</li>
 						<li>
 							<figure>
-								<img src="assets/grid/img/our_evolution/bg4.png" alt="img04"/>
+								<img src="assets/img/our_evolution/bg4.png" alt="img04"/>
 								<figcaption>
 									<h3>1960s</h3>
 									<p>Our Vice Chairman, Vishamkar Adnani joined the Group in 1961 and helped grow the textile shop into a larger retail, wholesale and trading business of fabrics and garments.</p>
@@ -131,7 +131,7 @@
 						</li>
 						<li>
 							<figure>
-								<img src="assets/grid/img/our_evolution/bg5.png" alt="img05"/>
+								<img src="assets/img/our_evolution/bg5.png" alt="img05"/>
 								<figcaption>
 									<h3>1970s</h3>
 									<p>We became Textiles manufacturers with our first facility set up in Batu, Indonesia in 1970. Subsequently more textiles related manufacturing plants were established in Indonesia and other countries. </p>
@@ -144,7 +144,7 @@
 						</li>
 						<li>
 							<figure>
-								<img src="assets/grid/img/our_evolution/bg6.png" alt="img06"/>
+								<img src="assets/img/our_evolution/bg6.png" alt="img06"/>
 								<figcaption>
 									<h3>1980s</h3>
 									<p>The Group diversified from its core textiles businesses into Real Estate and Consumer Goods. It also marked the introduction of the third-generation family members into the business. </p>
@@ -153,7 +153,7 @@
 						</li>
 						<li>
 							<figure>
-								<img src="assets/grid/img/our_evolution/bg7.png" alt="img01"/>
+								<img src="assets/img/our_evolution/bg7.png" alt="img01"/>
 								<figcaption>
 									<h3>1990s</h3>
 									<p>We embarked on an expansion phase and took our manufacturing presence to 18 countries across the globe. We also diversified further into other industries like Paper Products, Distribution, and others.</p>
@@ -162,7 +162,7 @@
 						</li>
 						<li>
 							<figure>
-								<img src="assets/grid/img/our_evolution/bg8.png" alt="img02"/>
+								<img src="assets/img/our_evolution/bg8.png" alt="img02"/>
 								<figcaption>
 									<h3>2000s</h3>
 									<p>The Group consolidated our businesses in our chosen geographies and industries. During this period, the Group evolved from being just manufacturers to managing the entire value chain. </p>
@@ -173,7 +173,7 @@
 						</li>
 						<li>
 							<figure>
-								<img src="assets/grid/img/our_evolution/bg9.png" alt="img03"/>
+								<img src="assets/img/our_evolution/bg9.png" alt="img03"/>
 								<figcaption>
 									<h3>2010s</h3>
 									<p>The Group completed building and relocated our Corporate Headquarters in Singapore to 1A International Business Park.
@@ -183,7 +183,7 @@
 						</li>
 						<li>
 							<figure>
-								<img src="assets/grid/img/our_evolution/bg10.png" alt="img03"/>
+								<img src="assets/img/our_evolution/bg10.png" alt="img03"/>
 								<figcaption>
 									<h3>TODAY</h3>
 									<p>The Group celebrated over 60 years of successful international entrepreneurship. We are focused on growth in these four business spheres: Consumer Goods, Digital Services, Energy and Infrastructure in Africa, Asia and Europe. </p>
