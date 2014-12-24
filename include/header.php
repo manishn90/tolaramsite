@@ -12,10 +12,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/tympanus/component.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/fullpage/jquery.fullPage.css">
-    <link rel="stylesheet" href="assets/js/magnific/magnific-popup.css"> 
 
     <script src="assets/js/jquery.min.js"></script>
-
+    
     <style type="text/css">
         .menu-trigger span.before_active_white {
           background:#000 !important;
