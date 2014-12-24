@@ -111,61 +111,7 @@
 			background-position: 80% 0px;
 			background-size: cover;
 		}
-		.contactContent{
-			padding-top: 80px;
-			padding-left: 7%;
-			color: #58595b;
-		}
-		.contactContent h1 {
-			font-size: 3em;
-			text-transform: uppercase;
-			line-height: 1em;
-		}
-
-		.contact_box{
-			padding-right: 0;
-			padding-left: 0;
-		}
-		ul.contactList{
-			width: 100%;
-			list-style: none;
-			padding: 0px;
-			max-width: 900px;
-		}
-
-		ul.contactList li {
-			padding-right: 90px;
-			display: inline-block;
-			font-size: 28px;
-			text-transform: uppercase;
-			position: relative;
-		}
-		ul.contactList li h2 {
-			padding-bottom: 20px;
-			font-size: 0.9em;
-		}
-		ul.contactList li span {
-			display: block;
-			font-size: 12px;
-			line-height: 12px;
-			margin-top: -15px;
-			position: absolute;
-		}
-		.contactList li ul {
-			padding: 5px 0px 0px 0px;
-			margin: 0px;
-			float: left;
-		}
-		.contactList li ul li {
-			font-size: 12px;
-			list-style: none;
-			max-width: 150px;
-			margin-right: 20px;
-			float: left;
-			padding: 0px;
-			margin-top: 0px;
-			text-transform: capitalize;
-		}
+		
 
 		::-webkit-input-placeholder { /* WebKit browsers */
 		    color:    #FFF !important;
@@ -187,9 +133,7 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#EAEAEA', '#4BBFC3', '#7BAABE', 'whitesmoke'],
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
-				menu: '#menu'
+				responsive:900
 			});
 
 			$('.cotactButton,.closeContact').click(function(){

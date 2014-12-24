@@ -254,6 +254,49 @@ div.video_bg{
 
 /*  ----- About Us ------ */
 
+  #about-overlay div.col-md-7 {
+      background: #663333;
+      height: 100%;
+      margin: 0;
+    }
+    #about-overlay .col-md-6 {
+      height: 100%;
+    }
+    #about-overlay .col-md-5 img{
+      position: absolute;
+      margin-top: 10%;
+    }
+    #about-overlay .col-md-6 .text {
+      position: absolute;
+      top: 40%;
+      font-family: gothamBook;
+      color: white;
+      margin-left: 10%;
+    }
+
+    #about-overlay .col-md-6 .text .membername-overlay h5 {
+      font-size: 30px;
+    }
+
+    #about-overlay .col-md-6 .text span {
+      display: block;
+      font-size: 13px;
+      line-height: 20px;
+      margin-top: 5%;
+    }
+    #about-overlay .social {
+      position: absolute;
+      bottom: 10%;
+      right: 22%;
+    }
+    #about-overlay .social ul {
+      list-style: outside none none;
+    }
+    #about-overlay .social ul li {
+      float: left;
+      margin-left: 10px;
+    }
+
   .values{
       /*margin-top: 4%;*/
       font-family: gothamBook;
@@ -382,8 +425,57 @@ div.video_bg{
     }
 
 
-/* ------ CSR OVERLAY ----- */
+/* ------ CSR page ----- */
+.csr img{
+      width: 100%;
+    }
+    
+    .csr > div.row > div{
+      padding-left: 0;
+      padding-right: 0;
+    }
 
+    .csr_content{
+      position: absolute;
+      top: 50%;
+      left: 5%;
+      z-index: 100000000;
+    }
+
+    .csr .title{
+      max-width: 300px;
+      margin-top: -66px;
+      font-size: 30px;
+      line-height: 40px;
+      color: #FFF;
+    }
+    .csr_btn{
+      color: #171717;
+      padding: 0px 30px; 
+      height: 36px;
+      font-size: 10px;
+      background-color: #dde1d2;
+      opacity: 0.7;
+      border-radius: 5px;
+      border: 1px solid #787c6b;
+      position: absolute;
+      line-height: 34px;
+      transition: .2s ease;
+    }
+
+    .csr_btn:hover{ 
+      color: #FFF;
+      text-decoration: none;
+      background-color: #851F12;
+      transition: .2s ease;
+    }
+
+
+    @media (max-width: 460px){
+      .csrBanner {
+        height: 43%;
+      }
+    }
 
     .fullWidth {
       position: fixed;
@@ -441,7 +533,156 @@ div.video_bg{
       display: none;
     }
 
-/* ------ FullContact ------ */
+/* -------- Newsroom page ----- */
+
+
+.newsroom_menu {
+      list-style: none;
+      border: 1px solid #939598;
+      margin-top: 45px;
+      margin-bottom: 25px;
+      background: #FFFFFF;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -khtml-border-radius: 10px;
+      border-radius: 10px;
+      position: relative;
+      /* z-index: 1000; */
+      z-index: 1;
+    }
+
+    .newsroom_menu a{
+      display: block;
+      color: #72727a;
+      padding: 2px 0px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .newsroom_menu a.active{
+      color: #841f10;
+    }
+
+    .newsroom_container .year {
+      display: none;
+    }
+    .newsroom_container .year-active{
+      display: block;
+    }
+    .newsroom_container{
+      margin: auto;
+      width: 80%;
+    }
+
+    .newsroom_content h1{
+      height: 30px;
+      top: -14px;
+      position: relative;
+    }
+
+    /*.newsroom_container  div.newsroom_content {
+      margin-bottom: 90px;
+    }*/
+    
+    .newsroom_container  div.newsroom_content > div > span,
+    .newsroom_container  div.newsroom_content > div > h1{
+      font-family: gothamBook;
+      color:#000;
+    }
+    .newsroom_container div.newsroom_content h1{
+      font-size: 1.3em ;
+    }
+    img.newsroom_img{
+      max-width: 100%;
+    }
+
+    .newsroom_btn{
+      color: #171717;
+      padding: 0px 30px;
+      font-size: 0.7em;
+      background-color: #dde1d2;
+      opacity: 0.7;
+      border-radius: 5px;
+      border: 1px solid #787c6b;
+      line-height: 236%;
+      transition: .2s ease;
+      margin-top: 18px;
+      display: inline-block;
+      margin-bottom: 45px;
+    }
+
+    .newsroom_btn:hover{
+      color: #FFF;
+      text-decoration: none;
+      background-color: #851F12;
+      transition: .2s ease;
+    }
+
+    @media(max-width: 992px){
+
+      .newsroom_content h1{
+        height: auto;
+      }
+    }
+
+
+
+/* ------ Contact Page ------ */
+
+.contactContent{
+      padding-top: 80px;
+      padding-left: 7%;
+      color: #58595b;
+    }
+    .contactContent h1 {
+      font-size: 3em;
+      text-transform: uppercase;
+      line-height: 1em;
+    }
+
+    .contact_box{
+      padding-right: 0;
+      padding-left: 0;
+    }
+    ul.contactList{
+      width: 100%;
+      list-style: none;
+      padding: 0px;
+      max-width: 900px;
+    }
+
+    ul.contactList li {
+      padding-right: 90px;
+      display: inline-block;
+      font-size: 28px;
+      text-transform: uppercase;
+      position: relative;
+    }
+    ul.contactList li h2 {
+      padding-bottom: 20px;
+      font-size: 0.9em;
+    }
+    ul.contactList li span {
+      display: block;
+      font-size: 12px;
+      line-height: 12px;
+      margin-top: -15px;
+      position: absolute;
+    }
+    .contactList li ul {
+      padding: 5px 0px 0px 0px;
+      margin: 0px;
+      float: left;
+    }
+    .contactList li ul li {
+      font-size: 12px;
+      list-style: none;
+      max-width: 150px;
+      margin-right: 20px;
+      float: left;
+      padding: 0px;
+      margin-top: 0px;
+      text-transform: capitalize;
+    }
 
 .fullContact{
     padding-top: 30px;

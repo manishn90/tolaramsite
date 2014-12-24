@@ -59,60 +59,7 @@
 				</div>
 			</div>
 	</div>
-	
-	<style type="text/css">
-		
-		.csr img{
-			width: 100%;
-		}
-		
-		.csr > div.row > div{
-			padding-left: 0;
-			padding-right: 0;
-		}
 
-		.csr_content{
-			position: absolute;
-			top: 50%;
-			left: 5%;
-			z-index: 100000000;
-		}
-
-		.title{
-			max-width: 300px;
-			margin-top: -66px;
-			font-size: 30px;
-			line-height: 40px;
-			color: #FFF;
-		}
-		.csr_btn{
-			color: #171717;
-			padding: 0px 30px; 
-			height: 36px;
-			font-size: 10px;
-			background-color: #dde1d2;
-			opacity: 0.7;
-			border-radius: 5px;
-			border: 1px solid #787c6b;
-			position: absolute;
-			line-height: 34px;
-			transition: .2s ease;
-		}
-
-		.csr_btn:hover{	
-			color: #FFF;
-			text-decoration: none;
-			background-color: #851F12;
-			transition: .2s ease;
-		}
-
-
-		@media (max-width: 460px){
-			.csrBanner {
-				height: 43%;
-			}
-		}
-	</style>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
@@ -120,7 +67,7 @@
 				navigation: false,
 				navigationPosition: 'right',
 				navigationTooltips: ['ABOUT US', 'VALUES', 'VISION & MISSION', 'SHAREHOLDERS'],
-				responsive: 992,
+				responsive: 900,
 			});
 
 			$('.csr_btn').click(function(e){
