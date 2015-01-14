@@ -26,13 +26,13 @@
 						<li>
 							<figure>
 							<div class="des"><h1>OUR ORIGIN</h1></div>
-								<img src="assets/img/our_evolution/bg1.png" alt="img01"/>
+								<img src="assets/img/our_evolution/bg1.jpg" alt="img01"/>
 							</figure>
 						</li>
 						<li>
 							<figure>
 							<div class="des"><h1>1940s</h1></div>
-								<img src="assets/img/our_evolution/bg2.png" alt="img02"/>
+								<img src="assets/img/our_evolution/bg2.jpg" alt="img02"/>
 							</figure>
 						</li>
 						<li>
@@ -92,7 +92,7 @@
 					<ul>
 						<li>
 							<figure>
-								<img src="assets/img/our_evolution/bg1.png" alt="img01"/>
+								<img src="assets/img/our_evolution/bg1.jpg" alt="img01"/>
 								<figcaption>
 									<h3>OUR ORIGIN</h3>
 									<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
@@ -101,7 +101,7 @@
 						</li>
 						<li>
 							<figure>
-								<img src="assets/img/our_evolution/bg2.png" alt="img02"/>
+								<img src="assets/img/our_evolution/bg2.jpg" alt="img02"/>
 								<figcaption>
 									<h3>1940s</h3>
 									<p>Seth Tolaram's youngest son, Khanchand Vaswani, migrated to Indonesia from Sindh and set up Tailor Tolaram, a retail shop in Malang, thus planting the roots of the Group.</p>
