@@ -14,11 +14,13 @@
 			<!-- ////////////// ABOUT /////////////  -->
 			<div class="section " id="section0">
 				<div class="intro">
-					<div class="col-md-5 col-sm-7" style="padding-left:5%;padding-top:13%;">
-						<h3 class="title">ESTABLISHED IN 1948 IN MALANG, INDONESIA</h3>
-						<p class="content">ESTABLISHED IN 1948,Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
-						<br/>
-						<p class="content">The Group has a diversified portfolio consisting of Consumer Goods, Infrastructure, Energy, Digital Services and other interests which include Distribution, Financial Services, Paper Products, Real Estate and Textiles.</p>
+					<div class="col-md-6 col-sm-8 col-xs-11 pull-right" style="padding-right:7%;padding-top:13%;">
+						<div style="text-align:right;background: #FFF;padding: 30px 50px 30px 30px;">
+							<h3 class="title" style="color:#000">ESTABLISHED IN 1948 IN MALANG, INDONESIA</h3>
+							<p class="content" style="color:#000">ESTABLISHED IN 1948,Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
+							<br/>
+							<p class="content" style="color:#000">The Group has a diversified portfolio consisting of Consumer Goods, Infrastructure, Energy, Digital Services and other interests which include Distribution, Financial Services, Paper Products, Real Estate and Textiles.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -291,7 +293,7 @@
 		#fp-nav ul li .fp-tooltip{
 			color: #939598;
 		}
-
+		
 		@media (max-width: 1200px){
 			.values{
 				margin-top: 0;
@@ -299,7 +301,7 @@
 		}
 		
 		@media (max-width: 900px){
-			#fp-nav.right{
+			#fp-nav.left{
 				display: none;
 			}
 			.shareholders1 {
@@ -404,7 +406,7 @@
 				sectionsColor: ['#FFF', '#FFF', '#FFF', '#FFF'],
 				anchors:['about','values','vision','shareholders'],
 				navigation: true,
-				navigationPosition: 'right',
+				navigationPosition: 'left',
 				navigationTooltips: ['ABOUT US', 'VALUES', 'VISION & MISSION', 'SHAREHOLDERS'],
 				responsive: 0,
 				verticalCentered: true,
