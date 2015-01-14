@@ -171,7 +171,6 @@ header > .brand > a{
   padding: 10px 10px 25px;
   width: 155px;
   display: block;
-  background: #FFFFFF;
   -webkit-border-bottom-left-radius: 40px;
   -khtml-border-bottom-left-radius: 40px;
   border-bottom-left-radius: 40px;
@@ -309,7 +308,7 @@ div.video_bg{
     }
 
     .values p{
-      font-size: 12px;
+      font-size: 14px;
     }
 
     .box-trust, 
@@ -349,6 +348,7 @@ div.video_bg{
 
     .globe{
       position: relative;
+      margin-top: 25px;
     }
     .shareholders1{
       max-width: 45%;
@@ -748,6 +748,7 @@ div.video_bg{
     text-indent: -999999px;
     background-size: 30px 30px;
     outline: none;
+    
 }
 .cotactButton{
     font-size: 11px;
@@ -755,6 +756,7 @@ div.video_bg{
     height: 36px;
     padding: 0px 20px;
     line-height: 36px;
+    margin-top: 50px;
 }
 .cotactButton:hover{
     background:#851F12;

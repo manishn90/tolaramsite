@@ -25,12 +25,14 @@
         }
         .menu-trigger span.before_active_white, 
         .menu-trigger span.before_active_black {
-          transform:rotate(45deg);
+            -webkit-transform:rotate(45deg);
+            transform:rotate(45deg);
         }
 
         .menu-trigger span.after_active_white, 
         .menu-trigger span.after_active_black{
-          transform:rotate(-45deg);
+            -webkit-transform:rotate(-45deg);
+            transform:rotate(-45deg);
         }
     </style>
 </head>

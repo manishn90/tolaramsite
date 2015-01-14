@@ -15,8 +15,8 @@
 			<div class="section " id="section0">
 				<div class="intro">
 					<div class="col-md-5 col-sm-7" style="padding-left:5%;padding-top:13%;">
-						<h3 class="title">ESTABLISHED IN 1948,</h3>
-						<p class="content">ESTABLISHED IN 1948,Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We export our products to over 70 countries. </p>
+						<h3 class="title">ESTABLISHED IN 1948 IN MALANG, INDONESIA</h3>
+						<p class="content">ESTABLISHED IN 1948,Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
 						<br/>
 						<p class="content">The Group has a diversified portfolio consisting of Consumer Goods, Infrastructure, Energy, Digital Services and other interests which include Distribution, Financial Services, Paper Products, Real Estate and Textiles.</p>
 					</div>
@@ -259,7 +259,7 @@
 	<style type="text/css">
 		#section0{
 			background-image: url(assets/img/about/about-page-bg.jpg);
-			background-position: 80% 0px;
+			background-position: 80% -87px;
 			background-size: cover;
 		}
 		#section2{
@@ -343,6 +343,13 @@
 				top:18%;
 			}
 		}
+
+		@media (max-width: 1400px){
+			.title_shareholders2{
+				line-height: normal;
+			}
+		}
+
 		button.businessClose{
 			top: 50px;
 			right: 61px;
