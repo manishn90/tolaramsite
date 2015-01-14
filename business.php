@@ -147,7 +147,7 @@
 			                            <a href="ajax/project4.html" class="cbp-caption cbp-singlePageInline"
 			                               data-title="Asuransi Rama">
 			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/sector/rama_bg.png" alt="">
+			                                    <img src="assets/img/our_business/sector/insura_bg.png" alt="">
 			                                </div>
 			                                <div class="cbp-caption-activeWrap">
 			                                    <div class="cbp-l-caption-alignLeft">
