@@ -21,9 +21,6 @@
 
         <header>
             <div class="brand white_nav_trigger">
-                <a href="index.php">
-                    <img src="assets/img/logo_new.png">
-                </a>
             </div>
             <nav class="menu-trigger" id="menu-trigger">
                         <!--<label id="trigger-button" for="nav-trigger"></label>-->
@@ -34,7 +31,7 @@
         </header>
         <div class="container">
             <div class="col-md-12">
-                <h3 class="title">TOLARAM GROUP</h3>
+                <img src="assets/img/logo_new.png" style="margin-bottom:10px;">
                 <p class="content">has been in business for more than 60 years<br/> 
                 because we’ve always been able to innovate and reinvent ourselves. <br/> 
                 We are focused on growing in these four business spheres: <br/> 
