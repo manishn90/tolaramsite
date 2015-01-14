@@ -34,8 +34,8 @@
 								<ul class="contactList">		
 									<li><h2>Indonesia</h2>
 										<ul>
-											<li>1A International Bussiness Park #12-02, Singapore 609933</li>
-											<li>Tel: (65) 6387 7777<br>Fax: (65) 6324 2777</li>
+											<li>Gedung Sudirman PlazaPlaza Marein Lantai 20Jl Jenderai Sudirman Kav 76-78vJakarta 12910- Indonesia</li>
+											<li>Tel: (+62) 6297 2711<br>Fax: (+62) 6297 2769</li>
 										</ul>
 									</li>
 								</ul>
@@ -46,8 +46,8 @@
 								<ul class="contactList">	
 									<li><h2>estonia</h2>
 										<ul>
-											<li>1A International Bussiness Park #12-02, Singapore 609933</li>
-											<li>Tel: (65) 6387 7777<br>Fax: (65) 6324 2777</li>
+											<li>Kopli Str 35,10412 Tallinn Estonia</li>
+											<li>Tel: (35) 7297 2722<br>Fax: (35) 7297 2710</li>
 										</ul>	
 									</li>
 								</ul>
@@ -56,8 +56,8 @@
 								<ul class="contactList">
 									<li><h2>nigeria</h2>
 										<ul>
-											<li>1A International Bussiness Park #12-02, Singapore 609933</li>
-											<li>Tel: (65) 6387 7777<br>Fax: (65) 6324 2777</li>
+											<li>38 Eric Moore Road,Surulere, Lagos Nigeria</li>
+											<li>Tel: (90) 8628 2829<br>Fax: (90) 8628 2832</li>
 										</ul>
 									</li>
 								</ul>
