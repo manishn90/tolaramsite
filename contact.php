@@ -15,7 +15,7 @@
 			    	<div class="row contactContent">
 			    		<div class="col-md-12" style="padding-left: 0;">
 			    			<h1>Get <br>In touch</h1>
-							<p>For media enquiries, Please contact <br><a mailto="contact@tolaram.com"><span>angela chin at contact@tolaram.com</span></a></p>
+							<a mailto="contact@tolaram.com"><span>angela chin at contact@tolaram.com</span></a></p>
 			    		</div>
 			    		<div class="row" style="margin-left:0">
 			    			<div class="col-md-3 col-xs-6 contact_box">
@@ -24,7 +24,7 @@
 										<h2>Singapore</h2>
 										<span>corporate headquarter</span>
 										<ul>
-											<li>1A International Bussiness Park #12-02, Singapore 609933</li>
+											<li><a href="https://goo.gl/maps/OHbpW" target="_blank" style="color:#58595b;">1A International Bussiness Park #12-02, Singapore 609933</a></li>
 											<li>Tel: (65) 6387 7777<br>Fax: (65) 6324 2777</li>
 										</ul>	
 									</li>
@@ -73,34 +73,37 @@
 			</div>
 		</div>
 		<!-- Contact Form -->
-	<div class="fullContact">
-		<div class='row container'>
-			<form role="form">
-				<div class="col-md-6 leftContact">
-					<form role="form">
-					  <div class="form-group">
-					    <input type="text" class="form-control" id="Name" placeholder="Name">
-					  </div>
-					  <div class="form-group">
-					    <input type="email" class="form-control" id="Email" placeholder="E-mail">
-					  </div>
-					  <div class="form-group">
-					    <input type="text" class="form-control" id="department" placeholder="department">
-					  </div>
+		<div class="fullContact">
+			<div class="row">
+				<div class="col-md-12" style="padding-bottom: 59px;">
+					  <button type="button" class="closeContact pull-right">close</button>
 				</div>
-				<div class="col-md-5">
+			</div>
+			<div class='row container'>
+				<form role="form">
+					<div class="col-md-6 leftContact">
+						<form role="form">
+						  <div class="form-group">
+						    <input type="text" class="form-control" id="Name" placeholder="Name">
+						  </div>
+						  <div class="form-group">
+						    <input type="email" class="form-control" id="Email" placeholder="E-mail">
+						  </div>
+						  <div class="form-group">
+						    <input type="text" class="form-control" id="department" placeholder="department">
+						  </div>
+					</div>
+					<div class="col-md-6">
 
-					  <div class="form-group">
-					    <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-					  </div>
+						  <div class="form-group">
+						    <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+						  </div>
 
-					  <button type="submit" class="btn btn-default">Submit</button>
-					
-				</div>	
-				<div class="col-md-1">
-					  <button type="button" class="closeContact">close</button>
-				</div>			
-			</form>
+						  <button type="submit" class="btn btn-default">Submit</button>
+						
+					</div>	
+								
+				</form>
 			</div>		
 		</div>
 	</div>

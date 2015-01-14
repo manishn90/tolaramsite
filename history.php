@@ -14,10 +14,7 @@
 	<div class="bordered_wrapper">
 		<div class="container history_box">
 			<div class="row history_title">
-				<div class="col-md-4">
-					<h1>OUR EVOLUTION</h1>
-				</div>
-				<div class="col-md-8" >
+				<div class="col-md-12" style="text-align:center">
 					<p>With over 60 years of successful entrepreneurship, Tolaram Group has evolved from being traders to manufacturers to brand builders, establishing our leadership in several industries across different geographies.</p>
 				</div>
 			</div>
@@ -167,7 +164,7 @@
 									<h3>2000s</h3>
 									<p>The Group consolidated our businesses in our chosen geographies and industries. During this period, the Group evolved from being just manufacturers to managing the entire value chain. </p>
 
-									<p>We expanded our presence in Consumer Goods sector and ventured into the Infrastructure and Energy sectors.</p>
+									<p>We expanded our presence in the Consumer Goods sector and ventured into the Infrastructure and Energy sectors.</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -186,7 +183,7 @@
 								<img src="assets/img/our_evolution/bg10.png" alt="img03"/>
 								<figcaption>
 									<h3>TODAY</h3>
-									<p>The Group celebrated over 60 years of successful international entrepreneurship. We are focused on growth in these four business spheres: Consumer Goods, Digital Services, Energy and Infrastructure in Africa, Asia and Europe. </p>
+									<p>The Group celebrated over 60 years of successful international entrepreneurship in emerging markets. We are focused on growth in these four business spheres: Consumer Goods, Digital Services, Energy and Infrastructure in Africa, Asia and Europe. </p>
 								</figcaption>
 							</figure>
 						</li>
