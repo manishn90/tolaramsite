@@ -33,7 +33,7 @@
             <div class="col-md-12">
                 <img src="assets/img/logo_new.png" style="margin-bottom:10px;">
                 <p class="content">has been in business for more than 60 years<br/> 
-                because we’ve always been able to innovate and reinvent ourselves. <br/> 
+                because we have always been able to innovate and reinvent ourselves. <br/> 
                 We are focused on growing in these four business spheres: <br/> 
                 Consumer Goods, Digital Services, Energy and Infrastructure.
                 </p>
