@@ -58,6 +58,9 @@
 					                    <div data-filter="*" class="cbp-filter-item cbp-filter-item">
 					                        All <div class="cbp-filter-counter"></div>
 					                    </div>
+					                    <div data-filter=".benin" class="cbp-filter-item">
+					                        Benin <div class="cbp-filter-counter"></div>
+					                    </div>
 					                    <div data-filter=".estonia" class="cbp-filter-item">
 					                        Estonia <div class="cbp-filter-counter"></div>
 					                    </div>
@@ -70,8 +73,17 @@
 				                    	<div data-filter=".indonesia" class="cbp-filter-item">
 					                        Indonesia <div class="cbp-filter-counter"></div>
 					                    </div>
+					                    <div data-filter=".ivory-coast" class="cbp-filter-item">
+					                        Ivory Coast <div class="cbp-filter-counter"></div>
+					                    </div>
 					                    <div data-filter=".nigeria" class="cbp-filter-item">
 					                        Nigeria <div class="cbp-filter-counter"></div>
+					                    </div>
+					                    <div data-filter=".tanzania" class="cbp-filter-item">
+					                        Tanzania <div class="cbp-filter-counter"></div>
+					                    </div>
+					                    <div data-filter=".togo" class="cbp-filter-item">
+					                        Togo <div class="cbp-filter-counter"></div>
 					                    </div>
 				                    	<div data-filter=".singapore" class="cbp-filter-item">
 					                        Singapore <div class="cbp-filter-counter"></div>
