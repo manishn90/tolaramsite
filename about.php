@@ -113,26 +113,26 @@
 	                        </div>
 	                        <div class="respect">
 	                            <h3>RESPECT</h3>
-	                            <p style="padding-bottom: 15px;">We respect our team members, our stakeholders, our heritage and our universe. <br />Because it’s a shared journey, we always seek a win-win outcome.</p>
+	                            <p>We respect our team members, our stakeholders, our heritage and our universe. <br />Because it’s a shared journey, we always seek a win-win outcome.</p>
 	                            <p class="quote real q-respect">&#34; When people honour each other, there is a trust established that leads to synergy, interdependence, and deep respect. Both parties make decisions and choices based on what is right, what is best, what is valued most highly. &#34;</p><p class='author q-respect'>Blaine lee</p>
 	                            <p class="quote q-respect">It all starts from respecting ourselves, our team members, our stakeholders, our heritage and our universe. This includes our customers, vendors, competitors and shareholders.</p>
 	                            <p class="quote q-respect">Though we are not all the same, we are equals. And we will always seek a Win-Win outcome as a sign of Mutual Respect.</p>
 	                        </div>
 	                       	<div class="commitment">
 	                            <h3>COMMITMENT</h3>
-	                            <p style="padding-bottom: 15px;">We committed to being sustainable over the long term through focus and depth in everything we do.</p>
+	                            <p>We committed to being sustainable over the long term through focus and depth in everything we do.</p>
 	                            <p class="quote real q-commitment">&#34; Desire is the key to motivation, but it’s determination and commitment to an unrelenting pursuit of your goal – a commitment to excellence - that will enable you to attain the success you seek. &#34; </p><p class='author q-commitment'>Mario Andretti</p>
 	                            <p class="quote q-commitment">We intend to be here for good and do good so there must be focus and depth in everything we do for it to be sustainable over the long term</p>
 	                        </div>
 	                        <div class="courage">
 	                            <h3>COURAGE</h3>                                          
-	                            <p style="padding-bottom: 15px;">We want to surround ourselves with bold thinkers; and to always act with conviction.</p>
+	                            <p>We want to surround ourselves with bold thinkers; and to always act with conviction.</p>
 	                            <p class="quote real q-courage">&#34; Courage is the most important of all the virtues because without courage, you can’t practise any other virtue consistently. &#34; </p><p class='author q-courage'> Maya Angelou</p>
 	                            <p class="quote q-courage">We always support those who dare, because only with courage comes innovation.</p>
 	                        </div>
 	                        <div class="humility">
 	                            <h3>HUMILITY</h3>
-	                            <p style="padding-bottom: 15px;">We endeavour to keep learning and letting our actions speak louder than our words. <br /> We also appreciate that everyone we interact with has a contribution to make to our well-being.</p>
+	                            <p>We endeavour to keep learning and letting our actions speak louder than our words. <br /> We also appreciate that everyone we interact with has a contribution to make to our well-being.</p>
 	                            <p class="quote real q-humility">&#34; True humility is not thinking less of yourself; it is thinking of yourself less. &#34; </p><p class='author q-humility'>CS Lewis</p>
 	                        	<p class="quote q-humility">We believe that humility is all about having a quiet confidence without being arrogant. Accepting that there’s always something new to learn. And, most importantly, letting our actions speak louder than our words.</p>
 	                        </div>
@@ -487,16 +487,12 @@
 
 
 		$('.trust').click(function () {
-			$('h3').removeClass('active');
-			$(this).children('h3').addClass('active');
 			$('.quote, .author').addClass('tdkactive');
 			$(this).children('.quote, .author').removeClass('tdkactive');
 			$('.tdkactive').hide();
 			$('.q-trust').slideToggle("fast");
 		});
 		$('.respect').click(function () {
-			$('h3').removeClass('active');
-			$(this).children('h3').addClass('active');
 			$('.quote, .author').addClass('tdkactive');
 			$(this).children('.quote, .author').removeClass('tdkactive');
 			$('.tdkactive').hide();
