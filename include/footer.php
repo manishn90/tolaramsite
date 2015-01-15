@@ -10,10 +10,6 @@
 	<script src="assets/js/vendor/jquery.vide.js"></script>
     <script src="assets/js/vendor/classie.js"></script>
     <script src="assets/js/vendor/jquery.fullPage.js"></script>
-   
-
-    
-
 
     <script type="text/javascript">
 
@@ -36,9 +32,6 @@
          }
 
 		$(document).ready(function() {
-			/* Scrool One Page */
-			
-
 
 			/* Menu Trigger */
             var header = $('header div.brand');
@@ -75,15 +68,11 @@
                     }
                 });
             }
-			
 
-
-          
-           
-            
 		});
 
 	</script>
+
 
 	</body>
 </html>	
