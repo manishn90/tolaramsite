@@ -107,35 +107,35 @@
 						<div class="col-lg-6 col-md-5 col-sm-5">
 							<div class="trust">
 	                            <h3>TRUST</h3>
-	                            <p>We are honest and direct in our dealings and always act with transparency. <br />We say what we mean, mean what we say and always keep our promises.</p>
+	                            <p style="padding-bottom: 15px;">We are honest and direct in our dealings and always act with transparency. <br />We say what we mean, mean what we say and always keep our promises.</p>
+	                            <p class="quote q-trust">&#34; When the trust account is high, communication is easy, instant and effective.&#34;</p><p class='author q-trust'>Stephen R. Covey</p>
+	                            <p class="quote q-trust">Trust is at the very core of everything we try to do. If people trust us, they want to be associated with us. It’s that simple.</p>
 	                        </div>
 	                        <div class="respect">
 	                            <h3>RESPECT</h3>
-	                            <p>We respect our team members, our stakeholders, our heritage and our universe. <br />Because it’s a shared journey, we always seek a win-win outcome.</p>
+	                            <p style="padding-bottom: 15px;">We respect our team members, our stakeholders, our heritage and our universe. <br />Because it’s a shared journey, we always seek a win-win outcome.</p>
+	                            <p class="quote q-respect">&#34; When people honour each other, there is a trust established that leads to synergy, interdependence, and deep respect. Both parties make decisions and choices based on what is right, what is best, what is valued most highly. &#34;</p><p class='author q-respect'>Blaine lee</p>
+	                            <p class="quote q-respect">It all starts from respecting ourselves, our team members, our stakeholders, our heritage and our universe. This includes our customers, vendors, competitors and shareholders.</p>
+	                            <p class="quote q-respect">Though we are not all the same, we are equals. And we will always seek a Win-Win outcome as a sign of Mutual Respect.</p>
 	                        </div>
 	                       	<div class="commitment">
 	                            <h3>COMMITMENT</h3>
-	                            <p>We committed to being sustainable over the long term through focus and depth in everything we do.</p>
+	                            <p style="padding-bottom: 15px;">We committed to being sustainable over the long term through focus and depth in everything we do.</p>
+	                            <p class="quote q-commitment">&#34; Desire is the key to motivation, but it’s determination and commitment to an unrelenting pursuit of your goal – a commitment to excellence - that will enable you to attain the success you seek. &#34; </p><p class='author q-commitment'>Mario Andretti</p>
+	                            <p class="quote q-commitment">We intend to be here for good and do good so there must be focus and depth in everything we do for it to be sustainable over the long term</p>
 	                        </div>
 	                        <div class="courage">
 	                            <h3>COURAGE</h3>                                          
-	                            <p>We want to surround ourselves with bold thinkers; and to always act with conviction.</p>  
+	                            <p style="padding-bottom: 15px;">We want to surround ourselves with bold thinkers; and to always act with conviction.</p>
+	                            <p class="quote q-courage">&#34; Courage is the most important of all the virtues because without courage, you can’t practise any other virtue consistently. &#34; </p><p class='author q-courage'> Maya Angelou</p>
+	                            <p class="quote q-courage">We always support those who dare, because only with courage comes innovation.</p>
 	                        </div>
 	                        <div class="humility">
 	                            <h3>HUMILITY</h3>
-	                            <p>We endeavour to keep learning and letting our actions speak louder than our words. <br /> We also appreciate that everyone we interact with has a contribution to make to our well-being.</p>
+	                            <p style="padding-bottom: 15px;">We endeavour to keep learning and letting our actions speak louder than our words. <br /> We also appreciate that everyone we interact with has a contribution to make to our well-being.</p>
+	                            <p class="quote q-humility">&#34; True humility is not thinking less of yourself; it is thinking of yourself less. &#34; </p><p class='author q-humility'>CS Lewis</p>
+	                        	<p class="quote q-humility">We believe that humility is all about having a quiet confidence without being arrogant. Accepting that there’s always something new to learn. And, most importantly, letting our actions speak louder than our words.</p>
 	                        </div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="value-quote" style="padding-top: 55px;">
-                                <p class="quote q-trust">&#34; When the trust account is high, communication is easy, instant and effective.&#34;</p><p class='author q-trust'>Stephen R. Covey</p>
-                                <p class="quote q-respect">&#34; When people honour each other, there is a trust established that leads to synergy, interdependence, and deep respect. Both parties make decisions and choices based on what is right, what is best, what is valued most highly. &#34;</p><p class='author q-respect'>Blaine lee</p>
-                                <p class="quote q-commitment">&#34; Desire is the key to motivation, but it’s determination and commitment to an unrelenting pursuit of your goal – a commitment to excellence - that will enable you to attain the success you seek. &#34; </p><p class='author q-commitment'>Mario Andretti</p>
-                                <p class="quote q-courage">&#34; Courage is the most important of all the virtues because without courage, you can’t practise any other virtue consistently. &#34; </p><p class='author q-courage'> Maya Angelou</p>
-                                <p class="quote q-humility">&#34; True humility is not thinking less of yourself; it is thinking of yourself less. &#34; </p><p class='author q-humility'>CS Lewis</p>
-                            </div>  
 						</div>
 					</div>
 				</div>
@@ -420,6 +420,13 @@
 
 			});
 
+			
+            if ($('body').is('.fp-viewing-values')) {
+                alert('a');
+            };
+
+			
+
 			$('div.shareholders1 div,div.shareholders2 div').mouseenter(function(){
 				$(this).children('.fa-search').show();
 			});
@@ -461,71 +468,82 @@
               	})
           	}); 
 
+
+
+		$('.trust').click(function () {
+			$('.q-trust').toggle();
+		});
+		$('.respect').click(function () {
+			$('.q-respect').toggle();
+		});
+		$('.commitment').click(function () {
+			$('.q-commitment').toggle();
+		});
+		$('.courage').click(function () {
+			$('.q-courage').toggle();
+		});
+		$('.humility').click(function () {
+			$('.q-humility').toggle();
+		});
+
+
+
+
 		$('.box-trust, .trust').mouseenter(function () {
             $('.box-trust').css({'transform':'translate(0px,-14px) scale(1,1)'});
             $('.trust h3').toggleClass('highlight');
             $('.trust h3').css('font-size','25px');
-            $('.q-trust').show();
         });
 
          $('.box-trust, .trust').mouseleave(function () {
             $('.box-trust').css({'transform':'translate(0px,0) scale(1,1)'});
             $('.trust h3').toggleClass('highlight');
             $('.trust h3').css('font-size','18px');
-            $('.q-trust').hide();
          });
 
          $('.box-respect, .respect').mouseenter(function () {
             $('.box-respect').css({'transform':'translate(12px,-4px) scale(1,1)'});
             $('.respect h3').toggleClass('highlight');
             $('.respect h3').css('font-size','25px');
-            $('.q-respect').show();
          });
          $('.box-respect, .respect').mouseleave(function () {
             $('.box-respect').css({'transform':'translate(0,0) scale(1,1)'});
             $('.respect h3').toggleClass('highlight');
             $('.respect h3').css('font-size','18px');
-            $('.q-respect').hide();
          });
 
          $('.box-commitment, .commitment').mouseenter(function () {
             $('.box-commitment').css({'transform':'translate(7px,10px) scale(1,1)'});
             $('.commitment h3').toggleClass('highlight');
             $('.commitment h3').css('font-size','25px');
-            $('.q-commitment').show();
          });
          $('.box-commitment, .commitment').mouseleave(function () {
             $('.box-commitment').css({'transform':'translate(0,0) scale(1,1)'});
             $('.commitment h3').toggleClass('highlight');
             $('.commitment h3').css('font-size','18px');
-            $('.q-commitment').hide();
          });
 
          $('.box-courage, .courage').mouseenter(function () {
             $('.box-courage').css({'transform':'translate(-8px,10px) scale(1,1)'});
             $('.courage h3').toggleClass('highlight');
             $('.courage h3').css('font-size','25px');
-            $('.q-courage').show();
          });
          $('.box-courage, .courage').mouseleave(function () {
             $('.box-courage').css({'transform':'translate(0,0) scale(1,1)'});
             $('.courage h4').toggleClass('highlight');
             $('.courage h3').css('font-size','18px');
-            $('.q-courage').hide();
          });
 
          $('.box-humility, .humility').mouseenter(function () {
             $('.box-humility').css({'transform':'translate(-14px,-5px) scale(1,1)'});
             $('.humility h3').toggleClass('highlight');
             $('.humility h3').css('font-size','25px');
-            $('.q-humility').show();
          });
 
          $('.box-humility, .humility').mouseleave(function () {
             $('.box-humility').css({'transform':'translate(0,0) scale(1,1)'});
             $('.humility h3').toggleClass('highlight');
             $('.humility h3').css('font-size','18px');
-            $('.q-humility').hide();
          });
 		});
 	</script>

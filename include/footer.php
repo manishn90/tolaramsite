@@ -33,7 +33,7 @@
          }
 
 		$(document).ready(function() {
-
+           
 			/* Menu Trigger */
             var header = $('header div.brand');
             var nav_trigger = $('nav#menu-trigger');
