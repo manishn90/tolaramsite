@@ -325,6 +325,14 @@ div.video_bg{
       font-size: gothamMedium;
       color: #666;
     }
+    .trust h3, 
+    .respect h3, 
+    .commitment h3, 
+    .courage h3, 
+    .humility h3:hover{
+      cursor: pointer;
+    }
+
     .trust h3.highlight {
        color: #526cd2!important;
        font-weight: bold;

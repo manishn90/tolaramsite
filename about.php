@@ -107,15 +107,15 @@
 						<div class="col-lg-6 col-md-5 col-sm-5">
 							<div class="trust">
 	                            <h3>TRUST</h3>
-	                            <p>We will be honest & direct in our dealings and always act with transparency. <br />We will say what we mean, mean what we say and always keep our promises.</p>
+	                            <p>We are honest and direct in our dealings and always act with transparency. <br />We say what we mean, mean what we say and always keep our promises.</p>
 	                        </div>
 	                        <div class="respect">
 	                            <h3>RESPECT</h3>
-	                            <p>We will respect our team members, our stakeholders, our heritage and our universe. <br />Because it’s a shared journey, we will always seek a win-win outcome.</p>
+	                            <p>We respect our team members, our stakeholders, our heritage and our universe. <br />Because it’s a shared journey, we always seek a win-win outcome.</p>
 	                        </div>
 	                       	<div class="commitment">
 	                            <h3>COMMITMENT</h3>
-	                            <p>We will be committed to being sustainable over the long term through focus and depth in everything we do.</p>
+	                            <p>We committed to being sustainable over the long term through focus and depth in everything we do.</p>
 	                        </div>
 	                        <div class="courage">
 	                            <h3>COURAGE</h3>                                          
@@ -123,7 +123,7 @@
 	                        </div>
 	                        <div class="humility">
 	                            <h3>HUMILITY</h3>
-	                            <p>We will always endeavour to keep learning and letting our actions speak louder than our words. <br /> We also appreciate that everyone we interact with has a contribution to make to our well-being.</p>
+	                            <p>We endeavour to keep learning and letting our actions speak louder than our words. <br /> We also appreciate that everyone we interact with has a contribution to make to our well-being.</p>
 	                        </div>
 						</div>
 					</div>
@@ -419,11 +419,6 @@
 				horizontalCentered:false,
 
 			});
-
-			if($('.values-section').is('.active')){
-				alert('a');
-				/*$('.title_page p').text('VALUES');*/
-			}
 
 			$('div.shareholders1 div,div.shareholders2 div').mouseenter(function(){
 				$(this).children('.fa-search').show();
