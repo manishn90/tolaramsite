@@ -13,7 +13,7 @@
 			<div class="section " id="section0">
 				<div class="intro csr">
 					<div class="row">
-						<div class="col-md-6 csr_box">
+						<div class="col-md-6 col-sm-6 csr_box">
 							<img src="assets/img/csr/csr01.jpg" class="img_responsive" style="background-position: 50% 18%;">
 							<span class="csr_content">
 								<h1 class="title">CENTRE FOR AFRICAN STUDIES, SINGAPORE</h1>
@@ -21,7 +21,7 @@
 								<span class="hiddenContent">Tolaram Group is one of the five founding companies of the NTU-SBF Centre for African Studies, the first in Southeast Asia, which is set up at a cost of S$5 million. Jointly set up by Nanyang Technological University (NTU) and the Singapore Business Federation (SBF), the Centre was launched in Nov 2013. It aims to promote understanding of Africa at the economic and policy level to help foster stronger relationships between Singapore and the continent.</span>
 							</span>
 						</div>
-						<div class="col-md-6 csr_box">
+						<div class="col-md-6 col-sm-6 csr_box">
 							<img src="assets/img/csr/csr02.jpg" class="img_responsive" style="background-position: 50% 50%;">
 							<span class="csr_content">
 								<h1 class="title">COLLABORATION WITH WTO, NIGERIA</h1>
@@ -55,7 +55,11 @@
 				</div>
 			</div>
 	</div>
-
+	<style type="text/css">
+	.fp-section.fp-table, .fp-tableCell{
+		height: 0 !important;
+	}
+	</style>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
