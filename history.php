@@ -25,7 +25,7 @@
 						<li class="grid-sizer"></li><!-- for Masonry column width -->
 						<li>
 							<figure>
-							<div class="des"><h1>OUR ORIGIN</h1></div>
+							<div class="des"><h1>OUR ORIGINS</h1></div>
 								<img src="assets/img/our_evolution/bg1.jpg" alt="img01"/>
 							</figure>
 						</li>

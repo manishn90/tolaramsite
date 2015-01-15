@@ -205,7 +205,8 @@
 						<div class="col-md-3 col-xs-3" attrId = "4">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/haresh-aswani.jpg">
 							<p class="title_shareholders1">HARESH ASWANI</p>
-							<p class="title_shareholders2">MANAGING DIRECTOR, Africa</p>
+							<p class="title_shareholders2">MANAGING DIRECTOR,</p>
+							<p class="title_shareholders2">Africa</p>
 							<span class="hiddenContent">
 								<span>Haresh Aswani joined the Group in 1984 and has a Bachelor’s degree in Business Administration from University of Houston, USA.
                                                          </br></br>He has been the Honorary Consul-General for Singapore in Nigeria since 2006. He has also received the Chieftaincy title in Nigeria "Baagbile Korede of Ota by the Olota of Ota" and the National Honour of MFR (Member of the Order of Federal Republic of Nigeria)
@@ -216,7 +217,8 @@
 						<div class="col-md-3 col-xs-3" attrId = "5">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/sonny-aswani.jpg">
 							<p class="title_shareholders1">SONNY ASWANI</p>
-							<p class="title_shareholders2">MANAGING DIRECTOR, Estonia</p>
+							<p class="title_shareholders2">MANAGING DIRECTOR,</p>
+							<p class="title_shareholders2">Estonia</p>
 							<span class="hiddenContent">
 								<span>Sonny Aswani joined the Group in 1985 and has a Bachelor's degree in Business Administration & Economics from Richmond College, UK as well as a Masters Degree in Management Science from University of Kent, UK.
                                                          </br></br>He has been the Honorary Consul-General for Estonia in Singapore since 2008 and was conferred the White Cross medal by the President of the Republic of Estonia in 2001.
@@ -275,8 +277,8 @@
 		#fp-nav ul li a span{
 			width: 10px;
 			height: 10px;
-			background-color: #939598;
-			border:1px solid #939598;
+			background-color: #841f10;
+			border:1px solid #841f10;
 		}
 		#fp-nav ul li{
 			margin: 14px;
@@ -287,13 +289,17 @@
 			border: 2px solid #FFF;
 			background-color: transparent;
 			left: 0px;
-			border:1px solid #939598;
+			border:1px solid #841f10;
 		}
 
 		#fp-nav ul li .fp-tooltip{
-			color: #939598;
+			color: #841f10;
 		}
-		
+		@media(max-width: 1295px){
+			.title_shareholders1{
+				font-size: 13px;
+			}
+		}
 		@media (max-width: 1200px){
 			.values{
 				margin-top: 0;
