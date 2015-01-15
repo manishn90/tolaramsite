@@ -14,7 +14,7 @@
                 <a href="history.php">OUR EVOLUTION</a>
                 <a href="business.php">OUR BUSINESS</a>
                 <a href="csr.php">GIVING BACK</a>
-                <a href="newsroom.php">NEWS ROOM</a>
+                <a href="newsroom.php">NEWSROOM</a>
                 <a href="contact.php">CONTACT US</a>
             </nav>
         </div>
@@ -31,7 +31,7 @@
         </header>
         <div class="container">
             <div class="col-md-12">
-                <img src="assets/img/logo_new.png" style="margin-bottom:10px;">
+                <img src="assets/img/TOLARAM_HOMEPAGE.png" style="margin-bottom:10px;">
                 <p class="content">has been in business for more than 60 years<br/> 
                 because we have always been able to innovate and reinvent ourselves. <br/> 
                 We are focused on growing in these four business spheres: <br/> 

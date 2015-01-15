@@ -25,7 +25,7 @@
 						<li class="grid-sizer"></li><!-- for Masonry column width -->
 						<li>
 							<figure>
-							<div class="des"><h1>OUR ORIGIN</h1></div>
+							<div class="des"><h1>OUR ORIGINS</h1></div>
 								<img src="assets/img/our_evolution/bg1.jpg" alt="img01"/>
 							</figure>
 						</li>
@@ -94,7 +94,7 @@
 							<figure>
 								<img src="assets/img/our_evolution/bg1.jpg" alt="img01"/>
 								<figcaption>
-									<h3>OUR ORIGIN</h3>
+									<h3>OUR ORIGINS</h3>
 									<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
 								</figcaption>
 							</figure>

@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = 'News Room'; 
+	$pageTitle = 'NewsRoom'; 
 	include('include/header.php');
 ?>
 

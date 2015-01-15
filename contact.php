@@ -15,16 +15,15 @@
 			    	<div class="row contactContent">
 			    		<div class="col-md-12" style="padding-left: 0;">
 			    			<h1>Get <br>In touch</h1>
-							<a mailto="contact@tolaram.com"><span>angela chin at contact@tolaram.com</span></a></p>
 			    		</div>
 			    		<div class="row" style="margin-left:0">
 			    			<div class="col-md-3 col-xs-6 contact_box">
 								<ul class="contactList">
 									<li>
 										<h2>Singapore</h2>
-										<span>corporate headquarter</span>
+										<span>Corporate Headquarters</span>
 										<ul>
-											<li><a href="https://goo.gl/maps/OHbpW" target="_blank" style="color:#58595b;">1A International Bussiness Park #12-02, Singapore 609933</a></li>
+											<li><a href="https://goo.gl/maps/OHbpW" target="_blank" style="color:#58595b;">1A International Bussiness Park <br> #12-02 <br>Singapore 609933</a></li>
 											<li>Tel: (65) 6387 7777<br>Fax: (65) 6324 2777</li>
 										</ul>	
 									</li>
@@ -90,7 +89,7 @@
 						    <input type="email" class="form-control" id="Email" placeholder="E-mail">
 						  </div>
 						  <div class="form-group">
-						    <input type="text" class="form-control" id="department" placeholder="department">
+						    <input type="text" class="form-control" id="department" placeholder="Type of Enquiry">
 						  </div>
 					</div>
 					<div class="col-md-6">
