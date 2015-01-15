@@ -16,6 +16,7 @@
 
 
     <script type="text/javascript">
+
     	/* Menu Trigger */
     	var menuTrigger = document.getElementById( 'cbp-spmenu-s2' ),
                 showRight = document.getElementById( 'menu-trigger' ),
@@ -35,9 +36,8 @@
          }
 
 		$(document).ready(function() {
-			/* Scrool One Page */
-			
-
+			/* Auto contrast */
+            //$('.menu-trigger').adjustColor();
 
 			/* Menu Trigger */
             var header = $('header div.brand');
@@ -74,11 +74,15 @@
                     }
                 });
             }
-           
-            
+
+<<<<<<< HEAD
+=======
+>>>>>>> 5ab33c804b87f0245bdbdeebfa68a9b07d4ed51e
+
 		});
 
 	</script>
+
 
 	</body>
 </html>	

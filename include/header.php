@@ -14,6 +14,27 @@
     <link rel="stylesheet" type="text/css" href="assets/css/fullpage/jquery.fullPage.css">
 
     <script src="assets/js/jquery.min.js"></script>
+
+     <script>
+        function adjustColor(someelement)
+        {
+           var rgbstring = someelement.style.backgroundColor;
+           var triplet = rgbstringToTriplet(rgbstring);
+           var newtriplet = [];
+           // white or black:
+           var total = 0; for (var i=0; i (3*256/2)) {
+                 // Background color is white:
+             newtriplet = [0,0,0];
+           } else {
+                 // Background color is dark:
+             newtriplet = [255,255,255];
+           }
+
+           var newstring = "rgb("+newtriplet.join(",")+")";
+           someelement.style.color = newstring;
+           return true;
+        }
+    </script>
     
     <style type="text/css">
         .menu-trigger span.before_active_white {
@@ -35,5 +56,6 @@
             transform:rotate(-45deg);
         }
     </style>
+
 </head>
 <body>
