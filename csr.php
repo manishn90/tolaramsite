@@ -66,11 +66,13 @@
 
 	@media (max-width: 992px) {
 	    .csr .title{font-size: 19px!important;line-height: 25px;}
+	    .csr_btn{font-size: 10px;}
 	}
 
 	@media (max-width: 768px) {
-	    .csr .title{font-size: 15px!important;line-height: 30px;}
-	    .csr .title span{font-size: 15px!important;}
+	    .csr .title{font-size: 15px!important;line-height: 24px;}
+	    .csr .title span{font-size: 11px!important;}
+	    .csr_btn{font-size: 10px;}
 	}
 
 	</style>
