@@ -565,7 +565,7 @@
          });
          $('.box-courage, .courage').mouseleave(function () {
             $('.box-courage').css({'transform':'translate(0,0) scale(1,1)'});
-            $('.courage h4').toggleClass('highlight');
+            $('.courage h3').toggleClass('highlight');
             $('.courage h3').css('font-size','18px');
          });
 
