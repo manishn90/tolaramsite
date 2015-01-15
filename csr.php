@@ -35,7 +35,7 @@
 			<div class="section" id="section1">
 			    <div class="intro csr">
 					<div class="row">
-						<div class="col-md-6 csr_box">
+						<div class="col-md-6 col-sm-6 csr_box">
 							<img src="assets/img/csr/csr03.jpg" class="img_responsive" style="background-position: 50% 57%;">
 							<span class="csr_content">
 								<h1 class="title">ISHK LIMB CENTRE, NIGERIA</h1>
@@ -43,7 +43,7 @@
 								<span class="hiddenContent">ISHK Limb Centre is a prosthetic limbs centre launched in Lagos, Nigeria in 2009. The centre provides artificial limbs for the unfortunate who have missing limbs. These are provided free of cost. Over the years, the centre has fitted over 4,000 limbs held at various camps around Nigeria.</span>
 							</span>
 						</div>
-						<div class="col-md-6 csr_box">
+						<div class="col-md-6 col-sm-6 csr_box">
 							<img src="assets/img/csr/csr04.jpg" class="img_responsive" style="background-position: 50% 8%;">
 							<span class="csr_content">
 								<h1 class="title">TOLARAM FOUNDATION, ESTONIA</h1>
@@ -67,7 +67,7 @@
 				navigation: false,
 				navigationPosition: 'right',
 				navigationTooltips: ['ABOUT US', 'VALUES', 'VISION & MISSION', 'SHAREHOLDERS'],
-				responsive: 900,
+				responsive: 1590,
 			});
 
 			$('.csr_btn').click(function(e){

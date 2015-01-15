@@ -16,6 +16,7 @@
 
 
     <script type="text/javascript">
+
     	/* Menu Trigger */
     	var menuTrigger = document.getElementById( 'cbp-spmenu-s2' ),
                 showRight = document.getElementById( 'menu-trigger' ),
@@ -76,6 +77,8 @@
             }
 			
 
+
+          
            
             
 		});
