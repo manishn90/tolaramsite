@@ -10,10 +10,6 @@
 	<script src="assets/js/vendor/jquery.vide.js"></script>
     <script src="assets/js/vendor/classie.js"></script>
     <script src="assets/js/vendor/jquery.fullPage.js"></script>
-   
-
-    
-
 
     <script type="text/javascript">
 
@@ -36,8 +32,6 @@
          }
 
 		$(document).ready(function() {
-			/* Auto contrast */
-            //$('.menu-trigger').adjustColor();
 
 			/* Menu Trigger */
             var header = $('header div.brand');
@@ -74,10 +68,6 @@
                     }
                 });
             }
-
-<<<<<<< HEAD
-=======
->>>>>>> 5ab33c804b87f0245bdbdeebfa68a9b07d4ed51e
 
 		});
 
