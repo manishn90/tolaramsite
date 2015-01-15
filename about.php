@@ -12,7 +12,7 @@
 		<div id="fullpage">
 
 			<!-- ////////////// ABOUT /////////////  -->
-			<div class="section " id="section0">
+			<div class="section aboutUs-section" id="section0">
 				<div class="intro">
 					<div class="col-md-6 col-sm-8 col-xs-11 pull-right" style="padding-right:7%;padding-top:13%;">
 						<div style="text-align:right;background: #FFF;padding: 30px 50px 30px 30px;">
@@ -27,7 +27,7 @@
 
 
 			<!-- ////////////// VALUES /////////////  -->
-			<div class="section" id="section1">
+			<div class="section values-section" id="section1">
 				<div class="container">
 				    <div class="row values">
 						<div class="col-lg-5 col-md-5 col-sm-5">
@@ -144,7 +144,7 @@
 
 
 			<!--- ////////// VISION MISSION ///////// -->
-			<div class="section" id="section2">
+			<div class="section visionMission-section" id="section2">
 				<div class="intro">
 					<div class="col-md-4 col-sm-8 col-center vismis">
 						<div class="vision_box">
@@ -162,7 +162,7 @@
 
 
 			<!-- ////////// SHAREHOLDERS ////////// -->
-			<div class="section" id="section3">
+			<div class="section shareholders-section" id="section3">
 				<div class="intro">
 					<div class="row shareholders1">
 						<div class="col-md-4 col-xs-4" attrId = "1">
@@ -419,6 +419,11 @@
 				horizontalCentered:false,
 
 			});
+
+			if($('.values-section').is('.active')){
+				alert('a');
+				/*$('.title_page p').text('VALUES');*/
+			}
 
 			$('div.shareholders1 div,div.shareholders2 div').mouseenter(function(){
 				$(this).children('.fa-search').show();
