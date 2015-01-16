@@ -95,7 +95,7 @@
 								<img src="assets/img/our_evolution/bg1.jpg" alt="img01"/>
 								<figcaption>
 									<h3>OUR ORIGINS</h3>
-									<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor & sickly and the Group carries his philanthropic ideals to this day.</p>
+									<p>The Group is named after Seth Tolaram, who was a well-regarded physician in Sindh in Colonial India. Seth Tolaram’s primary occupation was the welfare of the poor and sickly, and the Group carries his philanthropic ideals to this day.</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -113,7 +113,7 @@
 								<img src="assets/img/our_evolution/bg3.png" alt="img03"/>
 								<figcaption>
 									<h3>1950s</h3>
-									<p>Khanchand Vaswani's son, Mohan Vaswani (current Chairman) joined the family business in 1957.</p>
+									<p>Khanchand Vaswani's son, Mohan Vaswani (current Chairman), joined the family business in 1957.</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -122,7 +122,7 @@
 								<img src="assets/img/our_evolution/bg4.png" alt="img04"/>
 								<figcaption>
 									<h3>1960s</h3>
-									<p>Our Vice Chairman, Vishamkar Adnani joined the Group in 1961 and helped grow the textile shop into a larger retail, wholesale and trading business of fabrics and garments.</p>
+									<p>Our Vice Chairman, Vishamkar Adnani, joined the Group in 1961 and helped grow the textile shop into a larger retail, wholesale and trading business in fabrics and garments.</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -131,9 +131,9 @@
 								<img src="assets/img/our_evolution/bg5.png" alt="img05"/>
 								<figcaption>
 									<h3>1970s</h3>
-									<p>We became Textiles manufacturers with our first facility set up in Batu, Indonesia in 1970. Subsequently more textiles related manufacturing plants were established in Indonesia and other countries. </p>
+									<p>We became Textiles manufacturers with the set up of our first facility set up in Batu, Indonesia in 1970. Subsequently more textiles-related manufacturing plants were established in Indonesia and other countries. </p>
 
-									<p>We also relocated our Corporate Headquarters to Singapore in 1975 to expand internationally.  In 1976, we were one of the first few Singaporean companies to enter Nigeria. </p>
+									<p>We also relocated our Corporate Headquarters to Singapore in 1975 to expand internationally.  The following year, we were one of the first few Singaporean companies to enter Nigeria. </p>
 
 									<p>Leadership of the Group was also extended to include senior professionals at the corporate level.</p>
 								</figcaption>
@@ -144,7 +144,7 @@
 								<img src="assets/img/our_evolution/bg6.png" alt="img06"/>
 								<figcaption>
 									<h3>1980s</h3>
-									<p>The Group diversified from its core textiles businesses into Real Estate and Consumer Goods. It also marked the introduction of the third-generation family members into the business. </p>
+									<p>The Group diversified from its core Textiles businesses into Real Estate and Consumer Goods. It also marked the introduction of the third-generation family members into the business. </p>
 								</figcaption>
 							</figure>
 						</li>
@@ -153,7 +153,7 @@
 								<img src="assets/img/our_evolution/bg7.png" alt="img01"/>
 								<figcaption>
 									<h3>1990s</h3>
-									<p>We embarked on an expansion phase and took our manufacturing presence to 18 countries across the globe. We also diversified further into other industries like Paper Products, Distribution, and others.</p>
+									<p>We embarked on an expansion phase and took our manufacturing presence to 18 countries across the globe. We also diversified further into industries such as Paper Products, Distribution, and others.</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -174,7 +174,7 @@
 								<figcaption>
 									<h3>2010s</h3>
 									<p>The Group completed building and relocated our Corporate Headquarters in Singapore to 1A International Business Park.
-									Furthering ourselves to become brand builders, we developed and grew brands in the Consumer Goods sector which remain as market leaders in their respective segment. We also made our name known in the Digital Services sector in Nigeria and Indonesia.</p>
+									Furthering ourselves to become brand builders, we developed and grew brands in the Consumer Goods sector. These brands remain market leaders in their respective segments today. We also made our name known in the Digital Services sector in Nigeria and Indonesia.</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -182,8 +182,8 @@
 							<figure>
 								<img src="assets/img/our_evolution/bg10.png" alt="img03"/>
 								<figcaption>
-									<h3>TODAY</h3>
-									<p>The Group celebrated over 60 years of successful international entrepreneurship in emerging markets. We are focused on growth in these four business spheres: Consumer Goods, Digital Services, Energy and Infrastructure in Africa, Asia and Europe. </p>
+									<h3>Today</h3>
+									<p>The Group has marked over 60 years of successful international entrepreneurship in emerging markets. We are focused on growth in these four business spheres: Consumer Goods, Digital Services, Energy and Infrastructure in Africa, Asia and Europe. </p>
 								</figcaption>
 							</figure>
 						</li>

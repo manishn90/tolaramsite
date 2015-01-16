@@ -21,9 +21,9 @@
 								<ul class="contactList">
 									<li>
 										<h2>Singapore</h2>
-										<span>Corporate Headquarters</span>
+										<span>Corporate Headquarter</span>
 										<ul>
-											<li><a href="https://goo.gl/maps/OHbpW" target="_blank" style="color:#58595b;">1A International Bussiness Park <br> #12-02 <br>Singapore 609933</a></li>
+											<li><a href="https://goo.gl/maps/OHbpW" target="_blank" style="color:#58595b;">1A International Business Park <br> #12-02 <br>Singapore 609933</a></li>
 											<li>Tel: (65) 6387 7777<br>Fax: (65) 6324 2777</li>
 										</ul>	
 									</li>
@@ -43,7 +43,7 @@
 			    		<div class="row" style="margin-left:0">
 			    			<div class="col-md-3 col-xs-6 contact_box">
 								<ul class="contactList">	
-									<li><h2>estonia</h2>
+									<li><h2>Estonia</h2>
 										<ul>
 											<li>Kopli Str 35,10412 Tallinn Estonia</li>
 											<li>Tel: (35) 7297 2722<br>Fax: (35) 7297 2710</li>
@@ -53,7 +53,7 @@
 							</div>
 							<div class="col-md-3 col-xs-6 contact_box">
 								<ul class="contactList">
-									<li><h2>nigeria</h2>
+									<li><h2>Nigeria</h2>
 										<ul>
 											<li>38 Eric Moore Road,Surulere, Lagos Nigeria</li>
 											<li>Tel: (90) 8628 2829<br>Fax: (90) 8628 2832</li>
