@@ -205,7 +205,7 @@ for mohan vaswani
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/haresh-aswani.jpg">
 							<p class="title_shareholders1">HARESH ASWANI</p>
 							<p class="title_shareholders2">MANAGING DIRECTOR,</p>
-							<p class="title_shareholders2">Africa</p>
+							<p class="title_shareholders2">Nigeria</p>
 							<span class="hiddenContent">
 								<span>Haresh Aswani joined the Group in 1984 and has a Bachelor’s degree in Business Administration from University of Houston, USA.
                                                          </br></br>He has been the Honorary Consul-General for Singapore in Nigeria since 2006. He has also received the Chieftaincy title in Nigeria "Baagbile Korede of Ota by the Olota of Ota" and the National Honour of MFR (Member of the Order of Federal Republic of Nigeria)
