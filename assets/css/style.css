@@ -300,7 +300,7 @@ div.video_bg{
       /*margin-top: 4%;*/
       font-family: gothamBook;
       color: #666;
-      margin-top: 5%;
+      margin-top: 2%;
     }
 
     .values h3{
@@ -319,12 +319,25 @@ div.video_bg{
           transition: all 0.7s ease;
     }
     .quote, .author{
-      text-align: center;
+      text-align: left;
       display: none;
       font-size: 13px;
       font-size: gothamMedium;
-      color: #666;
+      color: #666; 
     }
+
+    .quote.real{font-style: italic; margin-bottom: 0px;border-left: #DDD solid 4px; padding-left: 10px;}
+    .author{text-decoration: underline;border-left: #DDD solid 4px; padding-left: 10px;}
+    div .quote:last-Child{padding-bottom: 10px}
+
+    .trust, 
+    .respect, 
+    .commitment, 
+    .courage, 
+    .humility:hover{
+      cursor: pointer;
+    }
+
     .trust h3.highlight {
        color: #526cd2!important;
        font-weight: bold;
@@ -337,7 +350,7 @@ div.video_bg{
        color: #639140!important;
        font-weight: bold;
     }
-    .courage h3.highlight {
+    .courage h3.highlight{
        color: #d24040!important;
        font-weight: bold;
     }
@@ -363,6 +376,7 @@ div.video_bg{
       position: relative;
       margin-left: auto;
       margin-right: auto;
+      text-align: center;
     }
     
     .title_shareholders1,
