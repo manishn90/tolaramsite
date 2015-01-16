@@ -36,7 +36,7 @@
 									<img src="assets/img/newsroom/2014/african-studies.png"  style="background-position: 20% 20%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">SINGAPORE: Tolaram Group is one of the five donors for the NTU-SBF Centre for African Studies. The centre is a first of its kind in Southeast Asia and aims to promote understanding of Africa at the economic and policy level to help foster stronger relationships between Singapore and the continent.</p>
+								<p class="hiddenContent">SINGAPORE: Tolaram Group is one of the five donors for the NTU-SBF Centre for African Studies. The centre is the first of its kind in Southeast Asia and aims to promote an understanding of Africa at the economic and policy level to help foster stronger relationships between Singapore and the continent.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
 								<span>June 2014</span>
@@ -45,7 +45,7 @@
 									<img src="assets/img/newsroom/2014/substation.png" style="background-position: 20% 71%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">NIGERIA: MBH Power recently commissioned its 2 x 150MVA, 330KV/132KV Calabar Substation, with the occasion graced by the Minister of State for Power, Alhaji Mohammed Wakil on 21 Jun 2014. The substation at Adiabo is meant to boost power supply in Calabar and its environment.</p>
+								<p class="hiddenContent">NIGERIA: MBH Power recently commissioned its 2 x 150MVA, 330KV/132KV Calabar Substation. The occasion was graced by the Minister of State for Power, Alhaji Mohammed Wakil, on 21 June 2014. The substation at Adiabo is meant to boost the power supply in Calabar and its environment.</p>
 							</div>
 						</div>
 						<div class="row newsroom_content">
@@ -56,7 +56,7 @@
 									<img src="assets/img/newsroom/2014/bhumipuja.png" style="background-position: 20% 30%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">INDONESIA: Bhumi Puja (ground ceremony) was performed on 19 June 2014 for Arzuria, the Group’s real estate project in central Jakarta. It will be a 32-storey upscale residential complex, occupying 6,800 sqm of land. The Group’s new Indonesia headquarters were also officially inaugurated on that day.</p>
+								<p class="hiddenContent">INDONESIA: The traditional Bhumi Puja (ground ceremony) was performed on 19 June 2014 for Arzuria, the Group’s real estate project in central Jakarta. The new development will be a 32-storey upscale residential complex, occupying 6,800 sq.m.of land. The Group’s new Indonesian headquarters was also officially inaugurated on that day.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
 								<span>June 2014</span>
@@ -65,18 +65,18 @@
 									<img src="assets/img/newsroom/2014/minimie.png" style="background-position: 20% 60%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">NIGERIA: Dufil Prima recently launched a local snack, Minimie Chin Chin to the Nigeria market. A crunchy and tasty snack for all time, it is made with ingredients like milk, butter and wheat.</p>
+								<p class="hiddenContent">NIGERIA: Dufil Prima recently launched a local snack, Minimie Chin Chin, to the Nigerian market. Made with ingredients like milk, butter and wheat, it is a crunchy and tasty snack for all occasions.</p>
 							</div>
 						</div>
 						<div class="row newsroom_content">
 							<div class="col-md-6 newsroom_box">
 								<span>June 2014</span>
-								<h1>Tunaiku goes live</h1>
+								<h1>Tunaiku goes "live"</h1>
 								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/2014/tunaiku.png" style="background-position: 20% 26%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">INDONESIA: Tunaiku, which translates to “my cash” in English, is an Internet-based consumer finance lending business, launched in Jun 2014. It enables a borrower to apply for loan Online through computers, tablets, and mobile phones.</p>
+								<p class="hiddenContent">INDONESIA: Tunaiku, which translates to “my cash” in English, is an Internet-based consumer finance lending business, launched in June 2014. The services enables borrowers to apply for loans online using their smart devices such as computers, tablets and mobile phones.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
 								<span>April 2014</span>
@@ -85,7 +85,7 @@
 									<img src="assets/img/newsroom/2014/pagari.png" style="background-position: 20% 100%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">ESTONIA: Pagari One is recognised as the Best Restored National Heritage Monument 2013 and also received the Medal of Honour for sensitive reconstruction of the Pagari One heritage protection building.</p>
+								<p class="hiddenContent">ESTONIA: Pagari One was recognised as the Best Restored National Heritage Monument 2013 and also received the Medal of Honour for the restoration of the Pagari One heritage protection building.</p>
 							</div>
 						</div>
 					</div>
@@ -101,7 +101,7 @@
 									</a>
 								
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">NIGERIA: The Lekki Deep Sea Port obtained approval from the Federal Government of Nigeria for its construction. The port will put an end to the congestion at the various ports, and create over 162,000 jobs for the Nigerian economy.</p>
+								<p class="hiddenContent">NIGERIA: The construction of the Lekki Deep Sea Port has been approved by the Federal Government of Nigeria. The new port will put an end to the congestion at various ports, and create over 162,000 jobs for the Nigerian economy.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
 								<span>August 2013</span>
@@ -112,7 +112,7 @@
 									</a>
 								
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">ESTONIA: The Kehra paper mill began its operations in 1938 and was resuscitated in 1995 by Tolaram Group. Today it is known as Horizon Pulp & Paper and celebrated the 75th anniversary recently. It now has over 400 employees and exports its products to over 55 countries.</p>
+								<p class="hiddenContent">ESTONIA: The Kehra paper mill began its operations in 1938 and was revived in 1995 by Tolaram Group. Today, it is known as Horizon Pulp & Paper and the company recently celebrated its 75th anniversary. It now has over 400 employees and exports its products to more than 55 countries.</p>
 							</div>
 						</div>
 						<div class="row newsroom_content">
@@ -123,7 +123,7 @@
 									<img src="assets/img/newsroom/2013/power-oil.png" style="background-position: 20% 54%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">NIGERIA: Dufil Prima recently unveiled a new brand of vegetable oil, Power Oil, into the Nigeria market. It is available in 140ml sachet, 750ml pet bottle and 3-litre big bottle.</p>
+								<p class="hiddenContent">NIGERIA: Dufil Prima recently unveiled a new brand of vegetable oil, Power Oil, into the Nigerian market. It is available in several sizes including 140ml sachets, 750ml pet bottles and three-litre bottles.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
 								<span>July 2013</span>
@@ -132,7 +132,7 @@
 									<img src="assets/img/newsroom/2013/vconnect.png" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">NIGERIA: Deepankar Rustagi, the founder of VConnect, Nigeria’s largest online business directory and local search engine, was interview by Forbes recently. Rustagi also explained his business model, his start-up story and gave a glimpse into VConnect’s big picture.</p>
+								<p class="hiddenContent">NIGERIA: Deepankar Rustagi, the founder of VConnect, Nigeria’s largest online business directory and local search engine, was recently interviewed by Forbes recently. Rustagi explained his business model, shared his start-up story and gave a glimpse into VConnect’s future plans.</p>
 							</div>
 						</div>
 					</div>
@@ -141,14 +141,14 @@
 						<div class="row newsroom_content">
 							<div class="col-md-6 newsroom_box">
 								<span>August 2012</span>
-								<h1>Sub-concession agreement for the Container Terminal at Lekki Port signed</h1>
+								<h1>Signing of sub-concession agreement for the Container Terminal at Lekki Port</h1>
 								
 									<a href="" class="imagebutton">
 										<img src="assets/img/newsroom/2012/shutterstock_134295911.png" style="background-position: 20% 55%;" class="newsroom_img">
 									</a>
 								
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">NIGERIA: The sub-concession has been signed for the container terminal, Lekki International Container Terminal Services (LICTS), at the Lekki Port. ICTSI was granted the concession to develop and operate the container terminal on an exclusive basis for a 21-year period.</p>
+								<p class="hiddenContent">NIGERIA: The sub-concession for the Lekki International Container Terminal Services (LICTS) at Lekki Port has been signed. LICTS was granted approval to develop and operate the container terminal on an exclusive basis for a 21-year period.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
 								<span>May 2012</span>
@@ -159,7 +159,7 @@
 									</a>
 								
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">SINGAPORE: Lekki Port LFTZ Enterprise (LPLE) signed the Engineering, Procurement and Construction (EPC) contract with China Harbour Engineering Company Ltd., (CHEC) on 11 May 2012. CHEC will be responsible for all phases of development, from design to construction and commissioning, of the project’s infrastructure and facilities.</p>
+								<p class="hiddenContent">SINGAPORE: Lekki Port LFTZ Enterprise (LPLE) inked the Engineering, Procurement and Construction (EPC) contract with China Harbour Engineering Company Ltd (CHEC) on 11 May 2012. Under the agreement, CHEC will be responsible for all phases of development, from design to construction and commissioning, of the project’s infrastructure and facilities.</p>
 							</div>
 						</div>
 						<div class="row newsroom_content">
@@ -170,7 +170,7 @@
 									<img src="assets/img/newsroom/2012/lekki-port.png" style="background-position: 20% 55%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">SINGAPORE: Lekki Port LFTZ Enterprise and International Container Terminal Service Inc. have signed a Memorandum of Understanding for the operation of the container terminal of Lekki Port. ICTSI has been selected as the preferred operator for a sub-concession on an exclusive basis for 21 years.</p>
+								<p class="hiddenContent">SINGAPORE: Lekki Port LFTZ Enterprise and International Container Terminal Service Inc (ICTSI) have signed a Memorandum of Understanding (MoU) for the operation of the Lekki Port container terminal. ICTSI has been selected as the preferred operator for a sub-concession on an exclusive basis for 21 years.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
 								<span>May 2012</span>
@@ -179,7 +179,7 @@
 									<img src="assets/img/newsroom/2012/power-pasta-van.png" style="background-position: 20% 35%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">NIGERIA: Power Pasta, from the stable of Dufil, was launched amongst fanfare. With the promise to “Boost your Energy”, Power Pasta is available in 500g packets. Power Pasta has been approved by the National Food Drugs Administration & Control and duly certified by the Standards Organisation of Nigeria.</p>
+								<p class="hiddenContent">NIGERIA: Power Pasta, the latest product from the stable of Dufil, was launched amongst much fanfare. With the promise to “Boost your Energy”, Power Pasta is available in 500g packets. The product has been approved by the National Agency for Food and Drug Administration and Control and is duly certified by the Standards Organisation of Nigeria.</p>
 							</div>
 						</div>
 					</div>
@@ -194,7 +194,7 @@
 									</a>
 								
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">NIGERIA: Hypo bleach was launched nationwide on 20th April 2011 in sachets (75 ml) and bottles (500 ml).</p>
+								<p class="hiddenContent">NIGERIA: Hypo bleach was launched nationwide on 20 April 2011. It is available in 75ml sachets and 500ml bottles.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
 								<span>January 2011</span>
@@ -205,7 +205,7 @@
 									</a>
 								
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">NIGERIA: As a part of backward integration, a flour mill at Port Harcourt commenced in Dec 2010. Also, construction of third manufacturing facility for instant noodles has commenced at Kaduna, in the northern part of Nigeria, in Jan 2011.</p>
+								<p class="hiddenContent">NIGERIA: As part of a backward integration plan, Dufil has commenced construction of a flour mill at Port Harcourt in December 2010. The building of a third manufacturing facility for instant noodles has also begun at Kaduna, in the northern part of Nigeria, in January 2011.</p>
 							</div>
 						</div>
 					</div>
@@ -221,29 +221,29 @@
 									</a>
 								
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">NIGERIA: On the 28th of September 2010, MBH Power commissioned a 2 x 60MVA, 132/33KV transmission substation at Kubwa, Abuja, Nigeria. President Goodluck Jonathan graced the inauguration of the substation.</p>
+								<p class="hiddenContent">NIGERIA: On 28 September 2010, MBH Power commissioned a 2 x 60MVA, 132/33KV transmission substation at Kubwa, Abuja, Nigeria. President Goodluck Jonathan graced the inauguration of the new substation.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
 								<span>October 2010</span>
-								<h1>CSR Awards 2010 – Special mention</h1>
+								<h1> Tolaram honoured with Special Mention Award at CSR Awards 2010</h1>
 								
 									<a href="" class="imagebutton">
 										<img src="assets/img/newsroom/2010/singapore_compact.png" style="background-position: 20% 48%;" class="newsroom_img">
 									</a>
 								
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">SINGAPORE: On the 6th and 7th of October, delegates from Tolaram Group Singapore attended the 2nd International Singapore Compact CSR Summit. Tolaram Group received a Special Mention Award for our Community Development efforts in Nigeria and Estonia.</p>
+								<p class="hiddenContent">SINGAPORE: Delegates from Tolaram Group Singapore attended the Second International Singapore Compact CSR Summit held on 6 and 7 October 2010. The Group received a Special Mention Award for its Community Development efforts in Nigeria and Estonia.</p>
 							</div>
 						</div>
 						<div class="row newsroom_content">
 							<div class="col-md-6 newsroom_box">
 								<span>August 2010</span>
-								<h1>Lekki Port gets the support of the Federal Government of Nigeria</h1>
+								<h1>Lekki Port gain support from the Federal Government of Nigeria</h1>
 								<a href="" class="imagebutton">
 									<img src="assets/img/newsroom/2010/lekki-port.png" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">NIGERIA: The Federal Government of Nigeria pledged its support for the new Lekki Seaport project being developed by our Group. This was indicated by the Federal Minister of Transport, Alhaji Yusuf Suleiman, who recently visited the site of the proposed Port project at Ibeju-Lekki.</p>
+								<p class="hiddenContent">NIGERIA: The Federal Government of Nigeria pledged its support for the new Lekki Seaport project being developed by the Group. This was communicated by the Federal Minister of Transport, Alhaji Yusuf Suleiman, who recently visited the site of the proposed Port project at Ibeju-Lekki.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
 								<span>July 2010</span>
@@ -252,7 +252,7 @@
 									<img src="assets/img/newsroom/2010/afb2010.png" style="background-position: 20% 20%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">SINGAPORE: Tolaram Group was one of the Gold Sponsors for Africa-Singapore Business Forum organised by International Enterprise (IE) Singapore and Singapore Business Federation on 14th and 15th of July 2010. More than 450 delegates attended the conference with representation from more than ten African countries.</p>
+								<p class="hiddenContent">SINGAPORE: Tolaram Group was one of the Gold Sponsors for the Africa-Singapore Business Forum organised by International Enterprise (IE) Singapore and the Singapore Business Federation on 14 and 15 July 2010. The conference was attended by more than 450 delegates with representation from more than 10 African countries.</p>
 							</div>
 						</div>
 						<div class="row newsroom_content">
@@ -263,7 +263,7 @@
 									<img src="assets/img/newsroom/2010/building.png" style="background-position: 20% 100%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">ESTONIA: The Group acquired Pagari One, the former KGB headquarters in Tallinn. The development plan is to convert the building into luxurious high-end inner city apartments of approximately 50 units with roof attic and a basement commercial cum F&B outfits</p>
+								<p class="hiddenContent">ESTONIA: The Group acquired Pagari One, the former KGB headquarters in Tallinn. The development plan is to convert the building into a block of luxurious high-end inner city apartments consisting approximately 50 units with roof attic and a basement as well as commercial cum F&B outfits.</p>
 							</div>
 							<div class="col-md-6 newsroom_box">
 								<span>May 2010</span>
@@ -272,7 +272,7 @@
 									<img src="assets/img/newsroom/2010/ibp.png" style="background-position: 20% 100%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">SINGAPORE: On May 21, 2010, we shifted our Corporate Headquarters in Singapore from 5 Shenton Way to 1A International Business Park.</p>
+								<p class="hiddenContent">SINGAPORE: On 21 May 2010, The Tolaram Group shifted its Corporate Headquarters in Singapore from 5 Shenton Way to 1A International Business Park.</p>
 							</div>
 						</div>
 					</div>

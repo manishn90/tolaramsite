@@ -153,7 +153,7 @@
 						</div>
 						<div>
 							<h3 class="title vision">MISSION</h3>
-							<p class="content mission">To establish world-class companies in the spheres of Consumer Goods, Infrastructure, Energy and Digital Services in emerging markets.</p>
+							<p class="content mission">To establish world class companies in the spheres of Consumer Goods, Infrastructure, Energy and Digital Services in emerging markets.</p>
 						</div>
 					</div>
 				</div>
@@ -170,10 +170,7 @@
 							<p class="title_shareholders1">MOHAN VASWANI</p>
 							<p class="title_shareholders2">CHAIRMAN</p>
 							<span class="hiddenContent">
-								<span>Mohan Vaswani joined the Group in 1957 and has since built various businesses across several locations. He has a wealth of experience in successfully creating and nurturing industrial developments and trading activities.
-                                                         </br></br>He is actively involved in the Tolaram Foundation and Rotary Club of Singapore.
-for mohan vaswani
-                                                      </span>
+								<span>Mohan Vaswani joined the Group in 1957 and has since built various businesses across several locations. He has a wealth of experience in successfully creating and nurturing industrial developments and trading activities.</br></br>He is actively involved in the Tolaram Foundation and Rotary Club of Singapore.</span>
 							</span>
 							<i class="fa fa-search"></i>
 						</div>
@@ -182,9 +179,7 @@ for mohan vaswani
 							<p class="title_shareholders1">VISHAMKAR ADNANI</p>
 							<p class="title_shareholders2">VICE CHAIRMAN</p>
 							<span class="hiddenContent">
-								<span>Vishamkar (Vishu) Adnani joined the Group in 1961 and has helped grow the organisation to its present stature. He played a significant role in building our capability to trade in a range of products, particularly between Asia and Africa. 
-                                                         </br></br>He is actively contributing to the Tolaram Foundation.
-                                                      </span>
+								<span>Vishamkar (Vishu) Adnani joined the Group in 1961 and has helped grow the organisation to its present stature. He played a significant role in building Tolaram's capability to trade in a range of products, particularly between Asia and Africa.</br></br>He is actively contributing to the Tolaram Foundation.</span>
 							</span>
 							<i class="fa fa-search"></i>
 						</div>
@@ -193,9 +188,7 @@ for mohan vaswani
 							<p class="title_shareholders1">SAJEN ASWANI</p>
 							<p class="title_shareholders2">CHIEF EXECUTIVE</p>
 							<span class="hiddenContent">
-								<span>Sajen Aswani joined the Group in 1984 and became the Chief Executive in 2000. He has a Bachelor’s degree in Economics from University of London and a Masters degree in Management Science from Imperial College, London.
-                                                         </br></br>He is a Director of Family Business Network and member of the Advisory Council to the Nanyang Business School.
-                                                      </span>
+								<span>Sajen Aswani joined the Group in 1984 and became the Chief Executive in 2000. He is also a Director of the Family Business Network and a member of the Advisory Council to Nanyang Business School.</br></br>He holds a Bachelor’s degree in Economics from University of London and a Master's degree in Management Science from the Imperial College, London.</span>
 							</span>
 							<i class="fa fa-search"></i>
 						</div>
@@ -207,9 +200,7 @@ for mohan vaswani
 							<p class="title_shareholders2">MANAGING DIRECTOR,</p>
 							<p class="title_shareholders2">Nigeria</p>
 							<span class="hiddenContent">
-								<span>Haresh Aswani joined the Group in 1984 and has a Bachelor’s degree in Business Administration from University of Houston, USA.
-                                                         </br></br>He has been the Honorary Consul-General for Singapore in Nigeria since 2006. He has also received the Chieftaincy title in Nigeria "Baagbile Korede of Ota by the Olota of Ota" and the National Honour of MFR (Member of the Order of Federal Republic of Nigeria)
-                                                      </span>
+								<span>Haresh Aswani joined the Group in 1984. He has been the Honorary Consul-General for Singapore in Nigeria since 2006. He has also received the Chieftaincy title in Nigeria "Baagbile Korede of Ota by the Olota of Ota" and the National Honour of MFR (Member of the Order of Federal Republic of Nigeria).</br></br>He holds a Bachelor’s degree in Business Administration from the University of Houston, US.</span>
 							</span>
 							<i class="fa fa-search"></i>
 						</div>
@@ -219,9 +210,7 @@ for mohan vaswani
 							<p class="title_shareholders2">MANAGING DIRECTOR,</p>
 							<p class="title_shareholders2">Estonia</p>
 							<span class="hiddenContent">
-								<span>Sonny Aswani joined the Group in 1985 and has a Bachelor's degree in Business Administration & Economics from Richmond College, UK as well as a Masters Degree in Management Science from University of Kent, UK.
-                                                         </br></br>He has been the Honorary Consul-General for Estonia in Singapore since 2008 and was conferred the White Cross medal by the President of the Republic of Estonia in 2001.
-                                                      </span>
+								<span>Sonny Aswani joined the Group in 1985. He has been the Honorary Consul-General for Estonia in Singapore since 2008 and was conferred the White Cross medal by the President of the Republic of Estonia in 2001.</br></br>He holds a Bachelor's degree in Business Administration and Economics from Richmond College, UK as well as a Master's Degree in Management Science from the University of Kent, UK.</span>
 							</span>
 							<i class="fa fa-search"></i>
 						</div>
@@ -230,8 +219,7 @@ for mohan vaswani
 							<p class="title_shareholders1">TOM VASWANI</p>
 							<p class="title_shareholders2">DIRECTOR</p>
 							<span class="hiddenContent">
-							<span>Tom Vaswani joined the Group in 1993 and has a Bachelor’s Degree in Politics & Sociology and a Master’s Degree in Social & Political Thought from the University of Warwick, UK. 
-                                                      </span>
+							<span>Tom Vaswani joined the Group in 1993. He holds a Bachelor’s Degree in Politics and Sociology and a Master’s Degree in Social and Political Thought from the University of Warwick, UK.</span>
 							</span>
 							<i class="fa fa-search"></i>
 						</div>
@@ -240,8 +228,7 @@ for mohan vaswani
 							<p class="title_shareholders1">RAJ VASWANI</p>
 							<p class="title_shareholders2">DIRECTOR</p>
 							<span class="hiddenContent">
-								<span>Raj Vaswani joined the Group in 1995 and has a Bachelor's degree in Business Administration from the Terry College of Business, University of Georgia, USA. 
-                                                      </span>
+								<span>Raj Vaswani joined the Group in 1995. He holds a Bachelor's degree in Business Administration from the Terry College of Business, University of Georgia, US.</span>
 							</span>
 							<i class="fa fa-search"></i>
 						</div>
