@@ -170,10 +170,9 @@
 							<p class="title_shareholders1">MOHAN VASWANI</p>
 							<p class="title_shareholders2">CHAIRMAN</p>
 							<span class="hiddenContent">
-								<span>
-                                                         1957 and has since built various businesses across several locations. 
-                                                         He has a wealth of experience in successfully creating and nurturing industrial developments and trading activities.
-                                                         </br></br>He is actively involved in Tolaram Foundation and Rotary Club of Singapore.
+								<span>Mohan Vaswani joined the Group in 1957 and has since built various businesses across several locations. He has a wealth of experience in successfully creating and nurturing industrial developments and trading activities.
+                                                         </br></br>He is actively involved in the Tolaram Foundation and Rotary Club of Singapore.
+for mohan vaswani
                                                       </span>
 							</span>
 							<i class="fa fa-search"></i>
