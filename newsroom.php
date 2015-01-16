@@ -286,6 +286,8 @@
 	</style>
 	<script type="text/javascript">
 		$(document).ready(function() {
+
+
 			$('#fullpage').fullpage({
 				sectionsColor: ['#FFF', '#FFF', '#FFF', '#FFF'],
 				navigation: false,
@@ -322,6 +324,24 @@
                  insertHtml += '</div></div>';
                  $('body').after(insertHtml);
                  $('.fullWidth').animate({left:"0"});
+
+                
+                BackgroundCheck.init({
+				  targets: '.closeButton',
+				  images: '.csrBanner'
+				});
+                 
+                 // Specific target
+				BackgroundCheck.refresh(target);
+
+				// Get current targets
+				BackgroundCheck.get('targets');
+
+				// Change targets
+				BackgroundCheck.set('targets', '.header');
+
+				BackgroundCheck.destroy();
+
             });
 
             $("html").on("click", ".businessClose",function(){
@@ -329,9 +349,7 @@
                  function(){
                      $('.fullWidth').remove();
                  })
-             });
-
-            $('.closeButton').fixColors();
+            });
 
 		});
 	</script>
