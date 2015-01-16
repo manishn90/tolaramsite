@@ -149,11 +149,11 @@
 					<div class="col-md-4 col-sm-8 col-center vismis">
 						<div class="vision_box">
 							<h3 class="title vision">VISION</h3>
-							<p class="content mission">To be a company which is aligned with its values.</p>
+							<p class="content mission">To be a company aligned with its values.</p>
 						</div>
 						<div>
 							<h3 class="title vision">MISSION</h3>
-							<p class="content mission">To establish world class companies in the spheres of Consumer Goods, Infrastructure, Energy and Digital Services in emerging markets.</p>
+							<p class="content mission">To establish world-class companies in the spheres of Consumer Goods, Infrastructure, Energy and Digital Services in emerging markets.</p>
 						</div>
 					</div>
 				</div>
