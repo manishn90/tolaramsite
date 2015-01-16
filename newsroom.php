@@ -73,7 +73,7 @@
 								<span>June 2014</span>
 								<h1>Tunaiku goes "live"</h1>
 								<a href="" class="imagebutton">
-									<img src="assets/img/newsroom/2014/tunaiku.png" style="background-position: 20% 26%;" class="newsroom_img">
+									<img src="assets/img/newsroom/2014/tunaiku.png" style="background-position: 20% 72%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
 								<p class="hiddenContent">INDONESIA: Tunaiku, which translates to “my cash” in English, is an Internet-based consumer finance lending business, launched in June 2014. The services enables borrowers to apply for loans online using their smart devices such as computers, tablets and mobile phones.</p>
@@ -129,7 +129,7 @@
 								<span>July 2013</span>
 								<h1>Forbes: VConnect is one of Africa’s hottest start-ups</h1>
 								<a href="" class="imagebutton">
-									<img src="assets/img/newsroom/2013/vconnect.png" class="newsroom_img">
+									<img src="assets/img/newsroom/2013/vconnect.png" style="background-position: 20% 54%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
 								<p class="hiddenContent">NIGERIA: Deepankar Rustagi, the founder of VConnect, Nigeria’s largest online business directory and local search engine, was recently interviewed by Forbes recently. Rustagi explained his business model, shared his start-up story and gave a glimpse into VConnect’s future plans.</p>
@@ -240,7 +240,7 @@
 								<span>August 2010</span>
 								<h1>Lekki Port gain support from the Federal Government of Nigeria</h1>
 								<a href="" class="imagebutton">
-									<img src="assets/img/newsroom/2010/lekki-port.png" class="newsroom_img">
+									<img src="assets/img/newsroom/2010/lekki-port.png" style="background-position: 20% 48%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
 								<p class="hiddenContent">NIGERIA: The Federal Government of Nigeria pledged its support for the new Lekki Seaport project being developed by the Group. This was communicated by the Federal Minister of Transport, Alhaji Yusuf Suleiman, who recently visited the site of the proposed Port project at Ibeju-Lekki.</p>
