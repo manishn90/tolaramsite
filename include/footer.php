@@ -10,7 +10,7 @@
 	<script src="assets/js/vendor/jquery.vide.js"></script>
     <script src="assets/js/vendor/classie.js"></script>
     <script src="assets/js/vendor/jquery.fullPage.js"></script>
-    <script src="assets/js/vendor/fixColors.js"></script>
+    <script src="assets/js/vendor/background-check.min.js"></script>
 
     <script type="text/javascript">
 
