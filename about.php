@@ -407,7 +407,7 @@
 					if(anchorLink=="about"){
 						title="ABOUT US";
 					}else if(anchorLink=="values"){
-						title="VALUES";
+						title="GUIDING VALUES";
 					}else if(anchorLink=="vision"){
 						title="VISION &amp; MISSION";
 					}else if(anchorLink=="shareholders"){

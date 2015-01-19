@@ -7,7 +7,7 @@
             <nav role="navigation">
                 <a href="about.php#about">ABOUT US</a>
                     <ul>
-                        <li><a href="about.php#values" class="about_sub_nav">Values</a></li>
+                        <li><a href="about.php#values" class="about_sub_nav">Guiding Values</a></li>
                         <li> <a href="about.php#vision" class="about_sub_nav">Vision & Mission</a></li>
                         <li> <a href="about.php#shareholders" class="about_sub_nav">Shareholders</a></li>
                     </ul>
