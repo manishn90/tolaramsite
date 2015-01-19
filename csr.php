@@ -88,6 +88,7 @@
 				navigationPosition: 'right',
 				navigationTooltips: ['ABOUT US', 'VALUES', 'VISION & MISSION', 'SHAREHOLDERS'],
 				responsive: 1590,
+				scrollingSpeed: 500,
 			});
 
 			$('.csr_btn').click(function(e){

@@ -401,6 +401,7 @@
 				navigationPosition: 'left',
 				navigationTooltips: ['ABOUT US', 'GUIDING VALUES', 'VISION & MISSION', 'SHAREHOLDERS'],
 				responsive: 0,
+				scrollingSpeed: 500,
 				verticalCentered: true,
 				horizontalCentered:false,
 				afterLoad: function(anchorLink, index, slideAnchor, slideIndex){
