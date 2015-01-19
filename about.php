@@ -399,7 +399,7 @@
 				anchors:['about','values','vision','shareholders'],
 				navigation: true,
 				navigationPosition: 'left',
-				navigationTooltips: ['ABOUT US', 'VALUES', 'VISION & MISSION', 'SHAREHOLDERS'],
+				navigationTooltips: ['ABOUT US', 'GUIDING VALUES', 'VISION & MISSION', 'SHAREHOLDERS'],
 				responsive: 0,
 				verticalCentered: true,
 				horizontalCentered:false,
