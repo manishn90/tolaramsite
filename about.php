@@ -341,6 +341,7 @@
 		@media (max-width: 1400px){
 			.title_shareholders2{
 				line-height: normal;
+				margin-top: -11px;
 			}
 		}
 
