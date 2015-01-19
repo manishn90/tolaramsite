@@ -69,7 +69,7 @@
 	}
 
 	@media (max-width: 992px) {
-	    .csr .title{font-size: 19px!important;line-height: 25px;}
+	    .csr .title{font-size: 20px!important;line-height: 25px;}
 	    .csr_btn{font-size: 10px;}
 	}
 
