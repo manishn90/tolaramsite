@@ -451,10 +451,8 @@ div.video_bg{
 
     .csr_content{
       position: absolute;
-      top: 60%;
       bottom: 0;
       padding-left: 5%;
-      padding-top: 5%;
       padding-bottom: 5%;
       z-index: 100000000;
       background:rgba(132,31,16,0.6);
