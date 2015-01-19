@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = 'OUR EVOLUTION'; 
+	$pageTitle = 'EVOLUTION'; 
 	include('include/header.php');
 ?>
 		<link rel="stylesheet" type="text/css" href="assets/grid/css/demo.css" />
