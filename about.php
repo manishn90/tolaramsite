@@ -17,7 +17,7 @@
 					<div class="col-md-6 col-sm-8 col-xs-11 pull-right" style="padding-right:7%;padding-top:13%;">
 						<div style="text-align:right;background: #FFF;padding: 30px 50px 30px 30px;">
 							<h3 class="title" style="color:#000">ESTABLISHED IN 1948 IN MALANG, INDONESIA</h3>
-							<p class="content" style="color:#000">ESTABLISHED IN 1948,Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
+							<p class="content" style="color:#000">Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
 							<br/>
 							<p class="content" style="color:#000">The Group has a diversified portfolio consisting of Consumer Goods, Infrastructure, Energy, Digital Services and other interests which include Distribution, Financial Services, Paper Products, Real Estate and Textiles.</p>
 						</div>
@@ -341,6 +341,7 @@
 		@media (max-width: 1400px){
 			.title_shareholders2{
 				line-height: normal;
+				margin-top: -11px;
 			}
 		}
 
@@ -399,15 +400,16 @@
 				anchors:['about','values','vision','shareholders'],
 				navigation: true,
 				navigationPosition: 'left',
-				navigationTooltips: ['ABOUT US', 'VALUES', 'VISION & MISSION', 'SHAREHOLDERS'],
+				navigationTooltips: ['ABOUT US', 'GUIDING VALUES', 'VISION & MISSION', 'SHAREHOLDERS'],
 				responsive: 0,
+				scrollingSpeed: 500,
 				verticalCentered: true,
 				horizontalCentered:false,
 				afterLoad: function(anchorLink, index, slideAnchor, slideIndex){
 					if(anchorLink=="about"){
 						title="ABOUT US";
 					}else if(anchorLink=="values"){
-						title="VALUES";
+						title="GUIDING VALUES";
 					}else if(anchorLink=="vision"){
 						title="VISION &amp; MISSION";
 					}else if(anchorLink=="shareholders"){
