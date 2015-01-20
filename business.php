@@ -16,12 +16,8 @@
     		<div class="section " id="section0">
 			    <div id="wrapper">
 
-<<<<<<< HEAD
-					<form class="controls" id="Filters">
-=======
 			    <div class="container">
 					<form class="controls row" id="Filters">
->>>>>>> 4130b3b034c5c1a45a39c0e94ddabd24602859f4
 					  <!-- We can add an unlimited number of "filter groups" using the following format: -->
 					 <div class="col-md-6 text-center">
 					  <fieldset>
@@ -35,7 +31,6 @@
 					    <button class="filter" data-filter=".paper">Paper Products</button>
 					    <button class="filter" data-filter=".real">Real Estates</button>
 					    <button class="filter" data-filter=".textiles">Textiles</button>
-					    <button id="Reset" class="reset">Reset</button>
 					  </fieldset>
 					 </div>
 
@@ -52,7 +47,6 @@
 					    <button class="filter" data-filter=".tanzania">Tanzania</button>
 					    <button class="filter" data-filter=".togo">Togo</button>
 					    <button class="filter" data-filter=".singapore">Singapore</button>
-					    <button id="Reset" class="reset">Reset</button>
 					  </fieldset>
 					 </div>
 					</form>
@@ -251,7 +245,7 @@
 		.container .mix{
 		  width: 32%;
 		  background: white;
-		  display: inline-block;
+  			display: none;
 		  margin-bottom: 20px;
 		}
 
@@ -264,7 +258,7 @@
 		  .container .gap{
 		    width: 32%;
 		  }
-		 }
+		}
 
 	</style>
 
