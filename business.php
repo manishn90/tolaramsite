@@ -16,11 +16,16 @@
     		<div class="section " id="section0">
 			    <div id="wrapper">
 
+<<<<<<< HEAD
 					<form class="controls" id="Filters">
+=======
+			    <div class="container">
+					<form class="controls row" id="Filters">
+>>>>>>> 4130b3b034c5c1a45a39c0e94ddabd24602859f4
 					  <!-- We can add an unlimited number of "filter groups" using the following format: -->
 					 <div class="col-md-6 text-center">
 					  <fieldset>
-					    <h4>Sectors</h4>
+					    <h4 style="color:#000">Sectors</h4>
 					    <button class="filter" data-filter=".consumer">Consumer Goods</button>
 					    <button class="filter" data-filter=".digital">Digital Services</button>
 					    <button class="filter" data-filter=".distribution">Distribution</button>
@@ -36,7 +41,7 @@
 
 					 <div class="col-md-6 text-center">
 					  <fieldset>
-					    <h4>Countries</h4>
+					    <h4 style="color:#000">Countries</h4>
 					    <button class="filter" data-filter=".benin">Benin</button>
 					    <button class="filter" data-filter=".estonia">Estonia</button>
 					    <button class="filter" data-filter=".ghana">Ghana</button>
@@ -51,6 +56,7 @@
 					  </fieldset>
 					 </div>
 					</form>
+				</div>
 
 					<div id="Container" class="container">
 
@@ -179,19 +185,25 @@
 		 
 		button{
 		  display: inline-block;
-		  background: #666;
+		  background: transparent;
 		  border: 0;
 		  margin: 0 .2em;
-		  color: #ddd;
+		  color: #000;
 		  font-size: 16px;
 		  font-weight: 300;
 		  border-radius: .10em;
 		  cursor: pointer;
 		  margin-bottom: 8px;
+		  padding-top: 0;
+			padding-bottom: 0;
+			padding-right: 0;
+			border-left: 1px solid #000;
 		}
 
 		button.active{
-		  background: #85201A;
+		  background: transparent;
+		  color: #000;
+		  font-weight: bold;
 		}
 
 		button:focus{
