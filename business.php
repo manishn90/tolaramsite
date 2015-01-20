@@ -63,7 +63,7 @@
 						        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/IBP-building.jpg" alt=""></a>
 						    </div>
 
-						    <div class="cbp-l-inline-right">
+						    <div class="cbp-l-inline-right business_content">
 						        <div class="cbp-l-inline-title">Tolaram Corporation</div>
 						        <div class="cbp-l-inline-subtitle">
 						        <p class="lead">Singapore, Benin, Estonia, Ghana, India, Indonesia, Nigeria, Togo, UAE</p></div>
@@ -76,21 +76,124 @@
 						</div>
 					  </div>
 
+
+					  <!-- project 2 -->
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="ajax/project2.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
 						</a>
+						<div class="hidden_content">
+							<div class="cbp-l-inline">
+							    <div class="cbp-l-inline-left business_content">
+							        <div class="cbp-l-inline-title">Amar Bank</div>
+							        <div class="cbp-l-inline-subtitle">
+							        <p class="lead">Indonesia</p></div>
+
+							        <div class="cbp-l-inline-desc">
+							            <p>Established in 1991, Amar Bank offers retail banking through branches in Surabaya and Jakarta.</p>
+							        </div>
+
+							    </div>
+							    <div class="cbp-l-inline-right">
+							        <img src="assets/img/our_business/amar800x600.png" alt="">
+							    </div>
+							</div>
+
+							<div class="row-fluid">
+							    <div class="col-md-6 text-center">
+							        <img src="assets/img/ceos/no-photo.gif" style="width: 140px" alt="">
+							    </div>
+
+							    <div class="col-md-6 cbp-l-inline-desc">
+							        <span class="lead">B. BUDIJANTO JAHJA</span>&nbsp;&nbsp;<br><span class="cbp-l-inline-subtitle">President Director</span>
+							        <p>###<br/>###<br/>###<br/>###<br/>###<br/>###<br/>###<br/></p>
+							        <p>&nbsp;&nbsp;</p>
+							    </div>
+							</div>
+						</div>
+
 					  </div>
+
+
+					  <!-- project 3 -->
 					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
 						</a>
+						<div class="hidden_content">
+							<div class="cbp-l-inline">
+							    <div class="cbp-l-inline-left business_content">
+							        <div class="cbp-l-inline-title">Arzu Utama Realty</div>
+							        <div class="cbp-l-inline-subtitle">
+							        <p class="lead">Indonesia</p></div>
+
+							        <div class="cbp-l-inline-desc">
+							            <p>Arzu Utama Realty is the developer of Arzuria, a 32-storey upscale residential apartment in central Jakarta occupying a land area of 6,800 sq. m.</p>
+							        </div>
+							    </div>
+							    <div class="cbp-l-inline-right">
+							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/arzu.png" alt=""></a>
+							    </div>
+
+							</div>
+
+							<div class="row-fluid">
+							    <div class="col-md-6 text-center">
+							        <img src="assets/img/ceos/Swee-Siong-Tan.jpg" style="width: 140px" alt="">
+							    </div>
+
+							    <div class="col-md-6 cbp-l-inline-desc">
+							        <span class="lead">TAN SWEE SIONG</span>&nbsp;&nbsp;<br><span class="cbp-l-inline-subtitle">Head, Real Estate</span>
+							        <p>Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities in Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBA's from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
+							        <p>&nbsp;&nbsp;</p>
+							    </div>
+							</div>
+						</div>
 					  </div>
+
+					  <!-- project 4 -->
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="ajax/project4.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/insura_bg.png" alt="">			
 						</a>
+						<div class="hidden_content">
+							<div class="cbp-l-inline">
+							    <div class="cbp-l-inline-right ">
+							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/asuransi_rama_800x600.png" alt=""></a>
+							    </div>
+
+							    <div class="cbp-l-inline-left business_content">
+							        <div class="cbp-l-inline-title">Asuransi Rama</div>
+							        <div class="cbp-l-inline-subtitle">
+							        <p class="lead">Indonesia</p></div>
+
+							        <div class="cbp-l-inline-desc">
+							        <p>Established in 1978, Asuransi Rama ranks within the top 25 insurance companies in Indonesia. Headquartered in Jakarta, Rama has a network of 17 branches throughout Indonesia.</p>
+							        </div>
+							    </div>
+							</div>
+
+							<div class="row-fluid">
+
+							    <div class="col-md-6 text-center">
+							        <img src="assets/img/ceos/Dimas Mulyanto-4110004.jpg" style="width: 140px" alt="">
+							    </div>
+
+							    <div class="col-md-6 cbp-l-inline-desc">
+							        <span class="lead">DIMAS MULYANTO</span>&nbsp;&nbsp;<br><span class="cbp-l-inline-subtitle">Chief Financial Officer</span>
+							        <p>Dimas Mulyanto joined the Group in 2014 as Chief Financial Officer, overseeing all financial functions and strategic business decisions. He has over 16 years of experience in renowned audit and insurance companies.<br/>He holds a Bachelor’s degree in Accounting from Brawijaya University and is a registered accountant in Indonesia.</p>
+							        <p>&nbsp;<br/>&nbsp;</p>
+							    </div>
+
+							</div>
+						</div>
 					  </div>
+
+
+
+
+
+
 					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project5.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/bhn_bg.png" alt="">			
@@ -278,7 +381,9 @@
 		    width: 32%;
 		  }
 		}
-
+		 .csroverlay .container p {
+		 	text-align: left;
+		 }
 	</style>
 
 	<script type="text/javascript">
@@ -415,12 +520,12 @@
                  e.preventDefault();
                  var $parentdiv = $(this).parent('.mix');
                  var src = $parentdiv.children().children('img').attr('src');  
-                 var style = $parentdiv.children().children('img').attr('style');
+                 var div1 = $parentdiv.children().children().children('.business_content').html();
+                 var div2 = $parentdiv.children().children('.row-fluid').html();
 
-                 
                  $('.fullWidth').css('left',"-100%");
-                 var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');background-size: cover!important;'+style+'"></div><div class="closeButton"><button class="businessClose">Close</button></div><div class="row container">';
-                 insertHtml += '<div class="col-md-6"><span class="post-datetime">'+$parentdiv.find('span').text()+'</span><h1>'+$parentdiv.find('h1').text()+'</h1><p>'+$parentdiv.find('p.hiddenContent').text()+'</p></div>';
+                 var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');background-size: cover!important;background-position: 0 50%;"></div><div class="closeButton"><button class="businessClose">Close</button></div><div class="row container">';
+                 insertHtml += '<div class="col-md-6">'+div1+'</div><div class="col-md-6">'+div2+'</div>';
                  insertHtml += '</div></div>';
                  $('body').after(insertHtml);
                  $('.fullWidth').animate({left:"0"});
@@ -442,6 +547,13 @@
 
 				BackgroundCheck.destroy();
 
+            });
+
+		$("html").on("click", ".businessClose",function(){
+                $('.fullWidth').animate({left:"100%"},
+                 function(){
+                     $('.fullWidth').remove();
+                 })
             });
 
 		});
