@@ -13,64 +13,104 @@
     <div class="bordered_wrapper">
     	<div id="fullpage">
 
-			<form class="controls row" id="Filters">
-			  <!-- We can add an unlimited number of "filter groups" using the following format: -->
-			 <div class="col-md-6 text-center ">
-			  <fieldset>
-			    <h4>Sectors</h4>
-			    <button class="filter" data-filter=".consumer">Consumer Goods</button>
-			    <button class="filter" data-filter=".digital">Digital Services</button>
-			    <button class="filter" data-filter=".distribution">Distribution</button>
-			    <button class="filter" data-filter=".energy">Energy</button>
-			    <button class="filter" data-filter=".financial">Financial Services</button>
-			    <button class="filter" data-filter=".infrastructure">Infrastructure</button>
-			    <button class="filter" data-filter=".paper">Paper Products</button>
-			    <button class="filter" data-filter=".real">Real Estates</button>
-			    <button class="filter" data-filter=".textiles">Textiles</button>
-			    <button id="Reset">Reset</button>
-			  </fieldset>
-			 </div>
+    		<div class="section " id="section0">
+			    <div id="wrapper">
 
-			 <div class="col-md-6 text-center ">
-			  <fieldset>
-			    <h4>Countries</h4>
-			    <button class="filter" data-filter=".benin">Benin</button>
-			    <button class="filter" data-filter=".estonia">Estonia</button>
-			    <button class="filter" data-filter=".ghana">Ghana</button>
-			    <button class="filter" data-filter=".india">India</button>
-			    <button class="filter" data-filter=".indonesia">Indonesia</button>
-			    <button class="filter" data-filter=".ivory-coast">Ivory Coast</button>
-			    <button class="filter" data-filter=".nigeria">Nigeria</button>
-			    <button class="filter" data-filter=".tanzania">Tanzania</button>
-			    <button class="filter" data-filter=".togo">Togo</button>
-			    <button class="filter" data-filter=".singapore">Singapore</button>
-			    <button id="Reset">Reset</button>
-			  </fieldset>
-			 </div>
-			</form>
+					<form class="controls row" id="Filters">
+					  <!-- We can add an unlimited number of "filter groups" using the following format: -->
+					 <div class="col-md-6 text-center ">
+					  <fieldset>
+					    <h4>Sectors</h4>
+					    <button class="filter" data-filter=".consumer">Consumer Goods</button>
+					    <button class="filter" data-filter=".digital">Digital Services</button>
+					    <button class="filter" data-filter=".distribution">Distribution</button>
+					    <button class="filter" data-filter=".energy">Energy</button>
+					    <button class="filter" data-filter=".financial">Financial Services</button>
+					    <button class="filter" data-filter=".infrastructure">Infrastructure</button>
+					    <button class="filter" data-filter=".paper">Paper Products</button>
+					    <button class="filter" data-filter=".real">Real Estates</button>
+					    <button class="filter" data-filter=".textiles">Textiles</button>
+					    <button id="Reset">Reset</button>
+					  </fieldset>
+					 </div>
 
-			<div id="Container" class="container">
-			  <div class="mix singapore">
-			  	<a href="ajax/project1.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
-			        <img src="assets/img/our_business/IBP-building.jpg" alt="">
-			    </a>
-			  </div>
-			  <div class="mix financial indonesia">
-			  	<a href="ajax/project2.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
-					<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
-				</a>
-			  </div>
-			  <div class="mix real indonesia">
-			  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
-					<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
-				</a>
-			  </div>
-			  <div class="gap"></div>
-			  <div class="gap"></div>
-			  <div class="gap"></div>
-			  <div class="gap"></div>
-			</div>
-    
+					 <div class="col-md-6 text-center ">
+					  <fieldset>
+					    <h4>Countries</h4>
+					    <button class="filter" data-filter=".benin">Benin</button>
+					    <button class="filter" data-filter=".estonia">Estonia</button>
+					    <button class="filter" data-filter=".ghana">Ghana</button>
+					    <button class="filter" data-filter=".india">India</button>
+					    <button class="filter" data-filter=".indonesia">Indonesia</button>
+					    <button class="filter" data-filter=".ivory-coast">Ivory Coast</button>
+					    <button class="filter" data-filter=".nigeria">Nigeria</button>
+					    <button class="filter" data-filter=".tanzania">Tanzania</button>
+					    <button class="filter" data-filter=".togo">Togo</button>
+					    <button class="filter" data-filter=".singapore">Singapore</button>
+					    <button id="Reset">Reset</button>
+					  </fieldset>
+					 </div>
+					</form>
+
+					<div id="Container" class="container">
+					  <div class="mix singapore">
+					  	<a href="ajax/project1.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					        <img src="assets/img/our_business/IBP-building.jpg" alt="">
+					    </a>
+					  </div>
+					  <div class="mix financial indonesia">
+					  	<a href="ajax/project2.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix real indonesia">
+					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix financial indonesia">
+					  	<a href="ajax/project4.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/insura_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix real indonesia">
+					  	<a href="ajax/project5.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/bhn_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix real indonesia">
+					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix real indonesia">
+					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix real indonesia">
+					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix real indonesia">
+					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix real indonesia">
+					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="gap"></div>
+					  <div class="gap"></div>
+					  <div class="gap"></div>
+					  <div class="gap"></div>
+					</div>
+    			
+    			</div>
+    		</div>
 
 		</div>
 	</div>
