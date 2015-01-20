@@ -210,6 +210,10 @@
 		  border-left-color: #68b8c4;
 		}
 
+		.container .mix a img {
+			width: 100%;
+		}
+		
 		@media all and (min-width: 420px){
 		  .container .mix,
 		  .container .gap{
