@@ -244,7 +244,7 @@
 
 		.container .mix{
 		  background: white;
-  			display: none;
+  		  display: none;
 		  margin-bottom: 20px;
 		}
 
