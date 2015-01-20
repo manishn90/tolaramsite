@@ -8,428 +8,304 @@
 			include('include/menu.php');
 		?>
 	</div>
-    
+
+
     <div class="bordered_wrapper">
     	<div id="fullpage">
 
-			<!-- ////////////// ABOUT /////////////  -->
-			<div class="section " id="section0">
-			    <div id="wrapper">
+			<form class="controls row" id="Filters">
+			  <!-- We can add an unlimited number of "filter groups" using the following format: -->
+			 <div class="col-md-6 text-center ">
+			  <fieldset>
+			    <h4>Sectors</h4>
+			    <button class="filter" data-filter=".consumer">Consumer Goods</button>
+			    <button class="filter" data-filter=".digital">Digital Services</button>
+			    <button class="filter" data-filter=".distribution">Distribution</button>
+			    <button class="filter" data-filter=".energy">Energy</button>
+			    <button class="filter" data-filter=".financial">Financial Services</button>
+			    <button class="filter" data-filter=".infrastructure">Infrastructure</button>
+			    <button class="filter" data-filter=".paper">Paper Products</button>
+			    <button class="filter" data-filter=".real">Real Estates</button>
+			    <button class="filter" data-filter=".textiles">Textiles</button>
+			    <button id="Reset">Reset</button>
+			  </fieldset>
+			 </div>
 
-			        <div class="portfolio-wrapper clearfix">
-			            <div class="container">
+			 <div class="col-md-6 text-center ">
+			  <fieldset>
+			    <h4>Countries</h4>
+			    <button class="filter" data-filter=".benin">Benin</button>
+			    <button class="filter" data-filter=".estonia">Estonia</button>
+			    <button class="filter" data-filter=".ghana">Ghana</button>
+			    <button class="filter" data-filter=".india">India</button>
+			    <button class="filter" data-filter=".indonesia">Indonesia</button>
+			    <button class="filter" data-filter=".ivory-coast">Ivory Coast</button>
+			    <button class="filter" data-filter=".nigeria">Nigeria</button>
+			    <button class="filter" data-filter=".tanzania">Tanzania</button>
+			    <button class="filter" data-filter=".togo">Togo</button>
+			    <button class="filter" data-filter=".singapore">Singapore</button>
+			    <button id="Reset">Reset</button>
+			  </fieldset>
+			 </div>
+			</form>
 
-			            	<!-- Filter Button -->
-				            <div id="filters-container" class="cbp-l-filters-button row">
-
-			            		<div class="col-md-6 text-center">
-					                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-					                        All <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".consumer" class="cbp-filter-item">
-					                        Consumer Goods <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".digital" class="cbp-filter-item">
-					                        Digital Services <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".distribution" class="cbp-filter-item">
-					                        Distribution <div class="cbp-filter-counter"></div>
-					                    </div>
-					                     <div data-filter=".energy" class="cbp-filter-item">
-					                        Energy <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".financial" class="cbp-filter-item">
-					                        Financial Services <div class="cbp-filter-counter"></div>
-					                    </div>
-				                    	<div data-filter=".infrastructure" class="cbp-filter-item">
-					                        Infrastructure <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".paper" class="cbp-filter-item">
-					                        Paper Products <div class="cbp-filter-counter"></div>
-					                    </div>
-					                     <div data-filter=".real" class="cbp-filter-item">
-					                        Real Estates <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".textiles" class="cbp-filter-item">
-					                        Textiles <div class="cbp-filter-counter"></div>
-					                    </div>
-				                </div>
-				                <div class="col-md-6 text-center">
-					                    <div data-filter="*" class="cbp-filter-item cbp-filter-item">
-					                        All <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".benin" class="cbp-filter-item">
-					                        Benin <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".estonia" class="cbp-filter-item">
-					                        Estonia <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".ghana" class="cbp-filter-item">
-					                        Ghana <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".india" class="cbp-filter-item">
-					                        India <div class="cbp-filter-counter"></div>
-					                    </div>
-				                    	<div data-filter=".indonesia" class="cbp-filter-item">
-					                        Indonesia <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".ivory-coast" class="cbp-filter-item">
-					                        Ivory Coast <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".nigeria" class="cbp-filter-item">
-					                        Nigeria <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".tanzania" class="cbp-filter-item">
-					                        Tanzania <div class="cbp-filter-counter"></div>
-					                    </div>
-					                    <div data-filter=".togo" class="cbp-filter-item">
-					                        Togo <div class="cbp-filter-counter"></div>
-					                    </div>
-				                    	<div data-filter=".singapore" class="cbp-filter-item">
-					                        Singapore <div class="cbp-filter-counter"></div>
-					                    </div>
-				            	</div>
-
-				            </div>
-			               
-
-			                <div id="grid-container" class="cbp-l-grid-gallery">
-			                    <ul>
-			                        <li class="cbp-item singapore">
-			                            <a href="ajax/project1.html" class="cbp-caption cbp-singlePageInline"
-			                               data-title="Tolaram Corporation">
-			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/IBP-building.jpg" alt="">
-			                                </div>
-			                                <div class="cbp-caption-activeWrap">
-			                                    <div class="cbp-l-caption-alignLeft">
-			                                        <div class="cbp-l-caption-body">
-			                                            <div class="cbp-l-caption-title">Tolaram Corporation</div>
-			                                            <div class="cbp-l-caption-desc"></div>
-			                                        </div>
-			                                    </div>
-			                                </div>
-			                            </a>
-			                        </li>
-			                        <li class="cbp-item financial indonesia">
-			                            <a href="ajax/project2.html" class="cbp-caption cbp-singlePageInline"
-			                               data-title="Amar Bank">
-			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/sector/amarbank_bg.png" alt="">
-			                                </div>
-			                                <div class="cbp-caption-activeWrap">
-			                                    <div class="cbp-l-caption-alignLeft">
-			                                        <div class="cbp-l-caption-body">
-			                                            <div class="cbp-l-caption-title">Amar Bank</div>
-			                                            <div class="cbp-l-caption-desc">Financial Services</div>
-			                                        </div>
-			                                    </div>
-			                                </div>
-			                            </a>
-			                        </li>
-			                        <li class="cbp-item real indonesia">
-			                            <a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline"
-			                               data-title="Arzu Utama Realty">
-			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/sector/arzu_bg.png" alt="">
-			                                </div>
-			                                <div class="cbp-caption-activeWrap">
-			                                    <div class="cbp-l-caption-alignLeft">
-			                                        <div class="cbp-l-caption-body">
-			                                            <div class="cbp-l-caption-title">Arzu Utama Realty</div>
-			                                            <div class="cbp-l-caption-desc">Real Estate</div>
-			                                        </div>
-			                                    </div>
-			                                </div>
-			                            </a>
-			                        </li>
-			                        <li class="cbp-item financial indonesia">
-			                            <a href="ajax/project4.html" class="cbp-caption cbp-singlePageInline"
-			                               data-title="Asuransi Rama">
-			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/sector/insura_bg.png" alt="">
-			                                </div>
-			                                <div class="cbp-caption-activeWrap">
-			                                    <div class="cbp-l-caption-alignLeft">
-			                                        <div class="cbp-l-caption-body">
-			                                            <div class="cbp-l-caption-title">Asuransi Rama</div>
-			                                            <div class="cbp-l-caption-desc">Financial Services</div>
-			                                        </div>
-			                                    </div>
-			                                </div>
-			                            </a>
-			                        </li>
-			                        <li class="cbp-item distribution nigeria">
-			                            <a href="ajax/project5.html" class="cbp-caption cbp-singlePageInline"
-			                               data-title="BHN">
-			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/sector/bhn_bg.png" alt="">
-			                                </div>
-			                                <div class="cbp-caption-activeWrap">
-			                                    <div class="cbp-l-caption-alignLeft">
-			                                        <div class="cbp-l-caption-body">
-			                                            <div class="cbp-l-caption-title">BHN</div>
-			                                            <div class="cbp-l-caption-desc">Distribution</div>
-			                                        </div>
-			                                    </div>
-			                                </div>
-			                            </a>
-			                        </li>
-			                        <li class="cbp-item consumer nigeria">
-			                            <a href="ajax/project6.html" class="cbp-caption cbp-singlePageInline"
-			                               data-title="Dufil Prima Foods">
-			                                <div class="cbp-caption-defaultWrap">
-			                                    <img src="assets/img/our_business/sector/dufil.png" alt="">
-			                                </div>
-			                                <div class="cbp-caption-activeWrap">
-			                                    <div class="cbp-l-caption-alignLeft">
-			                                        <div class="cbp-l-caption-body">
-			                                            <div class="cbp-l-caption-title">Dufil Prima Foods</div>
-			                                            <div class="cbp-l-caption-desc">Consumer Goods</div>
-			                                        </div>
-			                                    </div>
-			                                </div>
-			                            </a>
-			                        </li>
-			                         <li class="cbp-item distribution nigeria">
-                            <a href="ajax/project7.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="First Choice Retailing">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/first.choice_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">First Choice Retailing</div>
-                                            <div class="cbp-l-caption-desc">Distribution</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="cbp-item paper estonia">
-                            <a href="ajax/project8.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Horizon Pulp & Paper">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/horizon.paper_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">Horizon Pulp & Paper</div>
-                                            <div class="cbp-l-caption-desc">Paper Products</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="cbp-item consumer estonia">
-                            <a href="ajax/project9.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Horizon Tissue">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/horizon.tisue_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">Horizon Tissue</div>
-                                            <div class="cbp-l-caption-desc">Consumer Goods</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="cbp-item consumer nigeria">
-                            <a href="ajax/project10.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Hypo Bleach">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/hypo_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">Hypo Bleach</div>
-                                            <div class="cbp-l-caption-desc">Consumer Goods</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <!-- end of default business -->
-                         <li class="cbp-item infrastructure nigeria">
-                            <a href="ajax/project11.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Lagos Free Trade Zone">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/lagosfreetradezone_lftz_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">Lagos Free Trade Zone</div>
-                                            <div class="cbp-l-caption-desc">Infrastructure</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                         <li class="cbp-item infrastructure nigeria">
-                            <a href="ajax/project12.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Lekki Deep Sea Port">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/lekki.port_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">Lekki Deep Sea Port</div>
-                                            <div class="cbp-l-caption-desc">Infrastructure</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="cbp-item textiles indonesia">
-                            <a href="ajax/project13.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Lotus Indah">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/lotus.indah_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">Lotus Indah</div>
-                                            <div class="cbp-l-caption-desc">Textiles</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="cbp-item textiles nigeria">
-                            <a href="ajax/project14.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Lucky Fibres">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/lucky.fabries_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">Lucky Fibres</div>
-                                            <div class="cbp-l-caption-desc">Textiles</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="cbp-item energy ghana india nigeria">
-                            <a href="ajax/project15.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="MBH Power">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/mbh.power_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">MBH Power</div>
-                                            <div class="cbp-l-caption-desc">Energy</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="cbp-item distribution ghana nigeria">
-                            <a href="ajax/project16.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Multi Pro Enterprises">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/multipro_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">Multi Pro Enterprises</div>
-                                            <div class="cbp-l-caption-desc">Distribution</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="cbp-item real estonia">
-                            <a href="ajax/project17.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Tolaram Investments">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/tolaram.investment_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">Tolaram Investments</div>
-                                            <div class="cbp-l-caption-desc">Real Estate</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="cbp-item digital indonesia">
-                            <a href="ajax/project18.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="Tunaiku">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/tunaiku_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">Tunaiku</div>
-                                            <div class="cbp-l-caption-desc">Digital Services</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="cbp-item digital nigeria">
-                            <a href="ajax/project19.html" class="cbp-caption cbp-singlePageInline"
-                               data-title="VConnect">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/img/our_business/sector/vconnect_bg.png" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignLeft">
-                                        <div class="cbp-l-caption-body">
-                                            <div class="cbp-l-caption-title">VConnect</div>
-                                            <div class="cbp-l-caption-desc">Digital Services</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-			                        
-			                        
-			                    </ul>
-			                </div>
-
-			                
-			            </div><!-- end container -->
-			        </div><!-- end portfolio -->
-
-			    </div><!-- end wrapper -->
+			<div id="Container" class="container">
+			  <div class="mix singapore">
+			  	<a href="ajax/project1.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+			        <img src="assets/img/our_business/IBP-building.jpg" alt="">
+			    </a>
+			  </div>
+			  <div class="mix financial indonesia">
+			  	<a href="ajax/project2.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
+				</a>
+			  </div>
+			  <div class="mix real indonesia">
+			  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+				</a>
+			  </div>
+			  <div class="gap"></div>
+			  <div class="gap"></div>
+			  <div class="gap"></div>
+			  <div class="gap"></div>
 			</div>
-		</div>
-	<div>
-	<style type="text/css">
-		header{
-			height: 136px;
-		}
-		.cbp-l-inline-subtitle{
-			font-family: gothamBook;
-		}
-	</style>
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$('#fullpage').fullpage({
-				
-				autoScrolling: false
+    
 
-			});
+		</div>
+	</div>
+
+	<style type="text/css">
+		 
+		/**
+		 * Form & Button Styles
+		 */
+		 
+		label{
+		  font-weight: 300;
+		}
+		 
+		button{
+		  display: inline-block;
+		  background: #666;
+		  border: 0;
+		  margin: 0 .2em;
+		  color: #ddd;
+		  font-size: 16px;
+		  font-weight: 300;
+		  border-radius: .10em;
+		  cursor: pointer;
+		  margin-bottom: 8px;
+		}
+
+		button.active{
+		  background: #85201A;
+		}
+
+		button:focus{
+		  outline: 0 none;
+		}
+
+		button:first-of-type{
+		  margin-left: 0;
+		}
+
+		button:last-of-type{
+		  margin-right: 0;
+		}
+		 
+		button:focus{
+		  outline: 0 none;
+		}
+		 
+		.controls{
+		  padding: 2%;
+		}
+		 
+		fieldset{
+		  display: inline-block;
+		  vertical-align: top;
+		  margin: 0 1em 0 0;
+		  padding: .5em;
+		  border-radius: 3px;
+		}
+
+		/**
+		 * Container/Target Styles
+		 */
+
+		.container{
+		  text-align: justify;
+		}
+
+		.container .gap{
+		  width: 100px;
+		  display: inline-block;
+		  margin: 0 5%;
+		}
+
+		.container .mix{
+		  width: 32%;
+		  background: white;
+		  display: inline-block;
+		}
+
+		.container .mix.green{
+		  background: #a6e6a7;
+		}
+
+		.container .mix.blue{
+		  background: #6bd2e8;
+		}
+
+		.container .mix.circle{
+		  border-radius: 999px;
+		}
+
+		.container .mix.triangle{
+		  width: 0;
+		  height: 0;
+		  border: 50px solid transparent;
+		  border-top-color: #68b8c4;
+		  border-left-color: #68b8c4;
+		}
+
+		@media all and (min-width: 420px){
+		  .container .mix,
+		  .container .gap{
+		    width: 32%;
+		  }
+
+	</style>
+
+	<script type="text/javascript">
+		// To keep our code clean and modular, all custom functionality will be contained inside a single object literal called "buttonFilter".
+
+		var buttonFilter = {
+		  
+		  // Declare any variables we will need as properties of the object
+		  
+		  $filters: null,
+		  $reset: null,
+		  groups: [],
+		  outputArray: [],
+		  outputString: '',
+		  
+		  // The "init" method will run on document ready and cache any jQuery objects we will need.
+		  
+		  init: function(){
+		    var self = this; // As a best practice, in each method we will asign "this" to the variable "self" so that it remains scope-agnostic. We will use it to refer to the parent "buttonFilter" object so that we can share methods and properties between all parts of the object.
+		    
+		    self.$filters = $('#Filters');
+		    self.$reset = $('#Reset');
+		    self.$container = $('#Container');
+		    
+		    self.$filters.find('fieldset').each(function(){
+		      self.groups.push({
+		        $buttons: $(this).find('.filter'),
+		        active: ''
+		      });
+		    });
+		    
+		    self.bindHandlers();
+		  },
+		  
+		  // The "bindHandlers" method will listen for whenever a button is clicked. 
+		  
+		  bindHandlers: function(){
+		    var self = this;
+		    
+		    // Handle filter clicks
+		    
+		    self.$filters.on('click', '.filter', function(e){
+		      e.preventDefault();
+		      
+		      var $button = $(this);
+		      
+		      // If the button is active, remove the active class, else make active and deactivate others.
+		      
+		      $button.hasClass('active') ?
+		        $button.removeClass('active') :
+		        $button.addClass('active').siblings('.filter').removeClass('active');
+		      
+		      self.parseFilters();
+		    });
+		    
+		    // Handle reset click
+		    
+		    self.$reset.on('click', function(e){
+		      e.preventDefault();
+		      
+		      self.$filters.find('.filter').removeClass('active');
+		      
+		      self.parseFilters();
+		    });
+		  },
+		  
+		  // The parseFilters method checks which filters are active in each group:
+		  
+		  parseFilters: function(){
+		    var self = this;
+		 
+		    // loop through each filter group and grap the active filter from each one.
+		    
+		    for(var i = 0, group; group = self.groups[i]; i++){
+		      group.active = group.$buttons.filter('.active').attr('data-filter') || '';
+		    }
+		    
+		    self.concatenate();
+		  },
+		  
+		  // The "concatenate" method will crawl through each group, concatenating filters as desired:
+		  
+		  concatenate: function(){
+		    var self = this;
+		    
+		    self.outputString = ''; // Reset output string
+		    
+		    for(var i = 0, group; group = self.groups[i]; i++){
+		      self.outputString += group.active;
+		    }
+		    
+		    // If the output string is empty, show all rather than none:
+		    
+		    !self.outputString.length && (self.outputString = 'all'); 
+		    
+		    console.log(self.outputString); 
+		    
+		    // ^ we can check the console here to take a look at the filter string that is produced
+		    
+		    // Send the output string to MixItUp via the 'filter' method:
+		    
+			  if(self.$container.mixItUp('isLoaded')){
+		    	self.$container.mixItUp('filter', self.outputString);
+			  }
+		  }
+		};
+		  
+		// On document ready, initialise our code.
+
+		$(function(){
+		      
+		  // Initialize buttonFilter code
+		      
+		  buttonFilter.init();
+		      
+		  // Instantiate MixItUp
+		      
+		  $('#Container').mixItUp({
+		    controls: {
+		      enable: false // we won't be needing these
+		    },
+		    callbacks: {
+		      onMixFail: function(){
+		        alert('No items were found matching the selected filters.');
+		      }
+		    }
+		  });    
 		});
 	</script>
+
 <?php
 	include('include/footer.php');
 ?>
