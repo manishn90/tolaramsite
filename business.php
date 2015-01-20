@@ -53,6 +53,7 @@
 					</form>
 
 					<div id="Container" class="container">
+
 					  <div class="mix singapore">
 					  	<a href="ajax/project1.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 					        <img src="assets/img/our_business/IBP-building.jpg" alt="">
@@ -78,31 +79,78 @@
 							<img src="assets/img/our_business/sector/bhn_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix real indonesia">
-					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
-							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+					  <div class="mix consumer nigeria">
+					  	<a href="ajax/project6.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/dufil.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix real indonesia">
-					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
-							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+					  <div class="mix distribution nigeria">
+					  	<a href="ajax/project7.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/first.choice_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix real indonesia">
-					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
-							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+					  <div class="mix paper estonia">
+					  	<a href="ajax/project8.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/horizon.paper_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix real indonesia">
-					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
-							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+					  <div class="mix consumer estonia">
+					  	<a href="ajax/project9.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/horizon.tisue_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix real indonesia">
-					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
-							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+					  <div class="mix consumer nigeria">
+					  	<a href="ajax/project10.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/hypo_bg.png" alt="">			
 						</a>
 					  </div>
+					  <div class="mix infrastructure nigeria">
+					  	<a href="ajax/project11.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					        <img src="assets/img/our_business/sector/lagosfreetradezone_lftz_bg.png" alt="">
+					    </a>
+					  </div>
+					  <div class="mix infrastructure nigeria">
+					  	<a href="ajax/project12.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/lekki.port_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix textiles indonesia">
+					  	<a href="ajax/project13.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/lotus.indah_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix textiles nigeria">
+					  	<a href="ajax/project14.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/lucky.fabries_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix energy ghana india nigeria">
+					  	<a href="ajax/project15.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/mbh.power_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix distribution ghana nigeria">
+					  	<a href="ajax/project16.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/multipro_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix real estonia">
+					  	<a href="ajax/project17.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/tolaram.investment_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix digital indonesia">
+					  	<a href="ajax/project18.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/tunaiku_bg.png" alt="">			
+						</a>
+					  </div>
+					  <div class="mix digital nigeria">
+					  	<a href="ajax/project19.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+							<img src="assets/img/our_business/sector/vconnect_bg.png" alt="">			
+						</a>
+					  </div>
+
+
 					  <div class="gap"></div>
 					  <div class="gap"></div>
 					  <div class="gap"></div>
@@ -120,7 +168,10 @@
 		/**
 		 * Form & Button Styles
 		 */
-		 
+		html,body{
+		  overflow: visible!important;
+		}
+
 		label{
 		  font-weight: 300;
 		}
@@ -188,6 +239,7 @@
 		  width: 32%;
 		  background: white;
 		  display: inline-block;
+		  margin-bottom: 20px;
 		}
 
 		.container .mix.green{
