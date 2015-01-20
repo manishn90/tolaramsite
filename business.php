@@ -16,9 +16,9 @@
     		<div class="section " id="section0">
 			    <div id="wrapper">
 
-					<form class="controls row" id="Filters">
+					<form class="controls" id="Filters">
 					  <!-- We can add an unlimited number of "filter groups" using the following format: -->
-					 <div class="col-md-6 text-center ">
+					 <div class="col-md-6 text-center">
 					  <fieldset>
 					    <h4>Sectors</h4>
 					    <button class="filter" data-filter=".consumer">Consumer Goods</button>
@@ -30,11 +30,11 @@
 					    <button class="filter" data-filter=".paper">Paper Products</button>
 					    <button class="filter" data-filter=".real">Real Estates</button>
 					    <button class="filter" data-filter=".textiles">Textiles</button>
-					    <button id="Reset">Reset</button>
+					    <button id="Reset" class="reset">Reset</button>
 					  </fieldset>
 					 </div>
 
-					 <div class="col-md-6 text-center ">
+					 <div class="col-md-6 text-center">
 					  <fieldset>
 					    <h4>Countries</h4>
 					    <button class="filter" data-filter=".benin">Benin</button>
@@ -47,7 +47,7 @@
 					    <button class="filter" data-filter=".tanzania">Tanzania</button>
 					    <button class="filter" data-filter=".togo">Togo</button>
 					    <button class="filter" data-filter=".singapore">Singapore</button>
-					    <button id="Reset">Reset</button>
+					    <button id="Reset" class="reset">Reset</button>
 					  </fieldset>
 					 </div>
 					</form>
@@ -168,6 +168,7 @@
 		/**
 		 * Form & Button Styles
 		 */
+
 		html,body{
 		  overflow: visible!important;
 		}
@@ -242,26 +243,6 @@
 		  margin-bottom: 20px;
 		}
 
-		.container .mix.green{
-		  background: #a6e6a7;
-		}
-
-		.container .mix.blue{
-		  background: #6bd2e8;
-		}
-
-		.container .mix.circle{
-		  border-radius: 999px;
-		}
-
-		.container .mix.triangle{
-		  width: 0;
-		  height: 0;
-		  border: 50px solid transparent;
-		  border-top-color: #68b8c4;
-		  border-left-color: #68b8c4;
-		}
-
 		.container .mix a img {
 			width: 100%;
 		}
@@ -271,124 +252,186 @@
 		  .container .gap{
 		    width: 32%;
 		  }
+		 }
 
 	</style>
 
 	<script type="text/javascript">
+	$(document).ready(function () {
+
 		// To keep our code clean and modular, all custom functionality will be contained inside a single object literal called "buttonFilter".
 
 		var buttonFilter = {
-		  
+
 		  // Declare any variables we will need as properties of the object
-		  
+
 		  $filters: null,
 		  $reset: null,
 		  groups: [],
 		  outputArray: [],
 		  outputString: '',
-		  
+
 		  // The "init" method will run on document ready and cache any jQuery objects we will need.
-		  
+
 		  init: function(){
 		    var self = this; // As a best practice, in each method we will asign "this" to the variable "self" so that it remains scope-agnostic. We will use it to refer to the parent "buttonFilter" object so that we can share methods and properties between all parts of the object.
-		    
+
 		    self.$filters = $('#Filters');
 		    self.$reset = $('#Reset');
 		    self.$container = $('#Container');
-		    
+
 		    self.$filters.find('fieldset').each(function(){
 		      self.groups.push({
 		        $buttons: $(this).find('.filter'),
 		        active: ''
 		      });
 		    });
-		    
+
 		    self.bindHandlers();
 		  },
-		  
+
 		  // The "bindHandlers" method will listen for whenever a button is clicked. 
-		  
+
 		  bindHandlers: function(){
 		    var self = this;
-		    
+
 		    // Handle filter clicks
-		    
+
 		    self.$filters.on('click', '.filter', function(e){
 		      e.preventDefault();
-		      
+
 		      var $button = $(this);
-		      
+
 		      // If the button is active, remove the active class, else make active and deactivate others.
-		      
-		      $button.hasClass('active') ?
-		        $button.removeClass('active') :
-		        $button.addClass('active').siblings('.filter').removeClass('active');
-		      
+
+
+		      if ($button.hasClass('active')) {   $button.removeClass('active')} else {$button.addClass('active')}
+
 		      self.parseFilters();
 		    });
-		    
+
 		    // Handle reset click
-		    
+
 		    self.$reset.on('click', function(e){
 		      e.preventDefault();
-		      
+
 		      self.$filters.find('.filter').removeClass('active');
-		      
+
 		      self.parseFilters();
 		    });
 		  },
-		  
+
 		  // The parseFilters method checks which filters are active in each group:
-		  
+
+
+
 		  parseFilters: function(){
+
+
+		    window.console && console.log('PARSEFILTER');    
+
 		    var self = this;
-		 
-		    // loop through each filter group and grap the active filter from each one.
-		    
+		 window.console && console.log(self);  
+
+		    // loop through each filter group and add active filters to arrays
+
 		    for(var i = 0, group; group = self.groups[i]; i++){
-		      group.active = group.$buttons.filter('.active').attr('data-filter') || '';
+		      group.active = []; // reset arrays
+		      group.$buttons.each(function(){ 
+
+		        // ici je dois sortir les active
+
+		    window.console && console.log('dans each');  
+		        window.console && console.log($(this).hasClass('active'));           
+		            window.console && console.log($(this).attr('data-filter')); 
+
+
+		        $(this).hasClass('active') && group.active.push($(this).attr('data-filter'));
+		      });
+		        group.active.length && (group.tracker = 0);
 		    }
-		    
+
 		    self.concatenate();
 		  },
-		  
+
+
+
 		  // The "concatenate" method will crawl through each group, concatenating filters as desired:
-		  
 		  concatenate: function(){
-		    var self = this;
-		    
-		    self.outputString = ''; // Reset output string
-		    
-		    for(var i = 0, group; group = self.groups[i]; i++){
-		      self.outputString += group.active;
-		    }
-		    
+		    var self = this,
+		          cache = '',
+		          crawled = false,
+		          checkTrackers = function(){
+		        var done = 0;
+
+		        for(var i = 0, group; group = self.groups[i]; i++){
+		          (group.tracker === false) && done++;
+		        }
+
+		        return (done < self.groups.length);
+		      },
+		      crawl = function(){
+		        for(var i = 0, group; group = self.groups[i]; i++){
+		          group.active[group.tracker] && (cache += group.active[group.tracker]);
+
+		          if(i === self.groups.length - 1){
+		            self.outputArray.push(cache);
+		            cache = '';
+		            updateTrackers();
+		          }
+		        }
+		      },
+		      updateTrackers = function(){
+		        for(var i = self.groups.length - 1; i > -1; i--){
+		          var group = self.groups[i];
+
+		          if(group.active[group.tracker + 1]){
+		            group.tracker++; 
+		            break;
+		          } else if(i > 0){
+		            group.tracker && (group.tracker = 0);
+		          } else {
+		            crawled = true;
+		          }
+		        }
+		      };
+
+		    self.outputArray = []; // reset output array
+
+		      do{
+		          crawl();
+		      }
+		      while(!crawled && checkTrackers());
+
+		    self.outputString = self.outputArray.join();
+
 		    // If the output string is empty, show all rather than none:
-		    
+
 		    !self.outputString.length && (self.outputString = 'all'); 
-		    
-		    console.log(self.outputString); 
-		    
+
+		    //console.log(self.outputString); 
+
 		    // ^ we can check the console here to take a look at the filter string that is produced
-		    
+
 		    // Send the output string to MixItUp via the 'filter' method:
-		    
-			  if(self.$container.mixItUp('isLoaded')){
-		    	self.$container.mixItUp('filter', self.outputString);
-			  }
+
+
+		      if(self.$container.mixItUp('isLoaded')){
+		        self.$container.mixItUp('filter', self.outputString);
+		      }
 		  }
 		};
-		  
+
 		// On document ready, initialise our code.
 
 		$(function(){
-		      
+
 		  // Initialize buttonFilter code
-		      
+
 		  buttonFilter.init();
-		      
+
 		  // Instantiate MixItUp
-		      
+
 		  $('#Container').mixItUp({
 		    controls: {
 		      enable: false // we won't be needing these
@@ -400,6 +443,7 @@
 		    }
 		  });    
 		});
+	});
 	</script>
 
 <?php
