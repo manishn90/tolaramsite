@@ -58,21 +58,34 @@
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
 					        <img src="assets/img/our_business/IBP-building.jpg" alt="">
 					    </a>
-					    <div class="cbp-l-inline hidden_content">
-						    <div class="cbp-l-inline-left">
-						        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/IBP-building.jpg" alt=""></a>
-						    </div>
+					    <div class="hidden_content">
+						    <div class="cbp-l-inline">
+							    <div class="cbp-l-inline-left">
+							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/IBP-building.jpg" alt=""></a>
+							    </div>
 
-						    <div class="cbp-l-inline-right business_content">
-						        <div class="cbp-l-inline-title">Tolaram Corporation</div>
-						        <div class="cbp-l-inline-subtitle">
-						        <p class="lead">Singapore, Benin, Estonia, Ghana, India, Indonesia, Nigeria, Togo, UAE</p></div>
+							    <div class="cbp-l-inline-right business_content">
+							        <div class="cbp-l-inline-title">Tolaram Corporation</div>
+							        <div class="cbp-l-inline-subtitle">
+							        <p class="lead">Singapore, Benin, Estonia, Ghana, India, Indonesia, Nigeria, Togo, UAE</p></div>
 
-						        <div class="cbp-l-inline-desc">
-						        <p>The Group’s Head Office is located at 1A International Business Park, Singapore. Central functions like Business Development, Communications, HR, Finance and Internal Audit are co-ordinated from this office.</p>
-						        </div>
+							        <div class="cbp-l-inline-desc">
+							        <p>The Group’s Head Office is located at 1A International Business Park, Singapore. Central functions like Business Development, Communications, HR, Finance and Internal Audit are co-ordinated from this office.</p>
+							        </div>
 
-						    </div>
+							    </div>
+							</div>
+							<div class="row-fluid">
+							    <div class="col-md-6 text-center">
+							        <img src="assets/img/ceos/no-photo.gif" style="width: 140px" alt="">
+							    </div>
+
+							    <div class="col-md-6 cbp-l-inline-desc">
+							        <span class="lead"></span>&nbsp;&nbsp;<br><span class="cbp-l-inline-subtitle">President Director</span>
+							        <p>###<br/>###<br/>###<br/>###<br/>###<br/>###<br/>###<br/></p>
+							        <p>&nbsp;&nbsp;</p>
+							    </div>
+							</div>
 						</div>
 					  </div>
 
@@ -192,38 +205,188 @@
 
 					  <!-- project 5 -->
 					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="ajax/project5.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/bhn_bg.png" alt="">			
-						</a>
+						</a>	
+						<div class="hidden_content">
+							<div class="cbp-l-inline">
+							    <div class="cbp-l-inline-right">
+							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/bhn_800x600.png" alt=""></a>
+							    </div>
+
+							    <div class="cbp-l-inline-left business_content">
+							        <div class="cbp-l-inline-title">BHN</div>
+							        <div class="cbp-l-inline-subtitle">
+							        <p class="lead">Nigeria</p></div>
+
+							        <div class="cbp-l-inline-desc">
+							        <p>With a fleet of 600 trucks, BHN provides haulage services to many blue-chip companies in Nigeria.
+							        </p>
+							        </div>
+							    </div>
+							</div>
+
+							<div class="row-fluid">
+							    <div class="col-md-6 text-center">
+							        <img src="assets/img/ceos/porus.png" style="width: 140px" alt="">
+							    </div>
+
+							    <div class="col-md-6 cbp-l-inline-desc">
+							        <span class="lead">PORUS DOCTOR</span>&nbsp;&nbsp;<br><span class="cbp-l-inline-subtitle">General Manager</span>
+							        <p>Porus Doctor has served companies like MultiPro, Insignia for five years as part of the senior management team, before becoming General Manager of BHN Division of MultiPro Enterprises Limited in November 2009. He has over 16 years of work experience and was previously working with esteemed auditors, Deloitte, for five years before joining Tolaram Group. He is a qualified Chartered Accountant from India.</p>
+							        <p>&nbsp;&nbsp;</p>
+							    </div>
+							</div>
+						</div>
 					  </div>
 
 
 					  <!-- project 6 -->
 					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="ajax/project6.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					  	<a href="3" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/dufil.png" alt="">			
 						</a>
+						<div class="hidden_content">
+							<div class="cbp-l-inline">
+							    <div class="cbp-l-inline-right">
+							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/dufill_800x600.png" alt=""></a>
+							    </div>
+
+							    <div class="cbp-l-inline-left business_content">
+							        <div class="cbp-l-inline-title">Dufil Prima Foods</div>
+							        <div class="cbp-l-inline-subtitle">
+							        <p class="lead">Nigeria</p></div>
+
+							        <div class="cbp-l-inline-desc">
+							        <p>Dufil Prima Foods PLC (a joint venture with Salim Group) manufactures and markets instant noodles, pasta, cooking oil and snacks in West Africa with plants located in the Nigerian cities of Kaduna, Ota and Port Harcourt. The company also manufactures flour, seasoning and packaging material.</p>
+							        <p>Its flagship brands are Indomie instant noodles, Power Pasta, Power Oil and Minimie snacks.</p>
+							        </div>
+							    </div>
+							</div>
+
+							<div class="row-fluid">
+
+							    <div class="col-md-6 text-center">
+							        <img src="assets/img/ceos/no-photo.gif" style="width: 140px" alt="">
+							    </div>
+
+							    <div class="col-md-6 cbp-l-inline-desc">
+							        <span class="lead">DEEPAK SINGHAL</span>&nbsp;&nbsp;<br><span class="cbp-l-inline-subtitle">Group CEO</span>
+							        <p>###<br/>###<br/>###<br/>###<br/>###<br/>###<br/>###<br/></p>
+							        <p>&nbsp;&nbsp;</p>
+							    </div>
+							</div>
+						</div>
 					  </div>
 
 					  <!-- project 7 -->
 					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="ajax/project7.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/first.choice_bg.png" alt="">			
 						</a>
+						<div class="hidden_content">
+							<div class="cbp-l-inline">
+							    <div class="cbp-l-inline-right">
+							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/firstchoice_800x600.png" alt=""></a>
+							    </div>
+
+							    <div class="cbp-l-inline-left business_content">
+							        <div class="cbp-l-inline-title">FIRST CHOICE RETAILING</div>
+							        <div class="cbp-l-inline-subtitle">
+							        <p class="lead">Nigeria</p></div>
+
+							        <div class="cbp-l-inline-desc">
+							            <p>First Choice Retailing Limited is the largest chain of organised retail stores providing Nigerians with convenient shopping for their everyday needs. There are currently 250 outlets under the brand of “Best Choice” in Lagos, with plans to extend the brand to other cities.
+							            </p>
+							        </div>
+							    </div>
+							</div>
+
+							<div class="row-fluid">
+							    <div class="col-md-6 text-center">
+							        <img src="assets/img/ceos/udayan.png" style="width: 170px" alt="">
+							    </div>
+
+							    <div class="col-md-6 cbp-l-inline-desc">
+							        <span class="lead">UDAYAN DASGUPTA</span>&nbsp;&nbsp;<br><span class="cbp-l-inline-subtitle">Group CEO</span>
+							        <p>Udayan Dasgupta joined the group in 2011 under the Best Choice Division of Multi-Pro Enterprises Ltd. He was appointed the General Manager of First Choice Retailing Ltd. in June 2012, bringing with him a vast amount of experience in Supply Chain Management which he gathered by working in Infosys Technologies Ltd, Bangalore for four years.<br/>Udayan has a post graduate degree in Management from the Indian School of Business, Hyderabad, and completed his B.Tech at the Indian Institute of Technology, Roorkee in 2006.</p>
+							        <p>&nbsp;&nbsp;</p>
+							    </div>
+							</div>
+						</div>
 					  </div>
 
 					  <!-- project 8 -->
 					  <div class="mix paper estonia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="ajax/project8.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/horizon.paper_bg.png" alt="">			
 						</a>
+						<div class="hidden_content">
+							<div class="cbp-l-inline">
+							    <div class="cbp-l-inline-right">
+							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/horizonpaper_800x600.png" alt=""></a>
+							    </div>
+
+							    <div class="cbp-l-inline-left business_content">
+							        <div class="cbp-l-inline-title">HORIZON PULP & PAPER</div>
+							        <div class="cbp-l-inline-subtitle">
+							        <p class="lead">Estonia</p></div>
+
+							        <div class="cbp-l-inline-desc">
+							            <p>Horizon Pulp and Paper Limited is Estonia’s only integrated producer of quality unbleached sack kraft paper, and supplies to over 50 countries around the world.<br/>In 2013, the company celebrated its 75th year of operations.
+							            </p>
+							        </div>
+							    </div>
+							</div>
+
+							<div class="row-fluid">
+							    <div class="col-md-6 text-center">
+							        <img src="assets/img/ceos/Bashyam-Krishnan.jpg" style="width: 140px; margin-bottom: 30px;" alt="">
+							    </div>
+
+							    <div class="col-md-6 cbp-l-inline-desc">
+							        <span class="lead">BASHYAM KRISHNAN</span>&nbsp;&nbsp;<br><span class="cbp-l-inline-subtitle">Group CEO</span>
+							        <p>Bashyam Krishnan joined Tolaram in 2013 as Group CEO of Horizon Pulp & Paper. He has over 10 years of senior management experience in various countries. <br/> He holds a Bachelor of Engineering in Chemical Engineering from the Birla Institute of Technology & Science, Pilani, India.</p>
+							        <p>&nbsp;&nbsp;</p>
+							    </div>
+							</div>
+						</div>
 					  </div>
 
 					  <!-- project 9 -->
 					  <div class="mix consumer estonia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="ajax/project9.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/horizon.tisue_bg.png" alt="">			
 						</a>
+						<div class="hidden_content">
+							<div class="cbp-l-inline">
+							    <div class="cbp-l-inline-right">
+							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
+							    </div>
+
+							    <div class="cbp-l-inline-left business_content">
+							        <div class="cbp-l-inline-title">VCONNECT</div>
+							        <div class="cbp-l-inline-subtitle">
+							        <p class="lead">Nigeria</p></div>
+
+							        <div class="cbp-l-inline-desc">
+							            <p>VConnect is the largest local search engine and ecommerce company in Nigeria. With more than one million businesses listed, it provides extensive information about products, services and companies in Nigeria.<br/>It has also been recognised as the “Hottest Tech Startup” in Africa by Forbes Magazine.</p>
+							        </div>
+							    </div>
+							</div>
+
+							<div class="row-fluid">
+							    <div class="col-md-6 text-center">
+							        <img src="assets/img/ceos/DEEPANKAR.png" style="width: 150px;" alt="">
+							    </div>
+
+							    <div class="col-md-6 cbp-l-inline-desc">
+							        <span class="lead">DEEPANKAR RUSTAGI</span>&nbsp;&nbsp;<br><span class="cbp-l-inline-subtitle">General Manager</span>
+							        <p>Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
+							        <p>&nbsp;&nbsp;</p>
+							    </div>
+							</div>
+						</div>
 					  </div>
 
 
