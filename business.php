@@ -54,97 +54,97 @@
 
 					<div id="Container" class="container">
 
-					  <div class="mix singapore">
+					  <div class="mix singapore col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project1.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 					        <img src="assets/img/our_business/IBP-building.jpg" alt="">
 					    </a>
 					  </div>
-					  <div class="mix financial indonesia">
+					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project2.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix real indonesia">
+					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix financial indonesia">
+					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project4.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/insura_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix real indonesia">
+					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project5.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/bhn_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix consumer nigeria">
+					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project6.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/dufil.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix distribution nigeria">
+					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project7.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/first.choice_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix paper estonia">
+					  <div class="mix paper estonia col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project8.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/horizon.paper_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix consumer estonia">
+					  <div class="mix consumer estonia col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project9.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/horizon.tisue_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix consumer nigeria">
+					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project10.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/hypo_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix infrastructure nigeria">
+					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project11.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 					        <img src="assets/img/our_business/sector/lagosfreetradezone_lftz_bg.png" alt="">
 					    </a>
 					  </div>
-					  <div class="mix infrastructure nigeria">
+					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project12.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/lekki.port_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix textiles indonesia">
+					  <div class="mix textiles indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project13.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/lotus.indah_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix textiles nigeria">
+					  <div class="mix textiles nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project14.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/lucky.fabries_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix energy ghana india nigeria">
+					  <div class="mix energy ghana india nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project15.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/mbh.power_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix distribution ghana nigeria">
+					  <div class="mix distribution ghana nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project16.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/multipro_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix real estonia">
+					  <div class="mix real estonia col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project17.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/tolaram.investment_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix digital indonesia">
+					  <div class="mix digital indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project18.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/tunaiku_bg.png" alt="">			
 						</a>
 					  </div>
-					  <div class="mix digital nigeria">
+					  <div class="mix digital nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project19.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/vconnect_bg.png" alt="">			
 						</a>
@@ -243,7 +243,6 @@
 		}
 
 		.container .mix{
-		  width: 32%;
 		  background: white;
   			display: none;
 		  margin-bottom: 20px;
