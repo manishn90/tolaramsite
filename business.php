@@ -55,10 +55,27 @@
 					<div id="Container" class="container">
 
 					  <div class="mix singapore col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="ajax/project1.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
 					        <img src="assets/img/our_business/IBP-building.jpg" alt="">
 					    </a>
+					    <div class="cbp-l-inline hidden_content">
+						    <div class="cbp-l-inline-left">
+						        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/IBP-building.jpg" alt=""></a>
+						    </div>
+
+						    <div class="cbp-l-inline-right">
+						        <div class="cbp-l-inline-title">Tolaram Corporation</div>
+						        <div class="cbp-l-inline-subtitle">
+						        <p class="lead">Singapore, Benin, Estonia, Ghana, India, Indonesia, Nigeria, Togo, UAE</p></div>
+
+						        <div class="cbp-l-inline-desc">
+						        <p>The Group’s Head Office is located at 1A International Business Park, Singapore. Central functions like Business Development, Communications, HR, Finance and Internal Audit are co-ordinated from this office.</p>
+						        </div>
+
+						    </div>
+						</div>
 					  </div>
+
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="ajax/project2.html" class="cbp-caption cbp-singlePageInline" data-title="Tolaram Corporation">
 							<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
@@ -252,6 +269,9 @@
 			width: 100%;
 		}
 		
+		.hidden_content{
+			display: none;
+		}
 		@media all and (min-width: 420px){
 		  .container .mix,
 		  .container .gap{
@@ -263,7 +283,7 @@
 
 	<script type="text/javascript">
 	$(document).ready(function () {
-		
+
 		// To keep our code clean and modular, all custom functionality will be contained inside a single object literal called "buttonFilter".
 
 		var buttonFilter = {
@@ -448,7 +468,42 @@
 		    }
 		  });    
 		});
-	});
+
+
+		$('.business_btn').click(function(e){
+                 e.preventDefault();
+                 var $parentdiv = $(this).parent('.mix');
+                 var src = $parentdiv.children().children('img').attr('src');  
+                 var style = $parentdiv.children().children('img').attr('style');
+
+                 
+                 $('.fullWidth').css('left',"-100%");
+                 var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');background-size: cover!important;'+style+'"></div><div class="closeButton"><button class="businessClose">Close</button></div><div class="row container">';
+                 insertHtml += '<div class="col-md-6"><span class="post-datetime">'+$parentdiv.find('span').text()+'</span><h1>'+$parentdiv.find('h1').text()+'</h1><p>'+$parentdiv.find('p.hiddenContent').text()+'</p></div>';
+                 insertHtml += '</div></div>';
+                 $('body').after(insertHtml);
+                 $('.fullWidth').animate({left:"0"});
+
+                
+                BackgroundCheck.init({
+				  targets: '.closeButton',
+				  images: '.csrBanner'
+				});
+                 
+                 // Specific target
+				BackgroundCheck.refresh(target);
+
+				// Get current targets
+				BackgroundCheck.get('targets');
+
+				// Change targets
+				BackgroundCheck.set('targets', '.header');
+
+				BackgroundCheck.destroy();
+
+            });
+
+		});
 	</script>
 
 <?php
