@@ -163,7 +163,6 @@
 		</div>
 	</div>
 
-	
 	<style type="text/css">
 		 
 		/**
@@ -265,39 +264,6 @@
 	<script type="text/javascript">
 	$(document).ready(function () {
 		
-		$('.newsroom_btn, .imagebutton').click(function(e){
-                 e.preventDefault();
-                 var $parentdiv = $(this).parent('.newsroom_box');
-                 var src = $parentdiv.children().children('img').attr('src');  
-                 var style = $parentdiv.children().children('img').attr('style');
-
-                 
-                 $('.fullWidth').css('left',"-100%");
-                 var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');background-size: cover!important;'+style+'"></div><div class="closeButton"><button class="businessClose">Close</button></div><div class="row container">';
-                 insertHtml += '<div class="col-md-6"><span class="post-datetime">'+$parentdiv.find('span').text()+'</span><h1>'+$parentdiv.find('h1').text()+'</h1><p>'+$parentdiv.find('p.hiddenContent').text()+'</p></div>';
-                 insertHtml += '</div></div>';
-                 $('body').after(insertHtml);
-                 $('.fullWidth').animate({left:"0"});
-
-                
-                BackgroundCheck.init({
-				  targets: '.closeButton',
-				  images: '.csrBanner'
-				});
-                 
-                 // Specific target
-				BackgroundCheck.refresh(target);
-
-				// Get current targets
-				BackgroundCheck.get('targets');
-
-				// Change targets
-				BackgroundCheck.set('targets', '.header');
-
-				BackgroundCheck.destroy();
-
-         });
-
 		// To keep our code clean and modular, all custom functionality will be contained inside a single object literal called "buttonFilter".
 
 		var buttonFilter = {
@@ -482,110 +448,8 @@
 		    }
 		  });    
 		});
-		
+	});
 	</script>
-
-	
-	<style type="text/css">
-		 
-		/**
-		 * Form & Button Styles
-		 */
-
-		html,body{
-		  overflow: visible!important;
-		}
-
-		label{
-		  font-weight: 300;
-		}
-		 
-		button{
-		  display: inline-block;
-		  background: transparent;
-		  border: 0;
-		  margin: 0 .2em;
-		  color: #000;
-		  font-size: 16px;
-		  font-weight: 300;
-		  border-radius: .10em;
-		  cursor: pointer;
-		  margin-bottom: 8px;
-		  padding-top: 0;
-			padding-bottom: 0;
-			padding-right: 0;
-			border-left: 1px solid #000;
-		}
-
-		button.active{
-		  background: transparent;
-		  color: #000;
-		  font-weight: bold;
-		}
-
-		button:focus{
-		  outline: 0 none;
-		}
-
-		button:first-of-type{
-		  margin-left: 0;
-		}
-
-		button:last-of-type{
-		  margin-right: 0;
-		}
-		 
-		button:focus{
-		  outline: 0 none;
-		}
-		 
-		.controls{
-		  padding: 2%;
-		}
-		 
-		fieldset{
-		  display: inline-block;
-		  vertical-align: top;
-		  margin: 0 1em 0 0;
-		  padding: .5em;
-		  border-radius: 3px;
-		}
-
-		/**
-		 * Container/Target Styles
-		 */
-
-		.container{
-		  text-align: justify;
-		}
-
-		.container .gap{
-		  width: 100px;
-		  display: inline-block;
-		  margin: 0 5%;
-		}
-
-		.container .mix{
-		  width: 32%;
-		  background: white;
-  			display: none;
-		  margin-bottom: 20px;
-		}
-
-		.container .mix a img {
-			width: 100%;
-		}
-		
-		@media all and (min-width: 420px){
-		  .container .mix,
-		  .container .gap{
-		    width: 32%;
-		  }
-		}
-
-	</style>
-
-
 
 <?php
 	include('include/footer.php');
