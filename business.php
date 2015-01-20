@@ -16,6 +16,7 @@
     		<div class="section " id="section0">
 			    <div id="wrapper">
 
+			    <div class="container">
 					<form class="controls row" id="Filters">
 					  <!-- We can add an unlimited number of "filter groups" using the following format: -->
 					 <div class="col-md-6 text-center ">
@@ -51,6 +52,7 @@
 					  </fieldset>
 					 </div>
 					</form>
+				</div>
 
 					<div id="Container" class="container">
 
@@ -178,19 +180,25 @@
 		 
 		button{
 		  display: inline-block;
-		  background: #666;
+		  background: transparent;
 		  border: 0;
 		  margin: 0 .2em;
-		  color: #ddd;
+		  color: #000;
 		  font-size: 16px;
 		  font-weight: 300;
 		  border-radius: .10em;
 		  cursor: pointer;
 		  margin-bottom: 8px;
+		  padding-top: 0;
+			padding-bottom: 0;
+			padding-right: 0;
+			border-left: 1px solid #000;
 		}
 
 		button.active{
-		  background: #85201A;
+		  background: transparent;
+		  color: #000;
+		  font-weight: bold;
 		}
 
 		button:focus{
