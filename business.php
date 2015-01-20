@@ -21,7 +21,7 @@
 					  <!-- We can add an unlimited number of "filter groups" using the following format: -->
 					 <div class="col-md-6 text-center ">
 					  <fieldset>
-					    <h4>Sectors</h4>
+					    <h4 style="color:#000">Sectors</h4>
 					    <button class="filter" data-filter=".consumer">Consumer Goods</button>
 					    <button class="filter" data-filter=".digital">Digital Services</button>
 					    <button class="filter" data-filter=".distribution">Distribution</button>
@@ -37,7 +37,7 @@
 
 					 <div class="col-md-6 text-center ">
 					  <fieldset>
-					    <h4>Countries</h4>
+					    <h4 style="color:#000">Countries</h4>
 					    <button class="filter" data-filter=".benin">Benin</button>
 					    <button class="filter" data-filter=".estonia">Estonia</button>
 					    <button class="filter" data-filter=".ghana">Ghana</button>
