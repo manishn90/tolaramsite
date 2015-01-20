@@ -263,7 +263,39 @@
 
 	<script type="text/javascript">
 	$(document).ready(function () {
+		
+		$('.newsroom_btn, .imagebutton').click(function(e){
+                 e.preventDefault();
+                 var $parentdiv = $(this).parent('.newsroom_box');
+                 var src = $parentdiv.children().children('img').attr('src');  
+                 var style = $parentdiv.children().children('img').attr('style');
 
+                 
+                 $('.fullWidth').css('left',"-100%");
+                 var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');background-size: cover!important;'+style+'"></div><div class="closeButton"><button class="businessClose">Close</button></div><div class="row container">';
+                 insertHtml += '<div class="col-md-6"><span class="post-datetime">'+$parentdiv.find('span').text()+'</span><h1>'+$parentdiv.find('h1').text()+'</h1><p>'+$parentdiv.find('p.hiddenContent').text()+'</p></div>';
+                 insertHtml += '</div></div>';
+                 $('body').after(insertHtml);
+                 $('.fullWidth').animate({left:"0"});
+
+                
+                BackgroundCheck.init({
+				  targets: '.closeButton',
+				  images: '.csrBanner'
+				});
+                 
+                 // Specific target
+				BackgroundCheck.refresh(target);
+
+				// Get current targets
+				BackgroundCheck.get('targets');
+
+				// Change targets
+				BackgroundCheck.set('targets', '.header');
+
+				BackgroundCheck.destroy();
+
+         });
 		// To keep our code clean and modular, all custom functionality will be contained inside a single object literal called "buttonFilter".
 
 		var buttonFilter = {
