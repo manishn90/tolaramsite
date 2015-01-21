@@ -263,7 +263,6 @@ div.video_bg{
     }
     #about-overlay .col-md-5 img{
       position: absolute;
-      margin-top: 10%;
     }
     #about-overlay .col-md-6 .text {
       position: absolute;
@@ -502,7 +501,7 @@ div.video_bg{
       top: 0;
       left: -100%;
       z-index: 100000;
-      overflow-y: scroll;
+      overflow-y: hidden;
     }
 
     .fullWidth h1{
