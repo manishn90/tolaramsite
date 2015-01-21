@@ -1039,13 +1039,6 @@
 		    // If the output string is empty, show all rather than none:
 		    
 		    !self.outputString.length && (self.outputString = 'all'); 
-
-		    self.$container.find(self.outputString).each(function(){
-			    self.groups.push({
-		        $buttons: $(this).find('.filter'),
-		        active: ''
-		      });
-		    });
 		    
 		    //alert(self.outputString); 
 		    
@@ -1055,7 +1048,6 @@
 		    
 			  if(self.$container.mixItUp('isLoaded')){
 		    	self.$container.mixItUp('filter', self.outputString);
-		    	alert(self.outputString);
 			  }
 		  }
 		};
