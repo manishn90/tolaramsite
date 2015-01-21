@@ -54,25 +54,26 @@
 
 
 					<form class="controls row" id="Filters2">
-					 <fieldset>
-					    <h4>Sectors</h4>
-					    <select>
-					      <option value="">All</option>
-					      <option value=".consumer">Consumer Goods</option>
-					      <option value=".digital">Digital Services</option>
-					      <option value=".distribution">Distribution</option>
-					    </select>
-					  </fieldset>
-					  
-					  <fieldset>
-					    <h4>Countries</h4>
-					    <select>
-					      <option value="">All</option>
-					      <option value=".benin">Benin</option>
-					      <option value=".estonia">Estonia</option>
-					      <option value=".ghana">Ghana</option>
-					    </select>
-					  </fieldset>
+						<div style="text-align: center;">
+						<label><h4>FILTERS :</h4> </label><br>
+						 <fieldset>
+						    <select class="form-control">
+						    	<option value="">Sectors</option>
+						      	<option value=".consumer">Consumer Goods</option>
+						      	<option value=".digital">Digital Services</option>
+						      	<option value=".distribution">Distribution</option>
+						    </select>
+						  </fieldset>
+						  
+						  <fieldset>
+						    <select class="form-control">
+						      <option value="">Countries</option>
+						      <option value=".benin">Benin</option>
+						      <option value=".estonia">Estonia</option>
+						      <option value=".ghana">Ghana</option>
+						    </select>
+						  </fieldset>
+						</div>
 					</form>
 
 					
@@ -856,9 +857,11 @@
 		fieldset{
 		  display: inline-block;
 		  vertical-align: top;
-		  margin: 0 1em 0 0;
-		  padding: .5em;
+		  margin: 0;
+		  padding: 0;
 		  border-radius: 3px;
+		  padding-top: 10px;
+			padding-left: 3px;
 		}
 
 		/**

@@ -553,6 +553,15 @@ div.video_bg{
       display: none;
     }
 
+    #Filters2{
+      text-align: center;
+      display: none;
+    }
+
+    
+
+
+
 /* -------- Newsroom page ----- */
 
 
@@ -1584,6 +1593,10 @@ label {
       padding-top: 55px;
     }
 
+    header{
+      height: 60px;
+    }
+
     header > .brand{
       margin-left: 5%;
     }
@@ -1660,6 +1673,8 @@ label {
 
     ul.contactList li h2{font-size: 0.6em;}
     .newsroom_btn{text-align: center;width: 100%;}
+    #Filters{display: none;}
+    #Filters2{display: inline;}
 }
 
 
