@@ -94,7 +94,7 @@
 
 					<div id="Container" class="container">
 
-					<div id="ohsnap" style="text-align: center;"></div>	
+					<div id="ohsnap" style="text-align: center; width: 80%"></div>	
 
 					  <div class="mix singapore col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
@@ -1039,7 +1039,8 @@
 		    
 		    !self.outputString.length && (self.outputString = 'all'); 
 		    
-		    console.log(self.outputString); 
+		    
+		    //alert(self.outputString); 
 		    
 		    // ^ we can check the console here to take a look at the filter string that is produced
 		    
