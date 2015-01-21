@@ -499,7 +499,6 @@ div.video_bg{
     .csroverlay .container {
       padding-top: 50px;
       margin: 0 auto;
-      overflow: hidden;
     }
 
     .csroverlay .container h1,.csroverlay .container p {

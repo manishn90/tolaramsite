@@ -56,7 +56,7 @@
 					<div id="Container" class="container">
 
 					  <div class="mix singapore col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 					        <img src="assets/img/our_business/IBP-building.jpg" alt="">
 					    </a>
 					    <div class="hidden_content">
@@ -89,13 +89,13 @@
 
 					  <!-- project 2 -->
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
 							<div class="cbp-l-inline">
 							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">Amar Bank</div>
+							        <div class="cbp-l-inline-title">Bank Amar</div>
 							        <div class="cbp-l-inline-subtitle">
 							        <p class="lead">Indonesia</p></div>
 
@@ -127,7 +127,7 @@
 
 					  <!-- project 3 -->
 					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -163,7 +163,7 @@
 
 					  <!-- project 4 -->
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/insura_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -201,8 +201,8 @@
 					  </div>
 
 					  <!-- project 5 -->
-					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/bhn_bg.png" alt="">			
 						</a>	
 						<div class="hidden_content">
@@ -240,7 +240,7 @@
 
 					  <!-- project 6 -->
 					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="3" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="3" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/dufil.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -278,7 +278,7 @@
 
 					  <!-- project 7 -->
 					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/first.choice_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -315,7 +315,7 @@
 
 					  <!-- project 8 -->
 					  <div class="mix paper estonia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/horizon.paper_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -352,7 +352,7 @@
 
 					  <!-- project 9 -->
 					  <div class="mix consumer estonia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/horizon.tisue_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -362,12 +362,12 @@
 							    </div>
 
 							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">VCONNECT</div>
+							        <div class="cbp-l-inline-title">HORIZON TISSUE</div>
 							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
+							        <p class="lead">Estonia</p></div>
 
 							        <div class="cbp-l-inline-desc">
-							            <p>VConnect is the largest local search engine and ecommerce company in Nigeria. With more than one million businesses listed, it provides extensive information about products, services and companies in Nigeria.<br/>It has also been recognised as the “Hottest Tech Startup” in Africa by Forbes Magazine.</p>
+							            <p>Horizon Tissue manufactures toilet rolls, kitchen towels and napkins for export to Baltic and Nordic countries. The brand operates under the name “Daisy” in the private label segment, and counts some of the country’s leading retailers as its customers.</p>
 							        </div>
 							    </div>
 							</div>
@@ -388,7 +388,7 @@
 
 					  <!-- Project 10 -->
 					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/hypo_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -424,7 +424,7 @@
 
 					  <!-- Project 11 -->
 					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 					        <img src="assets/img/our_business/sector/lagosfreetradezone_lftz_bg.png" alt="">
 					    </a>
 					    <div class="hidden_content">
@@ -460,7 +460,7 @@
 
 					  <!-- Project 12 -->
 					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/lekki.port_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -496,7 +496,7 @@
 
 					  <!-- Project 13 -->
 					  <div class="mix textiles indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/lotus.indah_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -532,7 +532,7 @@
 
 					  <!-- Project 14 -->
 					  <div class="mix textiles nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/lucky.fabries_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -568,7 +568,7 @@
 
 					  <!-- Project 15 -->
 					  <div class="mix energy ghana india nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/mbh.power_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -611,7 +611,7 @@
 
 					  <!-- Project 16 -->
 					  <div class="mix distribution ghana nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/multipro_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -647,7 +647,7 @@
 
 					  <!-- Project 17 -->
 					  <div class="mix real estonia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/tolaram.investment_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -683,7 +683,7 @@
 
 					  <!-- Project 18 -->
 					  <div class="mix digital indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/tunaiku_bg.png" alt="">			
 						</a>
 						<div class="hidden_content">
@@ -719,7 +719,7 @@
 
 					  <!-- project 19 -->
 					  <div class="mix digital nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" data-title="Tolaram Corporation">
+					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/vconnect_bg.png" alt="">			
 						</a>
 
@@ -750,25 +750,21 @@
 
 							    <div class="col-md-8 cbp-l-inline-desc">
 							        <span class="lead">DEEPANKAR RUSTAGI</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/>Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
+							        <p><br/>Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/><br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
 							        <p>&nbsp;<br/>&nbsp;</p>
 							    </div>
 
 							</div>
 						</div>
 					  </div>
- 					
-
 
 					  <div class="gap"></div>
 					  <div class="gap"></div>
 					  <div class="gap"></div>
 					  <div class="gap"></div>
-
-
 					 
 					</div>
-    			
+
     			</div>
     		</div>
 
