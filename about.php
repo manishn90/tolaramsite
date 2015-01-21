@@ -282,6 +282,9 @@
 		#fp-nav ul li .fp-tooltip{
 			color: #841f10;
 		}
+		@media (max-width: 768px){
+			.fullWidth{overflow: hidden;}
+		}
 		@media(max-width: 1295px){
 			.title_shareholders1{
 				font-size: 13px;
@@ -355,7 +358,6 @@
 			top: 40%;
 			font-family: gothamBook;
 			color: white;
-			margin-left: 10%;
 		}
 
 		#about-overlay .col-md-6 .text .membername-overlay h5 {
@@ -451,9 +453,11 @@
 
 	           $('body').after($insertHtml);
 	           $('.fullWidth').animate({left:"0"});
+	           $('body').css('overflow','hidden');
 
 	         });
 			$("html").on("click", ".businessClose",function(){
+				$('body').css('overflow','visible');
             	$('.fullWidth').animate({left:"100%"},
               	function(){
                   $('.fullWidth').remove();

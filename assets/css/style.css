@@ -558,7 +558,7 @@ div.video_bg{
       display: none;
     }
 
-    
+
 
 
 
@@ -1675,6 +1675,8 @@ label {
     .newsroom_btn{text-align: center;width: 100%;}
     #Filters{display: none;}
     #Filters2{display: inline;}
+    button.businessClose{top: 17px!important;right: -29px!important;}
+    #about-overlay .col-md-6 .text{margin: 0;top: 25%!important;}
 }
 
 
