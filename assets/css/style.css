@@ -514,7 +514,7 @@ div.video_bg{
     }
 
     .csroverlay .container {
-      padding-top: 8px;
+      padding-top: 18px;
       padding-bottom: 10px;
       margin: 0 auto;
     }
@@ -1677,11 +1677,12 @@ label {
     .newsroom_btn{text-align: center;width: 100%;}
     #Filters{display: none;}
     #Filters2{display: inline;}
-    button.businessClose{top: 17px!important;right: -29px!important;}
+    button.businessClose{top: 17px!important;right: 20px!important;}
     #about-overlay .col-md-6 .text{margin: 0;top: 25%!important;}
     h3.title{font-size: 1rem;}
     p.content{font-size: 0.8rem;}
     .about-content{background: rgba(255,255,255,0.7);}
+    .cbp-l-inline-title{font-size: 1.8rem;line-height: 1.2;}
 }
 
 

@@ -868,10 +868,6 @@
 		 * Container/Target Styles
 		 */
 
-		.container{
-		  text-align: justify;
-		}
-
 		.container .gap{
 		  width: 100px;
 		  display: inline-block;
