@@ -75,10 +75,14 @@
 					  </fieldset>
 					</form>
 
-					
+
 				</div>
 
 					<div id="Container" class="container">
+
+					  <div class="fail-message col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					  	<span>No items were found matching the current filters.</span>
+					  </div>
 
 					  <div class="mix singapore col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
@@ -883,6 +887,38 @@
 
 		.container .mix a img {
 			width: 100%;
+		}
+
+		.container .fail-message{
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  padding: 2%;
+		  text-align: center;
+		  opacity: 0;
+		  pointer-events: none;
+		}
+
+		.container.fail .fail-message{
+		  opacity: 1;
+		  pointer-events: all;
+		}
+
+		.container .fail-message:before{
+		  content: '';
+		  display: inline-block;
+		  height: 100%;
+		  vertical-align: middle;
+		}
+
+		.container .fail-message span{
+		  display: inline-block;
+		  font-weight: 500;
+		  color: white;
+		  font-size: 16px;
+		  vertical-align: middle;
 		}
 		
 		.hidden_content{
