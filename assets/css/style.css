@@ -296,6 +296,8 @@ div.video_bg{
       margin-left: 10px;
     }
 
+    .about-content{text-align:right;background: rgb(255,255,255);padding: 30px 30px 30px 30px;}
+
   .values{
       /*margin-top: 4%;*/
       font-family: gothamBook;
@@ -1677,6 +1679,9 @@ label {
     #Filters2{display: inline;}
     button.businessClose{top: 17px!important;right: -29px!important;}
     #about-overlay .col-md-6 .text{margin: 0;top: 25%!important;}
+    h3.title{font-size: 1rem;}
+    p.content{font-size: 0.8rem;}
+    .about-content{background: rgba(255,255,255,0.7);}
 }
 
 

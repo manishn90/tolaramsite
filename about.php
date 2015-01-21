@@ -15,7 +15,7 @@
 			<div class="section aboutUs-section" id="section0">
 				<div class="intro">
 					<div class="col-md-6 col-sm-8 col-xs-11 pull-right" style="padding-right:7%;padding-top:13%;">
-						<div style="text-align:right;background: #FFF;padding: 30px 50px 30px 30px;">
+						<div class="about-content">
 							<h3 class="title" style="color:#000">ESTABLISHED IN 1948 IN MALANG, INDONESIA</h3>
 							<p class="content" style="color:#000">Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
 							<br/>
@@ -250,7 +250,6 @@
 	<style type="text/css">
 		#section0{
 			background-image: url(assets/img/about/about-page-bg.jpg);
-			background-position: 80% -87px;
 			background-size: cover;
 		}
 		#section2{
