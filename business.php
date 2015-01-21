@@ -905,7 +905,7 @@
 
 		@media screen and (max-width: 768px){
 			button.businessClose {
-				right: 30px
+				right: 18px!important;
 			}
 		}
 
