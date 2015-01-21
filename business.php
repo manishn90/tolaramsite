@@ -58,19 +58,32 @@
 						<label><h4>FILTERS :</h4> </label><br>
 						 <fieldset>
 						    <select class="form-control">
-						    	<option value="">Sectors</option>
+						    	<option value="">All Sectors</option>
 						      	<option value=".consumer">Consumer Goods</option>
 						      	<option value=".digital">Digital Services</option>
 						      	<option value=".distribution">Distribution</option>
+						      	<option value=".energy">Energy</option>
+						      	<option value=".financial">Financial Services</option>
+						      	<option value=".infrastructure">Infrastructure</option>
+						      	<option value=".paper">Paper Products</option>
+						      	<option value=".real">Real Estates</option>
+						      	<option value=".textiles">Textiles</option>
 						    </select>
 						  </fieldset>
 						  
 						  <fieldset>
 						    <select class="form-control">
-						      <option value="">Countries</option>
+						      <option value="">All Countries</option>
 						      <option value=".benin">Benin</option>
 						      <option value=".estonia">Estonia</option>
 						      <option value=".ghana">Ghana</option>
+						      <option value=".india">India</option>
+						      <option value=".indonesia">Indonesia</option>
+						      <option value=".ivory-coast">Ivory Coast</option>
+						      <option value=".nigeria">Nigeria</option>
+						      <option value=".tanzania">Tanzania</option>
+						      <option value=".togo">Togo</option>
+						      <option value=".singapore">Singapore</option>
 						    </select>
 						  </fieldset>
 						</div>
