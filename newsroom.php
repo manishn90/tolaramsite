@@ -324,7 +324,7 @@
                  insertHtml += '</div></div>';
                  $('body').after(insertHtml);
                  $('.fullWidth').animate({left:"0"});
-
+                 $('body').css('overflow','hidden');
                 
                 BackgroundCheck.init({
 				  targets: '.closeButton',
@@ -345,6 +345,7 @@
             });
 
             $("html").on("click", ".businessClose",function(){
+            	$('body').css('overflow','visible');
                 $('.fullWidth').animate({left:"100%"},
                  function(){
                      $('.fullWidth').remove();

@@ -311,6 +311,10 @@ div.video_bg{
       font-size: 14px;
     }
 
+    .values-link{
+      display: none;
+    }
+
     .box-trust, 
     .box-respect, 
     .box-commitment,
@@ -359,9 +363,15 @@ div.video_bg{
        font-weight: bold;
     }
 
+    .box-globe{
+      position: relative;
+      margin: auto;
+    }
+
     .globe{
       position: relative;
       margin-top: 25px;
+      width: 100%;
     }
     .shareholders1{
       max-width: 45%;
@@ -490,6 +500,11 @@ div.video_bg{
       top: 0;
       left: -100%;
       z-index: 100000;
+      overflow-y: scroll;
+    }
+
+    .fullWidth h1{
+      font-size: 1.8rem;
     }
 
     .csroverlay {
@@ -497,7 +512,8 @@ div.video_bg{
     }
 
     .csroverlay .container {
-      padding-top: 50px;
+      padding-top: 8px;
+      padding-bottom: 10px;
       margin: 0 auto;
       overflow: hidden;
     }
@@ -702,6 +718,8 @@ div.video_bg{
     transition: bottom 1s;   
     background-color: #736e6e;  
     font-family: gothamBook;     
+    overflow-y: scroll;
+    overflow-x:hidden;
 }
 .fullContact .container{
   margin:auto;
@@ -785,10 +803,6 @@ div.video_bg{
 
   .cbp-spmenu-vertical nav[role="navigation"]{
     top: 30%;
-  }
-
-  header > .title_page{
-    display: none;
   }
 
 }
@@ -1562,7 +1576,81 @@ label {
         box-shadow: none;
         margin-top: 20px;
     }
+
+    .header_fixed{
+      height: 60px;
+    }
+    .bordered_wrapper {
+      padding-top: 55px;
+    }
+
+    header > .brand{
+      margin-left: 5%;
+    }
+    header > .brand > a{
+      width: 89px;
+    }
+
+    .menu-trigger{
+      top: -14px;
+    }
+
+    .menu-trigger span{
+      height: 2px!important;
+    }
+
+    header > .title_page{
+      font-size: 0.8rem;
+      padding-top: 0;
+      top: 20px;
+    }
+    .menu-trigger{
+      width: 18px;
+    }
+    .menu-trigger span.before {
+      -webkit-transform: translateY(-6px);
+      -ms-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+
+    .menu-trigger span.after {
+      -webkit-transform: translateY(6px);
+      -ms-transform: translateY(6px);
+      transform: translateY(6px);
+    }
+
+    .box-globe{
+      width:51%;
+    }
+
+    .globe{
+      height: 50%;
+    }
+
+    .values h3{
+      border-bottom: 1px solid #ddd;
+    }
+
+    .values-link{
+      display: inline;
+    }
+
+    .fullWidth h1 {
+    font-size: 1.3rem;
+    }
+
+    button.businessClose{
+      right: -30px;
+      top: 18px;
+    }
+
+    .csr_content{
+      padding-left: 8%;
+    }
 }
+
+
+
 
 
 

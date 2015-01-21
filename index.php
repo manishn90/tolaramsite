@@ -31,7 +31,7 @@
         </header>
         <div class="container">
             <div class="col-md-12">
-                <img src="assets/img/TOLARAM_HOMEPAGE.png" style="margin-bottom:10px;">
+                <img src="assets/img/TOLARAM_HOMEPAGE.png" style="margin-bottom:10px;" class="tolaram-logo">
                 <p class="content">has been in business for more than 60 years<br/> 
                 because we have always been able to innovate and reinvent ourselves. <br/> 
                 We are focused on growing in these four business spheres: <br/> 
@@ -47,6 +47,15 @@
         }
         h3.title{
             font-size: 40px;
+        }
+        @media (max-width: 768px){
+            .tolaram-logo{
+                width: 50%;
+            }
+
+            p.content{
+                font-size: 0.9rem;
+            }
         }
     </style>
 <?php
