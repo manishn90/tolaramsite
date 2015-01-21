@@ -140,7 +140,6 @@
 
 			$('.cotactButton,.closeContact').click(function(){
 				$('body').toggleClass('activeContact');
-
 			});
 		});
 	</script>

@@ -863,6 +863,13 @@
 		.hidden_content{
 			display: none;
 		}
+
+		@media screen and (max-width: 768px){
+			button.businessClose {
+				right: 30px
+			}
+		}
+
 		@media all and (min-width: 420px){
 		  .container .mix,
 		  .container .gap{
