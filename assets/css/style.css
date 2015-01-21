@@ -515,8 +515,7 @@ div.video_bg{
       padding-top: 8px;
       padding-bottom: 10px;
       margin: 0 auto;
-      overflow: -moz-scrollbars-vertical;
-     overflow: scroll;
+      overflow: hidden;
     }
 
     .csroverlay .container h1,.csroverlay .container p {
@@ -781,6 +780,7 @@ div.video_bg{
     padding: 0px 20px;
     line-height: 36px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .cotactButton:hover{
     background:#851F12;
@@ -1070,10 +1070,12 @@ background:#282828;
 }
 .cbp-l-inline-title {
     color: #343434;
+    font: 700 38px/76px gothamBook;
     letter-spacing: -1px;
 }
 .cbp-l-inline-desc {
-    margin-top:0px !important;
+    color: #aeaeae;
+    margin-top:10px !important;
     letter-spacing: 0px;
 }
 .cbp-l-inline-desc p {
@@ -1646,6 +1648,18 @@ label {
     .csr_content{
       padding-left: 8%;
     }
+
+    .fullContact{
+      height: 93%;
+    }
+    .contactContent{
+      padding-top: 30px;
+    }
+    .contactContent h1 {
+      font-size: 1.8rem
+    }
+
+    ul.contactList li h2{font-size: 0.6em;}
 }
 
 
