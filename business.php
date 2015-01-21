@@ -747,7 +747,7 @@
                  var div2 = $parentdiv.children().children('.row-fluid').html();
 
                  $('.fullWidth').css('left',"-100%");
-                 var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');background-size: cover!important;background-position: 0 50%;"></div><div class="closeButton"><button class="businessClose">Close</button></div><div class="row container">';
+                 var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');background-size: cover!important;background-position:50%;"></div><div class="closeButton"><button class="businessClose">Close</button></div><div class="row container">';
                  insertHtml += '<div class="col-md-6">'+div1+'</div><div class="col-md-6">'+div2+'</div>';
                  insertHtml += '</div></div>';
                  $('body').after(insertHtml);
