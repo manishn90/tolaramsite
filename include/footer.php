@@ -7,6 +7,7 @@
     <script src="assets/js/vendor/background-check.min.js"></script>
     <script src="assets/js/vendor/jquery.magnific-popup.js"></script>
     <script src="assets/js/vendor/jquery.mixitup.js"></script>
+    <script src="assets/js/vendor/jquery.humanmsg.js"></script>
 
     <script type="text/javascript">
 
