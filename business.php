@@ -37,6 +37,7 @@
 					 <div class="col-md-6 text-center">
 					  <fieldset>
 					    <h4 style="color:#000">Countries</h4>
+					    <button class="filter" data-filter=".consumer">Consumer Products</button>
 					    <button class="filter" data-filter=".benin">Benin</button>
 					    <button class="filter" data-filter=".estonia">Estonia</button>
 					    <button class="filter" data-filter=".ghana">Ghana</button>
@@ -993,9 +994,9 @@
 		      // If the button is active, remove the active class, else make active and deactivate others.
 		      
 		      $button.hasClass('active') ?
-		        $button.removeClass('active') :
-		        $button.addClass('active').siblings('.filter').removeClass('active');
-		      
+		      $button.removeClass('active') :
+		      $button.addClass('active').siblings('.filter').removeClass('active');
+
 		      self.parseFilters();
 		    });
 		    
@@ -1038,7 +1039,13 @@
 		    // If the output string is empty, show all rather than none:
 		    
 		    !self.outputString.length && (self.outputString = 'all'); 
-		    
+
+		    self.$container.find(self.outputString).each(function(){
+			    self.groups.push({
+		        $buttons: $(this).find('.filter'),
+		        active: ''
+		      });
+		    });
 		    
 		    //alert(self.outputString); 
 		    
@@ -1048,6 +1055,7 @@
 		    
 			  if(self.$container.mixItUp('isLoaded')){
 		    	self.$container.mixItUp('filter', self.outputString);
+		    	alert(self.outputString);
 			  }
 		  }
 		};
