@@ -176,7 +176,7 @@
 
 							    <div class="cbp-l-inline-left business_content">
 							        <div class="cbp-l-inline-title">Asuransi Rama</div>
-							        <div class="cbp-l-inline-subtitle">Indonesia</div>
+							        <div class="cbp-l-inline-subtitle"><p class="lead">Indonesia</p></div>
 
 							        <div class="cbp-l-inline-desc">
 							        <p>Established in 1978, Asuransi Rama ranks within the top 25 insurance companies in Indonesia. Headquartered in Jakarta, Rama has a network of 17 branches throughout Indonesia.</p>
