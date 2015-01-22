@@ -15,11 +15,11 @@
 			<div class="section aboutUs-section" id="section0">
 				<div class="intro">
 					<div class="col-md-6 col-sm-8 col-xs-11 pull-right box-content" style="padding-right:7%;padding-top:13%;">
-						<div class="about-content">
-							<h3 class="title" style="color:#000">ESTABLISHED IN 1948 IN MALANG, INDONESIA</h3>
-							<p class="content" style="color:#000">Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
+						<div>
+							<h3 class="title" style="color:#FFF">ESTABLISHED IN 1948 IN MALANG, INDONESIA</h3>
+							<p class="content" style="color:#FFF">Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
 							<br/>
-							<p class="content" style="color:#000">The Group has a diversified portfolio consisting of Consumer Goods, Infrastructure, Energy, Digital Services and other interests which include Distribution, Financial Services, Paper Products, Real Estate and Textiles.</p>
+							<p class="content" style="color:#FFF">The Group has a diversified portfolio consisting of Consumer Goods, Infrastructure, Energy, Digital Services and other interests which include Distribution, Financial Services, Paper Products, Real Estate and Textiles.</p>
 						</div>
 					</div>
 				</div>
@@ -249,7 +249,7 @@
 	
 	<style type="text/css">
 		#section0{
-			background-image: url(assets/img/about/about-page-bg.jpg);
+			background-image: url(assets/img/about/about-page-bg2.jpg);
 			background-size: cover;
 			background-position: 0 90%;
 		}
