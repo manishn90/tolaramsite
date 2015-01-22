@@ -388,6 +388,7 @@ div.video_bg{
       margin-left: auto;
       margin-right: auto;
       text-align: center;
+      text-transform: uppercase;
     }
     
     .title_shareholders1,
@@ -501,7 +502,7 @@ div.video_bg{
       top: 0;
       left: -100%;
       z-index: 100000;
-      overflow-y: hidden;
+      overflow-y: auto;
     }
 
     .fullWidth h1{
@@ -1599,7 +1600,7 @@ label {
     }
 
     header > .brand{
-      margin-left: 5%;
+      margin-left: 2%;
     }
     header > .brand > a{
       width: 89px;
@@ -1649,10 +1650,6 @@ label {
       display: inline;
     }
 
-    .fullWidth h1 {
-    font-size: 1.3rem;
-    }
-
     
     .csr_content{
       padding-left: 8%;
@@ -1678,6 +1675,11 @@ label {
     p.content{font-size: 0.8rem;}
     .about-content{background: rgba(255,255,255,0.7);}
     .cbp-l-inline-title{font-size: 1.8rem;line-height: 1.2;}
+    .shareholders1{margin-top: 15%}
+    .shareholders2{margin-top: 6%;}
+    .shareholders1, .shareholders2{text-transform: none;line-height: 1;}
+    .title_shareholders1, .title_shareholders2{font-size: 10px;}
+    .box-content{padding-right: 15px!important;position: absolute;margin: 0 auto;left: 0;right: 0}
 }
 
 

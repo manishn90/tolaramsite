@@ -14,7 +14,7 @@
 			<!-- ////////////// ABOUT /////////////  -->
 			<div class="section aboutUs-section" id="section0">
 				<div class="intro">
-					<div class="col-md-6 col-sm-8 col-xs-11 pull-right" style="padding-right:7%;padding-top:13%;">
+					<div class="col-md-6 col-sm-8 col-xs-11 pull-right box-content" style="padding-right:7%;padding-top:13%;">
 						<div class="about-content">
 							<h3 class="title" style="color:#000">ESTABLISHED IN 1948 IN MALANG, INDONESIA</h3>
 							<p class="content" style="color:#000">Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
@@ -168,8 +168,8 @@
 					<div class="row shareholders1">
 						<div class="col-md-4 col-xs-4" attrId = "1">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/mohan-vaswani.jpg">
-							<p class="title_shareholders1">MOHAN VASWANI</p>
-							<p class="title_shareholders2">CHAIRMAN</p>
+							<p class="title_shareholders1">Mohan Vaswani</p>
+							<p class="title_shareholders2">Chairman</p>
 							<span class="hiddenContent">
 								<span>Mohan Vaswani joined the Group in 1957 and has since built various businesses across several locations. He has a wealth of experience in successfully creating and nurturing industrial developments and trading activities.</br></br>He is actively involved in the Tolaram Foundation and Rotary Club of Singapore.</span>
 							</span>
@@ -177,8 +177,8 @@
 						</div>
 						<div class="col-md-4 col-xs-4" attrId = "2">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/vishamkar-adnani.jpg">
-							<p class="title_shareholders1">VISHAMKAR ADNANI</p>
-							<p class="title_shareholders2">VICE CHAIRMAN</p>
+							<p class="title_shareholders1">Vishamkar Adnani</p>
+							<p class="title_shareholders2">Vice Chairman</p>
 							<span class="hiddenContent">
 								<span>Vishamkar (Vishu) Adnani joined the Group in 1961 and has helped grow the organisation to its present stature. He played a significant role in building Tolaram's capability to trade in a range of products, particularly between Asia and Africa.</br></br>He is actively contributing to the Tolaram Foundation.</span>
 							</span>
@@ -186,8 +186,8 @@
 						</div>
 						<div class="col-md-4 col-xs-4" attrId = "3">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/sajen-aswani.jpg">
-							<p class="title_shareholders1">SAJEN ASWANI</p>
-							<p class="title_shareholders2">CHIEF EXECUTIVE</p>
+							<p class="title_shareholders1">Sajen Aswani</p>
+							<p class="title_shareholders2">Chief Executive</p>
 							<span class="hiddenContent">
 								<span>Sajen Aswani joined the Group in 1984 and became the Chief Executive in 2000. He is also a Director of the Family Business Network and a member of the Advisory Council to Nanyang Business School.</br></br>He holds a Bachelor’s degree in Economics from University of London and a Master's degree in Management Science from the Imperial College, London.</span>
 							</span>
@@ -197,8 +197,8 @@
 					<div class="row shareholders2">
 						<div class="col-md-3 col-xs-3" attrId = "4">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/haresh-aswani.jpg">
-							<p class="title_shareholders1">HARESH ASWANI</p>
-							<p class="title_shareholders2">MANAGING DIRECTOR,</p>
+							<p class="title_shareholders1">Haresh Aswani</p>
+							<p class="title_shareholders2">Managing Director,</p>
 							<p class="title_shareholders2">Nigeria</p>
 							<span class="hiddenContent">
 								<span>Haresh Aswani joined the Group in 1984. He has been the Honorary Consul-General for Singapore in Nigeria since 2006. He has also received the Chieftaincy title in Nigeria "Baagbile Korede of Ota by the Olota of Ota" and the National Honour of MFR (Member of the Order of Federal Republic of Nigeria).</br></br>He holds a Bachelor’s degree in Business Administration from the University of Houston, US.</span>
@@ -207,8 +207,8 @@
 						</div>
 						<div class="col-md-3 col-xs-3" attrId = "5">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/sonny-aswani.jpg">
-							<p class="title_shareholders1">SONNY ASWANI</p>
-							<p class="title_shareholders2">MANAGING DIRECTOR,</p>
+							<p class="title_shareholders1">Sonny Aswani</p>
+							<p class="title_shareholders2">Managing Director,</p>
 							<p class="title_shareholders2">Estonia</p>
 							<span class="hiddenContent">
 								<span>Sonny Aswani joined the Group in 1985. He has been the Honorary Consul-General for Estonia in Singapore since 2008 and was conferred the White Cross medal by the President of the Republic of Estonia in 2001.</br></br>He holds a Bachelor's degree in Business Administration and Economics from Richmond College, UK as well as a Master's Degree in Management Science from the University of Kent, UK.</span>
@@ -217,8 +217,8 @@
 						</div>
 						<div class="col-md-3 col-xs-3" attrId = "6">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/tom-vaswani.jpg">
-							<p class="title_shareholders1">TOM VASWANI</p>
-							<p class="title_shareholders2">DIRECTOR</p>
+							<p class="title_shareholders1">Tom Vaswani</p>
+							<p class="title_shareholders2">Director</p>
 							<span class="hiddenContent">
 							<span>Tom Vaswani joined the Group in 1993. He holds a Bachelor’s Degree in Politics and Sociology and a Master’s Degree in Social and Political Thought from the University of Warwick, UK.</span>
 							</span>
@@ -226,8 +226,8 @@
 						</div>
 						<div class="col-md-3 col-xs-3" attrId = "7">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/raj-vaswani.jpg">
-							<p class="title_shareholders1">RAJ VASWANI</p>
-							<p class="title_shareholders2">DIRECTOR</p>
+							<p class="title_shareholders1">Raj Vaswani</p>
+							<p class="title_shareholders2">Director</p>
 							<span class="hiddenContent">
 								<span>Raj Vaswani joined the Group in 1995. He holds a Bachelor's degree in Business Administration from the Terry College of Business, University of Georgia, US.</span>
 							</span>
@@ -257,6 +257,10 @@
 			background-position: 80% 0px;
 			background-size: cover;
 			text-align: center;
+		}
+
+		.fullWidth {
+			overflow: hidden;
 		}
 
 
