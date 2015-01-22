@@ -996,13 +996,13 @@
 		      	$button.removeClass('active');
 		      	$button.siblings('.filter').attr('disabled', false).css('color', '#000');
 		      	for(var i = 0, group; group = self.groups[i]; i++) {
-			      group.inactive = group.$buttons.not('.active').attr('disabled', false).css('color', '#000');
+			      group.$buttons.removeClass('active').attr('disabled', false).css('color', '#000');
 			    }
 		      }
 		      else {
-		      	$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#BBB');
+		      	$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#e8e8e8');
 		      	for(var i = 0, group; group = self.groups[i]; i++) {
-			      group.inactive = group.$buttons.not('.active').attr('disabled', true).css('color', '#BBB');
+			      group.$buttons.not('.active').attr('disabled', true).css('color', '#e8e8e8');
 			    }
 		      }
 		      // **************************************************************************************
@@ -1064,11 +1064,11 @@
 					self.$container.find(self.outputString).each(function(){
 						country = '.' + $(this).attr('country');
 						$('.filter[data-filter="'+country+'"]').attr('disabled', false).css('color', '#000');
-						if ($(this).attr('country-2')) {
+						if ($(this).attr('country-2')) { //if there is 2nd country
 							country2 = '.' + $(this).attr('country-2');
 							$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');
 						}
-						if ($(this).attr('country-3')) {
+						if ($(this).attr('country-3')) { //if there is 3rd country
 							country3 = '.' + $(this).attr('country-3');
 							$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
 						}
