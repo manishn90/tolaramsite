@@ -8,6 +8,7 @@
     <script src="assets/js/jquery.magnific-popup.js"></script>
     <script src="assets/js/vendor/jquery.mixitup.js"></script>
     <script src="assets/js/vendor/jquery.humanmsg.js"></script>
+    <script src="http://vast-engineering.github.io/jquery-popup-overlay/jquery.popupoverlay.js"></script>
 
     <script type="text/javascript">
 

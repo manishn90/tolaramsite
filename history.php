@@ -122,7 +122,9 @@
 								<img src="assets/img/our_evolution/bg4.png" alt="img04"/>
 								<figcaption>
 									<h3>1960s</h3>
-									<p>Our Vice Chairman, Vishamkar Adnani, joined the Group in 1961 and helped grow the textile shop into a larger retail, wholesale and trading business in fabrics and garments.</p>
+									<p>Our Vice Chairman, Vishamkar Adnani, joined the Group in 1961 and helped grow the textiles shop into a larger retail, wholesale and trading business in fabrics and garments.</p>
+									<p>Over the next few years, we expanded our reach in Indonesia and started operations in other cities.</p>
+									<p>In 1968, we set up an office in Singapore.</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -144,7 +146,9 @@
 								<img src="assets/img/our_evolution/bg6.png" alt="img06"/>
 								<figcaption>
 									<h3>1980s</h3>
-									<p>The Group diversified from its core Textiles businesses into Real Estate and Consumer Goods. It also marked the introduction of the third-generation family members into the business. </p>
+									<p>The Group diversified from its core Textiles businesses into Real Estate and Consumer Goods. It also marked the introduction of the third-generation family members into the business.</p>
+									<p>In 1982, we ventured into fibres manufacturing in the US. The same year, we built a residential condominium in Singapore.</p>
+									<p>In 1987, the Group expanded into polymers manufacturing with a plant in the UK.</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -153,7 +157,9 @@
 								<img src="assets/img/our_evolution/bg7.png" alt="img01"/>
 								<figcaption>
 									<h3>1990s</h3>
-									<p>We embarked on an expansion phase and took our manufacturing presence to 18 countries across the globe. We also diversified further into industries such as Paper Products, Distribution, and others.</p>
+									<p>We embarked on an expansion phase and took our manufacturing presence to 18 countries across the globe. We also diversified further into industries such as Paper Products, Distribution and others.</p>
+									<p>In 1995, we ventured into Estonia after the lifting of the Iron Curtain.</p>
+									<p>The following year, Tolaram entered a joint venture with the Salim Group, opening the first instant noodle factory in Nigeria.</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -173,8 +179,9 @@
 								<img src="assets/img/our_evolution/bg9.png" alt="img03"/>
 								<figcaption>
 									<h3>2010s</h3>
-									<p>The Group completed building and relocated our Corporate Headquarters in Singapore to 1A International Business Park.
-									Furthering ourselves to become brand builders, we developed and grew brands in the Consumer Goods sector. These brands remain market leaders in their respective segments today. We also made our name known in the Digital Services sector in Nigeria and Indonesia.</p>
+									<p>The Group completed building and relocated our Corporate Headquarters in Singapore to 1A International Business Park.</p>
+									<p>Furthering ourselves to become brand builders, we developed and grew our brands in the different industry sectors. These brands remain market leaders in their respective segments today. </p>
+									<p>We also made our name known in the Digital Services sector in Nigeria and Indonesia.</p>
 								</figcaption>
 							</figure>
 						</li>
