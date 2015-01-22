@@ -20,7 +20,7 @@
 					<form class="controls row" id="Filters">
 					  <!-- We can add an unlimited number of "filter groups" using the following format: -->
 					 <div class="col-md-6 text-center">
-					  <fieldset>
+					  <fieldset id='sector'>
 					    <h4 style="color:#000">Sectors</h4>
 					    <button class="filter" data-filter=".consumer" group='sector'>Consumer Goods</button>
 					    <button class="filter" data-filter=".digital" group='sector'>Digital Services</button>
@@ -35,7 +35,7 @@
 					 </div>
 
 					 <div class="col-md-6 text-center">
-					  <fieldset>
+					  <fieldset id='country'>
 					    <h4 style="color:#000">Countries</h4>
 					    <button class="filter" data-filter=".benin" group='country'>Benin</button>
 					    <button class="filter" data-filter=".estonia" group='country'>Estonia</button>
@@ -96,7 +96,7 @@
 
 					<div id="ohsnap" style="text-align: center; width: 80%"></div>	
 
-					  <div class="mix singapore col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix singapore col-xs-12 col-sm-4 col-md-4 col-lg-4" country='singapore' sector='null'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 					        <img src="assets/img/our_business/IBP-building.jpg" alt="">
 					    </a>
@@ -129,7 +129,7 @@
 
 
 					  <!-- project 2 -->
-					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='financial'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
 						</a>
@@ -167,7 +167,7 @@
 
 
 					  <!-- project 3 -->
-					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='real'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
 						</a>
@@ -203,7 +203,7 @@
 					  </div>
 
 					  <!-- project 4 -->
-					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='financial'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/insura_bg.png" alt="">			
 						</a>
@@ -242,7 +242,7 @@
 					  </div>
 
 					  <!-- project 5 -->
-					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='distribution'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/bhn_bg.png" alt="">			
 						</a>	
@@ -280,7 +280,7 @@
 
 
 					  <!-- project 6 -->
-					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='consumer'>
 					  	<a href="3" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/dufil.png" alt="">			
 						</a>
@@ -318,7 +318,7 @@
 					  </div>
 
 					  <!-- project 7 -->
-					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='distribution'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/first.choice_bg.png" alt="">			
 						</a>
@@ -355,7 +355,7 @@
 					  </div>
 
 					  <!-- project 8 -->
-					  <div class="mix paper estonia col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix paper estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='paper'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/horizon.paper_bg.png" alt="">			
 						</a>
@@ -392,7 +392,7 @@
 					  </div>
 
 					  <!-- project 9 -->
-					  <div class="mix consumer estonia col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix consumer estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='consumer'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/horizon.tisue_bg.png" alt="">			
 						</a>
@@ -428,7 +428,7 @@
 					  </div>
 
 					  <!-- Project 10 -->
-					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='consumer'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/hypo_bg.png" alt="">			
 						</a>
@@ -464,7 +464,7 @@
 					  </div>
 
 					  <!-- Project 11 -->
-					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='infrastructure'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 					        <img src="assets/img/our_business/sector/lagosfreetradezone_lftz_bg.png" alt="">
 					    </a>
@@ -500,7 +500,7 @@
 					  </div>
 
 					  <!-- Project 12 -->
-					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='infrastructure'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/lekki.port_bg.png" alt="">			
 						</a>
@@ -536,7 +536,7 @@
 					  </div>
 
 					  <!-- Project 13 -->
-					  <div class="mix textiles indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix textiles indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='textiles'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/lotus.indah_bg.png" alt="">			
 						</a>
@@ -572,7 +572,7 @@
 					  </div>
 
 					  <!-- Project 14 -->
-					  <div class="mix textiles nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix textiles nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='textiles'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/lucky.fabries_bg.png" alt="">			
 						</a>
@@ -608,7 +608,7 @@
 					  </div>
 
 					  <!-- Project 15 -->
-					  <div class="mix energy ghana india nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix energy ghana india nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria india ghana' sector='energy'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/mbh.power_bg.png" alt="">			
 						</a>
@@ -651,7 +651,7 @@
 					  </div>
 
 					  <!-- Project 16 -->
-					  <div class="mix distribution ghana nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix distribution ghana nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria ghana' sector='distribution'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/multipro_bg.png" alt="">			
 						</a>
@@ -687,7 +687,7 @@
 					  </div>
 
 					  <!-- Project 17 -->
-					  <div class="mix real estonia col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix real estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='real'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/tolaram.investment_bg.png" alt="">			
 						</a>
@@ -723,7 +723,7 @@
 					  </div>
 
 					  <!-- Project 18 -->
-					  <div class="mix digital indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix digital indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='digital'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/tunaiku_bg.png" alt="">			
 						</a>
@@ -759,7 +759,7 @@
 					  </div>
 
 					  <!-- project 19 -->
-					  <div class="mix digital nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					  <div class="mix digital nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='digital'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/vconnect_bg.png" alt="">			
 						</a>
@@ -919,9 +919,6 @@
 		 	text-align: left;
 		 }
 
-		/**
-		**/
-
 		/* ALERTS */
 		/* inspired by Twitter Bootstrap */
 
@@ -991,15 +988,8 @@
 		      e.preventDefault();
 		      
 		      var $button = $(this);
-		      
+
 		      // If the button is active, remove the active class, else make active and deactivate others.
-<<<<<<< HEAD
-		      
-		      $button.hasClass('active') ?
-		        $button.removeClass('active') :
-		        $button.addClass('active').siblings('.filter').removeClass('active');
-		      
-=======
 
 		      // ************************ customized by colorblindlabs.com **************************
 		      if ($button.hasClass('active')) {
@@ -1020,7 +1010,6 @@
 		      }
 		      // **************************************************************************************
 
->>>>>>> a4f7fa3a2e4f37463ebef8369fbc65332d93989a
 		      self.parseFilters();
 		    });
 		    
@@ -1037,7 +1026,7 @@
 		  
 		  // The parseFilters method checks which filters are active in each group:
 		  
-		  parseFilters: function(){
+		  parseFilters: function() {
 		    var self = this;
 		 
 		    // loop through each filter group and grap the active filter from each one.
@@ -1046,7 +1035,7 @@
 		      group.active = group.$buttons.filter('.active').attr('data-filter') || '';
 
 		    }
-		    
+
 		    self.concatenate();
 		  },
 		  
@@ -1063,18 +1052,11 @@
 		    
 		    // If the output string is empty, show all rather than none:
 		    
-		    !self.outputString.length && (self.outputString = 'all'); 
+		    !self.outputString.length && (self.outputString = 'all');
 		    
-		    
-<<<<<<< HEAD
-		    //alert(self.outputString); 
-		    
-		    // ^ we can check the console here to take a look at the filter string that is produced
-		    
-=======
->>>>>>> a4f7fa3a2e4f37463ebef8369fbc65332d93989a
 		    // Send the output string to MixItUp via the 'filter' method:
 		    
+		    self.outputData = '';
 			  if(self.$container.mixItUp('isLoaded')){
 		    	self.$container.mixItUp('filter', self.outputString);
 
@@ -1121,19 +1103,13 @@
 		      
 		  $('#Container').mixItUp({
 		    controls: {
-		      enable: false // we won't be needing these
+		      enable: false, // we won't be needing these
+		      toggleFilterButtons: true
 		    },
 		    callbacks: {
-<<<<<<< HEAD
-		      onMixFail: function(){
-		        //alert('No items were found matching the selected filters.');
-		        ohSnap('No items were found matching the selected filters.', 'red', 'icon-alert');
-		      }
-=======
 			    onMixEnd: function(){
 			        //alert('No items were found matching the selected filters.');
 			    }
->>>>>>> a4f7fa3a2e4f37463ebef8369fbc65332d93989a
 		    }
 		  });    
 		});
