@@ -348,10 +348,7 @@
 		#about-overlay .col-md-6 {
 			height: 100%;
 		}
-		#about-overlay .col-md-5 img{
-			position: absolute;
-			margin-top: 10%;
-		}
+		
 		#about-overlay .col-md-6 .text {
 			position: absolute;
 			top: 40%;

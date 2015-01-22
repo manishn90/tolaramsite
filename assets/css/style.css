@@ -263,7 +263,6 @@ div.video_bg{
     }
     #about-overlay .col-md-5 img{
       position: absolute;
-      margin-top: 10%;
     }
     #about-overlay .col-md-6 .text {
       position: absolute;
@@ -502,7 +501,7 @@ div.video_bg{
       top: 0;
       left: -100%;
       z-index: 100000;
-      overflow-y: scroll;
+      overflow-y: hidden;
     }
 
     .fullWidth h1{
@@ -1654,11 +1653,7 @@ label {
     font-size: 1.3rem;
     }
 
-    button.businessClose{
-      right: -30px;
-      top: 18px;
-    }
-
+    
     .csr_content{
       padding-left: 8%;
     }
@@ -1677,7 +1672,7 @@ label {
     .newsroom_btn{text-align: center;width: 100%;}
     #Filters{display: none;}
     #Filters2{display: inline;}
-    button.businessClose{top: 17px!important;right: 20px!important;}
+    button.businessClose{top: 17px!important;right: -26px!important;}
     #about-overlay .col-md-6 .text{margin: 0;top: 25%!important;}
     h3.title{font-size: 1rem;}
     p.content{font-size: 0.8rem;}
