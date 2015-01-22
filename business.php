@@ -420,7 +420,7 @@
 
 							    <div class="col-md-8 cbp-l-inline-desc">
 							        <span class="lead">DEEPANKAR RUSTAGI</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/>Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/><br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
+							        <p><br/>Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/><br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
 							        <p>&nbsp;&nbsp;</p>
 							    </div>
 							</div>
@@ -703,7 +703,7 @@
 							        <p class="lead">Estonia</p></div>
 
 							        <div class="cbp-l-inline-desc">
-							            <p>Tolaram Investments AS owns a 10.8 ha industrial site in North Tallinn with approvals to develop the site into a mixed commercial and residential development of 200,000 sq.m. It recently completed the building for Norwegian-owned supermarket chain Rimi. It is also the developer of Pagari One, formerly a KGB headquarters, which has been restored as a complex of 42 luxury apartments.<br/>Its subsidiary TH Investments developed and owns a building that houses Hawaii Express Retail and Al Mare Bowling.</p>
+							            <p>Tolaram Investments AS owns a 10.8 ha industrial site in North Tallinn with approvals to develop the site into a mixed commercial and residential development of 200,000 sq.m. It recently completed the building for Norwegian-owned supermarket chain Rimi. It is also the developer of Pagari One, formerly a KGB headquarters, which has been restored as a complex of 42 luxury apartments.<br/>Its subsidiary TH Investments developed and owns a building that houses Hawaii Express Retail and Al Mare Bowling.</p>
 							        </div>
 							    </div>
 							</div>
@@ -791,7 +791,7 @@
 
 							    <div class="col-md-8 cbp-l-inline-desc">
 							        <span class="lead">DEEPANKAR RUSTAGI</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/>Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/><br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
+							        <p><br/>Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/><br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
 							        <p>&nbsp;<br/>&nbsp;</p>
 							    </div>
 
@@ -1003,7 +1003,7 @@
 		      else {
 		      	$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#BBB');
 		      	for(var i = 0, group; group = self.groups[i]; i++) {
-			      group.inactive = group.$buttons.not('.active').css('color', '#BBB');
+			      group.inactive = group.$buttons.not('.active').attr('disabled', true).css('color', '#BBB');
 			    }
 			    //self.activeData = self.$button.attr('data-filter');
 		      	//alert(group.activeId);
@@ -1067,9 +1067,11 @@
 					country = '';
 					self.$container.find(self.outputString).each(function(){
 						country = '.' + $(this).attr('country');
-						//alert(country);
+						
 						group.$buttons.find(country).css('color', '#000');
 				    });
+				    
+				    console.log(country);
 				    //alert('COUNTRIES >> ' + countries);
 				} else if (self.activeId == 'country') {
 					i = 0;

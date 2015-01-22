@@ -5,7 +5,6 @@
     <script src="assets/js/vendor/classie.js"></script>
     <script src="assets/js/vendor/jquery.fullPage.js"></script>
     <script src="assets/js/vendor/background-check.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.js"></script>
     <script src="assets/js/vendor/jquery.mixitup.js"></script>
     <script src="assets/js/vendor/jquery.humanmsg.js"></script>
 
