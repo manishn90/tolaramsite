@@ -664,7 +664,7 @@
 							    <div class="cbp-l-inline-left business_content">
 							        <div class="cbp-l-inline-title">MULTI PRO ENTERPRISES</div>
 							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Ghana</p></div>
+							        <p class="lead">Ghana, Nigeria</p></div>
 
 							        <div class="cbp-l-inline-desc">
 							            <p>Multi Pro Enterprises Limited is the largest consumer goods distribution company in West Africa. Its reach is about half a million points-of-sales.</p>
