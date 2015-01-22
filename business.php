@@ -22,31 +22,31 @@
 					 <div class="col-md-6 text-center">
 					  <fieldset>
 					    <h4 style="color:#000">Sectors</h4>
-					    <button class="filter" data-filter=".consumer">Consumer Goods</button>
-					    <button class="filter" data-filter=".digital">Digital Services</button>
-					    <button class="filter" data-filter=".distribution">Distribution</button>
-					    <button class="filter" data-filter=".energy">Energy</button>
-					    <button class="filter" data-filter=".financial">Financial Services</button>
-					    <button class="filter" data-filter=".infrastructure">Infrastructure</button>
-					    <button class="filter" data-filter=".paper">Paper Products</button>
-					    <button class="filter" data-filter=".real">Real Estates</button>
-					    <button class="filter" data-filter=".textiles">Textiles</button>
+					    <button class="filter" data-filter=".consumer" group='sector'>Consumer Goods</button>
+					    <button class="filter" data-filter=".digital" group='sector'>Digital Services</button>
+					    <button class="filter" data-filter=".distribution" group='sector'>Distribution</button>
+					    <button class="filter" data-filter=".energy" group='sector'>Energy</button>
+					    <button class="filter" data-filter=".financial" group='sector'>Financial Services</button>
+					    <button class="filter" data-filter=".infrastructure" group='sector'>Infrastructure</button>
+					    <button class="filter" data-filter=".paper" group='sector'>Paper Products</button>
+					    <button class="filter" data-filter=".real" group='sector'>Real Estates</button>
+					    <button class="filter" data-filter=".textiles" group='sector'>Textiles</button>
 					  </fieldset>
 					 </div>
 
 					 <div class="col-md-6 text-center">
 					  <fieldset>
 					    <h4 style="color:#000">Countries</h4>
-					    <button class="filter" data-filter=".benin">Benin</button>
-					    <button class="filter" data-filter=".estonia">Estonia</button>
-					    <button class="filter" data-filter=".ghana">Ghana</button>
-					    <button class="filter" data-filter=".india">India</button>
-					    <button class="filter" data-filter=".indonesia">Indonesia</button>
-					    <button class="filter" data-filter=".ivory-coast">Ivory Coast</button>
-					    <button class="filter" data-filter=".nigeria">Nigeria</button>
-					    <button class="filter" data-filter=".tanzania">Tanzania</button>
-					    <button class="filter" data-filter=".togo">Togo</button>
-					    <button class="filter" data-filter=".singapore">Singapore</button>
+					    <button class="filter" data-filter=".benin" group='country'>Benin</button>
+					    <button class="filter" data-filter=".estonia" group='country'>Estonia</button>
+					    <button class="filter" data-filter=".ghana" group='country'>Ghana</button>
+					    <button class="filter" data-filter=".india" group='country'>India</button>
+					    <button class="filter" data-filter=".indonesia" group='country'>Indonesia</button>
+					    <button class="filter" data-filter=".ivory-coast" group='country'>Ivory Coast</button>
+					    <button class="filter" data-filter=".nigeria" group='country'>Nigeria</button>
+					    <button class="filter" data-filter=".tanzania" group='country'>Tanzania</button>
+					    <button class="filter" data-filter=".togo" group='country'>Togo</button>
+					    <button class="filter" data-filter=".singapore" group='country'>Singapore</button>
 					  </fieldset>
 					 </div>
 
@@ -947,8 +947,10 @@
 	<script type="text/javascript">
 	$(document).ready(function () {
 
-		// To keep our code clean and modular, all custom functionality will be contained inside a single object literal called "buttonFilter".
-
+		// ******************************************************************************************************* //
+		// *******************************  BUTTON SECTION ******************************************************* //
+		// ******************************************************************************************************* //
+		
 		var buttonFilter = {
 		  
 		  // Declare any variables we will need as properties of the object
@@ -991,11 +993,34 @@
 		      var $button = $(this);
 		      
 		      // If the button is active, remove the active class, else make active and deactivate others.
+<<<<<<< HEAD
 		      
 		      $button.hasClass('active') ?
 		        $button.removeClass('active') :
 		        $button.addClass('active').siblings('.filter').removeClass('active');
 		      
+=======
+
+		      // ************************ customized by colorblindlabs.com **************************
+		      if ($button.hasClass('active')) {
+		      	$button.removeClass('active');
+		      	$button.siblings('.filter').attr('disabled', false).css('color', '#000');
+		      	for(var i = 0, group; group = self.groups[i]; i++) {
+			      group.inactive = group.$buttons.not('.active').css('color', '#000');
+			    }
+		      	//alert('disabled removed!');
+		      }
+		      else {
+		      	$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#BBB');
+		      	for(var i = 0, group; group = self.groups[i]; i++) {
+			      group.inactive = group.$buttons.not('.active').css('color', '#BBB');
+			    }
+			    //self.activeData = self.$button.attr('data-filter');
+		      	//alert(group.activeId);
+		      }
+		      // **************************************************************************************
+
+>>>>>>> a4f7fa3a2e4f37463ebef8369fbc65332d93989a
 		      self.parseFilters();
 		    });
 		    
@@ -1019,6 +1044,7 @@
 		    
 		    for(var i = 0, group; group = self.groups[i]; i++){
 		      group.active = group.$buttons.filter('.active').attr('data-filter') || '';
+
 		    }
 		    
 		    self.concatenate();
@@ -1040,15 +1066,44 @@
 		    !self.outputString.length && (self.outputString = 'all'); 
 		    
 		    
+<<<<<<< HEAD
 		    //alert(self.outputString); 
 		    
 		    // ^ we can check the console here to take a look at the filter string that is produced
 		    
+=======
+>>>>>>> a4f7fa3a2e4f37463ebef8369fbc65332d93989a
 		    // Send the output string to MixItUp via the 'filter' method:
 		    
 			  if(self.$container.mixItUp('isLoaded')){
 		    	self.$container.mixItUp('filter', self.outputString);
+
+		    	// ***************************************************
+		    	// **************** customized part ******************
+				self.activeId = self.$filters.find('.active').attr('group') || 'null';
+				if (self.activeId == 'sector') {
+					country = '';
+					self.$container.find(self.outputString).each(function(){
+						country = '.' + $(this).attr('country');
+						//alert(country);
+						group.$buttons.find(country).css('color', '#000');
+				    });
+				    //alert('COUNTRIES >> ' + countries);
+				} else if (self.activeId == 'country') {
+					i = 0;
+					var sectors = [];
+					self.$container.find(self.outputString).each(function(){
+						sectors[i++] = '.' + $(this).attr('sector');
+				    });
+				    alert('SECTORS >> ' + sectors);
+				} else {
+			    	//alert('NONE ACTIVE!');
+				}
+			    // ***************************************************
+			    // ***************************************************
+
 			  }
+
 		  }
 		};
 		  
@@ -1067,17 +1122,24 @@
 		      enable: false // we won't be needing these
 		    },
 		    callbacks: {
+<<<<<<< HEAD
 		      onMixFail: function(){
 		        //alert('No items were found matching the selected filters.');
 		        ohSnap('No items were found matching the selected filters.', 'red', 'icon-alert');
 		      }
+=======
+			    onMixEnd: function(){
+			        //alert('No items were found matching the selected filters.');
+			    }
+>>>>>>> a4f7fa3a2e4f37463ebef8369fbc65332d93989a
 		    }
 		  });    
 		});
 
 
-
-		// To keep our code clean and modular, all custom functionality will be contained inside a single object literal called "dropdownFilter".
+		// ******************************************************************************************************* //
+		// *******************************  DROPDOWN SECTION ***************************************************** //
+		// ******************************************************************************************************* //
 
 		var dropdownFilter = {
 		  
