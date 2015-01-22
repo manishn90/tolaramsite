@@ -621,7 +621,7 @@
 							    <div class="cbp-l-inline-left business_content">
 							        <div class="cbp-l-inline-title">MBH POWER</div>
 							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Ghana</p></div>
+							        <p class="lead">Ghana, India, Nigeria</p></div>
 
 							        <div class="cbp-l-inline-desc">
 							            <p>MBH Power Limited is a total energy solutions company providing world-class services to meet the growing demand of the power sector in emerging markets. It focuses on:
@@ -1062,8 +1062,16 @@
 				if (self.activeId == 'sector') {
 					country = '';
 					self.$container.find(self.outputString).each(function(){
-						country = '.' + $(this).attr('country') || '.' + $(this).attr('country-2') || '.' + $(this).attr('country-3');
+						country = '.' + $(this).attr('country');
 						$('.filter[data-filter="'+country+'"]').attr('disabled', false).css('color', '#000');
+						if ($(this).attr('country-2')) {
+							country2 = '.' + $(this).attr('country-2');
+							$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');
+						}
+						if ($(this).attr('country-3')) {
+							country3 = '.' + $(this).attr('country-3');
+							$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
+						}
 				    });
 
 				} else if (self.activeId == 'country') {
