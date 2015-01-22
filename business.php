@@ -608,7 +608,7 @@
 					  </div>
 
 					  <!-- Project 15 -->
-					  <div class="mix energy ghana india nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria india ghana' sector='energy'>
+					  <div class="mix energy ghana india nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='india' country-3='ghana' sector='energy'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/mbh.power_bg.png" alt="">			
 						</a>
@@ -651,7 +651,7 @@
 					  </div>
 
 					  <!-- Project 16 -->
-					  <div class="mix distribution ghana nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria ghana' sector='distribution'>
+					  <div class="mix distribution ghana nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='ghana' sector='distribution'>
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 							<img src="assets/img/our_business/sector/multipro_bg.png" alt="">			
 						</a>
@@ -996,17 +996,14 @@
 		      	$button.removeClass('active');
 		      	$button.siblings('.filter').attr('disabled', false).css('color', '#000');
 		      	for(var i = 0, group; group = self.groups[i]; i++) {
-			      group.inactive = group.$buttons.not('.active').css('color', '#000');
+			      group.inactive = group.$buttons.not('.active').attr('disabled', false).css('color', '#000');
 			    }
-		      	//alert('disabled removed!');
 		      }
 		      else {
 		      	$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#BBB');
 		      	for(var i = 0, group; group = self.groups[i]; i++) {
 			      group.inactive = group.$buttons.not('.active').attr('disabled', true).css('color', '#BBB');
 			    }
-			    //self.activeData = self.$button.attr('data-filter');
-		      	//alert(group.activeId);
 		      }
 		      // **************************************************************************************
 
@@ -1060,30 +1057,25 @@
 			  if(self.$container.mixItUp('isLoaded')){
 		    	self.$container.mixItUp('filter', self.outputString);
 
-		    	// ***************************************************
 		    	// **************** customized part ******************
 				self.activeId = self.$filters.find('.active').attr('group') || 'null';
 				if (self.activeId == 'sector') {
 					country = '';
 					self.$container.find(self.outputString).each(function(){
-						country = '.' + $(this).attr('country');
-						
-						group.$buttons.find(country).css('color', '#000');
+						country = '.' + $(this).attr('country') || '.' + $(this).attr('country-2') || '.' + $(this).attr('country-3');
+						$('.filter[data-filter="'+country+'"]').attr('disabled', false).css('color', '#000');
+				    });
+
+				} else if (self.activeId == 'country') {
+					sector = '';
+					self.$container.find(self.outputString).each(function(){
+						sector = '.' + $(this).attr('sector');
+						$('.filter[data-filter="'+sector+'"]').attr('disabled', false).css('color', '#000');
 				    });
 				    
-				    console.log(country);
-				    //alert('COUNTRIES >> ' + countries);
-				} else if (self.activeId == 'country') {
-					i = 0;
-					var sectors = [];
-					self.$container.find(self.outputString).each(function(){
-						sectors[i++] = '.' + $(this).attr('sector');
-				    });
-				    alert('SECTORS >> ' + sectors);
 				} else {
-			    	//alert('NONE ACTIVE!');
+			    	// NONE ACTIVE!
 				}
-			    // ***************************************************
 			    // ***************************************************
 
 			  }
