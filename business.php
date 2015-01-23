@@ -1000,7 +1000,8 @@
 		      			$button.removeClass('active');
 		      			$button.siblings('.filter').removeClass('.active').attr('disabled', false).css('color', '#000')
 		      			for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group
-		      				group.$buttons.removeClass('.active').attr('disabled', false).css('color', '#000');
+		      				group.$buttons.removeClass('active');
+		      				group.$buttons.attr('disabled', false).css('color', '#000');
 					    }
 		      			$.removeCookie('initFilter'); // Remove the stored cookie
 		      		}
@@ -1104,12 +1105,16 @@
 							country2 = '.' + $(this).attr('country-2');
 							if (($.cookie('initFilter')) == ($(this).attr('data-filter'))) {
 								$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');	
+							} else {
+								$('.filter[data-filter="'+country2+'"]').attr('disabled', true).css('color', '#e8e8e8');
 							}
 						}
 						if ($(this).attr('country-3')) { //if there is 3rd country
 							country3 = '.' + $(this).attr('country-3');
 							if (($.cookie('initFilter')) == ($(this).attr('data-filter'))) {
 								$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
+							} else {
+								$('.filter[data-filter="'+country3+'"]').attr('disabled', true).css('color', '#e8e8e8');
 							}
 						}
 				    });
