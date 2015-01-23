@@ -100,6 +100,7 @@
 					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
 					        <img src="assets/img/our_business/IBP-building.jpg" alt="">
 					    </a>
+					    
 					    <div class="hidden_content">
 						    <div class="cbp-l-inline">
 							    <div class="cbp-l-inline-left">
@@ -130,39 +131,40 @@
 
 					  <!-- project 2 -->
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='financial'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline my_popup2_open" >
 							<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">Bank Amar</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Indonesia</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Established in 1991, Amar Bank offers retail banking through branches in Surabaya and Jakarta.</p>
-							        </div>
-
-							    </div>
-							    <div class="cbp-l-inline-right">
-							        <img src="assets/img/our_business/amar800x600.png" alt="">
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-center">
-							        <img src="assets/img/ceos/no-photo.gif" style="width: 140px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">B. BUDIJANTO JAHJA</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">President Director</span>
-							        <p><br/></p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+						<div id="my_popup2">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/sector/amarbank_bg.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">Bank Amar</p>
+											<p class="business_subtitle">Indonesia</p>
+											<p class="business_desc">Arzu Utama Realty is the developer of Arzuria, a 32-storey upscale residential apartment in central Jakarta occupying a land area of 6,800 sq. m.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">B. BUDIJANTO JAHJA<br>President Director</h5>
+							       						<p style="font-size:13px;color:#5d5d5d">Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities in Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBA's from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
-
+						
 					  </div>
 
 
@@ -903,6 +905,8 @@
 			display: none;
 		}
 
+
+
 		@media screen and (max-width: 768px){
 			button.businessClose {
 				right: 18px!important;
@@ -944,7 +948,7 @@
 	<script type="text/javascript">
 	$(document).ready(function () {
 
-		$.removeCookie('initFilter');
+		$('#my_popup1,#my_popup2,#my_popup3,#my_popup4,#my_popup5,#my_popup6,#my_popup7,#my_popup8,#my_popup9,#my_popup10,#my_popup11,#my_popup12,#my_popup13,#my_popup14,#my_popup15,#my_popup16,#my_popup17,#my_popup18,#my_popup19').popup({transition: 'all 0.3s'});
 
 		// ******************************************************************************************************* //
 		// *******************************  BUTTON SECTION ******************************************************* //
@@ -959,7 +963,6 @@
 		  groups: [],
 		  outputArray: [],
 		  outputString: '',
-
 		  
 		  // The "init" method will run on document ready and cache any jQuery objects we will need.
 		  
@@ -994,55 +997,20 @@
 
 		      // If the button is active, remove the active class, else make active and deactivate others.
 
-		      // ************************ Below is Customized Part *********************************
-		  	 
-		  	  if ($button.hasClass('active')) { // Make the button inactive
-		      	if ($.cookie('initFilter')) { // If cookie has been set
-		      		if (($.cookie('initFilter')) == ($button.attr('data-filter'))) { // if deativated button is the same to init button
-		      			$button.removeClass('active');
-		      			$button.siblings('.filter').removeClass('.active').attr('disabled', false).css('color', '#000')
-		      			for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group
-		      				group.$buttons.removeClass('active');
-		      				group.$buttons.attr('disabled', false).css('color', '#000');
-					    }
-		      			$.removeCookie('initFilter'); // Remove the stored cookie
-		      		}
-		      		else { // if deactivated button is NOT the same to init button
-		      			$button.removeClass('active');
-		      			$button.siblings('.filter').find('disabled').each(function(){
-					      	$button.siblings('.filter').attr('disabled', true);
-					    });
-		      		}
-		      	} 
-		      	else { // If cookie is not set
-		      		alert('whoaa.. nothing to do here...');
-		      	}
+		      // ************************ customized by colorblindlabs.com **************************
+		      if ($button.hasClass('active')) {
+		      	$button.removeClass('active');
+		      	$button.siblings('.filter').attr('disabled', false).css('color', '#000');
+		      	for(var i = 0, group; group = self.groups[i]; i++) {
+			      group.$buttons.removeClass('active').attr('disabled', false).css('color', '#000');
+			    }
 		      }
-		      else { // Activate the button!
-		      	if ($.cookie('initFilter')) { // If cookie has been set
-		      		$button.addClass('active');
-		      		$button.siblings('.filter').removeClass('active')
-		      		if (($.cookie('initFilter')) != ($button.attr('data-filter'))) { // if activated button is not the same to init button
-		      			$button.siblings('.filter').find('disabled').each(function(){
-					      	$button.attr('disabled', true).css('color', '#e8e8e8');
-					    });
-					    for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group 
-					    	group.$buttons.find('disabled').each(function(){ // Find button that is enabled/disabled and keep it that way
-						      	group.$buttons.attr('disabled', true);
-						    });	
-					    }
-		      		}
-		      	}
-		      	else { // If cookie is not set
-		      		$.cookie('initFilter', $button.attr('data-filter')); // record initFilter cookie
-		      		$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#e8e8e8'); // Grey
-			      	for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group
-				      group.$buttons.not('.active').attr('disabled', true).css('color', '#e8e8e8');
-				    }
-		      	}
+		      else {
+		      	$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#e8e8e8');
+		      	for(var i = 0, group; group = self.groups[i]; i++) {
+			      group.$buttons.not('.active').attr('disabled', true).css('color', '#e8e8e8');
+			    }
 		      }
-
-		      console.log($.cookie('initFilter')); // Test showing output up in console
 		      // **************************************************************************************
 
 		      self.parseFilters();
@@ -1095,30 +1063,20 @@
 			  if(self.$container.mixItUp('isLoaded')){
 		    	self.$container.mixItUp('filter', self.outputString);
 
-		    	// ************************** Below is Customized *************************
-
+		    	// **************** customized part ******************
 				self.activeId = self.$filters.find('.active').attr('group') || 'null';
 				if (self.activeId == 'sector') {
 					country = '';
 					self.$container.find(self.outputString).each(function(){
 						country = '.' + $(this).attr('country');
 						$('.filter[data-filter="'+country+'"]').attr('disabled', false).css('color', '#000');
-						//alert($(this).attr('data-filter'));
 						if ($(this).attr('country-2')) { //if there is 2nd country
 							country2 = '.' + $(this).attr('country-2');
-							if (($.cookie('initFilter')) == (self.outputString)) {
-								$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');	
-							} else {
-								$('.filter[data-filter="'+country2+'"]').attr('disabled', true).css('color', '#e8e8e8');
-							}
+							$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');
 						}
 						if ($(this).attr('country-3')) { //if there is 3rd country
 							country3 = '.' + $(this).attr('country-3');
-							if (($.cookie('initFilter')) == (self.outputString)) {
-								$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
-							} else {
-								$('.filter[data-filter="'+country3+'"]').attr('disabled', true).css('color', '#e8e8e8');
-							}
+							$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
 						}
 				    });
 
@@ -1130,9 +1088,9 @@
 				    });
 				    
 				} else {
-			    	// IF NONE ACTIVE!
+			    	// NONE ACTIVE!
 				}
-			    // ************************** End of Customized Part *************************
+			    // ***************************************************
 
 			  }
 
@@ -1156,7 +1114,7 @@
 		    },
 		    callbacks: {
 			    onMixEnd: function(){
-		      		
+			        //alert('No items were found matching the selected filters.');
 			    }
 		    }
 		  });    
@@ -1299,6 +1257,23 @@
                  insertHtml += '</div></div>';
                  $('body').after(insertHtml);
                  $('.fullWidth').animate({left:"0"});
+
+                
+                BackgroundCheck.init({
+				  targets: '.closeButton',
+				  images: '.csrBanner'
+				});
+                 
+                 // Specific target
+				BackgroundCheck.refresh(target);
+
+				// Get current targets
+				BackgroundCheck.get('targets');
+
+				// Change targets
+				BackgroundCheck.set('targets', '.header');
+
+				BackgroundCheck.destroy();
 
             });
 
