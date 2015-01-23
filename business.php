@@ -130,37 +130,40 @@
 
 					  <!-- project 2 -->
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='financial'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup_1_open" >
 							<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">Bank Amar</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Indonesia</p></div>
 
-							        <div class="cbp-l-inline-desc">
-							            <p>Established in 1991, Amar Bank offers retail banking through branches in Surabaya and Jakarta.</p>
-							        </div>
+						<div id="popup_1">
 
-							    </div>
-							    <div class="cbp-l-inline-right">
-							        <img src="assets/img/our_business/amar800x600.png" alt="">
-							    </div>
-							</div>
+						<div class="row">
+						<div class="col-md-6">
+						<img src="assets/img/our_business/sector/amarbank_bg.png" style="width:100%">
+						</div>
+						<div class="col-md-6">
+						<div class="row box-desc">
+						<div class="col-md-12" style="padding-bottom: 18px;">
+						<p class="business_title">Bank Amar</p>
+						<p class="business_subtitle">Indonesia</p>
+						<p class="business_desc">Arzu Utama Realty is the developer of Arzuria, a 32-storey upscale residential apartment in central Jakarta occupying a land area of 6,800 sq. m.</p>
+						</div>
+						<div class="col-md-12">
+						<div class="row">
+						<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+						<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
+						</div>
+						<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+						<div class="lead-desc">
+						<h5 style="font-size:13px;color:#5d5d5d  ">B. BUDIJANTO JAHJA<br>President Director</h5>
+						      <p style="font-size:13px;color:#5d5d5d  ">Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities in Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBA's from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
+						</div>
 
-							<div class="row-fluid">
-							    <div class="col-md-4 text-center">
-							        <img src="assets/img/ceos/no-photo.gif" style="width: 140px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">B. BUDIJANTO JAHJA</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">President Director</span>
-							        <p><br/></p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
 						</div>
 
 					  </div>
@@ -943,6 +946,10 @@
 
 	<script type="text/javascript">
 	$(document).ready(function () {
+
+		$('#popup_1').popup({
+
+		});
 
 		$.removeCookie('initFilter');
 
