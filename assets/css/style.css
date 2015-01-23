@@ -326,11 +326,25 @@ div.video_bg{
     }
     .quote, .author{
       text-align: left;
-      display: none;
       font-size: 13px;
       font-size: gothamMedium;
-      color: #666; 
     }
+
+    .box-value{margin-top: 60px;}
+    .box-value .box-text{display:none;padding-top: 15px;padding-right: 15px;}
+    .box-value .box-text p{color:#FFF;}
+
+    .box-list{border-color: #FFF;border-width: 1px; border-style: solid; padding:10px;margin-bottom: 6px;padding-left: 24px;}
+    .box-list .box-arrow{color: #FFF;font-size: 20px;padding-right: 3px;padding-top: 3px; display: none;}
+    .box-list h3{color: #FFF;margin: 0;padding-top: 5px;}
+
+    .trust-box.active{border-color:#526cd2;}
+    .respect-box.active{border-color:#f39140;}
+    .commitment-box.active{border-color:#639140;}
+    .courage-box.active{border-color:#d24040;}
+    .humility-box.active{border-color:#926c50;}
+
+
 
     .quote.real{font-style: italic; margin-bottom: 0px;border-left: #DDD solid 4px; padding-left: 10px;}
     .author{text-decoration: underline;border-left: #DDD solid 4px; padding-left: 10px;}
@@ -1682,6 +1696,7 @@ label {
     .shareholders1, .shareholders2{text-transform: none;line-height: 1;}
     .title_shareholders1, .title_shareholders2{font-size: 10px;}
     .box-content{padding-right: 15px!important;position: absolute;margin: 0 auto;left: 0;right: 0}
+    .box-value{margin-top: 0}
 }
 
 
