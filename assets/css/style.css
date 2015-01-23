@@ -527,6 +527,7 @@ div.video_bg{
     .csroverlay {
       background-color: white !important;
     }
+    .csroverlay-desc{position: absolute;left: 0;right: 0;margin: auto;width: 50%;}
 
     .csroverlay .container {
       padding-top: 18px;
@@ -1827,6 +1828,8 @@ label {
       #popup17,
       #popup18,
       #popup19{height: 100%;}
+
+      .csroverlay-desc{width: 80%;}
 }
 
 

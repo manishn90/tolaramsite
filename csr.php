@@ -100,7 +100,7 @@
                  
                  $('.fullWidth').css('left',"-100%");
                  var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');'+style+'"></div><button class="businessClose">Close</button><div class="row container">';
-                 insertHtml += '<div class="col-md-6"><div><h1>'+$parentdiv.find('h1').text()+'</h1><p>'+$parentdiv.find('.hiddenContent').text()+'</p></div></div>';
+                 insertHtml += '<div class="col-md-12"><div class="csroverlay-desc"><h1>'+$parentdiv.find('h1').text()+'</h1><p>'+$parentdiv.find('.hiddenContent').text()+'</p></div></div>';
                  insertHtml += '</div></div>';
                  $('body').after(insertHtml);
                  $('.fullWidth').animate({left:"0"});

@@ -115,7 +115,6 @@
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-														<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
 													</div>
 													<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 														<div class="lead-desc">
@@ -142,7 +141,7 @@
 						<div id="popup2">
 							<div class="row">
 								<div class="col-md-6">
-									<img src="assets/img/our_business/sector/amarbank_bg.png" style="width:100%">
+									<img src="assets/img/our_business/amar800x600.png" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
@@ -408,7 +407,7 @@
 						<div id="popup9">
 							<div class="row">
 								<div class="col-md-6">
-									<img src="assets/img/our_business/sector/horizon.tisue_bg.png" style="width:100%">
+									<img src="assets/img/our_business/horizontisue800x600.png" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
@@ -446,7 +445,7 @@
 						<div id="popup10">
 							<div class="row">
 								<div class="col-md-6">
-									<img src="assets/img/our_business/sector/hypo_bg.png" style="width:100%">
+									<img src="assets/img/our_business/hypo_800x600.png" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
@@ -478,338 +477,357 @@
 
 					  <!-- Project 11 -->
 					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='infrastructure'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup11_open" >
 					        <img src="assets/img/our_business/sector/lagosfreetradezone_lftz_bg.png" alt="">
 					    </a>
-					    <div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
+						<div id="popup11">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/lftz_800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">LAGOS FREE TRADE ZONE</p>
+											<p class="business_subtitle">Nigeria</p>
+											<p class="business_desc">Spread over an area of 800 hectares, the Lagos Free Trade Zone (LFTZ) serves as an industrial and commercial hub for West Africa. LFTZ is strategically located to facilitate trade and boost the economy of Nigeria as well as neighbouring countries in Africa.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/KS_full_pic.png" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">KUNDAN SAINANI<br>Chief Financial Officer</h5>
+														<p style="font-size:13px;color:#5d5d5d">Kundan Sainani joined the Group in 1999 as a Group Internal Auditor. He became the Director, Finance for Viva Methanol LFTZ Enterprise in 2003 before moving on to his role as CFO in LFTZ to take charge of the development of this mega-scale integrated industrial park.<br/><br/>He has over 25 years of experience in the steel, paper, textile, chemicals, food sector, infrastructure and construction industries.<br/>He is a commerce graduate and a member of the Institute of Chartered Accountants of India.</p>
+													</div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">LAGOS FREE TRADE ZONE</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Spread over an area of 800 hectares, the Lagos Free Trade Zone (LFTZ) serves as an industrial and commercial hub for West Africa. LFTZ is strategically located to facilitate trade and boost the economy of Nigeria as well as neighbouring countries in Africa.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/KS_full_pic.png" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">KUNDAN SAINANI</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Chief Financial Officer</span>
-							        <p>Kundan Sainani joined the Group in 1999 as a Group Internal Auditor. He became the Director, Finance for Viva Methanol LFTZ Enterprise in 2003 before moving on to his role as CFO in LFTZ to take charge of the development of this mega-scale integrated industrial park.<br/><br/>He has over 25 years of experience in the steel, paper, textile, chemicals, food sector, infrastructure and construction industries.<br/>He is a commerce graduate and a member of the Institute of Chartered Accountants of India.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+
 					  </div>
 
 					  <!-- Project 12 -->
 					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='infrastructure'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup12_open" >
 							<img src="assets/img/our_business/sector/lekki.port_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">LEKKI DEEP SEA PORT</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
+						<div id="popup12">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/lekki800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">LEKKI DEEP SEA PORT</p>
+											<p class="business_subtitle">Nigeria</p>
+											<p class="business_desc">A USD 1.5 billion project, the Lekki Deep Sea Port will be the first privately built port in Nigeria and is slated to become the largest port in the country upon its completion.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">SANDEEP PARASRAMKA<br></h5>
+														<p style="font-size:13px;color:#5d5d5d"></p>
+													</div>
 
-							        <div class="cbp-l-inline-desc">
-							            <p>A USD 1.5 billion project, the Lekki Deep Sea Port will be the first privately built port in Nigeria and is slated to become the largest port in the country upon its completion.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/no-photo.gif" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">SANDEEP PARASRAMKA</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle"></span>
-							        <p><br/></p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+
 					  </div>
 
 					  <!-- Project 13 -->
 					  <div class="mix textiles indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='textiles'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup13_open" >
 							<img src="assets/img/our_business/sector/lotus.indah_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">LOTUS INDAH</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Indonesia</p></div>
+						<div id="popup13">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/lotus_indah_800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">LOTUS INDAH</p>
+											<p class="business_subtitle">Indonesia</p>
+											<p class="business_desc">Lotus Indah Textile Industries produces Synthetic Spun Yarns from Ring Spinning (100% Polyester, 100% Viscose & Poly/Viscose), Open End Spinning (100% Polyester & 100% Viscose) and Murata Vortex Spinning (100% Viscose) in Single, Double (TFO) and Multifold. The company exports to over 30 countries in the world.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/G.Venkatesh.png" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">GOPAL VENKATESH<br>CEO</h5>
+														<p style="font-size:13px;color:#5d5d5d">Gopal Venkatesh joined the Group in May 2013 as the CEO of Lotus Indah Textiles. He has over 29 years of experience, including 12 years in top management positions in various companies in the world.<br/><br/>He holds a Bachelor of Technology and post-graduate Diploma in Business Management.</p>
+													</div>
 
-							        <div class="cbp-l-inline-desc">
-							            <p>Lotus Indah Textile Industries produces Synthetic Spun Yarns from Ring Spinning (100% Polyester, 100% Viscose & Poly/Viscose), Open End Spinning (100% Polyester & 100% Viscose) and Murata Vortex Spinning (100% Viscose) in Single, Double (TFO) and Multifold. The company exports to over 30 countries in the world.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/G.Venkatesh.png" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">GOPAL VENKATESH</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">CEO</span>
-							        <p><br/>Gopal Venkatesh joined the Group in May 2013 as the CEO of Lotus Indah Textiles. He has over 29 years of experience, including 12 years in top management positions in various companies in the world.<br/><br/>He holds a Bachelor of Technology and post-graduate Diploma in Business Management.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+
 					  </div>
 
 					  <!-- Project 14 -->
 					  <div class="mix textiles nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='textiles'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup14_open" >
 							<img src="assets/img/our_business/sector/lucky.fabries_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">LUCKY FIBRES</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
+						<div id="popup14">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/luckyfibre_800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">LUCKY FIBRES</p>
+											<p class="business_subtitle">Nigeria</p>
+											<p class="business_desc">Lucky Fibres PLC is the largest integrated manufacturer of printed, woven and tufted carpets and rugs in West Africa. Marketed under the brand Nobel Carpets, it is a household name for rugs and carpets in Nigeria. Its resources are also employed in contract manufacturing.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/kunal.png" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">KUNAL MALHOTRA<br>General Manager</h5>
+														<p style="font-size:13px;color:#5d5d5d">Kunal Malhotra is the General Manager of Lucky Fibres. He began his career with the Group in 2007 as a Relationship Manager in BHN. He was promoted to head the Logistics department of BHN in 2009 and subsequently as General Manager of Panabiz International Ltd in February 2010. He was later given the assignment to turn around Asian Motors Limited in December 2011 and led Asian Motors to record its highest ever sales in a five month period during 2012.<br/><br/>He graduated from Purdue University with a Bachelor of Science in Business Administration in 2003.</p>
+													</div>
 
-							        <div class="cbp-l-inline-desc">
-							            <p>Lucky Fibres PLC is the largest integrated manufacturer of printed, woven and tufted carpets and rugs in West Africa. Marketed under the brand Nobel Carpets, it is a household name for rugs and carpets in Nigeria. Its resources are also employed in contract manufacturing.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/kunal.png" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">KUNAL MALHOTRA</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/>Kunal Malhotra is the General Manager of Lucky Fibres. He began his career with the Group in 2007 as a Relationship Manager in BHN. He was promoted to head the Logistics department of BHN in 2009 and subsequently as General Manager of Panabiz International Ltd in February 2010. He was later given the assignment to turn around Asian Motors Limited in December 2011 and led Asian Motors to record its highest ever sales in a five month period during 2012.<br/><br/>He graduated from Purdue University with a Bachelor of Science in Business Administration in 2003.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+						
 					  </div>
 
 					  <!-- Project 15 -->
 					  <div class="mix energy ghana india nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='india' country-3='ghana' sector='energy'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup15_open" >
 							<img src="assets/img/our_business/sector/mbh.power_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">MBH POWER</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Ghana, India, Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>MBH Power Limited is a total energy solutions company providing world-class services to meet the growing demand of the power sector in emerging markets. It focuses on:
-							            <ul>
-							                <li>EPC solutions in Transmission and Distribution
-							                <li>Turnkey solutions in Captive Power Generation by using CNG
-							                <li>Metering and Energy Audit
-							                <li>Solar Power Generation
-							            </ul>
+						<div id="popup15">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/energy_power_800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">MBH POWER</p>
+											<p class="business_subtitle">Ghana, India, Nigeria</p>
+											<p class="business_desc">MBH Power Limited is a total energy solutions company providing world-class services to meet the growing demand of the power sector in emerging markets. It focuses on:
+							            <br/>&#8226;EPC solutions in Transmission and Distribution
+							               <br/>&#8226;Turnkey solutions in Captive Power Generation by using CNG
+							                <br/>&#8226;Metering and Energy Audit
+							                <br/>&#8226;Solar Power Generation<br/>
 							            MBH Power has now embarked on development of a 300 MW independent power project in Nigeria.</p>
-							        </div>
-							    </div>
-							</div>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/Manish.jpg" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">MANISH MITTAL<br>CEO</h5>
+														<p style="font-size:13px;color:#5d5d5d">Manish Mittal is CEO of MBH Group. He joined the company in November 2006 and became CEO of Nigeria's operations the following year.<br/><br/>He holds a Bachelor's degree in Electrical Engineering and is an ABB certified Project Manager.</p>
+													</div>
 
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/Manish.jpg" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">MANISH MITTAL</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">CEO</span>
-							        <p><br/>Manish Mittal is CEO of MBH Group. He joined the company in November 2006 and became CEO of Nigeria's operations the following year.<br/><br/>He holds a Bachelor's degree in Electrical Engineering and is an ABB certified Project Manager.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+
 					  </div>
 
 					  <!-- Project 16 -->
 					  <div class="mix distribution ghana nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='ghana' sector='distribution'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup16_open" >
 							<img src="assets/img/our_business/sector/multipro_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">MULTI PRO ENTERPRISES</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Ghana, Nigeria</p></div>
+						<div id="popup16">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/multipro_800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">MULTI PRO ENTERPRISES</p>
+											<p class="business_subtitle">Ghana, Nigeria</p>
+											<p class="business_desc">Multi Pro Enterprises Limited is the largest consumer goods distribution company in West Africa. Its reach is about half a million points-of-sales.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/Girish.jpg" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">GIRISH SHARMA<br>General Manager</h5>
+														<p style="font-size:13px;color:#5d5d5d"></p>
+													</div>
 
-							        <div class="cbp-l-inline-desc">
-							            <p>Multi Pro Enterprises Limited is the largest consumer goods distribution company in West Africa. Its reach is about half a million points-of-sales.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/Girish.jpg" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">GIRISH SHARMA</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/></p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+
 					  </div>
 
 					  <!-- Project 17 -->
 					  <div class="mix real estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='real'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup17_open" >
 							<img src="assets/img/our_business/sector/tolaram.investment_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">TOLARAM INVESTMENTS</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Estonia</p></div>
+						<div id="popup17">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/tolaraminvest800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">TOLARAM INVESTMENTS</p>
+											<p class="business_subtitle">Estonia</p>
+											<p class="business_desc">Tolaram Investments AS owns a 10.8 ha industrial site in North Tallinn with approvals to develop the site into a mixed commercial and residential development of 200,000 sq.m. It recently completed the building for Norwegian-owned supermarket chain Rimi. It is also the developer of Pagari One, formerly a KGB headquarters, which has been restored as a complex of 42 luxury apartments.<br/>Its subsidiary TH Investments developed and owns a building that houses Hawaii Express Retail and Al Mare Bowling.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/Swee-Siong-Tan.jpg" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">TAN SWEE SIONG<br>Head, Real Estate</h5>
+														<p style="font-size:13px;color:#5d5d5d">Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities of Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBAs from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
+													</div>
 
-							        <div class="cbp-l-inline-desc">
-							            <p>Tolaram Investments AS owns a 10.8 ha industrial site in North Tallinn with approvals to develop the site into a mixed commercial and residential development of 200,000 sq.m. It recently completed the building for Norwegian-owned supermarket chain Rimi. It is also the developer of Pagari One, formerly a KGB headquarters, which has been restored as a complex of 42 luxury apartments.<br/>Its subsidiary TH Investments developed and owns a building that houses Hawaii Express Retail and Al Mare Bowling.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/Swee-Siong-Tan.jpg" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">TAN SWEE SIONG</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Head, Real Estate</span>
-							        <p><br/>Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities of Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBAs from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+
 					  </div>
 
 					  <!-- Project 18 -->
 					  <div class="mix digital indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='digital'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup18_open" >
 							<img src="assets/img/our_business/sector/tunaiku_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">TUNAIKU</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Indonesia</p></div>
+						<div id="popup18">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/tunaiku800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">TUNAIKU</p>
+											<p class="business_subtitle">Indonesia</p>
+											<p class="business_desc">Tunaiku is an IT data analytics company, focusing on financial services.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/photo.jpg" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">VISHAL TULSIAN<br>CEO</h5>
+														<p style="font-size:13px;color:#5d5d5d">Vishal Tulsian joined the Group in May 2003 as Finance Manager. He became the CEO of Horizon Tissue and Horizon Pulp & Paper in 2006, and is currently the Group Head of Business Development in Indonesia. <br/><br/>He holds a degree in Chartered Accountancy from the Institute of Chartered Accountants in India and he completed his MBA in London.</p>
+													</div>
 
-							        <div class="cbp-l-inline-desc">
-							            <p>Tunaiku is an IT data analytics company, focusing on financial services.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/photo.jpg" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">VISHAL TULSIAN</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">CEO</span>
-							        <p><br/>Vishal Tulsian joined the Group in May 2003 as Finance Manager. He became the CEO of Horizon Tissue and Horizon Pulp & Paper in 2006, and is currently the Group Head of Business Development in Indonesia. <br/><br/>He holds a degree in Chartered Accountancy from the Institute of Chartered Accountants in India and he completed his MBA in London.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+
 					  </div>
 
 					  <!-- project 19 -->
 					  <div class="mix digital nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='digital'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup19_open" >
 							<img src="assets/img/our_business/sector/vconnect_bg.png" alt="">			
 						</a>
 
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right ">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]">
-							        	<img src="assets/img/our_business/vconnect800x600.png" alt="">
-							        </a>
-							    </div>
+						<div id="popup19">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/vconnect800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">VCONNECT</p>
+											<p class="business_subtitle">Nigeria</p>
+											<p class="business_desc">VConnect is the largest local search engine and ecommerce company in Nigeria. With more than one million businesses listed, it provides extensive information about products, services and companies in Nigeria.<br/>It has also been recognised as the “Hottest Tech Startup” in Africa by Forbes Magazine.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/DEEPANKAR.png" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">DEEPANKAR RUSTAGI<br>General Manager</h5>
+														<p style="font-size:13px;color:#5d5d5d">Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/><br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
+													</div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">VCONNECT</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">NIGERIA</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							        <p>VConnect is the largest local search engine and ecommerce company in Nigeria. With more than one million businesses listed, it provides extensive information about products, services and companies in Nigeria.<br/>It has also been recognised as the “Hottest Tech Startup” in Africa by Forbes Magazine.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/DEEPANKAR.png" style="width: 160px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">DEEPANKAR RUSTAGI</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/>Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/><br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
-							        <p>&nbsp;<br/>&nbsp;</p>
-							    </div>
-
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+
 					  </div>
 
 					  <div class="gap"></div>
