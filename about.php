@@ -311,11 +311,14 @@
 				margin-top: 0;
 			}
 		}
-		
-		@media (max-width: 900px){
+		@media(max-width: 960px){
 			#fp-nav.left{
 				display: none;
 			}
+		}
+
+		@media (max-width: 900px){
+			
 			.shareholders1 {
 				max-width: 75%;
 			}
@@ -537,12 +540,16 @@
 		});
 
 		/*$('.box-list').mouseenter(function () {
-			$(this).children('.fa-expand').show();
-		});
-		$('.box-list').mouseleave(function () {
-			$(this).children('.fa-compress').hide();
-			$(this).children('.fa-expand').hide();
+			if($(this).is('.active')) {
+				$(this).children('.fa-expand').show();
+			} else if ($(this).not('.active')) {
+				$(this).children('.fa-compress').show();
+			};
+
+			
+
 		});*/
+		
 		/*$('.box-trust, .trust').mouseenter(function () {
             $('.box-trust').css({'transform':'translate(0px,-14px) scale(1,1)'});
             $('.trust h3').toggleClass('highlight');
