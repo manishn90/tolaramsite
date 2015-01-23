@@ -147,7 +147,7 @@
 					  	<a href="#" class="cbp-caption cbp-singlePageInline my_popup_open" >
 							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
 						</a>
-						<div id="my_popup1">
+						<div id="my_popup">
 							
 							<div class="row">
 								<div class="col-md-6">
