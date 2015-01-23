@@ -108,6 +108,7 @@
 						<div class="col-lg-6 col-md-5 col-sm-5 box-value">
 							<div class="trust trust-box box-list" style="background:#526cd2" data="">
 								<i class="pull-right fa fa-expand box-arrow"></i>
+								<i class="pull-right fa fa-compress box-arrow"></i>
 	                            <h3>TRUST <i class="pull-right fa fa-angle-down values-link"></i></h3>
 	                            <div class="box-text">
 	                            <p>We are honest and direct in our dealings and always act with transparency. <br />We say what we mean, mean what we say and always keep our promises.</p>
@@ -535,7 +536,13 @@
 
 		});
 
-
+		/*$('.box-list').mouseenter(function () {
+			$(this).children('.fa-expand').show();
+		});
+		$('.box-list').mouseleave(function () {
+			$(this).children('.fa-compress').hide();
+			$(this).children('.fa-expand').hide();
+		});*/
 		/*$('.box-trust, .trust').mouseenter(function () {
             $('.box-trust').css({'transform':'translate(0px,-14px) scale(1,1)'});
             $('.trust h3').toggleClass('highlight');

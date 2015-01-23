@@ -335,8 +335,8 @@ div.video_bg{
     .box-value .box-text p{color:#FFF;}
 
     .box-list{border-color: #FFF;border-width: 1px; border-style: solid; padding:10px;margin-bottom: 6px;padding-left: 24px;}
-    .box-list .box-arrow{color: #FFF;font-size: 20px;padding-right: 3px;padding-top: 3px; display: none;}
-    .box-list h3{color: #FFF;margin: 0;padding-top: 5px;}
+    .box-list .box-arrow{color: #FFF;font-size: 20px;padding-right: 10px;padding-top: 10px; display: none;}
+    .box-list h3{color: #FFF;margin: 0;padding-top: 14px;padding-bottom: 8px;}
 
     .trust-box.active{border-color:#526cd2;}
     .respect-box.active{border-color:#f39140;}
