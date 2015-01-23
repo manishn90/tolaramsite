@@ -193,7 +193,6 @@
 							<span class="hiddenContent">
 								<span>Mohan Vaswani joined the Group in 1957 and has since built various businesses across several locations. He has a wealth of experience in successfully creating and nurturing industrial developments and trading activities.</br></br>He is actively involved in the Tolaram Foundation and Rotary Club of Singapore.</span>
 							</span>
-							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-4 col-xs-4" attrId = "2">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/vishamkar-adnani.jpg">
@@ -202,7 +201,6 @@
 							<span class="hiddenContent">
 								<span>Vishamkar (Vishu) Adnani joined the Group in 1961 and has helped grow the organisation to its present stature. He played a significant role in building Tolaram's capability to trade in a range of products, particularly between Asia and Africa.</br></br>He is actively contributing to the Tolaram Foundation.</span>
 							</span>
-							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-4 col-xs-4" attrId = "3">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/sajen-aswani.jpg">
@@ -211,7 +209,6 @@
 							<span class="hiddenContent">
 								<span>Sajen Aswani joined the Group in 1984 and became the Chief Executive in 2000. He is also a Director of the Family Business Network and a member of the Advisory Council to Nanyang Business School.</br></br>He holds a Bachelor’s degree in Economics from University of London and a Master's degree in Management Science from the Imperial College, London.</span>
 							</span>
-							<i class="fa fa-search"></i>
 						</div>
 					</div>
 					<div class="row shareholders2">
@@ -223,7 +220,6 @@
 							<span class="hiddenContent">
 								<span>Haresh Aswani joined the Group in 1984. He has been the Honorary Consul-General for Singapore in Nigeria since 2006. He has also received the Chieftaincy title in Nigeria "Baagbile Korede of Ota by the Olota of Ota" and the National Honour of MFR (Member of the Order of Federal Republic of Nigeria).</br></br>He holds a Bachelor’s degree in Business Administration from the University of Houston, US.</span>
 							</span>
-							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-3 col-xs-3" attrId = "5">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/sonny-aswani.jpg">
@@ -233,7 +229,6 @@
 							<span class="hiddenContent">
 								<span>Sonny Aswani joined the Group in 1985. He has been the Honorary Consul-General for Estonia in Singapore since 2008 and was conferred the White Cross medal by the President of the Republic of Estonia in 2001.</br></br>He holds a Bachelor's degree in Business Administration and Economics from Richmond College, UK as well as a Master's Degree in Management Science from the University of Kent, UK.</span>
 							</span>
-							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-3 col-xs-3" attrId = "6">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/tom-vaswani.jpg">
@@ -242,7 +237,6 @@
 							<span class="hiddenContent">
 							<span>Tom Vaswani joined the Group in 1993. He holds a Bachelor’s Degree in Politics and Sociology and a Master’s Degree in Social and Political Thought from the University of Warwick, UK.</span>
 							</span>
-							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-3 col-xs-3" attrId = "7">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/raj-vaswani.jpg">
@@ -251,7 +245,6 @@
 							<span class="hiddenContent">
 								<span>Raj Vaswani joined the Group in 1995. He holds a Bachelor's degree in Business Administration from the Terry College of Business, University of Georgia, US.</span>
 							</span>
-							<i class="fa fa-search"></i>
 						</div>
 					</div>
 				</div>
@@ -448,16 +441,7 @@
                 alert('a');
             };
 
-			
-
-			$('div.shareholders1 div,div.shareholders2 div').mouseenter(function(){
-				$(this).children('.fa-search').show();
-			});
-
-			$('div.shareholders1 div, div.shareholders2 div').mouseleave(function(){
-				$(this).children('.fa-search').hide();
-			});
-
+		
 			$('div.shareholders1 div, div.shareholders2 div').click(function(e){
 				e.preventDefault();
                 $id = $(this).attr('attrId'); 
