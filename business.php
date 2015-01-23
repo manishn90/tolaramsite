@@ -492,6 +492,7 @@
 					    </a>
 						<div id="popup11">
 							<div class="row">
+								<button class="businessClose popup1_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/lftz_800x600.png" style="width:100%">
 								</div>
@@ -531,6 +532,7 @@
 
 						<div id="popup12">
 							<div class="row">
+								<button class="businessClose popup1_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/lekki800x600.png" style="width:100%">
 								</div>
@@ -570,6 +572,7 @@
 
 						<div id="popup13">
 							<div class="row">
+								<button class="businessClose popup1_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/lotus_indah_800x600.png" style="width:100%">
 								</div>
@@ -609,6 +612,7 @@
 
 						<div id="popup14">
 							<div class="row">
+								<button class="businessClose popup1_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/luckyfibre_800x600.png" style="width:100%">
 								</div>
@@ -648,6 +652,7 @@
 
 						<div id="popup15">
 							<div class="row">
+								<button class="businessClose popup1_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/energy_power_800x600.png" style="width:100%">
 								</div>
@@ -692,6 +697,7 @@
 
 						<div id="popup16">
 							<div class="row">
+								<button class="businessClose popup1_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/multipro_800x600.png" style="width:100%">
 								</div>
@@ -731,6 +737,7 @@
 
 						<div id="popup17">
 							<div class="row">
+								<button class="businessClose popup1_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/tolaraminvest800x600.png" style="width:100%">
 								</div>
@@ -770,6 +777,7 @@
 
 						<div id="popup18">
 							<div class="row">
+								<button class="businessClose popup1_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/tunaiku800x600.png" style="width:100%">
 								</div>
@@ -809,6 +817,7 @@
 
 						<div id="popup19">
 							<div class="row">
+								<button class="businessClose popup1_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/vconnect800x600.png" style="width:100%">
 								</div>
@@ -854,7 +863,7 @@
 	</div>
 
 	<style type="text/css">
-		 
+		 html,body{overflow: visible!important;}
 		
 		label{
 		  font-weight: 300;
@@ -1320,9 +1329,7 @@
 		  });    
 		});
 
-		 $('#fullpage').fullpage({
-		 	scrollOverflow: true,
-		 });
+		
 
 
 		
