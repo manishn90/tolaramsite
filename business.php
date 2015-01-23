@@ -957,6 +957,7 @@
 		  groups: [],
 		  outputArray: [],
 		  outputString: '',
+
 		  
 		  // The "init" method will run on document ready and cache any jQuery objects we will need.
 		  
@@ -991,20 +992,56 @@
 
 		      // If the button is active, remove the active class, else make active and deactivate others.
 
-		      // ************************ customized by colorblindlabs.com **************************
-		      if ($button.hasClass('active')) {
-		      	$button.removeClass('active');
-		      	$button.siblings('.filter').attr('disabled', false).css('color', '#000');
-		      	for(var i = 0, group; group = self.groups[i]; i++) {
-			      group.$buttons.removeClass('active').attr('disabled', false).css('color', '#000');
-			    }
+		      // ************************ Below is Customized Part *********************************
+		  	 
+		  	  if ($button.hasClass('active')) { // Make the button inactive
+		      	if ($.cookie('initFilter')) { // If cookie has been set
+		      		if (($.cookie('initFilter')) == ($button.attr('data-filter'))) { // if deativated button is the same to init button
+		      			$button.removeClass('active');
+		      			$button.siblings('.filter').removeClass('.active').attr('disabled', false).css('color', '#000')
+		      			for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group
+		      				group.$buttons.removeClass('.active').attr('disabled', false).css('color', '#000');
+					    }
+		      			$.removeCookie('initFilter'); // Remove the stored cookie
+		      		}
+		      		else { // if deactivated button is NOT the same to init button
+		      			$button.removeClass('active');
+		      			$button.siblings('.filter').find('disabled').each(function(){
+					      	$button.siblings('.filter').attr('disabled', true);
+					    });
+		      		}
+		      	} 
+		      	else { // If cookie is not set
+		      		alert('whoaa.. nothing to do here...');
+		      	}
 		      }
-		      else {
-		      	$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#e8e8e8');
-		      	for(var i = 0, group; group = self.groups[i]; i++) {
-			      group.$buttons.not('.active').attr('disabled', true).css('color', '#e8e8e8');
-			    }
+		      else { // Activate the button!
+		      	if ($.cookie('initFilter')) { // If cookie has been set
+		      		$button.addClass('active');
+		      		$button.siblings('.filter').removeClass('active')
+		      		if (($.cookie('initFilter')) != ($button.attr('data-filter'))) { // if activated button is not the same to init button
+		      			$button.siblings('.filter').find('disabled').each(function(){
+					      	$button.attr('disabled', true).css('color', '#e8e8e8');
+					    });
+		      		}
+			      	for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group
+			      	  if (($.cookie('initFilter')) == (group.$buttons.attr('data-filter'))) { // If cookie's value = remain active button
+			      	  	//group.$buttons.not('.active').attr('disabled', true).css('color', '#e8e8e8');
+			      	  }	else {
+			      	  	//group.$buttons.not('.active').attr('disabled', true).css('color', '#e8e8e8');
+			      	  }
+				    }
+		      	}
+		      	else { // If cookie is not set
+		      		$.cookie('initFilter', $button.attr('data-filter')); // record initFilter cookie
+		      		$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#e8e8e8'); // Grey
+			      	for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group
+				      group.$buttons.not('.active').attr('disabled', true).css('color', '#e8e8e8');
+				    }
+		      	}
 		      }
+
+		      //console.log($.cookie('initFilter')); // Test showing output up in console
 		      // **************************************************************************************
 
 		      self.parseFilters();
@@ -1057,7 +1094,8 @@
 			  if(self.$container.mixItUp('isLoaded')){
 		    	self.$container.mixItUp('filter', self.outputString);
 
-		    	// **************** customized part ******************
+		    	// **************** Below is Customized (Logic Part) ******************
+
 				self.activeId = self.$filters.find('.active').attr('group') || 'null';
 				if (self.activeId == 'sector') {
 					country = '';
@@ -1082,9 +1120,9 @@
 				    });
 				    
 				} else {
-			    	// NONE ACTIVE!
+			    	// IF NONE ACTIVE!
 				}
-			    // ***************************************************
+			    // ************************** End of Customized Part *************************
 
 			  }
 
