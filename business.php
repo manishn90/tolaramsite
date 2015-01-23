@@ -868,7 +868,7 @@
 		label{
 		  font-weight: 300;
 		}
-		 
+		
 		button{
 		  display: inline-block;
 		  background: transparent;

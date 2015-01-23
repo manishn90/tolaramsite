@@ -437,7 +437,7 @@ div.video_bg{
     }
 
     .vismis{
-      top: 122px;
+      margin-left: auto;margin-right: auto;width: 100%;
     }
     .mission {
       color: #939598!important;
@@ -445,6 +445,14 @@ div.video_bg{
     .vision_box{
       margin-bottom: 120px;
     }
+
+    .vision_box,.mission_box{
+      width: 40%;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     .vision{
       color : #841f10!important;
     }
@@ -1822,6 +1830,18 @@ label {
     .title_shareholders1, .title_shareholders2{font-size: 10px;}
     .box-content{padding-right: 15px!important;position: absolute;margin: 0 auto;left: 0;right: 0}
     .box-value{margin-top: 0}
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 @media(max-width: 992px){
