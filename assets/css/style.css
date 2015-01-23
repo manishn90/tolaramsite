@@ -1715,6 +1715,9 @@ label {
 
 
 @media screen and (max-width: 768px) {
+    .values-section .outer{
+      position: relative;
+    }
     .dropdown-menu > li > a {
         border-bottom:1px solid #efefef;
     }
