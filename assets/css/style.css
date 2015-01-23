@@ -527,7 +527,6 @@ div.video_bg{
     .csroverlay {
       background-color: white !important;
     }
-    .csroverlay-desc{position: absolute;left: 0;right: 0;margin: auto;width: 50%;}
 
     .csroverlay .container {
       padding-top: 18px;
@@ -856,6 +855,29 @@ div.video_bg{
 #popup18,
 #popup19{background: #fff;margin-left: 170px;margin-right: 170px;}
 
+.popup1_close,
+.popup2_close,
+.popup3_close,
+.popup4_close,
+.popup5_close,
+.popup6_close,
+.popup7_close,
+.popup8_close,
+.popup9_close,
+.popup10_close,
+.popup11_close,
+.popup12_close,
+.popup13_close,
+.popup14_close,
+.popup15_close,
+.popup16_close,
+.popup17_close,
+.popup18_close,
+.popup19_close{
+  display: none;
+  z-index: 10;
+}
+
 
 #my_popup2{background: #fff;margin-left: 170px;margin-right: 170px;}
 
@@ -915,7 +937,7 @@ div.video_bg{
   #popup16,
   #popup17,
   #popup18,
-  #popup19{margin-left: 0;margin-right: 0;overflow-x: hidden;}
+  #popup19{margin-left: 0;margin-right: 0;}
 
   #popup1 .box-desc,
   #popup2 .box-desc,
@@ -1827,9 +1849,29 @@ label {
       #popup16,
       #popup17,
       #popup18,
-      #popup19{height: 100%;}
+      #popup19{height: 100%;overflow-x: hidden;}
 
-      .csroverlay-desc{width: 80%;}
+      .popup1_close,
+      .popup2_close,
+      .popup3_close,
+      .popup4_close,
+      .popup5_close,
+      .popup6_close,
+      .popup7_close,
+      .popup8_close,
+      .popup9_close,
+      .popup10_close,
+      .popup11_close,
+      .popup12_close,
+      .popup13_close,
+      .popup14_close,
+      .popup15_close,
+      .popup16_close,
+      .popup17_close,
+      .popup18_close,
+      .popup19_close{
+        display: block;
+      }
 }
 
 
