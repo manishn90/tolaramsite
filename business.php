@@ -97,7 +97,7 @@
 					<div id="ohsnap" style="text-align: center; width: 80%"></div>	
 
 					  <div class="mix singapore col-xs-12 col-sm-4 col-md-4 col-lg-4" country='singapore' sector='null'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup1_open" >
+					  	<a href="#" class="popup1_open" >
 					        <img src="assets/img/our_business/IBP-building.jpg" alt="">
 					    </a>
 						   <div id="popup1">
@@ -129,13 +129,14 @@
 										</div>
 									</div>
 								</div>
+							<button class="popup1_close">Close</button>
 							</div>
 					  </div>
 
 
 					  <!-- project 2 -->
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='financial'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup2_open" >
+					  	<a href="#" class="popup2_open" >
 							<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
 						</a>
 
@@ -176,7 +177,7 @@
 
 					  <!-- project 3 -->
 					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='real'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup3_open" >
+					  	<a href="#" class="popup3_open" >
 							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
 						</a>
 						<div id="popup3">
@@ -215,7 +216,7 @@
 
 					  <!-- project 4 -->
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='financial'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup4_open" >
+					  	<a href="#" class="popup4_open" >
 							<img src="assets/img/our_business/sector/insura_bg.png" alt="">			
 						</a>
 						<div id="popup4">
@@ -254,7 +255,7 @@
 
 					  <!-- project 5 -->
 					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='distribution'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup5_open" >
+					  	<a href="#" class="popup5_open" >
 							<img src="assets/img/our_business/sector/bhn_bg.png" alt="">			
 						</a>	
 						<div id="popup5">
@@ -294,7 +295,7 @@
 
 					  <!-- project 6 -->
 					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='consumer'>
-					  	<a href="3" class="cbp-caption cbp-singlePageInline popup6_open" >
+					  	<a href="3" class="popup6_open" >
 							<img src="assets/img/our_business/sector/dufil.png" alt="">			
 						</a>
 						<div id="popup6">
@@ -332,7 +333,7 @@
 
 					  <!-- project 7 -->
 					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='distribution'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup7_open" >
+					  	<a href="#" class="popup7_open" >
 							<img src="assets/img/our_business/sector/first.choice_bg.png" alt="">			
 						</a>
 						<div id="popup7">
@@ -371,7 +372,7 @@
 
 					  <!-- project 8 -->
 					  <div class="mix paper estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='paper'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup8_open" >
+					  	<a href="#" class="popup8_open" >
 							<img src="assets/img/our_business/sector/horizon.paper_bg.png" alt="">			
 						</a>
 						<div id="popup8">
@@ -409,7 +410,7 @@
 
 					  <!-- project 9 -->
 					  <div class="mix consumer estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='consumer'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup9_open" >
+					  	<a href="#" class="popup9_open" >
 							<img src="assets/img/our_business/sector/horizon.tisue_bg.png" alt="">			
 						</a>
 						<div id="popup9">
@@ -448,7 +449,7 @@
 
 					  <!-- Project 10 -->
 					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='consumer'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup10_open" >
+					  	<a href="#" class="popup10_open" >
 							<img src="assets/img/our_business/sector/hypo_bg.png" alt="">			
 						</a>
 						<div id="popup10">
@@ -487,7 +488,7 @@
 
 					  <!-- Project 11 -->
 					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='infrastructure'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup11_open" >
+					  	<a href="#" class="popup11_open" >
 					        <img src="assets/img/our_business/sector/lagosfreetradezone_lftz_bg.png" alt="">
 					    </a>
 						<div id="popup11">
@@ -525,7 +526,7 @@
 
 					  <!-- Project 12 -->
 					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='infrastructure'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup12_open" >
+					  	<a href="#" class="popup12_open" >
 							<img src="assets/img/our_business/sector/lekki.port_bg.png" alt="">			
 						</a>
 
@@ -564,7 +565,7 @@
 
 					  <!-- Project 13 -->
 					  <div class="mix textiles indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='textiles'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup13_open" >
+					  	<a href="#" class="popup13_open" >
 							<img src="assets/img/our_business/sector/lotus.indah_bg.png" alt="">			
 						</a>
 
@@ -603,7 +604,7 @@
 
 					  <!-- Project 14 -->
 					  <div class="mix textiles nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='textiles'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup14_open" >
+					  	<a href="#" class="popup14_open" >
 							<img src="assets/img/our_business/sector/lucky.fabries_bg.png" alt="">			
 						</a>
 
@@ -642,7 +643,7 @@
 
 					  <!-- Project 15 -->
 					  <div class="mix energy ghana india nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='india' country-3='ghana' sector='energy'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup15_open" >
+					  	<a href="#" class="popup15_open" >
 							<img src="assets/img/our_business/sector/mbh.power_bg.png" alt="">			
 						</a>
 
@@ -686,7 +687,7 @@
 
 					  <!-- Project 16 -->
 					  <div class="mix distribution ghana nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='ghana' sector='distribution'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup16_open" >
+					  	<a href="#" class="popup16_open" >
 							<img src="assets/img/our_business/sector/multipro_bg.png" alt="">			
 						</a>
 
@@ -725,7 +726,7 @@
 
 					  <!-- Project 17 -->
 					  <div class="mix real estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='real'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup17_open" >
+					  	<a href="#" class="popup17_open" >
 							<img src="assets/img/our_business/sector/tolaram.investment_bg.png" alt="">			
 						</a>
 
@@ -764,7 +765,7 @@
 
 					  <!-- Project 18 -->
 					  <div class="mix digital indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='digital'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup18_open" >
+					  	<a href="#" class="popup18_open" >
 							<img src="assets/img/our_business/sector/tunaiku_bg.png" alt="">			
 						</a>
 
@@ -803,7 +804,7 @@
 
 					  <!-- project 19 -->
 					  <div class="mix digital nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='digital'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup19_open" >
+					  	<a href="#" class="popup19_open" >
 							<img src="assets/img/our_business/sector/vconnect_bg.png" alt="">			
 						</a>
 
