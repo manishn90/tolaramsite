@@ -519,12 +519,12 @@
 				$('.box-list').hide();
 				$(this).show().addClass('active');
 				$(this).attr('data','1');
-				$(this).children('.box-text').slideDown('slow');
+				$(this).children('.box-text').slideDown(300);
 			}else{
 				$('.box-list').fadeIn();
 				$(this).show().removeClass('active');
 				$(this).attr('data','');
-				$(this).children('.box-text').slideUp('slow');
+				$(this).children('.box-text').slideUp(300);
 			}
 
 
