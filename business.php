@@ -944,6 +944,8 @@
 	<script type="text/javascript">
 	$(document).ready(function () {
 
+		$.removeCookie('initFilter'); // Remove any stored cookie
+
 		// ******************************************************************************************************* //
 		// *******************************  BUTTON SECTION ******************************************************* //
 		// ******************************************************************************************************* //
@@ -1040,7 +1042,7 @@
 		      	}
 		      }
 
-		      console.log($.cookie('initFilter')); // Test showing output up in console
+		      //console.log($.cookie('initFilter')); // Test showing output up in console
 		      // **************************************************************************************
 
 		      self.parseFilters();
@@ -1101,9 +1103,10 @@
 					self.$container.find(self.outputString).each(function(){
 						country = '.' + $(this).attr('country');
 						$('.filter[data-filter="'+country+'"]').attr('disabled', false).css('color', '#000');
+						//alert($(this).attr('data-filter'));
 						if ($(this).attr('country-2')) { //if there is 2nd country
 							country2 = '.' + $(this).attr('country-2');
-							if (($.cookie('initFilter')) == ($(this).attr('data-filter'))) {
+							if (($.cookie('initFilter')) == (self.outputString)) {
 								$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');	
 							} else {
 								$('.filter[data-filter="'+country2+'"]').attr('disabled', true).css('color', '#e8e8e8');
@@ -1111,7 +1114,7 @@
 						}
 						if ($(this).attr('country-3')) { //if there is 3rd country
 							country3 = '.' + $(this).attr('country-3');
-							if (($.cookie('initFilter')) == ($(this).attr('data-filter'))) {
+							if (($.cookie('initFilter')) == (self.outputString)) {
 								$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
 							} else {
 								$('.filter[data-filter="'+country3+'"]').attr('disabled', true).css('color', '#e8e8e8');
@@ -1296,23 +1299,6 @@
                  insertHtml += '</div></div>';
                  $('body').after(insertHtml);
                  $('.fullWidth').animate({left:"0"});
-
-                
-                BackgroundCheck.init({
-				  targets: '.closeButton',
-				  images: '.csrBanner'
-				});
-                 
-                 // Specific target
-				BackgroundCheck.refresh(target);
-
-				// Get current targets
-				BackgroundCheck.get('targets');
-
-				// Change targets
-				BackgroundCheck.set('targets', '.header');
-
-				BackgroundCheck.destroy();
 
             });
 
