@@ -117,6 +117,8 @@
 	                            </div>
 	                        </div>
 	                        <div class="respect respect-box box-list" style="background:#f39140" data="">
+	                        	<i class="pull-right fa fa-expand box-arrow"></i>
+								<i class="pull-right fa fa-compress box-arrow"></i>
 	                            <h3>RESPECT <i class="pull-right fa fa-angle-down values-link"></i></h3>
 	                            <div class="box-text">
 	                            <p>We respect our team members, our stakeholders, our heritage and our universe. <br />Because it’s a shared journey, we always seek a win-win outcome.</p>
@@ -126,6 +128,8 @@
 	                            </div>
 	                        </div>
 	                       	<div class="commitment commitment-box box-list" style="background:#639140" data="">
+	                       		<i class="pull-right fa fa-expand box-arrow"></i>
+								<i class="pull-right fa fa-compress box-arrow"></i>
 	                            <h3>COMMITMENT <i class="pull-right fa fa-angle-down values-link"></i></h3>
 	                            <div class="box-text">
 	                            <p>We committed to being sustainable over the long term through focus and depth in everything we do.</p>
@@ -134,6 +138,8 @@
 	                            </div>
 	                        </div>
 	                        <div class="courage courage-box box-list" style="background:#d24040" data="">
+	                        	<i class="pull-right fa fa-expand box-arrow"></i>
+								<i class="pull-right fa fa-compress box-arrow"></i>
 	                            <h3>COURAGE <i class="pull-right fa fa-angle-down values-link"></i></h3>                                          
 	  	                        <div class="box-text">
 		                        <p>We want to surround ourselves with bold thinkers; and to always act with conviction.</p>
@@ -142,6 +148,8 @@
 	                            </div>
 	                        </div>
 	                        <div class="humility humility-box box-list" style="background:#926c50" data="">
+	                        	<i class="pull-right fa fa-expand box-arrow"></i>
+								<i class="pull-right fa fa-compress box-arrow"></i>
 	                            <h3>HUMILITY <i class="pull-right fa fa-angle-down values-link"></i></h3>
 	                            <div class="box-text">
 	                            <p>We endeavour to keep learning and letting our actions speak louder than our words. <br /> We also appreciate that everyone we interact with has a contribution to make to our well-being.</p>
