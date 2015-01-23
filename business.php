@@ -97,10 +97,10 @@
 					<div id="ohsnap" style="text-align: center; width: 80%"></div>	
 
 					  <div class="mix singapore col-xs-12 col-sm-4 col-md-4 col-lg-4" country='singapore' sector='null'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup_1_open" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup1_open" >
 					        <img src="assets/img/our_business/IBP-building.jpg" alt="">
 					    </a>
-						   <div id="popup_1">
+						   <div id="popup1">
 								<div class="row">
 									<div class="col-md-6">
 										<img src="assets/img/our_business/IBP-building.jpg" style="width:100%">
@@ -135,11 +135,11 @@
 
 					  <!-- project 2 -->
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='financial'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline popup_2_open" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup2_open" >
 							<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
 						</a>
 
-						<div id="popup_2">
+						<div id="popup2">
 							<div class="row">
 								<div class="col-md-6">
 									<img src="assets/img/our_business/sector/amarbank_bg.png" style="width:100%">
@@ -156,11 +156,11 @@
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
 													<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
 												</div>
-											<div class="col-md-9 col-xs-8" style="padding-right:38px;">
-												<div class="lead-desc">
-													<h5 style="font-size:13px;color:#5d5d5d  ">B. BUDIJANTO JAHJA<br>President Director</h5>
-												      <p style="font-size:13px;color:#5d5d5d  ">Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities in Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBA's from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
-												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">B. BUDIJANTO JAHJA<br>President Director</h5>
+													      <p style="font-size:13px;color:#5d5d5d">Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities in Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBA's from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
+													</div>
 
 												</div>
 											</div>
@@ -175,299 +175,305 @@
 
 					  <!-- project 3 -->
 					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='real'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup3_open" >
 							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">Arzu Utama Realty</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Indonesia</p></div>
+						<div id="popup3">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/arzu.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">Arzu Utama Realty</p>
+											<p class="business_subtitle">Indonesia</p>
+											<p class="business_desc">Arzu Utama Realty is the developer of Arzuria, a 32-storey upscale residential apartment in central Jakarta occupying a land area of 6,800 sq. m.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/Swee-Siong-Tan.jpg" class="img-responsive">
+												</div>
+											<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+												<div class="lead-desc">
+													<h5 style="font-size:13px;color:#5d5d5d">TAN SWEE SIONG<br>Head, Real Estate</h5>
+												      <p style="font-size:13px;color:#5d5d5d">Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities in Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBA's from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
+												</div>
 
-							        <div class="cbp-l-inline-desc">
-							            <p>Arzu Utama Realty is the developer of Arzuria, a 32-storey upscale residential apartment in central Jakarta occupying a land area of 6,800 sq. m.</p>
-							        </div>
-							    </div>
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/arzu.png" alt=""></a>
-							    </div>
-
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/Swee-Siong-Tan.jpg" style="width: 160px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">TAN SWEE SIONG</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Head, Real Estate</span>
-							        <p><br/>Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities in Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBA's from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+						
 					  </div>
 
 					  <!-- project 4 -->
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='financial'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup4_open" >
 							<img src="assets/img/our_business/sector/insura_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right ">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]">
-							        	<img src="assets/img/our_business/asuransi_rama_800x600.png" alt="">
-							        </a>
-							    </div>
+						<div id="popup4">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/asuransi_rama_800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">Asuransi Rama</p>
+											<p class="business_subtitle">Indonesia</p>
+											<p class="business_desc">Established in 1978, Asuransi Rama ranks within the top 25 insurance companies in Indonesia. Headquartered in Jakarta, Rama has a network of 17 branches throughout Indonesia.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/Dimas Mulyanto-4110004.jpg" class="img-responsive">
+												</div>
+											<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+												<div class="lead-desc">
+													<h5 style="font-size:13px;color:#5d5d5d">DIMAS MULYANTO<br>Chief Financial Officer</h5>
+												      <p style="font-size:13px;color:#5d5d5d">Dimas Mulyanto joined the Group in 2014 as Chief Financial Officer, overseeing all financial functions and strategic business decisions. He has over 16 years of experience in renowned audit and insurance companies.<br/><br/>He holds a Bachelor’s degree in Accounting from Brawijaya University and is a registered accountant in Indonesia.</p>
+												</div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">Asuransi Rama</div>
-							        <div class="cbp-l-inline-subtitle"><p class="lead">Indonesia</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							        <p>Established in 1978, Asuransi Rama ranks within the top 25 insurance companies in Indonesia. Headquartered in Jakarta, Rama has a network of 17 branches throughout Indonesia.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/Dimas Mulyanto-4110004.jpg" style="width: 140px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">DIMAS MULYANTO</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Chief Financial Officer</span>
-							        <p><br/>Dimas Mulyanto joined the Group in 2014 as Chief Financial Officer, overseeing all financial functions and strategic business decisions. He has over 16 years of experience in renowned audit and insurance companies.<br/><br/>He holds a Bachelor’s degree in Accounting from Brawijaya University and is a registered accountant in Indonesia.</p>
-							        <p>&nbsp;<br/>&nbsp;</p>
-							    </div>
-
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+					
 					  </div>
 
 					  <!-- project 5 -->
 					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='distribution'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup5_open" >
 							<img src="assets/img/our_business/sector/bhn_bg.png" alt="">			
 						</a>	
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/bhn_800x600.png" alt=""></a>
-							    </div>
+						<div id="popup5">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/bhn_800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">BHN</p>
+											<p class="business_subtitle">Nigeria</p>
+											<p class="business_desc">With a fleet of 600 trucks, BHN provides haulage services to many blue-chip companies in Nigeria.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/porus.png" class="img-responsive">
+												</div>
+											<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+												<div class="lead-desc">
+													<h5 style="font-size:13px;color:#5d5d5d">PORUS DOCTOR<br>General Manager</h5>
+												      <p style="font-size:13px;color:#5d5d5d">Porus Doctor has served companies like MultiPro, Insignia for five years as part of the senior management team, before becoming General Manager of BHN Division of MultiPro Enterprises Limited in November 2009.<br/><br/>He has over 16 years of work experience and was previously working with esteemed auditors, Deloitte, for five years before joining Tolaram Group. He is a qualified Chartered Accountant from India.</p>
+												</div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">BHN</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							        <p>With a fleet of 600 trucks, BHN provides haulage services to many blue-chip companies in Nigeria.
-							        </p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/porus.png" style="width: 160px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">PORUS DOCTOR</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/>Porus Doctor has served companies like MultiPro, Insignia for five years as part of the senior management team, before becoming General Manager of BHN Division of MultiPro Enterprises Limited in November 2009.<br/><br/>He has over 16 years of work experience and was previously working with esteemed auditors, Deloitte, for five years before joining Tolaram Group. He is a qualified Chartered Accountant from India.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+						
 					  </div>
 
 
 					  <!-- project 6 -->
 					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='consumer'>
-					  	<a href="3" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="3" class="cbp-caption cbp-singlePageInline popup6_open" >
 							<img src="assets/img/our_business/sector/dufil.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/dufill_800x600.png" alt=""></a>
-							    </div>
+						<div id="popup6">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/dufill_800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">Dufil Prima Foods</p>
+											<p class="business_subtitle">Nigeria</p>
+											<p class="business_desc">Dufil Prima Foods PLC (a joint venture with Salim Group) manufactures and markets instant noodles, pasta, cooking oil and snacks in West Africa with plants located in the Nigerian cities of Kaduna, Ota and Port Harcourt. The company also manufactures flour, seasoning and packaging material.<br>Its flagship brands are Indomie instant noodles, Power Pasta, Power Oil and Minimie snacks.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
+												</div>
+											<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+												<div class="lead-desc">
+													<h5 style="font-size:13px;color:#5d5d5d">DEEPAK SINGHAL<br>Group CEO</h5>
+												</div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">Dufil Prima Foods</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							        <p>Dufil Prima Foods PLC (a joint venture with Salim Group) manufactures and markets instant noodles, pasta, cooking oil and snacks in West Africa with plants located in the Nigerian cities of Kaduna, Ota and Port Harcourt. The company also manufactures flour, seasoning and packaging material.</p>
-							        <p>Its flagship brands are Indomie instant noodles, Power Pasta, Power Oil and Minimie snacks.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/no-photo.gif" style="width: 160px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">DEEPAK SINGHAL</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Group CEO</span>
-							        <p><br/></p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+						
 					  </div>
 
 					  <!-- project 7 -->
 					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='distribution'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup7_open" >
 							<img src="assets/img/our_business/sector/first.choice_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/firstchoice_800x600.png" alt=""></a>
-							    </div>
+						<div id="popup7">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/firstchoice_800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">FIRST CHOICE RETAILING</p>
+											<p class="business_subtitle">Nigeria</p>
+											<p class="business_desc">First Choice Retailing Limited is the largest chain of organised retail stores providing Nigerians with convenient shopping for their everyday needs. There are currently 250 outlets under the brand of “Best Choice” in Lagos, with plans to extend the brand to other cities.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/udayan.png" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">UDAYAN DASGUPTA<br>Group CEO</h5>
+														<p style="font-size:13px;color:#5d5d5d">Udayan Dasgupta joined the group in 2011 under the Best Choice Division of Multi-Pro Enterprises Ltd. He was appointed the General Manager of First Choice Retailing Ltd. in June 2012, bringing with him a vast amount of experience in Supply Chain Management which he gathered by working in Infosys Technologies Ltd, Bangalore for four years.<br/><br/>Udayan has a post graduate degree in Management from the Indian School of Business, Hyderabad, and completed his B.Tech at the Indian Institute of Technology, Roorkee in 2006.</p>
+													</div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">FIRST CHOICE RETAILING</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>First Choice Retailing Limited is the largest chain of organised retail stores providing Nigerians with convenient shopping for their everyday needs. There are currently 250 outlets under the brand of “Best Choice” in Lagos, with plans to extend the brand to other cities.
-							            </p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/udayan.png" style="width: 170px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">UDAYAN DASGUPTA</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Group CEO</span>
-							        <p><br/>Udayan Dasgupta joined the group in 2011 under the Best Choice Division of Multi-Pro Enterprises Ltd. He was appointed the General Manager of First Choice Retailing Ltd. in June 2012, bringing with him a vast amount of experience in Supply Chain Management which he gathered by working in Infosys Technologies Ltd, Bangalore for four years.<br/><br/>Udayan has a post graduate degree in Management from the Indian School of Business, Hyderabad, and completed his B.Tech at the Indian Institute of Technology, Roorkee in 2006.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+						
 					  </div>
 
 					  <!-- project 8 -->
 					  <div class="mix paper estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='paper'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup8_open" >
 							<img src="assets/img/our_business/sector/horizon.paper_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/horizonpaper_800x600.png" alt=""></a>
-							    </div>
+						<div id="popup8">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/horizonpaper_800x600.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">HORIZON PULP & PAPER</p>
+											<p class="business_subtitle">Estonia</p>
+											<p class="business_desc">Horizon Pulp and Paper Limited is Estonia’s only integrated producer of quality unbleached sack kraft paper, and supplies to over 50 countries around the world.<br/>In 2013, the company celebrated its 75th year of operations.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/Bashyam-Krishnan.jpg" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">BASHYAM KRISHNAN<br>Group CEO</h5>
+														<p style="font-size:13px;color:#5d5d5d">Bashyam Krishnan joined Tolaram in 2013 as Group CEO of Horizon Pulp & Paper. He has over 10 years of senior management experience in various countries. <br/><br/>He holds a Bachelor of Engineering in Chemical Engineering from the Birla Institute of Technology & Science, Pilani, India.</p>
+													</div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">HORIZON PULP & PAPER</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Estonia</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Horizon Pulp and Paper Limited is Estonia’s only integrated producer of quality unbleached sack kraft paper, and supplies to over 50 countries around the world.<br/>In 2013, the company celebrated its 75th year of operations.
-							            </p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/Bashyam-Krishnan.jpg" style="width: 140px; margin-bottom: 30px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">BASHYAM KRISHNAN</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Group CEO</span>
-							        <p><br/>Bashyam Krishnan joined Tolaram in 2013 as Group CEO of Horizon Pulp & Paper. He has over 10 years of senior management experience in various countries. <br/><br/>He holds a Bachelor of Engineering in Chemical Engineering from the Birla Institute of Technology & Science, Pilani, India.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					  </div>
 
 					  <!-- project 9 -->
 					  <div class="mix consumer estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='consumer'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup9_open" >
 							<img src="assets/img/our_business/sector/horizon.tisue_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
+						<div id="popup9">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/sector/horizon.tisue_bg.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">HORIZON TISSUE</p>
+											<p class="business_subtitle">Estonia</p>
+											<p class="business_desc">Horizon Tissue manufactures toilet rolls, kitchen towels and napkins for export to Baltic and Nordic countries. The brand operates under the name “Daisy” in the private label segment, and counts some of the country’s leading retailers as its customers.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/DEEPANKAR.png" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">DEEPANKAR RUSTAGI<br>General Manager</h5>
+														<p style="font-size:13px;color:#5d5d5d">Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/><br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
+													</div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">HORIZON TISSUE</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Estonia</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Horizon Tissue manufactures toilet rolls, kitchen towels and napkins for export to Baltic and Nordic countries. The brand operates under the name “Daisy” in the private label segment, and counts some of the country’s leading retailers as its customers.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/DEEPANKAR.png" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">DEEPANKAR RUSTAGI</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/>Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/><br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+						
 					  </div>
 
 					  <!-- Project 10 -->
 					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='consumer'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
+					  	<a href="#" class="cbp-caption cbp-singlePageInline popup10_open" >
 							<img src="assets/img/our_business/sector/hypo_bg.png" alt="">			
 						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
+						<div id="popup10">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="assets/img/our_business/sector/hypo_bg.png" style="width:100%">
+								</div>
+								<div class="col-md-6">
+									<div class="row box-desc">
+										<div class="col-md-12" style="padding-bottom: 18px;">
+											<p class="business_title">HYPO BLEACH</p>
+											<p class="business_subtitle">Nigeria</p>
+											<p class="business_desc">Launched in 2011, Hypo Bleach holds the highest market share in its category, and aims to significantly impact the availability of hygiene and sanitation solutions for Nigerians.</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+													<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
+												</div>
+												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+													<div class="lead-desc">
+														<h5 style="font-size:13px;color:#5d5d5d">VANI MALIK<br></h5>
+														<p style="font-size:13px;color:#5d5d5d"></p>
+													</div>
 
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">HYPO BLEACH</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Launched in 2011, Hypo Bleach holds the highest market share in its category, and aims to significantly impact the availability of hygiene and sanitation solutions for Nigerians.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/no-photo.gif" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">VANI MALIK</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">CEO</span>
-							        <p><br/></p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
+						
 					  </div>
 
 					  <!-- Project 11 -->
