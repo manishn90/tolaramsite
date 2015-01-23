@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = 'Businesses'; 
+	$pageTitle = 'About Us'; 
 	include('include/header.php');
 ?>
 
@@ -8,1287 +8,607 @@
 			include('include/menu.php');
 		?>
 	</div>
+	<div class="bordered_wrapper">
+		<div id="fullpage">
 
-
-    <div class="bordered_wrapper">
-    	<div id="fullpage">
-
-    		<div class="section " id="section0">
-			    <div id="wrapper">
-
-			    <div class="container">
-					<form class="controls row" id="Filters">
-					  <!-- We can add an unlimited number of "filter groups" using the following format: -->
-					 <div class="col-md-6 text-center">
-					  <fieldset id='sector'>
-					    <h4 style="color:#000">Sectors</h4>
-					    <button class="filter" data-filter=".consumer" group='sector'>Consumer Goods</button>
-					    <button class="filter" data-filter=".digital" group='sector'>Digital Services</button>
-					    <button class="filter" data-filter=".distribution" group='sector'>Distribution</button>
-					    <button class="filter" data-filter=".energy" group='sector'>Energy</button>
-					    <button class="filter" data-filter=".financial" group='sector'>Financial Services</button>
-					    <button class="filter" data-filter=".infrastructure" group='sector'>Infrastructure</button>
-					    <button class="filter" data-filter=".paper" group='sector'>Paper Products</button>
-					    <button class="filter" data-filter=".real" group='sector'>Real Estates</button>
-					    <button class="filter" data-filter=".textiles" group='sector'>Textiles</button>
-					  </fieldset>
-					 </div>
-
-					 <div class="col-md-6 text-center">
-					  <fieldset id='country'>
-					    <h4 style="color:#000">Countries</h4>
-					    <button class="filter" data-filter=".benin" group='country'>Benin</button>
-					    <button class="filter" data-filter=".estonia" group='country'>Estonia</button>
-					    <button class="filter" data-filter=".ghana" group='country'>Ghana</button>
-					    <button class="filter" data-filter=".india" group='country'>India</button>
-					    <button class="filter" data-filter=".indonesia" group='country'>Indonesia</button>
-					    <button class="filter" data-filter=".ivory-coast" group='country'>Ivory Coast</button>
-					    <button class="filter" data-filter=".nigeria" group='country'>Nigeria</button>
-					    <button class="filter" data-filter=".tanzania" group='country'>Tanzania</button>
-					    <button class="filter" data-filter=".togo" group='country'>Togo</button>
-					    <button class="filter" data-filter=".singapore" group='country'>Singapore</button>
-					  </fieldset>
-					 </div>
-
-					</form>
-
-
-					<form class="controls row" id="Filters2">
-						<div style="text-align: center;">
-						<label><h4>FILTERS :</h4> </label><br>
-						 <fieldset>
-						    <select class="form-control">
-						    	<option value="">All Sectors</option>
-						      	<option value=".consumer">Consumer Goods</option>
-						      	<option value=".digital">Digital Services</option>
-						      	<option value=".distribution">Distribution</option>
-						      	<option value=".energy">Energy</option>
-						      	<option value=".financial">Financial Services</option>
-						      	<option value=".infrastructure">Infrastructure</option>
-						      	<option value=".paper">Paper Products</option>
-						      	<option value=".real">Real Estates</option>
-						      	<option value=".textiles">Textiles</option>
-						    </select>
-						  </fieldset>
-						  
-						  <fieldset>
-						    <select class="form-control">
-						      <option value="">All Countries</option>
-						      <option value=".benin">Benin</option>
-						      <option value=".estonia">Estonia</option>
-						      <option value=".ghana">Ghana</option>
-						      <option value=".india">India</option>
-						      <option value=".indonesia">Indonesia</option>
-						      <option value=".ivory-coast">Ivory Coast</option>
-						      <option value=".nigeria">Nigeria</option>
-						      <option value=".tanzania">Tanzania</option>
-						      <option value=".togo">Togo</option>
-						      <option value=".singapore">Singapore</option>
-						    </select>
-						  </fieldset>
+			<!-- ////////////// ABOUT /////////////  -->
+			<div class="section aboutUs-section" id="section0">
+				<div class="intro">
+					<div class="col-md-6 col-sm-8 col-xs-11 pull-right box-content" style="padding-right:7%;padding-top:13%;">
+						<div class="about-content">
+							<h3 class="title" style="color:#000">ESTABLISHED IN 1948 IN MALANG, INDONESIA</h3>
+							<p class="content" style="color:#000">Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
+							<br/>
+							<p class="content" style="color:#000">The Group has a diversified portfolio consisting of Consumer Goods, Infrastructure, Energy, Digital Services and other interests which include Distribution, Financial Services, Paper Products, Real Estate and Textiles.</p>
 						</div>
-					</form>
-
-
-				</div>
-
-					<div id="Container" class="container">
-
-					<div id="ohsnap" style="text-align: center; width: 80%"></div>	
-
-					  <div class="mix singapore col-xs-12 col-sm-4 col-md-4 col-lg-4" country='singapore' sector='null'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-					        <img src="assets/img/our_business/IBP-building.jpg" alt="">
-					    </a>
-					    
-					    <div class="hidden_content">
-						    <div class="cbp-l-inline">
-							    <div class="cbp-l-inline-left">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/IBP-building.jpg" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-right business_content">
-							        <div class="cbp-l-inline-title">Tolaram Corporation</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Singapore, Benin, Estonia, Ghana, India, Indonesia, Nigeria, Togo, UAE</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							        <p>The Group’s Head Office is located at 1A International Business Park, Singapore. Central functions like Business Development, Communications, HR, Finance and Internal Audit are co-ordinated from this office.</p>
-							        </div>
-
-							    </div>
-							</div>
-							<div class="row-fluid">
-							    <div class="col-md-4 text-center">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-
-					  <!-- project 2 -->
-					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='financial'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline my_popup2_open" >
-							<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
-						</a>
-						<div id="my_popup2">
-							<div class="row">
-								<div class="col-md-6">
-									<img src="assets/img/our_business/sector/amarbank_bg.png" style="width:100%">
-								</div>
-								<div class="col-md-6">
-									<div class="row box-desc">
-										<div class="col-md-12" style="padding-bottom: 18px;">
-											<p class="business_title">Bank Amar</p>
-											<p class="business_subtitle">Indonesia</p>
-											<p class="business_desc">Arzu Utama Realty is the developer of Arzuria, a 32-storey upscale residential apartment in central Jakarta occupying a land area of 6,800 sq. m.</p>
-										</div>
-										<div class="col-md-12">
-											<div class="row">
-												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
-												</div>
-												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
-													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d">B. BUDIJANTO JAHJA<br>President Director</h5>
-							       						<p style="font-size:13px;color:#5d5d5d">Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities in Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBA's from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
-													</div>
-													
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-					  </div>
-
-
-					  <!-- project 3 -->
-					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='real'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">Arzu Utama Realty</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Indonesia</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Arzu Utama Realty is the developer of Arzuria, a 32-storey upscale residential apartment in central Jakarta occupying a land area of 6,800 sq. m.</p>
-							        </div>
-							    </div>
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/arzu.png" alt=""></a>
-							    </div>
-
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/Swee-Siong-Tan.jpg" style="width: 160px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">TAN SWEE SIONG</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Head, Real Estate</span>
-							        <p><br/>Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities in Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBA's from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- project 4 -->
-					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='financial'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/insura_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right ">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]">
-							        	<img src="assets/img/our_business/asuransi_rama_800x600.png" alt="">
-							        </a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">Asuransi Rama</div>
-							        <div class="cbp-l-inline-subtitle"><p class="lead">Indonesia</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							        <p>Established in 1978, Asuransi Rama ranks within the top 25 insurance companies in Indonesia. Headquartered in Jakarta, Rama has a network of 17 branches throughout Indonesia.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/Dimas Mulyanto-4110004.jpg" style="width: 140px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">DIMAS MULYANTO</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Chief Financial Officer</span>
-							        <p><br/>Dimas Mulyanto joined the Group in 2014 as Chief Financial Officer, overseeing all financial functions and strategic business decisions. He has over 16 years of experience in renowned audit and insurance companies.<br/><br/>He holds a Bachelor’s degree in Accounting from Brawijaya University and is a registered accountant in Indonesia.</p>
-							        <p>&nbsp;<br/>&nbsp;</p>
-							    </div>
-
-							</div>
-						</div>
-					  </div>
-
-					  <!-- project 5 -->
-					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='distribution'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/bhn_bg.png" alt="">			
-						</a>	
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/bhn_800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">BHN</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							        <p>With a fleet of 600 trucks, BHN provides haulage services to many blue-chip companies in Nigeria.
-							        </p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/porus.png" style="width: 160px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">PORUS DOCTOR</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/>Porus Doctor has served companies like MultiPro, Insignia for five years as part of the senior management team, before becoming General Manager of BHN Division of MultiPro Enterprises Limited in November 2009.<br/><br/>He has over 16 years of work experience and was previously working with esteemed auditors, Deloitte, for five years before joining Tolaram Group. He is a qualified Chartered Accountant from India.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-
-					  <!-- project 6 -->
-					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='consumer'>
-					  	<a href="3" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/dufil.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/dufill_800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">Dufil Prima Foods</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							        <p>Dufil Prima Foods PLC (a joint venture with Salim Group) manufactures and markets instant noodles, pasta, cooking oil and snacks in West Africa with plants located in the Nigerian cities of Kaduna, Ota and Port Harcourt. The company also manufactures flour, seasoning and packaging material.</p>
-							        <p>Its flagship brands are Indomie instant noodles, Power Pasta, Power Oil and Minimie snacks.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/no-photo.gif" style="width: 160px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">DEEPAK SINGHAL</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Group CEO</span>
-							        <p><br/></p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- project 7 -->
-					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='distribution'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/first.choice_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/firstchoice_800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">FIRST CHOICE RETAILING</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>First Choice Retailing Limited is the largest chain of organised retail stores providing Nigerians with convenient shopping for their everyday needs. There are currently 250 outlets under the brand of “Best Choice” in Lagos, with plans to extend the brand to other cities.
-							            </p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/udayan.png" style="width: 170px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">UDAYAN DASGUPTA</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Group CEO</span>
-							        <p><br/>Udayan Dasgupta joined the group in 2011 under the Best Choice Division of Multi-Pro Enterprises Ltd. He was appointed the General Manager of First Choice Retailing Ltd. in June 2012, bringing with him a vast amount of experience in Supply Chain Management which he gathered by working in Infosys Technologies Ltd, Bangalore for four years.<br/><br/>Udayan has a post graduate degree in Management from the Indian School of Business, Hyderabad, and completed his B.Tech at the Indian Institute of Technology, Roorkee in 2006.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- project 8 -->
-					  <div class="mix paper estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='paper'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/horizon.paper_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/horizonpaper_800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">HORIZON PULP & PAPER</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Estonia</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Horizon Pulp and Paper Limited is Estonia’s only integrated producer of quality unbleached sack kraft paper, and supplies to over 50 countries around the world.<br/>In 2013, the company celebrated its 75th year of operations.
-							            </p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/Bashyam-Krishnan.jpg" style="width: 140px; margin-bottom: 30px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">BASHYAM KRISHNAN</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Group CEO</span>
-							        <p><br/>Bashyam Krishnan joined Tolaram in 2013 as Group CEO of Horizon Pulp & Paper. He has over 10 years of senior management experience in various countries. <br/><br/>He holds a Bachelor of Engineering in Chemical Engineering from the Birla Institute of Technology & Science, Pilani, India.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- project 9 -->
-					  <div class="mix consumer estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='consumer'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/horizon.tisue_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">HORIZON TISSUE</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Estonia</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Horizon Tissue manufactures toilet rolls, kitchen towels and napkins for export to Baltic and Nordic countries. The brand operates under the name “Daisy” in the private label segment, and counts some of the country’s leading retailers as its customers.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/DEEPANKAR.png" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">DEEPANKAR RUSTAGI</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/>Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/><br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- Project 10 -->
-					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='consumer'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/hypo_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">HYPO BLEACH</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Launched in 2011, Hypo Bleach holds the highest market share in its category, and aims to significantly impact the availability of hygiene and sanitation solutions for Nigerians.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/no-photo.gif" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">VANI MALIK</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">CEO</span>
-							        <p><br/></p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- Project 11 -->
-					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='infrastructure'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-					        <img src="assets/img/our_business/sector/lagosfreetradezone_lftz_bg.png" alt="">
-					    </a>
-					    <div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">LAGOS FREE TRADE ZONE</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Spread over an area of 800 hectares, the Lagos Free Trade Zone (LFTZ) serves as an industrial and commercial hub for West Africa. LFTZ is strategically located to facilitate trade and boost the economy of Nigeria as well as neighbouring countries in Africa.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/KS_full_pic.png" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">KUNDAN SAINANI</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Chief Financial Officer</span>
-							        <p>Kundan Sainani joined the Group in 1999 as a Group Internal Auditor. He became the Director, Finance for Viva Methanol LFTZ Enterprise in 2003 before moving on to his role as CFO in LFTZ to take charge of the development of this mega-scale integrated industrial park.<br/><br/>He has over 25 years of experience in the steel, paper, textile, chemicals, food sector, infrastructure and construction industries.<br/>He is a commerce graduate and a member of the Institute of Chartered Accountants of India.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- Project 12 -->
-					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='infrastructure'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/lekki.port_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">LEKKI DEEP SEA PORT</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>A USD 1.5 billion project, the Lekki Deep Sea Port will be the first privately built port in Nigeria and is slated to become the largest port in the country upon its completion.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/no-photo.gif" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">SANDEEP PARASRAMKA</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle"></span>
-							        <p><br/></p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- Project 13 -->
-					  <div class="mix textiles indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='textiles'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/lotus.indah_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">LOTUS INDAH</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Indonesia</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Lotus Indah Textile Industries produces Synthetic Spun Yarns from Ring Spinning (100% Polyester, 100% Viscose & Poly/Viscose), Open End Spinning (100% Polyester & 100% Viscose) and Murata Vortex Spinning (100% Viscose) in Single, Double (TFO) and Multifold. The company exports to over 30 countries in the world.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/G.Venkatesh.png" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">GOPAL VENKATESH</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">CEO</span>
-							        <p><br/>Gopal Venkatesh joined the Group in May 2013 as the CEO of Lotus Indah Textiles. He has over 29 years of experience, including 12 years in top management positions in various companies in the world.<br/><br/>He holds a Bachelor of Technology and post-graduate Diploma in Business Management.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- Project 14 -->
-					  <div class="mix textiles nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='textiles'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/lucky.fabries_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">LUCKY FIBRES</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Lucky Fibres PLC is the largest integrated manufacturer of printed, woven and tufted carpets and rugs in West Africa. Marketed under the brand Nobel Carpets, it is a household name for rugs and carpets in Nigeria. Its resources are also employed in contract manufacturing.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/kunal.png" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">KUNAL MALHOTRA</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/>Kunal Malhotra is the General Manager of Lucky Fibres. He began his career with the Group in 2007 as a Relationship Manager in BHN. He was promoted to head the Logistics department of BHN in 2009 and subsequently as General Manager of Panabiz International Ltd in February 2010. He was later given the assignment to turn around Asian Motors Limited in December 2011 and led Asian Motors to record its highest ever sales in a five month period during 2012.<br/><br/>He graduated from Purdue University with a Bachelor of Science in Business Administration in 2003.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- Project 15 -->
-					  <div class="mix energy ghana india nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='india' country-3='ghana' sector='energy'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/mbh.power_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">MBH POWER</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Ghana, India, Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>MBH Power Limited is a total energy solutions company providing world-class services to meet the growing demand of the power sector in emerging markets. It focuses on:
-							            <ul>
-							                <li>EPC solutions in Transmission and Distribution
-							                <li>Turnkey solutions in Captive Power Generation by using CNG
-							                <li>Metering and Energy Audit
-							                <li>Solar Power Generation
-							            </ul>
-							            MBH Power has now embarked on development of a 300 MW independent power project in Nigeria.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/Manish.jpg" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">MANISH MITTAL</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">CEO</span>
-							        <p><br/>Manish Mittal is CEO of MBH Group. He joined the company in November 2006 and became CEO of Nigeria's operations the following year.<br/><br/>He holds a Bachelor's degree in Electrical Engineering and is an ABB certified Project Manager.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- Project 16 -->
-					  <div class="mix distribution ghana nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='ghana' sector='distribution'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/multipro_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">MULTI PRO ENTERPRISES</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Ghana, Nigeria</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Multi Pro Enterprises Limited is the largest consumer goods distribution company in West Africa. Its reach is about half a million points-of-sales.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/Girish.jpg" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">GIRISH SHARMA</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/></p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- Project 17 -->
-					  <div class="mix real estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='real'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/tolaram.investment_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">TOLARAM INVESTMENTS</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Estonia</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Tolaram Investments AS owns a 10.8 ha industrial site in North Tallinn with approvals to develop the site into a mixed commercial and residential development of 200,000 sq.m. It recently completed the building for Norwegian-owned supermarket chain Rimi. It is also the developer of Pagari One, formerly a KGB headquarters, which has been restored as a complex of 42 luxury apartments.<br/>Its subsidiary TH Investments developed and owns a building that houses Hawaii Express Retail and Al Mare Bowling.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/Swee-Siong-Tan.jpg" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">TAN SWEE SIONG</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">Head, Real Estate</span>
-							        <p><br/>Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities of Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBAs from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- Project 18 -->
-					  <div class="mix digital indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='digital'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/tunaiku_bg.png" alt="">			
-						</a>
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]"><img src="assets/img/our_business/vconnect800x600.png" alt=""></a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">TUNAIKU</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">Indonesia</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							            <p>Tunaiku is an IT data analytics company, focusing on financial services.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/photo.jpg" style="width: 160px;" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">VISHAL TULSIAN</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">CEO</span>
-							        <p><br/>Vishal Tulsian joined the Group in May 2003 as Finance Manager. He became the CEO of Horizon Tissue and Horizon Pulp & Paper in 2006, and is currently the Group Head of Business Development in Indonesia. <br/><br/>He holds a degree in Chartered Accountancy from the Institute of Chartered Accountants in India and he completed his MBA in London.</p>
-							        <p>&nbsp;&nbsp;</p>
-							    </div>
-							</div>
-						</div>
-					  </div>
-
-					  <!-- project 19 -->
-					  <div class="mix digital nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='digital'>
-					  	<a href="#" class="cbp-caption cbp-singlePageInline business_btn" >
-							<img src="assets/img/our_business/sector/vconnect_bg.png" alt="">			
-						</a>
-
-						<div class="hidden_content">
-							<div class="cbp-l-inline">
-							    <div class="cbp-l-inline-right ">
-							        <a href="#" data-gal="prettyPhoto[product-gallery]">
-							        	<img src="assets/img/our_business/vconnect800x600.png" alt="">
-							        </a>
-							    </div>
-
-							    <div class="cbp-l-inline-left business_content">
-							        <div class="cbp-l-inline-title">VCONNECT</div>
-							        <div class="cbp-l-inline-subtitle">
-							        <p class="lead">NIGERIA</p></div>
-
-							        <div class="cbp-l-inline-desc">
-							        <p>VConnect is the largest local search engine and ecommerce company in Nigeria. With more than one million businesses listed, it provides extensive information about products, services and companies in Nigeria.<br/>It has also been recognised as the “Hottest Tech Startup” in Africa by Forbes Magazine.</p>
-							        </div>
-							    </div>
-							</div>
-
-							<div class="row-fluid">
-
-							    <div class="col-md-4 text-right">
-							        <img src="assets/img/ceos/DEEPANKAR.png" style="width: 160px" alt="">
-							    </div>
-
-							    <div class="col-md-8 cbp-l-inline-desc">
-							        <span class="lead">DEEPANKAR RUSTAGI</span>&nbsp;&nbsp;<span class="cbp-l-inline-subtitle">General Manager</span>
-							        <p><br/>Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/><br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
-							        <p>&nbsp;<br/>&nbsp;</p>
-							    </div>
-
-							</div>
-						</div>
-					  </div>
-
-					  <div class="gap"></div>
-					  <div class="gap"></div>
-					  <div class="gap"></div>
-					  <div class="gap"></div>
-					 
 					</div>
+				</div>
+			</div>
 
-    			</div>
-    		</div>
 
-		</div>
+			<!-- ////////////// VALUES /////////////  -->
+			<div class="section values-section" id="section1">
+				<div class="container">
+				    <div class="row values">
+						<div class="col-lg-5 col-md-5 col-sm-5">
+							<div class="box-globe">
+								<svg class="globe" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		                                                            width="400px" height="387.655px" viewBox="0 0 400 387.655" enable-background="new 0 0 400 387.655" xml:space="preserve">
+
+		                                                               <g>
+		                                                                  <path fill="#808285" d="M320.123,187.715c0,67.326-54.104,121.906-120.845,121.906c-66.74,0-120.845-54.58-120.845-121.906
+		                                                                     c0-67.327,54.105-121.909,120.845-121.909C266.019,65.807,320.123,120.388,320.123,187.715"/>
+		                                                                  <path fill="#FFFFFF" d="M138.958,133.068H89.343c-7.63,15.216-12.2,32.226-12.89,50.243h52.009
+		                                                                     C129.313,165.041,133.355,148.155,138.958,133.068"/>
+		                                                                  <path fill="#FFFFFF" d="M273.988,178.998c0.077,1.434,0.158,2.864,0.188,4.313h48.319c-0.694-18.017-5.268-35.029-12.884-50.242
+		                                                                     h-45.866C269.078,146.93,272.945,162.274,273.988,178.998"/>
+		                                                                  <path fill="#FFFFFF" d="M194.62,65.126c-0.177,0.018-0.327,0.018-0.485,0.033c-4.585,4.521-25.433,26.132-40.394,58.187h40.878
+		                                                                     V65.126z"/>
+		                                                                  <path fill="#FFFFFF" d="M179.286,66.704c-35.657,5.873-66.159,27.086-84.516,56.642h48.118
+		                                                                     C154.244,97.357,169.593,77.62,179.286,66.704"/>
+		                                                                  <path fill="#FFFFFF" d="M304.185,123.345c-18.229-29.364-48.437-50.499-83.84-56.514c11.468,11.746,27.629,31.098,39.284,56.514
+		                                                                     H304.185z"/>
+		                                                                  <path fill="#FFFFFF" d="M204.335,311.187c0.946-0.031,1.87-0.08,2.807-0.127c17.659-18.586,31.241-37.448,40.791-56.449h-43.598
+		                                                                     V311.187z"/>
+		                                                                  <path fill="#FFFFFF" d="M194.62,133.068h-45.095c-6.001,15.04-10.409,31.958-11.347,50.243h56.441V133.068z"/>
+		                                                                  <path fill="#FFFFFF" d="M248.667,123.345c-14.643-29.586-35.443-50.292-44.147-58.203c-0.072,0-0.121,0-0.185-0.016v58.219H248.667
+		                                                                     z"/>
+		                                                                  <path fill="#FFFFFF" d="M137.995,193.02c0.319,17.632,3.956,34.917,10.846,51.867h45.778V193.02H137.995z"/>
+		                                                                  <path fill="#FFFFFF" d="M253.13,133.068h-48.795v50.243h60.11c-0.016-1.21-0.078-2.42-0.166-3.612
+		                                                                     C263.235,162.702,258.98,147.042,253.13,133.068"/>
+		                                                                  <path fill="#FFFFFF" d="M204.335,244.884h48.119c7.337-17.204,11.363-34.468,11.991-51.865h-60.11V244.884z"/>
+		                                                                  <path fill="#FFFFFF" d="M153.187,254.608c9.405,19.4,23.18,38.308,41.233,56.578h0.201v-56.578H153.187z"/>
+		                                                                  <path fill="#FFFFFF" d="M95.812,254.608c18.508,28.792,48.651,49.368,83.792,55.098c-16.226-17.809-28.631-36.206-37.17-55.098
+		                                                                     H95.812z"/>
+		                                                                  <path fill="#FFFFFF" d="M221.984,309.214c34.028-6.271,63.127-26.532,81.158-54.604h-44.394
+		                                                                     C250.091,273.021,237.819,291.26,221.984,309.214"/>
+		                                                                  <path fill="#FFFFFF" d="M128.279,193.02H76.452c0.724,18.668,5.61,36.237,13.726,51.867h48.19
+		                                                                     C131.932,227.984,128.574,210.652,128.279,193.02"/>
+		                                                                  <path fill="#FFFFFF" d="M274.177,193.02c-0.582,17.393-4.336,34.708-11.197,51.867h45.781c8.132-15.63,13.009-33.199,13.736-51.867
+		                                                                     H274.177z"/>
+
+
+		                                                                  <g class="box-commitment">
+		                                                                     <path fill="#649140" d="M201.906,309.376l0.172,39.396c65.277-0.847,125.637-42.341,147.749-107.264l-37.51-12.008
+		                                                                     C295.549,277.754,250.578,308.605,201.906,309.376"/>
+		                                                                     <text transform="matrix(0.9416 -0.3367 0.3367 0.9416 235.7227 330.644)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311">C</tspan><tspan x="11.683" y="0.034" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-4.02">O</tspan><tspan x="25.117" y="-0.897" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-8.637">M</tspan><tspan x="38.711" y="-2.953" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-13.718">M</tspan><tspan x="52.015" y="-6.348" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-17.381">I</tspan><tspan x="56.444" y="-7.651" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-20.526">T</tspan><tspan x="66.086" y="-11.168" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-25.91">M</tspan><tspan x="78.442" y="-17.255" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-31.738">E</tspan><tspan x="87.501" y="-22.799" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-37.49">N</tspan><tspan x="97.374" y="-30.441" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-43.231">T</tspan></text>
+		                                                                  </g>
+
+		                                                                  <g class="box-courage">
+		                                                                     <path fill="#D24040" d="M87.698,229.569l-37.417,12.34c15.718,45.595,51.995,83.466,101.459,99.302
+		                                                                        c15.291,4.893,30.778,7.333,46.039,7.554l-0.172-39.407c-11.231-0.23-22.615-2.061-33.86-5.661
+		                                                                        C126.76,291.858,99.592,263.612,87.698,229.569"/>
+		                                                                     <text transform="matrix(0.5998 0.8002 -0.8002 0.5998 82.0347 271.647)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311">C</tspan><tspan x="11.693" y="0.034" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-4.022">O</tspan><tspan x="25.112" y="-0.931" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-8.331">U</tspan><tspan x="37.011" y="-2.679" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-12.615">R</tspan><tspan x="48.199" y="-5.154" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-17.356">A</tspan><tspan x="60.149" y="-8.884" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-22.705">G</tspan><tspan x="71.582" y="-13.707" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="-28.004">E</tspan></text>
+		                                                                  </g>
+		                                                                  <g class="box-humility">
+		                                                                     <path fill="#936C50" d="M127.809,95.909l-23.297-31.771C79.335,83.141,59.57,109.83,49.222,142.156
+		                                                                     c-10.351,32.344-9.754,65.566-0.283,95.667l37.417-12.337c-6.952-22.47-7.335-47.219,0.38-71.317
+		                                                                     C94.445,130.08,109.117,110.162,127.809,95.909"/>
+		                                                                     <text transform="matrix(0.0724 -0.9974 0.9974 0.0724 70.6094 186.3618)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.831">H</tspan><tspan x="12.045" y="0.026" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.831" rotate="5.462">U</tspan><tspan x="24.024" y="1.153" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.831" rotate="10.163">M</tspan><tspan x="37.51" y="3.693" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.831" rotate="13.029">I</tspan><tspan x="42.012" y="4.688" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.831" rotate="15.07">L</tspan><tspan x="51.467" y="7.279" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.831" rotate="16.956">I</tspan><tspan x="55.894" y="8.583" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.831" rotate="18.756">T</tspan><tspan x="65.598" y="11.872" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.831" rotate="21.147">Y</tspan></text>
+		                                                                  </g>
+
+		                                                                  <g class="box-trust">
+		                                                                     <path fill="#536DD3" d="M267.947,92.773l23.024-31.981c-12.761-8.95-27.071-16.15-42.697-21.151
+		                                                                     c-49.478-15.839-101.02-6.064-140.297,21.947l23.295,31.772c29.456-20.824,67.99-28.052,104.993-16.207
+		                                                                     C247.847,80.861,258.458,86.177,267.947,92.773"/>
+		                                                                     <text transform="matrix(0.9869 -0.1616 0.1616 0.9869 173.3335 62.0903)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311">T</tspan><tspan x="10.254" y="-0.008" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="5.075">R</tspan><tspan x="21.673" y="1.011" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="9.538">U</tspan><tspan x="33.502" y="3.036" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="13.104">S</tspan><tspan x="43.38" y="5.339" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8311" rotate="15.991">T</tspan></text>
+		                                                                  </g>
+
+		                                                                  <g class="box-respect">
+		                                                                     <path fill="#F39140" d="M351.172,237.423c20.477-65.834-4.195-135.092-56.716-174.11l-23.026,31.98
+		                                                                        c39.044,29.312,57.376,80.961,42.231,130.122L351.172,237.423z"/>
+		                                                                     <text transform="matrix(0.4331 0.9013 -0.9013 0.4331 312.7891 117.7593)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8312">R</tspan><tspan x="11.427" y="0.037" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8312" rotate="5.075">E</tspan><tspan x="22.018" y="0.997" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8312" rotate="9.015">S</tspan><tspan x="32.011" y="2.582" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8312" rotate="12.388">P</tspan><tspan x="42.339" y="4.856" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8312" rotate="15.422">E</tspan><tspan x="52.573" y="7.671" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8312" rotate="18.256">C</tspan><tspan x="63.673" y="11.353" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="15.8312" rotate="20.753">T</tspan></text>
+		                                                                  </g>
+
+		                                                               </g>
+		                        </svg>
+		                    </div>
+	                       
+						</div>
+						<div class="col-lg-6 col-md-5 col-sm-5 box-value">
+							<div class="trust trust-box box-list" style="background:#526cd2" data="">
+								<i class="pull-right fa fa-expand box-arrow"></i>
+								<i class="pull-right fa fa-compress box-arrow"></i>
+	                            <h3>TRUST <i class="pull-right fa fa-angle-down values-link"></i></h3>
+	                            <div class="box-text">
+	                            <p>We are honest and direct in our dealings and always act with transparency. <br />We say what we mean, mean what we say and always keep our promises.</p>
+	                            <p class="quote real q-trust">&#34; When the trust account is high, communication is easy, instant and effective.&#34;</p><p class='author q-trust'>Stephen R. Covey</p>
+	                            <p class="quote q-trust">Trust is at the very core of everything we try to do. If people trust us, they want to be associated with us. It’s that simple.</p>
+	                            </div>
+	                        </div>
+	                        <div class="respect respect-box box-list" style="background:#f39140" data="">
+	                        	<i class="pull-right fa fa-expand box-arrow"></i>
+								<i class="pull-right fa fa-compress box-arrow"></i>
+	                            <h3>RESPECT <i class="pull-right fa fa-angle-down values-link"></i></h3>
+	                            <div class="box-text">
+	                            <p>We respect our team members, our stakeholders, our heritage and our universe. <br />Because it’s a shared journey, we always seek a win-win outcome.</p>
+	                            <p class="quote real q-respect">&#34; When people honour each other, there is a trust established that leads to synergy, interdependence, and deep respect. Both parties make decisions and choices based on what is right, what is best, what is valued most highly. &#34;</p><p class='author q-respect'>Blaine lee</p>
+	                            <p class="quote q-respect">It all starts from respecting ourselves, our team members, our stakeholders, our heritage and our universe. This includes our customers, vendors, competitors and shareholders.</p>
+	                            <p class="quote q-respect">Though we are not all the same, we are equals. And we will always seek a Win-Win outcome as a sign of Mutual Respect.</p>
+	                            </div>
+	                        </div>
+	                       	<div class="commitment commitment-box box-list" style="background:#639140" data="">
+	                       		<i class="pull-right fa fa-expand box-arrow"></i>
+								<i class="pull-right fa fa-compress box-arrow"></i>
+	                            <h3>COMMITMENT <i class="pull-right fa fa-angle-down values-link"></i></h3>
+	                            <div class="box-text">
+	                            <p>We committed to being sustainable over the long term through focus and depth in everything we do.</p>
+	                            <p class="quote real q-commitment">&#34; Desire is the key to motivation, but it’s determination and commitment to an unrelenting pursuit of your goal – a commitment to excellence - that will enable you to attain the success you seek. &#34; </p><p class='author q-commitment'>Mario Andretti</p>
+	                            <p class="quote q-commitment">We intend to be here for good and do good so there must be focus and depth in everything we do for it to be sustainable over the long term</p>
+	                            </div>
+	                        </div>
+	                        <div class="courage courage-box box-list" style="background:#d24040" data="">
+	                        	<i class="pull-right fa fa-expand box-arrow"></i>
+								<i class="pull-right fa fa-compress box-arrow"></i>
+	                            <h3>COURAGE <i class="pull-right fa fa-angle-down values-link"></i></h3>                                          
+	  	                        <div class="box-text">
+		                        <p>We want to surround ourselves with bold thinkers; and to always act with conviction.</p>
+	                            <p class="quote real q-courage">&#34; Courage is the most important of all the virtues because without courage, you can’t practise any other virtue consistently. &#34; </p><p class='author q-courage'> Maya Angelou</p>
+	                            <p class="quote q-courage">We always support those who dare, because only with courage comes innovation.</p>
+	                            </div>
+	                        </div>
+	                        <div class="humility humility-box box-list" style="background:#926c50" data="">
+	                        	<i class="pull-right fa fa-expand box-arrow"></i>
+								<i class="pull-right fa fa-compress box-arrow"></i>
+	                            <h3>HUMILITY <i class="pull-right fa fa-angle-down values-link"></i></h3>
+	                            <div class="box-text">
+	                            <p>We endeavour to keep learning and letting our actions speak louder than our words. <br /> We also appreciate that everyone we interact with has a contribution to make to our well-being.</p>
+	                            <p class="quote real q-humility">&#34; True humility is not thinking less of yourself; it is thinking of yourself less. &#34; </p><p class='author q-humility'>CS Lewis</p>
+	                        	<p class="quote q-humility">We believe that humility is all about having a quiet confidence without being arrogant. Accepting that there’s always something new to learn. And, most importantly, letting our actions speak louder than our words.</p>
+	                        	</div>
+	                        </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<!--- ////////// VISION MISSION ///////// -->
+			<div class="section visionMission-section" id="section2">
+				<div class="intro">
+					<div class="col-md-4 col-sm-8 col-center vismis">
+						<div class="vision_box">
+							<h3 class="title vision">VISION</h3>
+							<p class="content mission">To be a company aligned with its values.</p>
+						</div>
+						<div>
+							<h3 class="title vision">MISSION</h3>
+							<p class="content mission">To establish world class companies in the spheres of Consumer Goods, Infrastructure, Energy and Digital Services in emerging markets.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<!-- ////////// SHAREHOLDERS ////////// -->
+			<div class="section shareholders-section" id="section3">
+				<div class="intro">
+					<div class="row shareholders1">
+						<div class="col-md-4 col-xs-4" attrId = "1">
+							<img class="shareholders_img img-responsive blur" src="assets/img/about/mohan-vaswani.jpg">
+							<p class="title_shareholders1">Mohan Vaswani</p>
+							<p class="title_shareholders2">Chairman</p>
+							<span class="hiddenContent">
+								<span>Mohan Vaswani joined the Group in 1957 and has since built various businesses across several locations. He has a wealth of experience in successfully creating and nurturing industrial developments and trading activities.</br></br>He is actively involved in the Tolaram Foundation and Rotary Club of Singapore.</span>
+							</span>
+						</div>
+						<div class="col-md-4 col-xs-4" attrId = "2">
+							<img class="shareholders_img img-responsive blur" src="assets/img/about/vishamkar-adnani.jpg">
+							<p class="title_shareholders1">Vishamkar Adnani</p>
+							<p class="title_shareholders2">Vice Chairman</p>
+							<span class="hiddenContent">
+								<span>Vishamkar (Vishu) Adnani joined the Group in 1961 and has helped grow the organisation to its present stature. He played a significant role in building Tolaram's capability to trade in a range of products, particularly between Asia and Africa.</br></br>He is actively contributing to the Tolaram Foundation.</span>
+							</span>
+						</div>
+						<div class="col-md-4 col-xs-4" attrId = "3">
+							<img class="shareholders_img img-responsive blur" src="assets/img/about/sajen-aswani.jpg">
+							<p class="title_shareholders1">Sajen Aswani</p>
+							<p class="title_shareholders2">Chief Executive</p>
+							<span class="hiddenContent">
+								<span>Sajen Aswani joined the Group in 1984 and became the Chief Executive in 2000. He is also a Director of the Family Business Network and a member of the Advisory Council to Nanyang Business School.</br></br>He holds a Bachelor’s degree in Economics from University of London and a Master's degree in Management Science from the Imperial College, London.</span>
+							</span>
+						</div>
+					</div>
+					<div class="row shareholders2">
+						<div class="col-md-3 col-xs-3" attrId = "4">
+							<img class="shareholders_img img-responsive blur" src="assets/img/about/haresh-aswani.jpg">
+							<p class="title_shareholders1">Haresh Aswani</p>
+							<p class="title_shareholders2">Managing Director,</p>
+							<p class="title_shareholders2">Nigeria</p>
+							<span class="hiddenContent">
+								<span>Haresh Aswani joined the Group in 1984. He has been the Honorary Consul-General for Singapore in Nigeria since 2006. He has also received the Chieftaincy title in Nigeria "Baagbile Korede of Ota by the Olota of Ota" and the National Honour of MFR (Member of the Order of Federal Republic of Nigeria).</br></br>He holds a Bachelor’s degree in Business Administration from the University of Houston, US.</span>
+							</span>
+						</div>
+						<div class="col-md-3 col-xs-3" attrId = "5">
+							<img class="shareholders_img img-responsive blur" src="assets/img/about/sonny-aswani.jpg">
+							<p class="title_shareholders1">Sonny Aswani</p>
+							<p class="title_shareholders2">Managing Director,</p>
+							<p class="title_shareholders2">Estonia</p>
+							<span class="hiddenContent">
+								<span>Sonny Aswani joined the Group in 1985. He has been the Honorary Consul-General for Estonia in Singapore since 2008 and was conferred the White Cross medal by the President of the Republic of Estonia in 2001.</br></br>He holds a Bachelor's degree in Business Administration and Economics from Richmond College, UK as well as a Master's Degree in Management Science from the University of Kent, UK.</span>
+							</span>
+						</div>
+						<div class="col-md-3 col-xs-3" attrId = "6">
+							<img class="shareholders_img img-responsive blur" src="assets/img/about/tom-vaswani.jpg">
+							<p class="title_shareholders1">Tom Vaswani</p>
+							<p class="title_shareholders2">Director</p>
+							<span class="hiddenContent">
+							<span>Tom Vaswani joined the Group in 1993. He holds a Bachelor’s Degree in Politics and Sociology and a Master’s Degree in Social and Political Thought from the University of Warwick, UK.</span>
+							</span>
+						</div>
+						<div class="col-md-3 col-xs-3" attrId = "7">
+							<img class="shareholders_img img-responsive blur" src="assets/img/about/raj-vaswani.jpg">
+							<p class="title_shareholders1">Raj Vaswani</p>
+							<p class="title_shareholders2">Director</p>
+							<span class="hiddenContent">
+								<span>Raj Vaswani joined the Group in 1995. He holds a Bachelor's degree in Business Administration from the Terry College of Business, University of Georgia, US.</span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id='overlay-data' style='display:none;'>
+	            <img id='member-1' src="assets/img/about/mohan-vaswani.jpg"/>
+	            <img id='member-2' src="assets/img/about/vishamkar-adnani.jpg"/>
+	            <img id='member-3' src="assets/img/about/sajen-aswani.jpg"/>
+	            <img id='member-4' src="assets/img/about/haresh-aswani.jpg"/>
+	            <img id='member-5' src="assets/img/about/sonny-aswani.jpg"/>
+	            <img id='member-6' src="assets/img/about/tom-vaswani.jpg"/>x
+	            <img id='member-7' src="assets/img/about/raj-vaswani.jpg"/>
+	      </div>
 	</div>
-
+	
 	<style type="text/css">
-		 
-		/**
-		 * Form & Button Styles
-		 */
-
-		html,body{
-		  overflow: visible!important;
+		#section0{
+			background-image: url(assets/img/about/about-page-bg.jpg);
+			background-size: cover;
+			background-position: 0 90%;
+		}
+		#section2{
+			background-image: url(assets/img/about/vision_bg.jpg);
+			background-position: 80% 0px;
+			background-size: cover;
+			text-align: center;
 		}
 
-		label{
-		  font-weight: 300;
-		}
-		 
-		button{
-		  display: inline-block;
-		  background: transparent;
-		  border: 0;
-		  margin: 0 .2em;
-		  color: #000;
-		  font-size: 16px;
-		  font-weight: 300;
-		  border-radius: .10em;
-		  cursor: pointer;
-		  margin-bottom: 8px;
-		  padding-top: 0;
-			padding-bottom: 0;
-			padding-right: 0;
-			border-left: 1px solid #000;
-		}
-
-		button.active{
-		  background: transparent;
-		  color: #000;
-		  font-weight: bold;
-		}
-
-		button:focus{
-		  outline: 0 none;
-		}
-
-		button:first-of-type{
-		  margin-left: 0;
-		}
-
-		button:last-of-type{
-		  margin-right: 0;
-		}
-		 
-		button:focus{
-		  outline: 0 none;
-		}
-		 
-		.controls{
-		  padding: 2%;
-		}
-		 
-		fieldset{
-		  display: inline-block;
-		  vertical-align: top;
-		  margin: 0;
-		  padding: 0;
-		  border-radius: 3px;
-		  padding-top: 10px;
-			padding-left: 3px;
-		}
-
-		/**
-		 * Container/Target Styles
-		 */
-
-		.container .gap{
-		  width: 100px;
-		  display: inline-block;
-		  margin: 0 5%;
-		}
-
-		.container .mix{
-		  background: white;
-  		  display: none;
-		  margin-bottom: 20px;
-		}
-
-		.container .mix a img {
-			width: 100%;
-		}
-		
-		.hidden_content{
-			display: none;
+		.fullWidth {
+			overflow: hidden;
 		}
 
 
+		#fp-nav ul li a span{
+			width: 10px;
+			height: 10px;
+			background-color: #841f10;
+			border:1px solid #841f10;
+		}
+		#fp-nav ul li{
+			margin: 14px;
+		}
+		#fp-nav ul li a.active span{
+			width: 14px;
+			height: 14px;
+			border: 2px solid #FFF;
+			background-color: transparent;
+			left: 0px;
+			border:1px solid #841f10;
+		}
 
-		@media screen and (max-width: 768px){
-			button.businessClose {
-				right: 18px!important;
+		#fp-nav ul li .fp-tooltip{
+			color: #841f10;
+		}
+		@media (max-width: 768px){
+			.fullWidth{overflow: hidden;}
+		}
+		@media(max-width: 1295px){
+			.title_shareholders1{
+				font-size: 13px;
+			}
+		}
+		@media (max-width: 1200px){
+			.values{
+				margin-top: 0;
+			}
+		}
+		@media(max-width: 960px){
+			#fp-nav.left{
+				display: none;
 			}
 		}
 
-		@media all and (min-width: 420px){
-		  .container .mix,
-		  .container .gap{
-		    width: 32%;
-		  }
-		}
-		 .csroverlay .container p {
-		 	text-align: left;
-		 }
+		@media (max-width: 900px){
+			
+			.shareholders1 {
+				max-width: 75%;
+			}
+			.shareholders2 {
+				max-width: 100%;
+			}
 
-		/* ALERTS */
-		/* inspired by Twitter Bootstrap */
-
-		.alert {
-		  padding: 10px;
-		  border: 1px solid #eed3d7;
-		  border-radius: 1px;
-		  position: absolute;
-		  margin-top: 0 auto;
-		  margin-right: 0 auto;
-		  /* Each alert has its own width */
-		  float: right; 
-		  clear: right;
+			.shareholders1 > div, .shareholders2 > div{
+				padding-left: 0;
+				padding-right: 0;
+			}
+			.shareholders1, .shareholders2 {
+				margin-right: auto;
+				margin-left: auto;
+			}
 		}
 
-		.alert-red {
-		  color: white;
-		  background-color: #DA4453;
+	
+		@media (max-width: 768px ){
+
+			.vision_box{
+				margin-bottom: 60px;
+			}
+
+			.vismis{
+				top:18%;
+			}
 		}
+
+		@media (max-width: 1400px){
+			.title_shareholders2{
+				line-height: normal;
+				margin-top: -11px;
+			}
+		}
+
+		button.businessClose{
+			top: 50px;
+			right: 61px;
+		}
+
+		#about-overlay div.col-md-7 {
+			background: #663333;
+			height: 100%;
+			margin: 0;
+		}
+		#about-overlay .col-md-6 {
+			height: 100%;
+		}
+		
+		#about-overlay .col-md-6 .text {
+			position: absolute;
+			top: 40%;
+			font-family: gothamBook;
+			color: white;
+		}
+
+		#about-overlay .col-md-6 .text .membername-overlay h5 {
+			font-size: 30px;
+		}
+
+		#about-overlay .col-md-6 .text span {
+			display: block;
+			font-size: 13px;
+			line-height: 20px;
+			margin-top: 5%;
+		}
+		#about-overlay .social {
+			position: absolute;
+			bottom: 10%;
+			right: 22%;
+		}
+		#about-overlay .social ul {
+			list-style: outside none none;
+		}
+		#about-overlay .social ul li {
+			float: left;
+			margin-left: 10px;
+		}
+
+#fp-nav ul li .fp-tooltip{width:auto!important;opacity:initial!important;}
+
 
 	</style>
-
 	<script type="text/javascript">
-	$(document).ready(function () {
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#FFF', '#FFF', '#FFF', '#FFF'],
+				anchors:['about','values','vision','shareholders'],
+				navigation: true,
+				navigationPosition: 'left',
+				navigationTooltips: ['ABOUT US', 'GUIDING VALUES', 'VISION & MISSION', 'SHAREHOLDERS'],
+				responsive: 768,
+				scrollingSpeed: 500,
+				verticalCentered: true,
+				horizontalCentered:false,
+				afterLoad: function(anchorLink, index, slideAnchor, slideIndex){
+					if(anchorLink=="about"){
+						title="ABOUT US";
+					}else if(anchorLink=="values"){
+						title="GUIDING VALUES";
+					}else if(anchorLink=="vision"){
+						title="VISION &amp; MISSION";
+					}else if(anchorLink=="shareholders"){
+						title="SHAREHOLDERS";
+					}
 
-		$('#my_popup1,#my_popup2,#my_popup3,#my_popup4,#my_popup5,#my_popup6,#my_popup7,#my_popup8,#my_popup9,#my_popup10,#my_popup11,#my_popup12,#my_popup13,#my_popup14,#my_popup15,#my_popup16,#my_popup17,#my_popup18,#my_popup19').popup({transition: 'all 0.3s'});
-
-		// ******************************************************************************************************* //
-		// *******************************  BUTTON SECTION ******************************************************* //
-		// ******************************************************************************************************* //
-		
-		var buttonFilter = {
-		  
-		  // Declare any variables we will need as properties of the object
-		  
-		  $filters: null,
-		  $reset: null,
-		  groups: [],
-		  outputArray: [],
-		  outputString: '',
-		  
-		  // The "init" method will run on document ready and cache any jQuery objects we will need.
-		  
-		  init: function(){
-		    var self = this; // As a best practice, in each method we will asign "this" to the variable "self" so that it remains scope-agnostic. We will use it to refer to the parent "buttonFilter" object so that we can share methods and properties between all parts of the object.
-		    
-		    self.$filters = $('#Filters');
-		    self.$reset = $('#Reset');
-		    self.$container = $('#Container');
-		    
-		    self.$filters.find('fieldset').each(function(){
-		      self.groups.push({
-		        $buttons: $(this).find('.filter'),
-		        active: ''
-		      });
-		    });
-		    
-		    self.bindHandlers();
-		  },
-		  
-		  // The "bindHandlers" method will listen for whenever a button is clicked. 
-		  
-		  bindHandlers: function(){
-		    var self = this;
-		    
-		    // Handle filter clicks
-		    
-		    self.$filters.on('click', '.filter', function(e){
-		      e.preventDefault();
-		      
-		      var $button = $(this);
-
-		      // If the button is active, remove the active class, else make active and deactivate others.
-
-		      // ************************ customized by colorblindlabs.com **************************
-		      if ($button.hasClass('active')) {
-		      	$button.removeClass('active');
-		      	$button.siblings('.filter').attr('disabled', false).css('color', '#000');
-		      	for(var i = 0, group; group = self.groups[i]; i++) {
-			      group.$buttons.removeClass('active').attr('disabled', false).css('color', '#000');
-			    }
-		      }
-		      else {
-		      	$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#e8e8e8');
-		      	for(var i = 0, group; group = self.groups[i]; i++) {
-			      group.$buttons.not('.active').attr('disabled', true).css('color', '#e8e8e8');
-			    }
-		      }
-		      // **************************************************************************************
-
-		      self.parseFilters();
-		    });
-		    
-		    // Handle reset click
-		    
-		    self.$reset.on('click', function(e){
-		      e.preventDefault();
-		      
-		      self.$filters.find('.filter').removeClass('active');
-		      
-		      self.parseFilters();
-		    });
-		  },
-		  
-		  // The parseFilters method checks which filters are active in each group:
-		  
-		  parseFilters: function() {
-		    var self = this;
-		 
-		    // loop through each filter group and grap the active filter from each one.
-		    
-		    for(var i = 0, group; group = self.groups[i]; i++){
-		      group.active = group.$buttons.filter('.active').attr('data-filter') || '';
-
-		    }
-
-		    self.concatenate();
-		  },
-		  
-		  // The "concatenate" method will crawl through each group, concatenating filters as desired:
-		  
-		  concatenate: function(){
-		    var self = this;
-		    
-		    self.outputString = ''; // Reset output string
-		    
-		    for(var i = 0, group; group = self.groups[i]; i++){
-		      self.outputString += group.active;
-		    }
-		    
-		    // If the output string is empty, show all rather than none:
-		    
-		    !self.outputString.length && (self.outputString = 'all');
-		    
-		    // Send the output string to MixItUp via the 'filter' method:
-		    
-		    self.outputData = '';
-			  if(self.$container.mixItUp('isLoaded')){
-		    	self.$container.mixItUp('filter', self.outputString);
-
-		    	// **************** customized part ******************
-				self.activeId = self.$filters.find('.active').attr('group') || 'null';
-				if (self.activeId == 'sector') {
-					country = '';
-					self.$container.find(self.outputString).each(function(){
-						country = '.' + $(this).attr('country');
-						$('.filter[data-filter="'+country+'"]').attr('disabled', false).css('color', '#000');
-						if ($(this).attr('country-2')) { //if there is 2nd country
-							country2 = '.' + $(this).attr('country-2');
-							$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');
-						}
-						if ($(this).attr('country-3')) { //if there is 3rd country
-							country3 = '.' + $(this).attr('country-3');
-							$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
-						}
-				    });
-
-				} else if (self.activeId == 'country') {
-					sector = '';
-					self.$container.find(self.outputString).each(function(){
-						sector = '.' + $(this).attr('sector');
-						$('.filter[data-filter="'+sector+'"]').attr('disabled', false).css('color', '#000');
-				    });
-				    
-				} else {
-			    	// NONE ACTIVE!
-				}
-			    // ***************************************************
-
-			  }
-
-		  }
-		};
-		  
-		// On document ready, initialise our code.
-
-		$(function(){
-		      
-		  // Initialize buttonFilter code
-		      
-		  buttonFilter.init();
-		      
-		  // Instantiate MixItUp
-		      
-		  $('#Container').mixItUp({
-		    controls: {
-		      enable: false, // we won't be needing these
-		      toggleFilterButtons: true
-		    },
-		    callbacks: {
-			    onMixEnd: function(){
-			        //alert('No items were found matching the selected filters.');
-			    }
-		    }
-		  });    
-		});
+					$('.title_page p').html(title);
+				
 
 
-		// ******************************************************************************************************* //
-		// *******************************  DROPDOWN SECTION ***************************************************** //
-		// ******************************************************************************************************* //
-
-		var dropdownFilter = {
-		  
-		  // Declare any variables we will need as properties of the object
-		  
-		  $filters: null,
-		  $reset: null,
-		  groups: [],
-		  outputArray: [],
-		  outputString: '',
-		  
-		  // The "init" method will run on document ready and cache any jQuery objects we will need.
-		  
-		  init: function(){
-		    var self = this; // As a best practice, in each method we will asign "this" to the variable "self" so that it remains scope-agnostic. We will use it to refer to the parent "dropdownFilter" object so that we can share methods and properties between all parts of the object.
-		    
-		    self.$filters = $('#Filters2');
-		    self.$reset = $('#Reset');
-		    self.$container = $('#Container');
-		    
-		    self.$filters.find('fieldset').each(function(){
-		      self.groups.push({
-		        $dropdown: $(this).find('select'),
-		        active: ''
-		      });
-		    });
-		    
-		    self.bindHandlers();
-		  },
-		  
-		  // The "bindHandlers" method will listen for whenever a select is changed. 
-		  
-		  bindHandlers: function(){
-		    var self = this;
-		    
-		    // Handle select change
-		    
-		    self.$filters.on('change', 'select', function(e){
-		      e.preventDefault();
-		      
-		      self.parseFilters();
-		    });
-		    
-		    // Handle reset click
-		    
-		    self.$reset.on('click', function(e){
-		      e.preventDefault();
-		      
-		      self.$filters.find('select').val('');
-		      
-		      self.parseFilters();
-		    });
-		  },
-		  
-		  // The parseFilters method pulls the value of each active select option
-		  
-		  parseFilters: function(){
-		    var self = this;
-		 
-		    // loop through each filter group and grap the value from each one.
-		    
-		    for(var i = 0, group; group = self.groups[i]; i++){
-		      group.active = group.$dropdown.val();
-		    }
-		    
-		    self.concatenate();
-		  },
-		  
-		  // The "concatenate" method will crawl through each group, concatenating filters as desired:
-		  
-		  concatenate: function(){
-		    var self = this;
-		    
-		    self.outputString = ''; // Reset output string
-		    
-		    for(var i = 0, group; group = self.groups[i]; i++){
-		      self.outputString += group.active;
-		    }
-		    
-		    // If the output string is empty, show all rather than none:
-		    
-		    !self.outputString.length && (self.outputString = 'all'); 
-		    
-		    //console.log(self.outputString); 
-		    
-		    // ^ we can check the console here to take a look at the filter string that is produced
-		    
-		    // Send the output string to MixItUp via the 'filter' method:
-		    
-			  if(self.$container.mixItUp('isLoaded')){
-		    	self.$container.mixItUp('filter', self.outputString);
-			  }
-		  }
-		};
-		  
-		// On document ready, initialise our code.
-
-		$(function(){
-		      
-		  // Initialize dropdownFilter code
-		      
-		  dropdownFilter.init();
-		      
-		  // Instantiate MixItUp
-		      
-		  $('#Container').mixItUp({
-		    controls: {
-		      enable: false // we won't be needing these
-		    },
-		    callbacks: {
-		      onMixFail: function(){
-		        //alert('No items were found matching the selected filters.');
-		        ohSnap('No items were found matching the selected filters.', 'red', 'icon-alert');
-		      }
-		    }
-		  });    
-		});
+				},
 
 
+			});
 
-		$('.business_btn').click(function(e){
-                 e.preventDefault();
-                 var $parentdiv = $(this).parent('.mix');
-                 var src = $parentdiv.children().children('img').attr('src');  
-                 var div1 = $parentdiv.children().children().children('.business_content').html();
-                 var div2 = $parentdiv.children().children('.row-fluid').html();
-
-                 $('.fullWidth').css('left',"-100%");
-                 var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');background-size: cover!important;background-position:50%;"></div><div class="closeButton"><button class="businessClose">Close</button></div><div class="row container">';
-                 insertHtml += '<div class="col-md-6">'+div1+'</div><div class="col-md-6">'+div2+'</div>';
-                 insertHtml += '</div></div>';
-                 $('body').after(insertHtml);
-                 $('.fullWidth').animate({left:"0"});
-
-                
-                BackgroundCheck.init({
-				  targets: '.closeButton',
-				  images: '.csrBanner'
-				});
-                 
-                 // Specific target
-				BackgroundCheck.refresh(target);
-
-				// Get current targets
-				BackgroundCheck.get('targets');
-
-				// Change targets
-				BackgroundCheck.set('targets', '.header');
-
-				BackgroundCheck.destroy();
-
-            });
-
-		$("html").on("click", ".businessClose",function(){
-                $('.fullWidth').animate({left:"100%"},
-                 function(){
-                     $('.fullWidth').remove();
-                 })
-            });
-
-		});
+			
+            if ($('body').is('.fp-viewing-values')) {
+                alert('a');
+            };
 
 		
+			$('div.shareholders1 div, div.shareholders2 div').click(function(e){
+				e.preventDefault();
+                $id = $(this).attr('attrId'); 
+
+                $('.fullWidth').css('left',"-100%");
+               	$textDescription = $(this).children('.hiddenContent').html();
+	           	$textNameMember1 = $(this).children('.title_shareholders1').text();
+	           	$textNameMember2 = $(this).children('.title_shareholders2').text();
+
+	           	$getLogo = $('.brand').html();
+	           	$objImg = $(this).children('img.shareholders_img').attr('src');
+	           	
+
+	           	//$imgMember = 
+	           	// dom
+	           $insertHtml = '<div id="about-overlay" class="csroverlay fullWidth row" style="margin: 0;"><header><div class="brand">'+$('.brand').html()+'</div><button class="businessClose">Close</button></header>';
+	           $insertHtml += '<div class= "col-sm-5 col-md-5" style="padding-left:0;padding-right:0"><div style="background:url('+$objImg+');width: 100%;height: 1000px;background-position: 50% 50%;background-size: cover;background-repeat: no-repeat;position: absolute;}"></div></div>';
+	           $insertHtml += '<div class= "col-sm-7 col-md-7 row"><div class= "col-md-6"><div class="text"><div class="membername-overlay"><h5>'+$textNameMember1+'</h5><p>'+$textNameMember2+'</p></div>'+$textDescription+'</div></div><div class= "col-md-6"><div class="social"><ul>';
+	           $insertHtml += '<li><a href="javascript:void(0)"><img src="assets/img/about/twitter-overlay.png" alt=""></a></li>';
+	           $insertHtml += '<li><a href="javascript:void(0)"><img src="assets/img/about/facebook_overlay.png" alt=""></a></li>';
+	           $insertHtml += '<li><a href="javascript:void(0)"><img src="assets/img/about/linkin_overlay.png" alt=""></a></li>';
+	           $insertHtml += '</div></ul></div></div>';
+     
+
+	           $('body').after($insertHtml);
+	           $('.fullWidth').animate({left:"0"});
+	           $('body').css('overflow','hidden');
+
+	         });
+			$("html").on("click", ".businessClose",function(){
+				$('body').css('overflow','visible');
+            	$('.fullWidth').animate({left:"100%"},
+              	function(){
+                  $('.fullWidth').remove();
+              	})
+          	}); 
+
+/*
+
+		$('.trust').click(function () {
+			$('.quote, .author').addClass('tdkactive');
+			$(this).children('.quote, .author').removeClass('tdkactive');
+			$('.tdkactive').hide();
+			$('.q-trust').slideToggle("fast");
+		});
+		$('.respect').click(function () {
+			$('.quote, .author').addClass('tdkactive');
+			$(this).children('.quote, .author').removeClass('tdkactive');
+			$('.tdkactive').hide();
+			$('.q-respect').slideToggle();
+		});
+		$('.commitment').click(function () {
+			$('.quote, .author').addClass('tdkactive');
+			$(this).children('.quote, .author').removeClass('tdkactive');
+			$('.tdkactive').hide();
+			$('.q-commitment').slideToggle();
+		});
+		$('.courage').click(function () {
+			$('.quote, .author').addClass('tdkactive');
+			$(this).children('.quote, .author').removeClass('tdkactive');
+			$('.tdkactive').hide();
+			$('.q-courage').slideToggle();
+		});
+		$('.humility').click(function () {
+			$('.quote, .author').addClass('tdkactive');
+			$(this).children('.quote, .author').removeClass('tdkactive');
+			$('.tdkactive').hide();
+			$('.q-humility').slideToggle();
+		});
+
+*/
+		$('.box-list').click(function(){
+			var sesi=$(this).attr('data');
+			if(sesi==""){
+				$('.box-list').hide();
+				$(this).show().addClass('active');
+				$(this).attr('data','1');
+				$(this).children('.box-text').slideDown(300);
+			}else{
+				$('.box-list').fadeIn();
+				$(this).show().removeClass('active');
+				$(this).attr('data','');
+				$(this).children('.box-text').slideUp(300);
+			}
+
+
+
+		});
+
+		$('.box-list').mouseenter(function () {
+
+			if($(this).is('.active')) {
+				$(this).children('.fa-expand').hide();
+				$(this).children('.fa-compress').show();
+			} else if ($(this).not('.active')) {
+				$(this).children('.fa-compress').hide();
+				$(this).children('.fa-expand').show();
+			};
+
+			
+
+		});
+
+		$('.box-list').mouseleave(function () {
+				$(this).children('.fa-expand').hide();
+				$(this).children('.fa-compress').hide();
+
+		});
+		
+		/*$('.box-trust, .trust').mouseenter(function () {
+            $('.box-trust').css({'transform':'translate(0px,-14px) scale(1,1)'});
+            $('.trust h3').toggleClass('highlight');
+            $('.trust h3').css('font-size','25px');
+        });
+
+         $('.box-trust, .trust').mouseleave(function () {
+            $('.box-trust').css({'transform':'translate(0px,0) scale(1,1)'});
+            $('.trust h3').toggleClass('highlight');
+            $('.trust h3').css('font-size','18px');
+         });
+
+         $('.box-respect, .respect').mouseenter(function () {
+            $('.box-respect').css({'transform':'translate(12px,-4px) scale(1,1)'});
+            $('.respect h3').toggleClass('highlight');
+            $('.respect h3').css('font-size','25px');
+         });
+         $('.box-respect, .respect').mouseleave(function () {
+            $('.box-respect').css({'transform':'translate(0,0) scale(1,1)'});
+            $('.respect h3').toggleClass('highlight');
+            $('.respect h3').css('font-size','18px');
+         });
+
+         $('.box-commitment, .commitment').mouseenter(function () {
+            $('.box-commitment').css({'transform':'translate(7px,10px) scale(1,1)'});
+            $('.commitment h3').toggleClass('highlight');
+            $('.commitment h3').css('font-size','25px');
+         });
+         $('.box-commitment, .commitment').mouseleave(function () {
+            $('.box-commitment').css({'transform':'translate(0,0) scale(1,1)'});
+            $('.commitment h3').toggleClass('highlight');
+            $('.commitment h3').css('font-size','18px');
+         });
+
+         $('.box-courage, .courage').mouseenter(function () {
+            $('.box-courage').css({'transform':'translate(-8px,10px) scale(1,1)'});
+            $('.courage h3').toggleClass('highlight');
+            $('.courage h3').css('font-size','25px');
+         });
+         $('.box-courage, .courage').mouseleave(function () {
+            $('.box-courage').css({'transform':'translate(0,0) scale(1,1)'});
+            $('.courage h3').toggleClass('highlight');
+            $('.courage h3').css('font-size','18px');
+         });
+
+         $('.box-humility, .humility').mouseenter(function () {
+            $('.box-humility').css({'transform':'translate(-14px,-5px) scale(1,1)'});
+            $('.humility h3').toggleClass('highlight');
+            $('.humility h3').css('font-size','25px');
+         });
+
+         $('.box-humility, .humility').mouseleave(function () {
+            $('.box-humility').css({'transform':'translate(0,0) scale(1,1)'});
+            $('.humility h3').toggleClass('highlight');
+            $('.humility h3').css('font-size','18px');
+         });*/
+		});
 	</script>
-
 <?php
 	include('include/footer.php');
 ?>
