@@ -102,6 +102,7 @@
 					    </a>
 						   <div id="popup1">
 								<div class="row">
+									<button class="businessClose popup1_close">Close</button>
 									<div class="col-md-6">
 										<img src="assets/img/our_business/IBP-building.jpg" style="width:100%">
 									</div>
@@ -141,6 +142,7 @@
 
 						<div id="popup2">
 							<div class="row">
+								<button class="businessClose popup2_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/sector/amarbank_bg.png" style="width:100%">
 								</div>
@@ -180,6 +182,7 @@
 						</a>
 						<div id="popup3">
 							<div class="row">
+								<button class="businessClose popup3_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/arzu.png" style="width:100%">
 								</div>
@@ -218,6 +221,7 @@
 						</a>
 						<div id="popup4">
 							<div class="row">
+								<button class="businessClose popup4_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/asuransi_rama_800x600.png" style="width:100%">
 								</div>
@@ -256,6 +260,7 @@
 						</a>	
 						<div id="popup5">
 							<div class="row">
+								<button class="businessClose popup5_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/bhn_800x600.png" style="width:100%">
 								</div>
@@ -295,6 +300,7 @@
 						</a>
 						<div id="popup6">
 							<div class="row">
+								<button class="businessClose popup6_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/dufill_800x600.png" style="width:100%">
 								</div>
@@ -332,6 +338,7 @@
 						</a>
 						<div id="popup7">
 							<div class="row">
+								<button class="businessClose popup7_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/firstchoice_800x600.png" style="width:100%">
 								</div>
@@ -370,6 +377,7 @@
 						</a>
 						<div id="popup8">
 							<div class="row">
+								<button class="businessClose popup8_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/horizonpaper_800x600.png" style="width:100%">
 								</div>
@@ -407,6 +415,7 @@
 						</a>
 						<div id="popup9">
 							<div class="row">
+								<button class="businessClose popup9_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/sector/horizon.tisue_bg.png" style="width:100%">
 								</div>
@@ -445,6 +454,7 @@
 						</a>
 						<div id="popup10">
 							<div class="row">
+								<button class="businessClose popup10_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/sector/hypo_bg.png" style="width:100%">
 								</div>
