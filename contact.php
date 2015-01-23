@@ -74,7 +74,7 @@
 		<!-- Contact Form -->
 		<div class="fullContact">
 			<div class="row">
-				<div class="col-md-12" style="padding-bottom: 59px;">
+				<div class="col-md-12" style="padding-bottom: 59px;position: absolute; right: 0;padding-right: 0;">
 					  <button type="button" class="closeContact pull-right">close</button>
 				</div>
 			</div>
@@ -114,6 +114,9 @@
 			background-size: cover;
 		}
 		
+		html, body{
+			overflow:visible!important;
+		}
 
 		::-webkit-input-placeholder { /* WebKit browsers */
 		    color:    #FFF !important;

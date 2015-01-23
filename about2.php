@@ -15,11 +15,11 @@
 			<div class="section aboutUs-section" id="section0">
 				<div class="intro">
 					<div class="col-md-6 col-sm-8 col-xs-11 pull-right box-content" style="padding-right:7%;padding-top:13%;">
-						<div class="about-content">
-							<h3 class="title" style="color:#000">ESTABLISHED IN 1948 IN MALANG, INDONESIA</h3>
-							<p class="content" style="color:#000">Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
+						<div>
+							<h3 class="title" style="color:#FFF">ESTABLISHED IN 1948 IN MALANG, INDONESIA</h3>
+							<p class="content" style="color:#FFF">Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
 							<br/>
-							<p class="content" style="color:#000">The Group has a diversified portfolio consisting of Consumer Goods, Infrastructure, Energy, Digital Services and other interests which include Distribution, Financial Services, Paper Products, Real Estate and Textiles.</p>
+							<p class="content" style="color:#FFF">The Group has a diversified portfolio consisting of Consumer Goods, Infrastructure, Energy, Digital Services and other interests which include Distribution, Financial Services, Paper Products, Real Estate and Textiles.</p>
 						</div>
 					</div>
 				</div>
@@ -105,57 +105,37 @@
 		                    </div>
 	                       
 						</div>
-						<div class="col-lg-6 col-md-5 col-sm-5 box-value">
-							<div class="trust trust-box box-list" style="background:#526cd2" data="">
-								<i class="pull-right fa fa-expand box-arrow"></i>
-								<i class="pull-right fa fa-compress box-arrow"></i>
+						<div class="col-lg-6 col-md-5 col-sm-5">
+							<div class="trust">
 	                            <h3>TRUST <i class="pull-right fa fa-angle-down values-link"></i></h3>
-	                            <div class="box-text">
 	                            <p>We are honest and direct in our dealings and always act with transparency. <br />We say what we mean, mean what we say and always keep our promises.</p>
 	                            <p class="quote real q-trust">&#34; When the trust account is high, communication is easy, instant and effective.&#34;</p><p class='author q-trust'>Stephen R. Covey</p>
 	                            <p class="quote q-trust">Trust is at the very core of everything we try to do. If people trust us, they want to be associated with us. It’s that simple.</p>
-	                            </div>
 	                        </div>
-	                        <div class="respect respect-box box-list" style="background:#f39140" data="">
-	                        	<i class="pull-right fa fa-expand box-arrow"></i>
-								<i class="pull-right fa fa-compress box-arrow"></i>
+	                        <div class="respect">
 	                            <h3>RESPECT <i class="pull-right fa fa-angle-down values-link"></i></h3>
-	                            <div class="box-text">
 	                            <p>We respect our team members, our stakeholders, our heritage and our universe. <br />Because it’s a shared journey, we always seek a win-win outcome.</p>
 	                            <p class="quote real q-respect">&#34; When people honour each other, there is a trust established that leads to synergy, interdependence, and deep respect. Both parties make decisions and choices based on what is right, what is best, what is valued most highly. &#34;</p><p class='author q-respect'>Blaine lee</p>
 	                            <p class="quote q-respect">It all starts from respecting ourselves, our team members, our stakeholders, our heritage and our universe. This includes our customers, vendors, competitors and shareholders.</p>
 	                            <p class="quote q-respect">Though we are not all the same, we are equals. And we will always seek a Win-Win outcome as a sign of Mutual Respect.</p>
-	                            </div>
 	                        </div>
-	                       	<div class="commitment commitment-box box-list" style="background:#639140" data="">
-	                       		<i class="pull-right fa fa-expand box-arrow"></i>
-								<i class="pull-right fa fa-compress box-arrow"></i>
+	                       	<div class="commitment">
 	                            <h3>COMMITMENT <i class="pull-right fa fa-angle-down values-link"></i></h3>
-	                            <div class="box-text">
 	                            <p>We committed to being sustainable over the long term through focus and depth in everything we do.</p>
 	                            <p class="quote real q-commitment">&#34; Desire is the key to motivation, but it’s determination and commitment to an unrelenting pursuit of your goal – a commitment to excellence - that will enable you to attain the success you seek. &#34; </p><p class='author q-commitment'>Mario Andretti</p>
 	                            <p class="quote q-commitment">We intend to be here for good and do good so there must be focus and depth in everything we do for it to be sustainable over the long term</p>
-	                            </div>
 	                        </div>
-	                        <div class="courage courage-box box-list" style="background:#d24040" data="">
-	                        	<i class="pull-right fa fa-expand box-arrow"></i>
-								<i class="pull-right fa fa-compress box-arrow"></i>
+	                        <div class="courage">
 	                            <h3>COURAGE <i class="pull-right fa fa-angle-down values-link"></i></h3>                                          
-	  	                        <div class="box-text">
-		                        <p>We want to surround ourselves with bold thinkers; and to always act with conviction.</p>
+	                            <p>We want to surround ourselves with bold thinkers; and to always act with conviction.</p>
 	                            <p class="quote real q-courage">&#34; Courage is the most important of all the virtues because without courage, you can’t practise any other virtue consistently. &#34; </p><p class='author q-courage'> Maya Angelou</p>
 	                            <p class="quote q-courage">We always support those who dare, because only with courage comes innovation.</p>
-	                            </div>
 	                        </div>
-	                        <div class="humility humility-box box-list" style="background:#926c50" data="">
-	                        	<i class="pull-right fa fa-expand box-arrow"></i>
-								<i class="pull-right fa fa-compress box-arrow"></i>
+	                        <div class="humility">
 	                            <h3>HUMILITY <i class="pull-right fa fa-angle-down values-link"></i></h3>
-	                            <div class="box-text">
 	                            <p>We endeavour to keep learning and letting our actions speak louder than our words. <br /> We also appreciate that everyone we interact with has a contribution to make to our well-being.</p>
 	                            <p class="quote real q-humility">&#34; True humility is not thinking less of yourself; it is thinking of yourself less. &#34; </p><p class='author q-humility'>CS Lewis</p>
 	                        	<p class="quote q-humility">We believe that humility is all about having a quiet confidence without being arrogant. Accepting that there’s always something new to learn. And, most importantly, letting our actions speak louder than our words.</p>
-	                        	</div>
 	                        </div>
 						</div>
 					</div>
@@ -193,6 +173,7 @@
 							<span class="hiddenContent">
 								<span>Mohan Vaswani joined the Group in 1957 and has since built various businesses across several locations. He has a wealth of experience in successfully creating and nurturing industrial developments and trading activities.</br></br>He is actively involved in the Tolaram Foundation and Rotary Club of Singapore.</span>
 							</span>
+							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-4 col-xs-4" attrId = "2">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/vishamkar-adnani.jpg">
@@ -201,6 +182,7 @@
 							<span class="hiddenContent">
 								<span>Vishamkar (Vishu) Adnani joined the Group in 1961 and has helped grow the organisation to its present stature. He played a significant role in building Tolaram's capability to trade in a range of products, particularly between Asia and Africa.</br></br>He is actively contributing to the Tolaram Foundation.</span>
 							</span>
+							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-4 col-xs-4" attrId = "3">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/sajen-aswani.jpg">
@@ -209,6 +191,7 @@
 							<span class="hiddenContent">
 								<span>Sajen Aswani joined the Group in 1984 and became the Chief Executive in 2000. He is also a Director of the Family Business Network and a member of the Advisory Council to Nanyang Business School.</br></br>He holds a Bachelor’s degree in Economics from University of London and a Master's degree in Management Science from the Imperial College, London.</span>
 							</span>
+							<i class="fa fa-search"></i>
 						</div>
 					</div>
 					<div class="row shareholders2">
@@ -220,6 +203,7 @@
 							<span class="hiddenContent">
 								<span>Haresh Aswani joined the Group in 1984. He has been the Honorary Consul-General for Singapore in Nigeria since 2006. He has also received the Chieftaincy title in Nigeria "Baagbile Korede of Ota by the Olota of Ota" and the National Honour of MFR (Member of the Order of Federal Republic of Nigeria).</br></br>He holds a Bachelor’s degree in Business Administration from the University of Houston, US.</span>
 							</span>
+							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-3 col-xs-3" attrId = "5">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/sonny-aswani.jpg">
@@ -229,6 +213,7 @@
 							<span class="hiddenContent">
 								<span>Sonny Aswani joined the Group in 1985. He has been the Honorary Consul-General for Estonia in Singapore since 2008 and was conferred the White Cross medal by the President of the Republic of Estonia in 2001.</br></br>He holds a Bachelor's degree in Business Administration and Economics from Richmond College, UK as well as a Master's Degree in Management Science from the University of Kent, UK.</span>
 							</span>
+							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-3 col-xs-3" attrId = "6">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/tom-vaswani.jpg">
@@ -237,6 +222,7 @@
 							<span class="hiddenContent">
 							<span>Tom Vaswani joined the Group in 1993. He holds a Bachelor’s Degree in Politics and Sociology and a Master’s Degree in Social and Political Thought from the University of Warwick, UK.</span>
 							</span>
+							<i class="fa fa-search"></i>
 						</div>
 						<div class="col-md-3 col-xs-3" attrId = "7">
 							<img class="shareholders_img img-responsive blur" src="assets/img/about/raj-vaswani.jpg">
@@ -245,6 +231,7 @@
 							<span class="hiddenContent">
 								<span>Raj Vaswani joined the Group in 1995. He holds a Bachelor's degree in Business Administration from the Terry College of Business, University of Georgia, US.</span>
 							</span>
+							<i class="fa fa-search"></i>
 						</div>
 					</div>
 				</div>
@@ -262,7 +249,7 @@
 	
 	<style type="text/css">
 		#section0{
-			background-image: url(assets/img/about/about-page-bg.jpg);
+			background-image: url(assets/img/about/about-page-bg2.jpg);
 			background-size: cover;
 			background-position: 0 90%;
 		}
@@ -312,14 +299,11 @@
 				margin-top: 0;
 			}
 		}
-		@media(max-width: 960px){
+		
+		@media (max-width: 900px){
 			#fp-nav.left{
 				display: none;
 			}
-		}
-
-		@media (max-width: 900px){
-			
 			.shareholders1 {
 				max-width: 75%;
 			}
@@ -399,10 +383,6 @@
 			float: left;
 			margin-left: 10px;
 		}
-
-#fp-nav ul li .fp-tooltip{width:auto!important;opacity:initial!important;}
-
-
 	</style>
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -428,7 +408,6 @@
 					}
 
 					$('.title_page p').html(title);
-				
 
 
 				},
@@ -441,7 +420,16 @@
                 alert('a');
             };
 
-		
+			
+
+			$('div.shareholders1 div,div.shareholders2 div').mouseenter(function(){
+				$(this).children('.fa-search').show();
+			});
+
+			$('div.shareholders1 div, div.shareholders2 div').mouseleave(function(){
+				$(this).children('.fa-search').hide();
+			});
+
 			$('div.shareholders1 div, div.shareholders2 div').click(function(e){
 				e.preventDefault();
                 $id = $(this).attr('attrId'); 
@@ -479,7 +467,7 @@
               	})
           	}); 
 
-/*
+
 
 		$('.trust').click(function () {
 			$('.quote, .author').addClass('tdkactive');
@@ -512,46 +500,10 @@
 			$('.q-humility').slideToggle();
 		});
 
-*/
-		$('.box-list').click(function(){
-			var sesi=$(this).attr('data');
-			if(sesi==""){
-				$('.box-list').hide();
-				$(this).show().addClass('active');
-				$(this).attr('data','1');
-				$(this).children('.box-text').slideDown('slow');
-			}else{
-				$('.box-list').fadeIn();
-				$(this).show().removeClass('active');
-				$(this).attr('data','');
-				$(this).children('.box-text').slideUp('slow');
-			}
 
 
 
-		});
-
-		$('.box-list').mouseenter(function () {
-
-			if($(this).is('.active')) {
-				$(this).children('.fa-expand').hide();
-				$(this).children('.fa-compress').show();
-			} else if ($(this).not('.active')) {
-				$(this).children('.fa-compress').hide();
-				$(this).children('.fa-expand').show();
-			};
-
-			
-
-		});
-
-		$('.box-list').mouseleave(function () {
-				$(this).children('.fa-expand').hide();
-				$(this).children('.fa-compress').hide();
-
-		});
-		
-		/*$('.box-trust, .trust').mouseenter(function () {
+		$('.box-trust, .trust').mouseenter(function () {
             $('.box-trust').css({'transform':'translate(0px,-14px) scale(1,1)'});
             $('.trust h3').toggleClass('highlight');
             $('.trust h3').css('font-size','25px');
@@ -606,7 +558,7 @@
             $('.box-humility').css({'transform':'translate(0,0) scale(1,1)'});
             $('.humility h3').toggleClass('highlight');
             $('.humility h3').css('font-size','18px');
-         });*/
+         });
 		});
 	</script>
 <?php
