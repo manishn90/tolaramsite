@@ -837,14 +837,7 @@
 
 	<style type="text/css">
 		 
-		/**
-		 * Form & Button Styles
-		 */
-
-		html,body{
-		  overflow: visible!important;
-		}
-
+		
 		label{
 		  font-weight: 300;
 		}
@@ -1309,30 +1302,13 @@
 		  });    
 		});
 
+		 $('#fullpage').fullpage({
+		 	scrollOverflow: true,
+		 });
 
 
-		$('.business_btn').click(function(e){
-                 e.preventDefault();
-                 var $parentdiv = $(this).parent('.mix');
-                 var src = $parentdiv.children().children('img').attr('src');  
-                 var div1 = $parentdiv.children().children().children('.business_content').html();
-                 var div2 = $parentdiv.children().children('.row-fluid').html();
+		
 
-                 $('.fullWidth').css('left',"-100%");
-                 var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');background-size: cover!important;background-position:50%;"></div><div class="closeButton"><button class="businessClose">Close</button></div><div class="row container">';
-                 insertHtml += '<div class="col-md-6">'+div1+'</div><div class="col-md-6">'+div2+'</div>';
-                 insertHtml += '</div></div>';
-                 $('body').after(insertHtml);
-                 $('.fullWidth').animate({left:"0"});
-
-            });
-
-		$("html").on("click", ".businessClose",function(){
-                $('.fullWidth').animate({left:"100%"},
-                 function(){
-                     $('.fullWidth').remove();
-                 })
-            });
 
 		});
 

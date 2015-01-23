@@ -937,7 +937,7 @@ div.video_bg{
   #popup16,
   #popup17,
   #popup18,
-  #popup19{margin-left: 0;margin-right: 0;overflow-x: hidden;}
+  #popup19{margin-left: 0;margin-right: 0;}
 
   #popup1 .box-desc,
   #popup2 .box-desc,
@@ -1849,7 +1849,7 @@ label {
       #popup16,
       #popup17,
       #popup18,
-      #popup19{height: 100%;}
+      #popup19{height: 100%;overflow-x: hidden;}
 
       .popup1_close,
       .popup2_close,
