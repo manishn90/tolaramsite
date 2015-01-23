@@ -493,6 +493,7 @@
 					    </a>
 						<div id="popup11">
 							<div class="row">
+								<button class="businessClose popup11_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/lftz_800x600.png" style="width:100%">
 								</div>
@@ -532,6 +533,7 @@
 
 						<div id="popup12">
 							<div class="row">
+								<button class="businessClose popup12_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/lekki800x600.png" style="width:100%">
 								</div>
@@ -571,6 +573,7 @@
 
 						<div id="popup13">
 							<div class="row">
+								<button class="businessClose popup13_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/lotus_indah_800x600.png" style="width:100%">
 								</div>
@@ -610,6 +613,7 @@
 
 						<div id="popup14">
 							<div class="row">
+								<button class="businessClose popup14_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/luckyfibre_800x600.png" style="width:100%">
 								</div>
@@ -649,6 +653,7 @@
 
 						<div id="popup15">
 							<div class="row">
+								<button class="businessClose popup15_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/energy_power_800x600.png" style="width:100%">
 								</div>
@@ -693,6 +698,7 @@
 
 						<div id="popup16">
 							<div class="row">
+								<button class="businessClose popup16_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/multipro_800x600.png" style="width:100%">
 								</div>
@@ -732,6 +738,7 @@
 
 						<div id="popup17">
 							<div class="row">
+								<button class="businessClose popup17_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/tolaraminvest800x600.png" style="width:100%">
 								</div>
@@ -771,6 +778,7 @@
 
 						<div id="popup18">
 							<div class="row">
+								<button class="businessClose popup18_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/tunaiku800x600.png" style="width:100%">
 								</div>
@@ -810,6 +818,7 @@
 
 						<div id="popup19">
 							<div class="row">
+								<button class="businessClose popup19_close">Close</button>
 								<div class="col-md-6">
 									<img src="assets/img/our_business/vconnect800x600.png" style="width:100%">
 								</div>
@@ -855,15 +864,8 @@
 	</div>
 
 	<style type="text/css">
-		 
-		/**
-		 * Form & Button Styles
-		 */
-
-		html,body{
-		  overflow: visible!important;
-		}
-
+		 html,body{overflow: visible!important;}
+		
 		label{
 		  font-weight: 300;
 		}
@@ -1328,30 +1330,11 @@
 		  });    
 		});
 
+		
 
 
-		$('.business_btn').click(function(e){
-                 e.preventDefault();
-                 var $parentdiv = $(this).parent('.mix');
-                 var src = $parentdiv.children().children('img').attr('src');  
-                 var div1 = $parentdiv.children().children().children('.business_content').html();
-                 var div2 = $parentdiv.children().children('.row-fluid').html();
+		
 
-                 $('.fullWidth').css('left',"-100%");
-                 var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');background-size: cover!important;background-position:50%;"></div><div class="closeButton"><button class="businessClose">Close</button></div><div class="row container">';
-                 insertHtml += '<div class="col-md-6">'+div1+'</div><div class="col-md-6">'+div2+'</div>';
-                 insertHtml += '</div></div>';
-                 $('body').after(insertHtml);
-                 $('.fullWidth').animate({left:"0"});
-
-            });
-
-		$("html").on("click", ".businessClose",function(){
-                $('.fullWidth').animate({left:"100%"},
-                 function(){
-                     $('.fullWidth').remove();
-                 })
-            });
 
 		});
 
