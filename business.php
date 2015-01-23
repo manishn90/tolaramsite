@@ -953,7 +953,11 @@
 	<script type="text/javascript">
 	$(document).ready(function () {
 
+
 		$('#my_popup').popup({transition: 'all 0.3s'});
+
+		$.removeCookie('initFilter'); // Remove any stored cookie
+
 
 		// ******************************************************************************************************* //
 		// *******************************  BUTTON SECTION ******************************************************* //
@@ -968,6 +972,7 @@
 		  groups: [],
 		  outputArray: [],
 		  outputString: '',
+
 		  
 		  // The "init" method will run on document ready and cache any jQuery objects we will need.
 		  
@@ -1002,20 +1007,55 @@
 
 		      // If the button is active, remove the active class, else make active and deactivate others.
 
-		      // ************************ customized by colorblindlabs.com **************************
-		      if ($button.hasClass('active')) {
-		      	$button.removeClass('active');
-		      	$button.siblings('.filter').attr('disabled', false).css('color', '#000');
-		      	for(var i = 0, group; group = self.groups[i]; i++) {
-			      group.$buttons.removeClass('active').attr('disabled', false).css('color', '#000');
-			    }
+		      // ************************ Below is Customized Part *********************************
+		  	 
+		  	  if ($button.hasClass('active')) { // Make the button inactive
+		      	if ($.cookie('initFilter')) { // If cookie has been set
+		      		if (($.cookie('initFilter')) == ($button.attr('data-filter'))) { // if deativated button is the same to init button
+		      			$button.removeClass('active');
+		      			$button.siblings('.filter').removeClass('.active').attr('disabled', false).css('color', '#000')
+		      			for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group
+		      				group.$buttons.removeClass('active');
+		      				group.$buttons.attr('disabled', false).css('color', '#000');
+					    }
+		      			$.removeCookie('initFilter'); // Remove the stored cookie
+		      		}
+		      		else { // if deactivated button is NOT the same to init button
+		      			$button.removeClass('active');
+		      			$button.siblings('.filter').find('disabled').each(function(){
+					      	$button.siblings('.filter').attr('disabled', true);
+					    });
+		      		}
+		      	} 
+		      	else { // If cookie is not set
+		      		alert('whoaa.. nothing to do here...');
+		      	}
 		      }
-		      else {
-		      	$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#e8e8e8');
-		      	for(var i = 0, group; group = self.groups[i]; i++) {
-			      group.$buttons.not('.active').attr('disabled', true).css('color', '#e8e8e8');
-			    }
+		      else { // Activate the button!
+		      	if ($.cookie('initFilter')) { // If cookie has been set
+		      		$button.addClass('active');
+		      		$button.siblings('.filter').removeClass('active')
+		      		if (($.cookie('initFilter')) != ($button.attr('data-filter'))) { // if activated button is not the same to init button
+		      			$button.siblings('.filter').find('disabled').each(function(){
+					      	$button.attr('disabled', true).css('color', '#e8e8e8');
+					    });
+					    for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group 
+					    	group.$buttons.find('disabled').each(function(){ // Find button that is enabled/disabled and keep it that way
+						      	group.$buttons.attr('disabled', true);
+						    });	
+					    }
+		      		}
+		      	}
+		      	else { // If cookie is not set
+		      		$.cookie('initFilter', $button.attr('data-filter')); // record initFilter cookie
+		      		$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#e8e8e8'); // Grey
+			      	for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group
+				      group.$buttons.not('.active').attr('disabled', true).css('color', '#e8e8e8');
+				    }
+		      	}
 		      }
+
+		      //console.log($.cookie('initFilter')); // Test showing output up in console
 		      // **************************************************************************************
 
 		      self.parseFilters();
@@ -1068,20 +1108,30 @@
 			  if(self.$container.mixItUp('isLoaded')){
 		    	self.$container.mixItUp('filter', self.outputString);
 
-		    	// **************** customized part ******************
+		    	// ************************** Below is Customized *************************
+
 				self.activeId = self.$filters.find('.active').attr('group') || 'null';
 				if (self.activeId == 'sector') {
 					country = '';
 					self.$container.find(self.outputString).each(function(){
 						country = '.' + $(this).attr('country');
 						$('.filter[data-filter="'+country+'"]').attr('disabled', false).css('color', '#000');
+						//alert($(this).attr('data-filter'));
 						if ($(this).attr('country-2')) { //if there is 2nd country
 							country2 = '.' + $(this).attr('country-2');
-							$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');
+							if (($.cookie('initFilter')) == (self.outputString)) {
+								$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');	
+							} else {
+								$('.filter[data-filter="'+country2+'"]').attr('disabled', true).css('color', '#e8e8e8');
+							}
 						}
 						if ($(this).attr('country-3')) { //if there is 3rd country
 							country3 = '.' + $(this).attr('country-3');
-							$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
+							if (($.cookie('initFilter')) == (self.outputString)) {
+								$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
+							} else {
+								$('.filter[data-filter="'+country3+'"]').attr('disabled', true).css('color', '#e8e8e8');
+							}
 						}
 				    });
 
@@ -1093,9 +1143,9 @@
 				    });
 				    
 				} else {
-			    	// NONE ACTIVE!
+			    	// IF NONE ACTIVE!
 				}
-			    // ***************************************************
+			    // ************************** End of Customized Part *************************
 
 			  }
 
@@ -1119,7 +1169,7 @@
 		    },
 		    callbacks: {
 			    onMixEnd: function(){
-			        //alert('No items were found matching the selected filters.');
+		      		
 			    }
 		    }
 		  });    
@@ -1262,23 +1312,6 @@
                  insertHtml += '</div></div>';
                  $('body').after(insertHtml);
                  $('.fullWidth').animate({left:"0"});
-
-                
-                BackgroundCheck.init({
-				  targets: '.closeButton',
-				  images: '.csrBanner'
-				});
-                 
-                 // Specific target
-				BackgroundCheck.refresh(target);
-
-				// Get current targets
-				BackgroundCheck.get('targets');
-
-				// Change targets
-				BackgroundCheck.set('targets', '.header');
-
-				BackgroundCheck.destroy();
 
             });
 
