@@ -1023,14 +1023,12 @@
 		      			$button.siblings('.filter').find('disabled').each(function(){
 					      	$button.attr('disabled', true).css('color', '#e8e8e8');
 					    });
+					    for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group 
+					    	group.$buttons.find('disabled').each(function(){ // Find button that is enabled/disabled and keep it that way
+						      	group.$buttons.attr('disabled', true);
+						    });	
+					    }
 		      		}
-			      	for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group
-			      	  if (($.cookie('initFilter')) == (group.$buttons.attr('data-filter'))) { // If cookie's value = remain active button
-			      	  	//group.$buttons.not('.active').attr('disabled', true).css('color', '#e8e8e8');
-			      	  }	else {
-			      	  	//group.$buttons.not('.active').attr('disabled', true).css('color', '#e8e8e8');
-			      	  }
-				    }
 		      	}
 		      	else { // If cookie is not set
 		      		$.cookie('initFilter', $button.attr('data-filter')); // record initFilter cookie
@@ -1041,7 +1039,7 @@
 		      	}
 		      }
 
-		      //console.log($.cookie('initFilter')); // Test showing output up in console
+		      console.log($.cookie('initFilter')); // Test showing output up in console
 		      // **************************************************************************************
 
 		      self.parseFilters();
@@ -1094,7 +1092,7 @@
 			  if(self.$container.mixItUp('isLoaded')){
 		    	self.$container.mixItUp('filter', self.outputString);
 
-		    	// **************** Below is Customized (Logic Part) ******************
+		    	// ************************** Below is Customized *************************
 
 				self.activeId = self.$filters.find('.active').attr('group') || 'null';
 				if (self.activeId == 'sector') {
@@ -1104,11 +1102,15 @@
 						$('.filter[data-filter="'+country+'"]').attr('disabled', false).css('color', '#000');
 						if ($(this).attr('country-2')) { //if there is 2nd country
 							country2 = '.' + $(this).attr('country-2');
-							$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');
+							if (($.cookie('initFilter')) == ($(this).attr('data-filter'))) {
+								$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');	
+							}
 						}
 						if ($(this).attr('country-3')) { //if there is 3rd country
 							country3 = '.' + $(this).attr('country-3');
-							$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
+							if (($.cookie('initFilter')) == ($(this).attr('data-filter'))) {
+								$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
+							}
 						}
 				    });
 
@@ -1146,7 +1148,7 @@
 		    },
 		    callbacks: {
 			    onMixEnd: function(){
-			        //alert('No items were found matching the selected filters.');
+		      		
 			    }
 		    }
 		  });    
