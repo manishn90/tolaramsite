@@ -142,7 +142,6 @@
 										</div>
 									</div>
 								</div>
-							<button class="popup1_close">Close</button>
 							</div>
 					  </div>
 
