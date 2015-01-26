@@ -104,8 +104,7 @@
 								<div class="row">
 									<button class="businessClose popup1_close">Close</button>
 									<div class="col-md-6">
-										<div style="background-image:url(assets/img/our_business/IBP-building.jpg); background-repeat: no-repeat;background-size: cover;height: 584px;width: 100%;">
-										</div>
+										<img src="assets/img/our_business/IBP-building.jpg" style="width:100%">
 									</div>
 									<div class="col-md-6">
 										<div class="row box-desc">
@@ -124,17 +123,17 @@
 															<h5 style="font-size:13px;color:#5d5d5d">Himanshu Naharas</h5>
 								       						<p style="font-size:13px;color:#5d5d5d">Himanshu Naharas joined Tolaram Group as the Group Head- Human Capital in Jan 2014. He 
 
-has a Bachelor’s degree in Computer Science & Technology from Indian Institute of 
+															has a Bachelor’s degree in Computer Science & Technology from Indian Institute of 
 
-Technology, Roorkee, with an MBA from Indian Institute of Management, Calcutta. <br>He has a 
+															Technology, Roorkee, with an MBA from Indian Institute of Management, Calcutta. <br>He has a 
 
-total of 24 years of experience, including 17 years with Standard Chartered Bank and 5 years as 
+															total of 24 years of experience, including 17 years with Standard Chartered Bank and 5 years as 
 
-an entrepreneur running his own Executive Search business. His experience in Standard 
+															an entrepreneur running his own Executive Search business. His experience in Standard 
 
-Chartered Bank included senior roles in Investment Banking, Retail Banking, Business 
+															Chartered Bank included senior roles in Investment Banking, Retail Banking, Business 
 
-Management and Human Resources.</p>
+															Management and Human Resources.</p>
 														</div>
 														
 													</div>
