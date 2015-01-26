@@ -12,7 +12,7 @@
                         <li> <a href="about.php#shareholders" class="about_sub_nav">Shareholders</a></li>
                     </ul>
                 <a href="history.php">EVOLUTION</a>
-                <a href="business.php">BUSINESSES</a>
+                <a href="business.php">BUSINESS BRANDS</a>
                 <a href="csr.php">COMMUNITIES</a>
                 <a href="newsroom.php">NEWSROOM</a>
                 <a href="contact.php">CONTACT US</a>

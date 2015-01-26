@@ -98,7 +98,7 @@
 
 					  <div class="mix singapore col-xs-12 col-sm-4 col-md-4 col-lg-4" country='singapore' sector='null'>
 					  	<a href="#" class="popup1_open" >
-					        <img src="assets/img/our_business/IBP-building.jpg" alt="">
+					        <img src="assets/img/our_business/sector/tolaram_bg.jpg" alt="">
 					    </a>
 						   <div id="popup1">
 								<div class="row">

@@ -175,7 +175,7 @@
 							</div>
 							<div class="mission_box">
 								<h3 class="title vision">MISSION</h3>
-								<p class="content mission">To establish world class companies in the spheres of Consumer Goods, Infrastructure, Energy and Digital Services in emerging markets.</p>
+								<p class="content mission">To establish world-class companies in the spheres of Consumer Goods, Digital Services, Energy and Infrastructure in emerging markets.</p>
 							</div>
 						</div>
 					</div>
@@ -461,11 +461,8 @@
 	           	// dom
 	           $insertHtml = '<div id="about-overlay" class="csroverlay fullWidth row" style="margin: 0;"><header><div class="brand">'+$('.brand').html()+'</div><button class="businessClose">Close</button></header>';
 	           $insertHtml += '<div class= "col-sm-5 col-md-5" style="padding-left:0;padding-right:0"><div style="background:url('+$objImg+');width: 100%;height: 1000px;background-position: 50% 50%;background-size: cover;background-repeat: no-repeat;position: absolute;}"></div></div>';
-	           $insertHtml += '<div class= "col-sm-7 col-md-7 row"><div class= "col-md-6"><div class="text"><div class="membername-overlay"><h5>'+$textNameMember1+'</h5><p>'+$textNameMember2+'</p></div>'+$textDescription+'</div></div><div class= "col-md-6"><div class="social"><ul>';
-	           $insertHtml += '<li><a href="javascript:void(0)"><img src="assets/img/about/twitter-overlay.png" alt=""></a></li>';
-	           $insertHtml += '<li><a href="javascript:void(0)"><img src="assets/img/about/facebook_overlay.png" alt=""></a></li>';
-	           $insertHtml += '<li><a href="javascript:void(0)"><img src="assets/img/about/linkin_overlay.png" alt=""></a></li>';
-	           $insertHtml += '</div></ul></div></div>';
+	           $insertHtml += '<div class= "col-sm-7 col-md-7 row"><div class= "col-md-6"><div class="text"><div class="membername-overlay"><h5>'+$textNameMember1+'</h5><p>'+$textNameMember2+'</p></div>'+$textDescription+'</div></div>';
+
      
 
 	           $('body').after($insertHtml);
