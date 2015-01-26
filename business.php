@@ -164,7 +164,7 @@ Management and Human Resources.</p>
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">Bank Amar</p>
 											<p class="business_subtitle">Indonesia</p>
-											<p class="business_desc">Arzu Utama Realty is the developer of Arzuria, a 32-storey upscale residential apartment in central Jakarta occupying a land area of 6,800 sq. m.</p>
+											<p class="business_desc">Established in 1991, Amar Bank offers retail banking through branches in Surabaya and Jakarta.</p>
 										</div>
 										<div class="col-md-12">
 											<div class="row">
@@ -442,12 +442,16 @@ Management and Human Resources.</p>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/DEEPANKAR.png" class="img-responsive">
+													<img src="assets/img/ceos/Pankaj-Mehra.png" class="img-responsive">
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d">DEEPANKAR RUSTAGI<br>General Manager</h5>
-														<p style="font-size:13px;color:#5d5d5d">Deepankar Rustagi joined Tolaram Group in Jan 2008, and has worked with Dufil Prima and Lucky Fibres. In 2011, he was appointed business head to launch Tolaram Group's first venture into digital services, VConnect Global Services.<br/><br/>Prior to joining Tolaram, he was a Business Analyst in Bangalore with Keane, a Boston based IT Services company. <br/>He is an Engineering Graduate from Bangalore.</p>
+														<h5 style="font-size:13px;color:#5d5d5d">Pankaj Mehra</h5>
+														<p style="font-size:13px;color:#5d5d5d">Pankaj Mehra joined the Group in May 2012 as Group Head- Sales and Marketing and was promoted 
+
+as CEO of Horizon Tissue in Mar 2013. Prior to that, he has 28 years of sales and general 
+
+management experiences in major companies in Asia.</p>
 													</div>
 
 												</div>
