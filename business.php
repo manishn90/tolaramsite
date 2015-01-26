@@ -169,12 +169,11 @@ Management and Human Resources.</p>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d">B. BUDIJANTO JAHJA<br>President Director</h5>
-													      <p style="font-size:13px;color:#5d5d5d">Tan Swee Siong joined the Group in April 2006 as Head, Real Estate. He oversees all investment, divestiture, development, management and capital market activities in Tolaram’s real estate portfolio.<br/><br/>He holds a B.Eng (Hons) from the National University of Singapore and obtained MBA's from both Melbourne Business School and Johnson Graduate School of Management in Cornell University. Swee Siong also holds a Capital Market Service License in “Advising on Corporate Finance”.</p>
+														<h5 style="font-size:13px;color:#5d5d5d"></h5>
+													      <p style="font-size:13px;color:#5d5d5d"></p>
 													</div>
 
 												</div>
@@ -485,11 +484,11 @@ management experiences in major companies in Asia.</p>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
+													
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d">VANI MALIK<br></h5>
+														<h5 style="font-size:13px;color:#5d5d5d"><br></h5>
 														<p style="font-size:13px;color:#5d5d5d"></p>
 													</div>
 
