@@ -1833,6 +1833,7 @@ label {
     .title_shareholders1, .title_shareholders2{font-size: 10px;}
     .box-content{padding-right: 15px!important;position: absolute;margin: 0 auto;left: 0;right: 0}
     .box-value{margin-top: 0}
+    .csr > div.row > div{border-bottom: 4px solid #FFF;}
 }
 
 .outer {
@@ -1895,6 +1896,8 @@ label {
       .popup19_close{
         display: block;
       }
+
+
 }
 
 

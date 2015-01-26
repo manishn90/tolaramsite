@@ -104,7 +104,8 @@
 								<div class="row">
 									<button class="businessClose popup1_close">Close</button>
 									<div class="col-md-6">
-										<img src="assets/img/our_business/IBP-building.jpg" style="width:100%">
+										<div style="background-image:url(assets/img/our_business/IBP-building.jpg); background-repeat: no-repeat;background-size: cover;height: 584px;width: 100%;">
+										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="row box-desc">
