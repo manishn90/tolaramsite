@@ -190,7 +190,7 @@
 								<img src="assets/img/our_evolution/bg10.png" alt="img03"/>
 								<figcaption>
 									<h3>Today</h3>
-									<p>The Group has marked over 60 years of successful international entrepreneurship in emerging markets. We are focused on growth in these four business spheres: Consumer Goods, Digital Services, Energy and Infrastructure in Africa, Asia and Europe. </p>
+									<p>The Group has marked over 60 years of successful international entrepreneurship in emerging markets. We are focused on growth in these four business spheres: Consumer Goods, Digital Services, Energy and Infrastructure in emerging markets. </p>
 								</figcaption>
 							</figure>
 						</li>

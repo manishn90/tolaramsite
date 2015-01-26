@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = 'Businesses'; 
+	$pageTitle = 'Business Brands'; 
 	include('include/header.php');
 ?>
 
@@ -116,11 +116,24 @@
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+														<img src="assets/img/ceos/himanshu_naharas.jpg" class="img-responsive">
 													</div>
 													<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 														<div class="lead-desc">
-															<h5 style="font-size:13px;color:#5d5d5d"></h5>
-								       						<p style="font-size:13px;color:#5d5d5d"></p>
+															<h5 style="font-size:13px;color:#5d5d5d">Himanshu Naharas</h5>
+								       						<p style="font-size:13px;color:#5d5d5d">Himanshu Naharas joined Tolaram Group as the Group Head- Human Capital in Jan 2014. He 
+
+has a Bachelor’s degree in Computer Science & Technology from Indian Institute of 
+
+Technology, Roorkee, with an MBA from Indian Institute of Management, Calcutta. <br>He has a 
+
+total of 24 years of experience, including 17 years with Standard Chartered Bank and 5 years as 
+
+an entrepreneur running his own Executive Search business. His experience in Standard 
+
+Chartered Bank included senior roles in Investment Banking, Retail Banking, Business 
+
+Management and Human Resources.</p>
 														</div>
 														
 													</div>
@@ -547,12 +560,17 @@
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
+													<img src="assets/img/ceos/sandeep.jpg" class="img-responsive">
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
 														<h5 style="font-size:13px;color:#5d5d5d">SANDEEP PARASRAMKA<br></h5>
-														<p style="font-size:13px;color:#5d5d5d"></p>
+														<p style="font-size:13px;color:#5d5d5d">Sandeep has a wealth of experience of over 16 years in the area of Corporate Finance and Financial Control having worked with several of India’s largest conglomerates. 
+
+Sandeep joined the Tolaram group as Finance Controller for one of the Group companies Panabiz International Ltd in 2006 and moved on to be the General Manager – Corporate Finance for the Group’s Nigerian Operations. Currently, he is the CFO of LPLE and a Key Project Development Team Member.   
+ 
+Sandeep is Chartered Accountant and Company Secretary by professional qualifications and holds a degree of Bachelor of Commerce from St. Xavier's College, Calcutta University, India.
+</p>
 													</div>
 
 												</div>

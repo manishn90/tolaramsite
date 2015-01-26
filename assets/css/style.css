@@ -240,6 +240,7 @@ div.video_bg{
   padding-top: 95px;
   border-top:0;
   border-bottom: 0;
+  height: 100%!important;
 }
 
 .col-center{
@@ -529,7 +530,7 @@ div.video_bg{
     }
 
     .fullWidth h1{
-      font-size: 1.8rem;
+      font-size: 2rem;
     }
 
     .csroverlay {
@@ -541,14 +542,15 @@ div.video_bg{
       padding-bottom: 10px;
       margin: 0 auto;
     }
-
+    .csroverlay-desc{padding-top: 20px}
     .csroverlay .container h1,.csroverlay .container p {
       font-family: gothamBook;
     }
+     .csroverlay .container h1{padding-bottom: 20px;}
 
     .csroverlay .container p {
       text-align: justify;
-      font-size: 12px;
+      font-size: 20px;
       line-height: 1.5em;
     }
 
@@ -914,7 +916,7 @@ div.video_bg{
 #popup16 .box-desc,
 #popup17 .box-desc,
 #popup18 .box-desc,
-#popup19 .box-desc{padding-top: 20px}
+#popup19 .box-desc{padding-top: 20px;padding-right: 18px;}
 
 
 #my_popup2 .box-desc{padding-top: 20px}
@@ -1743,9 +1745,7 @@ label {
     .header_fixed{
       height: 60px;
     }
-    .bordered_wrapper {
-      padding-top: 55px;
-    }
+
 
     header{
       height: 60px;
