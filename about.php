@@ -418,6 +418,7 @@
 				responsive: 768,
 				scrollingSpeed: 500,
 				verticalCentered: true,
+				continuousVertical:true,
 				horizontalCentered:false,
 				afterLoad: function(anchorLink, index, slideAnchor, slideIndex){
 					if(anchorLink=="about"){
