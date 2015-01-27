@@ -746,7 +746,7 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/Girish.jpg" class="img-responsive">
+													<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
