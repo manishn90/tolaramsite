@@ -888,6 +888,7 @@ div.video_bg{
   z-index: 10;
 }
 
+#tolaram-group{height: 204px;overflow: auto;}
 
 #my_popup2{background: #fff;margin-left: 170px;margin-right: 170px;}
 
@@ -1854,6 +1855,7 @@ label {
         height: auto;
       }
 
+      #tolaram-group{height: auto;overflow: hidden;}
 
       #popup1,
       #popup2,

@@ -113,7 +113,7 @@
 												<p class="business_subtitle">Singapore, Benin, Estonia, Ghana, India, Indonesia, Nigeria, Togo, UAE</p>
 												<p class="business_desc">The Group’s Head Office is located at 1A International Business Park, Singapore. Central functions like Business Development, Communications, HR, Finance and Internal Audit are co-ordinated from this office.</p>
 											</div>
-											<div class="col-md-12">
+											<div class="col-md-12" id="tolaram-group">
 												<div class="row">
 													<div class="col-md-3 col-xs-4" style="padding-right: 0;">
 														<img src="assets/img/ceos/himanshu_naharas.jpg" class="img-responsive">
@@ -134,6 +134,19 @@
 															Chartered Bank included senior roles in Investment Banking, Retail Banking, Business 
 
 															Management and Human Resources.</p>
+														</div>
+														
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-md-3 col-xs-4" style="padding-right: 0;">
+														<img src="assets/img/ceos/navin_nahata.jpg" class="img-responsive">
+													</div>
+													<div class="col-md-9 col-xs-8" style="padding-right:38px;">
+														<div class="lead-desc">
+															<h5 style="font-size:13px;color:#5d5d5d">Navin Nahata</h5>
+								       						<p style="font-size:13px;color:#5d5d5d">Navin Nahata has 16 years of experience of working in India, Nigeria and Singapore. Navin started his career with ICICI Ltd., the largest private sector commercial bank in India, wherein he worked in the areas of treasury and corporate relationship management. He joined Tolaram Group in Nigeria in 2004 as the Chief Financial Officer of the Nigerian operations of the Group.  He was given the additional charge of managing the operations of Panabiz International, a subsidiary involved in the business of office automation solutions in 2007.<br>
+															He was promoted as the Chief Finance Officer of Tolaram Group in 2009. Since 2010, he is also part of the Executive Committee of the Lekki Port Project, a mega infrastructure development of the Group.</p>
 														</div>
 														
 													</div>
@@ -330,6 +343,7 @@
 											<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 												<div class="lead-desc">
 													<h5 style="font-size:13px;color:#5d5d5d">DEEPAK SINGHAL<br>Group CEO</h5>
+													<p style="font-size:13px;color:#5d5d5d">Deepak Singhal joined the Group in 2000 and has been instrumental in successful completion of the backward integration of the Group for the FMCG portfolio. He was previously the COO of Multipro and Tolaram Nigeria, before becoming the Group CEO, Nigeria of the Group.<br> He is a graduate from Calcutta University and is an Associate member of the Institute of Chartered Accountants of India and Institute of Company Secretaries of India.</p>
 												</div>
 
 												</div>
@@ -483,12 +497,12 @@ management experiences in major companies in Asia.</p>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													
+													<img src="assets/img/ceos/vani_malik.jpg" class="img-responsive">
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d"><br></h5>
-														<p style="font-size:13px;color:#5d5d5d"></p>
+														<h5 style="font-size:13px;color:#5d5d5d">Vani Malik<br>General Manager</h5>
+														<p style="font-size:13px;color:#5d5d5d">Vani Malik joined the Group in May 2011 and became the General Manager of Hypo in 2014. She was previously in charge of the Power Oil brand, another flagship FMCG brand of the Group.She is a graduate from the India School of Business.<br>She is a graduate from the India School of Business.</p>
 													</div>
 
 												</div>
@@ -713,14 +727,14 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 					  <!-- Project 16 -->
 					  <div class="mix distribution ghana nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='ghana' sector='distribution'>
 					  	<a href="#" class="popup16_open" >
-							<img src="assets/img/our_business/sector/multipro_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/multipro_bg.jpg" alt="">			
 						</a>
 
 						<div id="popup16">
 							<div class="row">
 								<button class="businessClose popup16_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/multipro_800x600.png" style="width:100%">
+									<img src="assets/img/our_business/multipro 800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
@@ -736,8 +750,8 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d">GIRISH SHARMA<br>General Manager</h5>
-														<p style="font-size:13px;color:#5d5d5d"></p>
+														<h5 style="font-size:13px;color:#5d5d5d">Pawan Sharma</h5>
+														<p style="font-size:13px;color:#5d5d5d">Pawan Sharma joined Tolaram Group in 2006 as the Head of Marketing in Dufil Prima Foods. Subsequently, he was promoted to become the General Manager of Multipro Enterprises and has progressed to become the COO of Multipro Enterprises.<br><br> He holds a Post-Graduate Diploma in Business Management from IPEM, obtained in 1999.</p>
 													</div>
 
 												</div>
@@ -760,7 +774,7 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 							<div class="row">
 								<button class="businessClose popup17_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/tolaraminvest800x600.png" style="width:100%">
+									<img src="assets/img/our_business/tolaraminevst800x600.png" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
