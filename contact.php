@@ -168,10 +168,10 @@
 		    display:none
 		}
 		#success span, #erro span {
-		    display:block;
+		    display:inline-block;
 		    position:absolute;
 		    top:0;
-		    width:100%;
+		    width:75%;
 		    text-align: center;
     		font-size: 20px;
 		}
@@ -235,13 +235,15 @@
 			                    $('#contact').fadeTo( "slow", 0.15, function() {
 			                        $(this).find(':input').attr('disabled', 'disabled');
 			                        $(this).find('label').css('cursor','default');
-			                        $('#success').fadeIn();
+			                        $('#success').fadeIn(100);
 			                    });
+			                    //$('#success').fadeOut(4000);
 			                },
 			                error: function() {
 			                    $('#contact').fadeTo( "slow", 0.15, function() {
-			                        $('#error').fadeIn();
+			                        $('#error').fadeIn(100);
 			                    });
+			                    //$('#error').fadeOut(4000);
 			                }
 			            });
 			        }

@@ -6,32 +6,6 @@
     </div>
 
     <div class='row container'>
-        <!--
-        <form role="form">
-                    <div class="col-md-6 leftContact">
-                        <form role="form">
-                          <div class="form-group">
-                            <input type="text" class="form-control" id="Name" placeholder="Name">
-                          </div>
-                          <div class="form-group">
-                            <input type="email" class="form-control" id="Email" placeholder="E-mail">
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control" id="department" placeholder="Type of Enquiry">
-                          </div>
-                    </div>
-                    <div class="col-md-6">
-
-                          <div class="form-group">
-                            <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-                          </div>
-
-                          <button type="submit" class="btn btn-default">Submit</button>
-                        
-                    </div>  
-                                
-                </form>
-        -->
 
         <form id="contact" name="contact" method="post">  
           <fieldset>  
@@ -50,7 +24,7 @@
                 <div class="form-group">
                     <textarea name="message" class="form-control" id="message" placeholder="Message" required></textarea>
                 </div>
-                <input id="submit" class="btn btn-default" type="submit" name="submit" value="Submit" />  
+                <button type="submit" class="btn btn-default">Submit</button>  
             </div>
           </fieldset>  
         </form>
@@ -58,7 +32,7 @@
 
         <div id="success">
           <span>
-            <p>Your message was sent successfully! We will be in touch as soon as I can.</p>
+            <p>Your message was sent successfully. Thank you.</p>
           </span>
         </div>
 
