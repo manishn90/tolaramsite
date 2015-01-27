@@ -680,7 +680,7 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 					  </div>
 
 					  <!-- Project 15 -->
-					  <div class="mix energy ghana india nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='india' country-3='ghana' sector='energy'>
+					  <div class="mix energy ghana india nigeria tanzania col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='india' country-3='ghana' country-4='tanzania' sector='energy'>
 					  	<a href="#" class="popup15_open" >
 							<img src="assets/img/our_business/sector/mbh.power_bg.png" alt="">			
 						</a>
@@ -695,7 +695,7 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">MBH POWER</p>
-											<p class="business_subtitle">Ghana, India, Nigeria</p>
+											<p class="business_subtitle">Ghana, India, Nigeria, Tanzania</p>
 											<p class="business_desc">MBH Power Limited is a total energy solutions company providing world-class services to meet the growing demand of the power sector in emerging markets. It focuses on:
 							            <br/>&#8226;EPC solutions in Transmission and Distribution
 							               <br/>&#8226;Turnkey solutions in Captive Power Generation by using CNG
@@ -725,7 +725,7 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 					  </div>
 
 					  <!-- Project 16 -->
-					  <div class="mix distribution ghana nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='ghana' sector='distribution'>
+					  <div class="mix distribution benin ivory-coast nigeria togo col-xs-12 col-sm-4 col-md-4 col-lg-4" country='benin' country-2='ivory-coast' country-3='nigeria' country-4='togo' sector='distribution'>
 					  	<a href="#" class="popup16_open" >
 							<img src="assets/img/our_business/sector/multipro_bg.jpg" alt="">			
 						</a>
@@ -740,7 +740,7 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">MULTI PRO ENTERPRISES</p>
-											<p class="business_subtitle">Ghana, Nigeria</p>
+											<p class="business_subtitle">Benin, Ivory Coast, Nigeria, Togo</p>
 											<p class="business_desc">Multi Pro Enterprises Limited is the largest consumer goods distribution company in West Africa. Its reach is about half a million points-of-sales.</p>
 										</div>
 										<div class="col-md-12">
@@ -1025,6 +1025,7 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 		$('#popup1,#popup2,#popup3,#popup4,#popup5,#popup6,#popup7,#popup8,#popup9,#popup10,#popup11,#popup12,#popup13,#popup14,#popup15,#popup16,#popup17,#popup18,#popup19').popup({transition: 'all 0.3s'});
 
 		$.removeCookie('initFilter');
+		$.removeCookie('initGroup');
 
 		// ******************************************************************************************************* //
 		// *******************************  BUTTON SECTION ******************************************************* //
@@ -1086,6 +1087,7 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 		      				group.$buttons.attr('disabled', false).css('color', '#000');
 					    }
 		      			$.removeCookie('initFilter'); // Remove the stored cookie
+		      			$.removeCookie('initGroup');
 		      		}
 		      		else { // if deactivated button is NOT the same to init button
 		      			$button.removeClass('active');
@@ -1095,7 +1097,7 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 		      		}
 		      	} 
 		      	else { // If cookie is not set
-		      		alert('whoaa.. nothing to do here...');
+		      		alert('oops.. nothing to do here...');
 		      	}
 		      }
 		      else { // Activate the button!
@@ -1111,9 +1113,11 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 						      	group.$buttons.attr('disabled', true);
 						    });	
 					    }
+
 		      		}
 		      	}
 		      	else { // If cookie is not set
+		      		$.cookie('initGroup', $button.attr('group'));
 		      		$.cookie('initFilter', $button.attr('data-filter')); // record initFilter cookie
 		      		$button.addClass('active').siblings('.filter').removeClass('active').attr('disabled', true).css('color', '#e8e8e8'); // Grey
 			      	for(var i = 0, group; group = self.groups[i]; i++) { // Crawl other group
@@ -1122,7 +1126,7 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 		      	}
 		      }
 
-		      console.log($.cookie('initFilter')); // Test showing output up in console
+		      console.log('Init Button >>> ' + $.cookie('initFilter'));
 		      // **************************************************************************************
 
 		      self.parseFilters();
@@ -1130,13 +1134,13 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 		    
 		    // Handle reset click
 		    
-		    self.$reset.on('click', function(e){
+		    /* self.$reset.on('click', function(e){
 		      e.preventDefault();
 		      
 		      self.$filters.find('.filter').removeClass('active');
 		      
 		      self.parseFilters();
-		    });
+		    }); */
 		  },
 		  
 		  // The parseFilters method checks which filters are active in each group:
@@ -1178,31 +1182,46 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 		    	// ************************** Below is Customized *************************
 
 				self.activeId = self.$filters.find('.active').attr('group') || 'null';
-				if (self.activeId == 'sector') {
+
+				if ($.cookie('initGroup') == 'sector') {
 					country = '';
 					self.$container.find(self.outputString).each(function(){
 						country = '.' + $(this).attr('country');
 						$('.filter[data-filter="'+country+'"]').attr('disabled', false).css('color', '#000');
-						//alert($(this).attr('data-filter'));
+
 						if ($(this).attr('country-2')) { //if there is 2nd country
 							country2 = '.' + $(this).attr('country-2');
-							if (($.cookie('initFilter')) == (self.outputString)) {
-								$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');	
+							//alert('country2 >>> '+country2);
+							if (($.cookie('initFilter')) == ($(this).attr('data-filter'))) {
+								$('.filter[data-filter="'+country2+'"]').attr('disabled', true).css('color', '#e8e8e8');	
 							} else {
-								$('.filter[data-filter="'+country2+'"]').attr('disabled', true).css('color', '#e8e8e8');
+								$('.filter[data-filter="'+country2+'"]').attr('disabled', false).css('color', '#000');
 							}
 						}
+
 						if ($(this).attr('country-3')) { //if there is 3rd country
 							country3 = '.' + $(this).attr('country-3');
-							if (($.cookie('initFilter')) == (self.outputString)) {
-								$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
-							} else {
+							//alert('country3 >>> '+country3);
+							if (($.cookie('initFilter')) == ($(this).attr('data-filter'))) {
 								$('.filter[data-filter="'+country3+'"]').attr('disabled', true).css('color', '#e8e8e8');
+							} else {
+								$('.filter[data-filter="'+country3+'"]').attr('disabled', false).css('color', '#000');
 							}
 						}
+
+						if ($(this).attr('country-4')) { //if there is 3rd country
+							country4 = '.' + $(this).attr('country-4');
+							//alert('country4 >>> '+country4);
+							if (($.cookie('initFilter')) == ($(this).attr('data-filter'))) {
+								$('.filter[data-filter="'+country4+'"]').attr('disabled', true).css('color', '#e8e8e8');
+							} else {
+								$('.filter[data-filter="'+country4+'"]').attr('disabled', false).css('color', '#000');
+							}
+						}
+
 				    });
 
-				} else if (self.activeId == 'country') {
+				} else if ($.cookie('initGroup') == 'country') {
 					sector = '';
 					self.$container.find(self.outputString).each(function(){
 						sector = '.' + $(this).attr('sector');
@@ -1212,6 +1231,8 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 				} else {
 			    	// IF NONE ACTIVE!
 				}
+
+				console.log('Init Group >>> ' + $.cookie('initGroup'));
 			    // ************************** End of Customized Part *************************
 
 			  }
