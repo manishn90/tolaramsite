@@ -71,41 +71,14 @@
 			    </div>				
 			</div>
 		</div>
+
 		<!-- Contact Form -->
-		<div class="fullContact">
-			<div class="row">
-				<div class="col-md-12" style="padding-bottom: 59px;position: absolute; right: 0;padding-right: 0;">
-					  <button type="button" class="closeContact pull-right">close</button>
-				</div>
-			</div>
-			<div class='row container'>
-				<form role="form">
-					<div class="col-md-6 leftContact">
-						<form role="form">
-						  <div class="form-group">
-						    <input type="text" class="form-control" id="Name" placeholder="Name">
-						  </div>
-						  <div class="form-group">
-						    <input type="email" class="form-control" id="Email" placeholder="E-mail">
-						  </div>
-						  <div class="form-group">
-						    <input type="text" class="form-control" id="department" placeholder="Type of Enquiry">
-						  </div>
-					</div>
-					<div class="col-md-6">
+		<?php include('include/contact-form.php'); ?>
 
-						  <div class="form-group">
-						    <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-						  </div>
-
-						  <button type="submit" class="btn btn-default">Submit</button>
-						
-					</div>	
-								
-				</form>
-			</div>		
-		</div>
 	</div>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
 
 	<style type="text/css">
 		#section0{
@@ -133,6 +106,84 @@
 		   color:    #FFF !important;
 		}
 
+		/* Contact Form Style */
+		form {
+		    margin:0
+		}
+		form label {
+		    margin-bottom:.2em;
+		    font-size:1.3rem;
+		    line-height:1.3rem;
+		    font-size:13px;
+		    line-height:13px;
+		    color:#e6e6e1;
+		    text-shadow:0px -1px #202020
+		}
+		form label.error {
+		    margin-bottom:1em;
+		    font-size:1.2rem;
+		    line-height:1.2rem;
+		    font-size:12px;
+		    line-height:12px;
+		    color:#c0392b
+		}
+		form input[type="text"], form textarea {
+		    margin-bottom:1.25em;
+		    font-family:"Inconsolata", sans-serif;
+		    font-size:1.4rem;
+		    line-height:1.4rem;
+		    font-size:14px;
+		    line-height:14px;
+		    box-shadow:none;
+		    -moz-box-shadow:none;
+		    -webkit-box-shadow:none;
+		    background:#e6e6e6;
+		    border:1px solid #191919;
+		    -moz-border-radius:0.2em;
+		    -webkit-border-radius:0.2em;
+		    border-radius:0.2em
+		}
+		form input[type="text"]:focus, form textarea:focus {
+		    border-color:#191919;
+		    box-shadow:none;
+		    -moz-box-shadow:none;
+		    -webkit-box-shadow:none
+		}
+		form input[type="text"][disabled], form textarea[disabled] {
+		    background:#fff
+		}
+		form input[type="text"].error, form textarea.error {
+		    background:#e6e6e6;
+		    border-color:#c0392b
+		}
+		fieldset {
+		    border:0px;
+		    margin:0;
+		    padding:0
+		}
+		.required {
+		    color:#e9266d
+		}
+		#success, #error {
+		    display:none
+		}
+		#success span, #erro span {
+		    display:block;
+		    position:absolute;
+		    top:0;
+		    width:100%;
+		    text-align: center;
+    		font-size: 20px;
+		}
+		#success span p, #error span p {
+		    margin-top:6em
+		}
+		#success span p {
+		  color:#FFFFFF;
+		}
+		#error span p {
+		  color:#c0392b;
+		}
 		
 	</style>
 	<script type="text/javascript">
@@ -144,6 +195,59 @@
 			$('.cotactButton,.closeContact').click(function(){
 				$('body').toggleClass('activeContact');
 			});
+			 
+			// validate contact form
+			$(function() {
+			    $('#contact').validate({
+			        rules: {
+			            name: {
+			                required: true,
+			                minlength: 2
+			            },
+			            email: {
+			                required: true,
+			                email: true
+			            },
+			            message: {
+			                required: true
+			            }
+			        },
+			        messages: {
+			            name: {
+			                required: "Please fill up your name.",
+			                minlength: "Your name must consist of at least 2 characters"
+			            },
+			            email: {
+			                required: "Please fill up your valid email"
+			            },
+			            message: {
+			                required: "Please fill up your message",
+			                minlength: ""
+			            }
+			        },
+			        submitHandler: function(form) {
+			            $(form).ajaxSubmit({
+			                type:"POST",
+			                data: $(form).serialize(),
+			                url:"process.php",
+			                success: function() {
+			                    $('#contact :input').attr('disabled', 'disabled');
+			                    $('#contact').fadeTo( "slow", 0.15, function() {
+			                        $(this).find(':input').attr('disabled', 'disabled');
+			                        $(this).find('label').css('cursor','default');
+			                        $('#success').fadeIn();
+			                    });
+			                },
+			                error: function() {
+			                    $('#contact').fadeTo( "slow", 0.15, function() {
+			                        $('#error').fadeIn();
+			                    });
+			                }
+			            });
+			        }
+			    });
+			});
+
 		});
 	</script>
 <?php
