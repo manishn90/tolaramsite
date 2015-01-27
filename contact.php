@@ -21,9 +21,9 @@
 								<ul class="contactList">
 									<li>
 										<h2>Singapore</h2>
-										<span>Corporate Headquarter</span>
+										<span>Corporate Headquarters</span>
 										<ul>
-											<li><a href="https://goo.gl/maps/OHbpW" target="_blank" style="color:#58595b;">1A International Business Park <br> #12-02 <br>Singapore 609933</a></li>
+											<li><a href="https://goo.gl/maps/NsUoy" target="_blank" style="color:#58595b;">1A International Business Park <br> #12-02 <br>Singapore 609933</a></li>
 											<li>Tel: (65) 6387 7777<br>Fax: (65) 6324 2777</li>
 										</ul>	
 									</li>
@@ -33,8 +33,8 @@
 								<ul class="contactList">		
 									<li><h2>Indonesia</h2>
 										<ul>
-											<li>Gedung Sudirman PlazaPlaza Marein Lantai 20Jl Jenderai Sudirman Kav 76-78vJakarta 12910- Indonesia</li>
-											<li>Tel: (+62) 6297 2711<br>Fax: (+62) 6297 2769</li>
+											<li><a href="https://goo.gl/maps/KlvGG" target="_blank" style="color:#58595b;">Gedung Sudirman Plaza <br>Plaza Marein Lantai 20<br>Jl Jenderai Sudirman Kav 76-78v<br>Jakarta 12910 - Indonesia</a></li>
+											<li>Tel: (62) 6297 2711<br>Fax: (62) 6297 2769</li>
 										</ul>
 									</li>
 								</ul>
@@ -45,7 +45,7 @@
 								<ul class="contactList">	
 									<li><h2>Estonia</h2>
 										<ul>
-											<li>Kopli Str 35,10412 Tallinn Estonia</li>
+											<li><a href="https://goo.gl/maps/xTldw" target="_blank" style="color:#58595b;">Kopli Str 35,10412 Tallinn Estonia</a></li>
 											<li>Tel: (35) 7297 2722<br>Fax: (35) 7297 2710</li>
 										</ul>	
 									</li>
@@ -55,7 +55,7 @@
 								<ul class="contactList">
 									<li><h2>Nigeria</h2>
 										<ul>
-											<li>38 Eric Moore Road,Surulere, Lagos Nigeria</li>
+											<li><a href="https://goo.gl/maps/e1PZ2" target="_blank" style="color:#58595b;">38 Eric Moore Road,Surulere, Lagos Nigeria</a></li>
 											<li>Tel: (90) 8628 2829<br>Fax: (90) 8628 2832</li>
 										</ul>
 									</li>
@@ -68,7 +68,7 @@
 							</div>
 			    		</div>
 			    	</div>
-			    </div>
+			    </div>				
 			</div>
 		</div>
 		<!-- Contact Form -->

@@ -9,7 +9,7 @@
 		?>
 	</div>
 	<div class="bordered_wrapper">
-		<div id="actions" style="color: #bbb;font-size: 23px;position: fixed;z-index: 100000000000;bottom: 10px;cursor:pointer;left: 0;right: 0;text-align: center;"><i id="moveSectionDown" class="fa fa-chevron-down"></i></div>
+		<div id="actions" class="about-chevron-down"><i id="moveSectionDown" class="fa fa-chevron-down"></i></div>
 		<div id="fullpage">
 
 			<!-- ////////////// ABOUT /////////////  -->

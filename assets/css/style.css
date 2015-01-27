@@ -253,7 +253,7 @@ div.video_bg{
 
 
 /*  ----- About Us ------ */
-
+  .about-chevron-down{color: #bbb;font-size: 23px;position: fixed;z-index: 100000000000;bottom: 10px;cursor:pointer;left: 0;right: 0;text-align: center;}
   #about-overlay div.col-md-7 {
       background: #663333;
       height: 100%;
@@ -1719,6 +1719,7 @@ label {
 
 
 @media screen and (max-width: 768px) {
+    .about-chevron-down{display: none;}
     .values-section .outer{
       position: relative;
     }
