@@ -888,7 +888,7 @@ div.video_bg{
   z-index: 10;
 }
 
-#tolaram-group{height: 204px;overflow: auto;}
+#tolaram-group{height: 350px;overflow: auto;margin-top: 20px;}
 
 #my_popup2{background: #fff;margin-left: 170px;margin-right: 170px;}
 
@@ -919,6 +919,7 @@ div.video_bg{
 #popup18 .box-desc,
 #popup19 .box-desc{padding-top: 20px;padding-right: 18px;}
 
+#popup1 .box-desc{padding-top: 0}
 
 #my_popup2 .box-desc{padding-top: 20px}
 @media (max-width: 1490px){

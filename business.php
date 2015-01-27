@@ -107,13 +107,13 @@
 										<img src="assets/img/our_business/IBP-building.jpg" style="width:100%">
 									</div>
 									<div class="col-md-6">
-										<div class="row box-desc">
+										<div class="row box-desc" id="tolaram-group">
 											<div class="col-md-12" style="padding-bottom: 18px;">
 												<p class="business_title">Tolaram Corporation</p>
 												<p class="business_subtitle">Singapore, Benin, Estonia, Ghana, India, Indonesia, Nigeria, Togo, UAE</p>
 												<p class="business_desc">The Group’s Head Office is located at 1A International Business Park, Singapore. Central functions like Business Development, Communications, HR, Finance and Internal Audit are co-ordinated from this office.</p>
 											</div>
-											<div class="col-md-12" id="tolaram-group">
+											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-3 col-xs-4" style="padding-right: 0;">
 														<img src="assets/img/ceos/himanshu_naharas.jpg" class="img-responsive">
