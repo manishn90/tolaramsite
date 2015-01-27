@@ -171,9 +171,10 @@
 		    display:inline-block;
 		    position:absolute;
 		    top:0;
-		    width:75%;
+		    width:100%;
 		    text-align: center;
     		font-size: 20px;
+    		z-index: -1;
 		}
 		#success span p, #error span p {
 		    margin-top:6em
