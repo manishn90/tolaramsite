@@ -338,7 +338,7 @@
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/no-photo.gif" class="img-responsive">
+													<img src="assets/img/ceos/Deepak_Singhal.png" class="img-responsive">
 												</div>
 											<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 												<div class="lead-desc">
@@ -502,7 +502,7 @@ management experiences in major companies in Asia.</p>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
 														<h5 style="font-size:13px;color:#5d5d5d">Vani Malik<br>General Manager</h5>
-														<p style="font-size:13px;color:#5d5d5d">Vani Malik joined the Group in May 2011 and became the General Manager of Hypo in 2014. She was previously in charge of the Power Oil brand, another flagship FMCG brand of the Group.She is a graduate from the India School of Business.<br>She is a graduate from the India School of Business.</p>
+														<p style="font-size:13px;color:#5d5d5d">Vani Malik joined the Group in May 2011 and became the General Manager of Hypo in 2014. She was previously in charge of the Power Oil brand, another flagship FMCG brand of the Group.<br>She is a graduate from the India School of Business.</p>
 													</div>
 
 												</div>
