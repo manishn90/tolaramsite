@@ -17,14 +17,14 @@
                     <input type="text" class="form-control" name="email" id="email" size="30" placeholder="E-mail" required/>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" name="phone" id="phone" size="30" placeholder="Type of Enquiry"/>
+                    <input type="text" class="form-control" name="type" id="type" size="30" placeholder="Type of Enquiry"/>
                 </div>
             </div>  
             <div class="col-md-6">
                 <div class="form-group">
                     <textarea name="message" class="form-control" id="message" placeholder="Message" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>  
+                <input id="submit" class="btn btn-default pull-right" type="submit" name="submit" value="Submit" />  
             </div>
           </fieldset>  
         </form>

@@ -235,15 +235,13 @@
 			                    $('#contact').fadeTo( "slow", 0.15, function() {
 			                        $(this).find(':input').attr('disabled', 'disabled');
 			                        $(this).find('label').css('cursor','default');
-			                        $('#success').fadeIn(100);
+			                        $('#success').fadeIn();
 			                    });
-			                    //$('#success').fadeOut(4000);
 			                },
 			                error: function() {
 			                    $('#contact').fadeTo( "slow", 0.15, function() {
-			                        $('#error').fadeIn(100);
+			                        $('#error').fadeIn();
 			                    });
-			                    //$('#error').fadeOut(4000);
 			                }
 			            });
 			        }
