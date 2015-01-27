@@ -253,7 +253,7 @@ div.video_bg{
 
 
 /*  ----- About Us ------ */
-
+  .about-chevron-down{color: #bbb;font-size: 23px;position: fixed;z-index: 100000000000;bottom: 10px;cursor:pointer;left: 0;right: 0;text-align: center;}
   #about-overlay div.col-md-7 {
       background: #663333;
       height: 100%;
@@ -888,6 +888,7 @@ div.video_bg{
   z-index: 10;
 }
 
+#tolaram-group{height: 350px;overflow: auto;margin-top: 20px;}
 
 #my_popup2{background: #fff;margin-left: 170px;margin-right: 170px;}
 
@@ -918,6 +919,7 @@ div.video_bg{
 #popup18 .box-desc,
 #popup19 .box-desc{padding-top: 20px;padding-right: 18px;}
 
+#popup1 .box-desc{padding-top: 0}
 
 #my_popup2 .box-desc{padding-top: 20px}
 @media (max-width: 1490px){
@@ -1717,6 +1719,7 @@ label {
 
 
 @media screen and (max-width: 768px) {
+    .about-chevron-down{display: none;}
     .values-section .outer{
       position: relative;
     }
@@ -1854,6 +1857,7 @@ label {
         height: auto;
       }
 
+      #tolaram-group{height: auto;overflow: hidden;}
 
       #popup1,
       #popup2,

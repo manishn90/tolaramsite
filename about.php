@@ -9,6 +9,7 @@
 		?>
 	</div>
 	<div class="bordered_wrapper">
+		<div id="actions" class="about-chevron-down"><i id="moveSectionDown" class="fa fa-chevron-down"></i></div>
 		<div id="fullpage">
 
 			<!-- ////////////// ABOUT /////////////  -->
@@ -417,6 +418,7 @@
 				responsive: 768,
 				scrollingSpeed: 500,
 				verticalCentered: true,
+				continuousVertical:true,
 				horizontalCentered:false,
 				afterLoad: function(anchorLink, index, slideAnchor, slideIndex){
 					if(anchorLink=="about"){
@@ -436,6 +438,11 @@
 				},
 
 
+			});
+
+			$('#moveSectionDown').click(function(e){
+				e.preventDefault();
+				$.fn.fullpage.moveSectionDown();
 			});
 
 			

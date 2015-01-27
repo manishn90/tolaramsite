@@ -30,6 +30,17 @@
 					<div class="year year-2014 year-active">
 						<div class="row newsroom_content">
 							<div class="col-md-6 newsroom_box">
+								<span>December 2014</span>
+								<h1>Tolaram Group collaborates with GE to bring solar power to noodles plant in Nigeria</h1>
+								<a href="" class="imagebutton">
+									<img src="assets/img/newsroom/2014/solar-cells.png"  style="background-position: 20% 20%;" class="newsroom_img">
+								</a>
+								<a href="" class="newsroom_btn">Read More...</a>
+								<p class="hiddenContent">NIGERIA: GE will supple Northern Noodles Ltd., a subsidiary of DUFIL and Tolaram Group, with solar technology to reduce emissions at the noodles manufacturing plant in Kaduna, Nigeria.<br>
+								The 575 kilowatt photovoltaic (PV) plant will be integrated with the company’s existing diesel generators and micro-grid system. Once installed, the hybrid solution is expected to deliver 18 percent reduction in diesel fuel and associated emissions at the site.<br>
+								“Tolaram strives to be an early adopter of advanced technology, and solar energy looks extremely promising. Our goal is to reduce our carbon footprint and create sustainable industrial growth,” explains Mr. Sajen Aswani, CEO of Tolaram Group. “Given GE’s expertise in renewable technology, end-to-end offering, and like-minded commitment to growth here in Nigeria, it was a natural collaboration.</p>
+							</div>
+							<div class="col-md-6 newsroom_box">
 								<span>September 2014</span>
 								<h1>Centre for African Studies launched in Singapore</h1>
 								<a href="" class="imagebutton">
@@ -38,6 +49,8 @@
 								<a href="" class="newsroom_btn">Read More...</a>
 								<p class="hiddenContent">SINGAPORE: Tolaram Group is one of the five donors for the NTU-SBF Centre for African Studies. The centre is the first of its kind in Southeast Asia and aims to promote an understanding of Africa at the economic and policy level to help foster stronger relationships between Singapore and the continent.</p>
 							</div>
+						</div>
+						<div class="row newsroom_content">
 							<div class="col-md-6 newsroom_box">
 								<span>June 2014</span>
 								<h1>Commissioning of Calabar Substation</h1>
@@ -47,8 +60,6 @@
 								<a href="" class="newsroom_btn">Read More...</a>
 								<p class="hiddenContent">NIGERIA: MBH Power recently commissioned its 2 x 150MVA, 330KV/132KV Calabar Substation. The occasion was graced by the Minister of State for Power, Alhaji Mohammed Wakil, on 21 June 2014. The substation at Adiabo is meant to boost the power supply in Calabar and its environment.</p>
 							</div>
-						</div>
-						<div class="row newsroom_content">
 							<div class="col-md-6 newsroom_box">
 								<span>June 2014</span>
 								<h1>Bhumi Puja for Arzuria and office warming for our new office</h1>
@@ -58,6 +69,8 @@
 								<a href="" class="newsroom_btn">Read More...</a>
 								<p class="hiddenContent">INDONESIA: The traditional Bhumi Puja (ground ceremony) was performed on 19 June 2014 for Arzuria, the Group’s real estate project in central Jakarta. The new development will be a 32-storey upscale residential complex, occupying 6,800 sq.m.of land. The Group’s new Indonesian headquarters was also officially inaugurated on that day.</p>
 							</div>
+						</div>
+						<div class="row newsroom_content">
 							<div class="col-md-6 newsroom_box">
 								<span>June 2014</span>
 								<h1>Launch of Minimie snack</h1>
@@ -67,8 +80,6 @@
 								<a href="" class="newsroom_btn">Read More...</a>
 								<p class="hiddenContent">NIGERIA: Dufil Prima recently launched a local snack, Minimie Chin Chin, to the Nigerian market. Made with ingredients like milk, butter and wheat, it is a crunchy and tasty snack for all occasions.</p>
 							</div>
-						</div>
-						<div class="row newsroom_content">
 							<div class="col-md-6 newsroom_box">
 								<span>June 2014</span>
 								<h1>Tunaiku goes "live"</h1>
@@ -78,6 +89,8 @@
 								<a href="" class="newsroom_btn">Read More...</a>
 								<p class="hiddenContent">INDONESIA: Tunaiku, which translates to “my cash” in English, is an Internet-based consumer finance lending business, launched in June 2014. The services enables borrowers to apply for loans online using their smart devices such as computers, tablets and mobile phones.</p>
 							</div>
+						</div>
+						<div class="row newsroom_content">
 							<div class="col-md-6 newsroom_box">
 								<span>April 2014</span>
 								<h1>Pagari One bags awards</h1>

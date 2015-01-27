@@ -104,11 +104,9 @@
                  insertHtml += '</div></div>';
                  $('body').after(insertHtml);
                  $('.fullWidth').animate({left:"0"});
-                 $('html, body').css('overflow','hidden');
             });
 
             $("html").on("click", ".businessClose",function(){
-            	$('html, body').css('overflow','visible');
                 $('.fullWidth').animate({left:"100%"},
                  function(){
                      $('.fullWidth').remove();
