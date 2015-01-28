@@ -100,7 +100,6 @@
                  var $parentdiv = $(this).parent().parent('.csr_box');
                  var src = $parentdiv.children('img').attr('src');  
                  var style = $parentdiv.children('img').attr('style');   
-
                  
                  $('.fullWidth').css('left',"-100%");
                  var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');'+style+'"></div><button class="businessClose">Close</button><div class="row container">';
