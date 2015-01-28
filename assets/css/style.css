@@ -1906,6 +1906,13 @@ label {
 
 }
 
+@media(max-width: 1200px){
+
+  .trust-box.active,
+  .respect-box.active,
+  .commitment-box.active,
+  .courage-box.active,
+  .humility-box.active{height: auto;}
 
 
 

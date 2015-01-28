@@ -111,10 +111,10 @@
 								<i class="pull-right fa fa-expand box-arrow"></i>
 								<i class="pull-right fa fa-compress box-arrow"></i>
 	                            <h3>TRUST <i class="pull-right fa fa-angle-down values-link"></i></h3>
-	                            <div class="box-text">
-	                            <p>We are honest and direct in our dealings and always act with transparency. <br />We say what we mean, mean what we say and always keep our promises.</p>
-	                            <p class="quote real q-trust">&#34; When the trust account is high, communication is easy, instant and effective.&#34;</p><p class='author q-trust'>Stephen R. Covey</p>
-	                            <p class="quote q-trust">Trust is at the very core of everything we try to do. If people trust us, they want to be associated with us. It’s that simple.</p>
+	                            <div class="box-text" style="padding-top: 52px;">
+		                            <p>We are honest and direct in our dealings and always act with transparency. <br />We say what we mean, mean what we say and always keep our promises.</p>
+		                            <p class="quote real q-trust">&#34; When the trust account is high, communication is easy, instant and effective.&#34;</p><p class='author q-trust'>Stephen R. Covey</p>
+		                            <p class="quote q-trust">Trust is at the very core of everything we try to do. If people trust us, they want to be associated with us. It’s that simple.</p>
 	                            </div>
 	                        </div>
 	                        <div class="respect respect-box box-list" style="background:#f39140" data="">
@@ -132,7 +132,7 @@
 	                       		<i class="pull-right fa fa-expand box-arrow"></i>
 								<i class="pull-right fa fa-compress box-arrow"></i>
 	                            <h3>COMMITMENT <i class="pull-right fa fa-angle-down values-link"></i></h3>
-	                            <div class="box-text">
+	                            <div class="box-text" style="padding-top: 50px;">
 	                            <p>We committed to being sustainable over the long term through focus and depth in everything we do.</p>
 	                            <p class="quote real q-commitment">&#34; Desire is the key to motivation, but it’s determination and commitment to an unrelenting pursuit of your goal – a commitment to excellence - that will enable you to attain the success you seek. &#34; </p><p class='author q-commitment'>Mario Andretti</p>
 	                            <p class="quote q-commitment">We intend to be here for good and do good so there must be focus and depth in everything we do for it to be sustainable over the long term</p>
@@ -142,7 +142,7 @@
 	                        	<i class="pull-right fa fa-expand box-arrow"></i>
 								<i class="pull-right fa fa-compress box-arrow"></i>
 	                            <h3>COURAGE <i class="pull-right fa fa-angle-down values-link"></i></h3>                                          
-	  	                        <div class="box-text">
+	  	                        <div class="box-text" style="padding-top: 50px;">
 		                        <p>We want to surround ourselves with bold thinkers; and to always act with conviction.</p>
 	                            <p class="quote real q-courage">&#34; Courage is the most important of all the virtues because without courage, you can’t practise any other virtue consistently. &#34; </p><p class='author q-courage'> Maya Angelou</p>
 	                            <p class="quote q-courage">We always support those who dare, because only with courage comes innovation.</p>
@@ -152,7 +152,7 @@
 	                        	<i class="pull-right fa fa-expand box-arrow"></i>
 								<i class="pull-right fa fa-compress box-arrow"></i>
 	                            <h3>HUMILITY <i class="pull-right fa fa-angle-down values-link"></i></h3>
-	                            <div class="box-text">
+	                            <div class="box-text" style="padding-top: 35px;">
 	                            <p>We endeavour to keep learning and letting our actions speak louder than our words. <br /> We also appreciate that everyone we interact with has a contribution to make to our well-being.</p>
 	                            <p class="quote real q-humility">&#34; True humility is not thinking less of yourself; it is thinking of yourself less. &#34; </p><p class='author q-humility'>CS Lewis</p>
 	                        	<p class="quote q-humility">We believe that humility is all about having a quiet confidence without being arrogant. Accepting that there’s always something new to learn. And, most importantly, letting our actions speak louder than our words.</p>
@@ -407,7 +407,8 @@
 
 #fp-nav ul li .fp-tooltip{width:auto!important;opacity:initial!important;}
 	.bordered_wrapper{padding-top: 0}
-
+	
+}
 
 	</style>
 	<script type="text/javascript">
