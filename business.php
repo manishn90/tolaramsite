@@ -581,9 +581,7 @@ management experiences in major companies in Asia.</p>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
 														<h5 style="font-size:13px;color:#5d5d5d">SANDEEP PARASRAMKA<br>Chief Financial Officer</h5>
-														<p style="font-size:13px;color:#5d5d5d">Sandeep has a wealth of experience of over 16 years in the area of Corporate Finance and Financial Control having worked with several of India’s largest conglomerates.<br/><br/>Sandeep joined the Tolaram group as Finance Controller for one of the Group companies Panabiz International Ltd in 2006 and moved on to be the General Manager – Corporate Finance for the Group’s Nigerian Operations. Currently, he is the CFO of LPLE and a Key Project Development Team Member.<br/><br/> 
-Sandeep is Chartered Accountant and Company Secretary by professional qualifications and holds a degree of Bachelor of Commerce from St. Xavier's College, Calcutta University, India.
-</p>
+														<p style="font-size:13px;color:#5d5d5d">Sandeep has a wealth of experience of over 16 years in the area of Corporate Finance and Financial Control having worked with several of India’s largest conglomerates.<br/><br/>Sandeep joined the Tolaram group as Finance Controller for one of the Group companies Panabiz International Ltd in 2006 and moved on to be the General Manager – Corporate Finance for the Group’s Nigerian Operations. Currently, he is the CFO of LPLE and a Key Project Development Team Member.<br/><br/> Sandeep is Chartered Accountant and Company Secretary by professional qualifications and holds a degree of Bachelor of Commerce from St. Xavier's College, Calcutta University, India.</p>
 													</div>
 
 												</div>
