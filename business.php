@@ -139,7 +139,7 @@
 														
 													</div>
 												</div>
-												<div class="row">
+												<div class="row" style="margin-top: 20px;">
 													<div class="col-md-3 col-xs-4" style="padding-right: 0;">
 														<img src="assets/img/ceos/navin_nahata.jpg" class="img-responsive">
 													</div>
@@ -175,7 +175,7 @@
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
-											<p class="business_title">Bank Amar</p>
+											<p class="business_title">Amar Bank</p>
 											<a href="http://www.anglomasbank.co.id" target="blank_" class="corporation-link">www.anglomasbank.co.id</a>
 											<p class="business_subtitle">Indonesia</p>
 											<p class="business_desc">Established in 1991, Amar Bank offers retail banking through branches in Surabaya and Jakarta.</p>
