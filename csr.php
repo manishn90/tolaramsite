@@ -104,7 +104,7 @@
                  
                  $('.fullWidth').css('left',"-100%");
                  var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');'+style+'"></div><button class="businessClose">Close</button><div class="row container">';
-                 insertHtml += '<div class="col-md-12"><div class="csroverlay-desc"><h1>'+$parentdiv.find('h1').text()+'<h1><span style="font-size: 16px;margin-bottom: 20px;">Website: <a class="corporation-link" target="_blank" href="http://'+$parentdiv.find('h4').text()+'" style="font-size: 16px;margin-bottom: 20px;">'+$parentdiv.find('h4').text()+'</a></span><br/><br/><p>'+$parentdiv.find('.hiddenContent').text()+'</p></div></div>';
+                 insertHtml += '<div class="col-md-12"><div class="csroverlay-desc"><h1>'+$parentdiv.find('h1').text()+'<h1><span style="font-size: 16px;margin-bottom: 20px;"><a class="corporation-link" target="_blank" href="http://'+$parentdiv.find('h4').text()+'" style="font-size: 16px;margin-bottom: 20px;">'+$parentdiv.find('h4').text()+'</a></span><br/><br/><p>'+$parentdiv.find('.hiddenContent').text()+'</p></div></div>';
                  insertHtml += '</div></div>';
                  $('body').after(insertHtml);
                  $('.fullWidth').animate({left:"0"});
