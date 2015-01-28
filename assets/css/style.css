@@ -889,6 +889,8 @@ div.video_bg{
 }
 
 #tolaram-group{height: 350px;overflow: auto;margin-top: 20px;}
+.corporation-link{color: #B33636; padding-bottom: 10px;}
+.corporation-link:hover{color: #B33636;}
 
 #my_popup2{background: #fff;margin-left: 170px;margin-right: 170px;}
 
@@ -1834,7 +1836,7 @@ label {
     .shareholders2{margin-top: 6%;}
     .shareholders1, .shareholders2{text-transform: none;line-height: 1;}
     .title_shareholders1, .title_shareholders2{font-size: 10px;}
-    .box-content{padding-right: 15px!important;position: absolute;margin: 0 auto;left: 0;right: 0}
+    .box-content{margin: 0 auto;left: 0;right: 0}
     .box-value{margin-top: 0}
     .csr > div.row > div{border-bottom: 4px solid #FFF;}
 }

@@ -14,9 +14,9 @@
 
 			<!-- ////////////// ABOUT /////////////  -->
 			<div class="section aboutUs-section" id="section0">
-				<div class="intro">
-					<div class="col-md-6 col-sm-8 col-xs-11 pull-right box-content" style="padding-right:7%;padding-top:13%;">
-						<div>
+				<div class="intro outer">
+					<div class="middle">
+						<div class="col-md-6 col-sm-8 col-xs-11 pull-right box-content" style="padding-right:7%;">
 							<h3 class="title" style="color:#FFF">ESTABLISHED IN 1948 IN MALANG, INDONESIA</h3>
 							<p class="content" style="color:#FFF">Tolaram Group is headquartered in Singapore with business interests currently in Asia, Africa and Europe. We trade with companies in over 75 countries. </p>
 							<br/>

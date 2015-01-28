@@ -110,6 +110,7 @@
 										<div class="row box-desc" id="tolaram-group">
 											<div class="col-md-12" style="padding-bottom: 18px;">
 												<p class="business_title">Tolaram Corporation</p>
+												<a href="http://www.tolaram.com" target="blank_" class="corporation-link">www.tolaram.com</a>
 												<p class="business_subtitle">Singapore, Benin, Estonia, Ghana, India, Indonesia, Nigeria, Togo, UAE</p>
 												<p class="business_desc">The Group’s Head Office is located at 1A International Business Park, Singapore. Central functions like Business Development, Communications, HR, Finance and Internal Audit are co-ordinated from this office.</p>
 											</div>
@@ -162,19 +163,20 @@
 					  <!-- project 2 -->
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='financial'>
 					  	<a href="#" class="popup2_open" >
-							<img src="assets/img/our_business/sector/amarbank_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/amarbank_bg.jpg" alt="">			
 						</a>
 
 						<div id="popup2">
 							<div class="row">
 								<button class="businessClose popup2_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/amar800x600.png" style="width:100%">
+									<img src="assets/img/our_business/amar800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">Bank Amar</p>
+											<a href="http://www.anglomasbank.co.id" target="blank_" class="corporation-link">www.anglomasbank.co.id</a>
 											<p class="business_subtitle">Indonesia</p>
 											<p class="business_desc">Established in 1991, Amar Bank offers retail banking through branches in Surabaya and Jakarta.</p>
 										</div>
@@ -202,18 +204,19 @@
 					  <!-- project 3 -->
 					  <div class="mix real indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='real'>
 					  	<a href="#" class="popup3_open" >
-							<img src="assets/img/our_business/sector/arzu_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/arzu_bg.jpg" alt="">			
 						</a>
 						<div id="popup3">
 							<div class="row">
 								<button class="businessClose popup3_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/arzu.png" style="width:100%">
+									<img src="assets/img/our_business/arzu.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">Arzu Utama Realty</p>
+											<a href="http://www.arzuria.com" target="blank_" class="corporation-link">www.arzuria.com</a>
 											<p class="business_subtitle">Indonesia</p>
 											<p class="business_desc">Arzu Utama Realty is the developer of Arzuria, a 32-storey upscale residential apartment in central Jakarta occupying a land area of 6,800 sq. m.</p>
 										</div>
@@ -241,25 +244,26 @@
 					  <!-- project 4 -->
 					  <div class="mix financial indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='financial'>
 					  	<a href="#" class="popup4_open" >
-							<img src="assets/img/our_business/sector/insura_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/insura_bg.jpg" alt="">			
 						</a>
 						<div id="popup4">
 							<div class="row">
 								<button class="businessClose popup4_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/asuransi_rama_800x600.png" style="width:100%">
+									<img src="assets/img/our_business/asuransi_rama_800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">Asuransi Rama</p>
+											<a href="http://www.ramains.com/id" target="blank_" class="corporation-link">www.ramains.com/id</a>
 											<p class="business_subtitle">Indonesia</p>
 											<p class="business_desc">Established in 1978, Asuransi Rama ranks within the top 25 insurance companies in Indonesia. Headquartered in Jakarta, Rama has a network of 17 branches throughout Indonesia.</p>
 										</div>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/Dimas Mulyanto-4110004.jpg" class="img-responsive">
+													<img src="assets/img/ceos/Dimas_Mulyanto.jpg" class="img-responsive">
 												</div>
 											<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 												<div class="lead-desc">
@@ -280,25 +284,26 @@
 					  <!-- project 5 -->
 					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='distribution'>
 					  	<a href="#" class="popup5_open" >
-							<img src="assets/img/our_business/sector/bhn_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/bhn_bg.jpg" alt="">			
 						</a>	
 						<div id="popup5">
 							<div class="row">
 								<button class="businessClose popup5_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/bhn_800x600.png" style="width:100%">
+									<img src="assets/img/our_business/bhn_800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">BHN</p>
+											<a href="http://www.bhnlogistics.com.ng" target="blank_" class="corporation-link">www.bhnlogistics.com.ng</a>
 											<p class="business_subtitle">Nigeria</p>
 											<p class="business_desc">With a fleet of 600 trucks, BHN provides haulage services to many blue-chip companies in Nigeria.</p>
 										</div>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/porus.png" class="img-responsive">
+													<img src="assets/img/ceos/porus.jpg" class="img-responsive">
 												</div>
 											<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 												<div class="lead-desc">
@@ -320,25 +325,26 @@
 					  <!-- project 6 -->
 					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='consumer'>
 					  	<a href="3" class="popup6_open" >
-							<img src="assets/img/our_business/sector/dufil.png" alt="">			
+							<img src="assets/img/our_business/sector/dufil.jpg" alt="">			
 						</a>
 						<div id="popup6">
 							<div class="row">
 								<button class="businessClose popup6_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/dufill_800x600.png" style="width:100%">
+									<img src="assets/img/our_business/dufill_800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">Dufil Prima Foods</p>
+											<a href="http://www.dufil.com" target="blank_" class="corporation-link">www.dufil.com</a>
 											<p class="business_subtitle">Nigeria</p>
 											<p class="business_desc">Dufil Prima Foods PLC (a joint venture with Salim Group) manufactures and markets instant noodles, pasta, cooking oil and snacks in West Africa with plants located in the Nigerian cities of Kaduna, Ota and Port Harcourt. The company also manufactures flour, seasoning and packaging material.<br>Its flagship brands are Indomie instant noodles, Power Pasta, Power Oil and Minimie snacks.</p>
 										</div>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/Deepak_Singhal.png" class="img-responsive">
+													<img src="assets/img/ceos/Deepak_Singhal.jpg" class="img-responsive">
 												</div>
 											<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 												<div class="lead-desc">
@@ -359,25 +365,26 @@
 					  <!-- project 7 -->
 					  <div class="mix distribution nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='distribution'>
 					  	<a href="#" class="popup7_open" >
-							<img src="assets/img/our_business/sector/first.choice_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/first.choice_bg.jpg" alt="">			
 						</a>
 						<div id="popup7">
 							<div class="row">
 								<button class="businessClose popup7_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/firstchoice_800x600.png" style="width:100%">
+									<img src="assets/img/our_business/firstchoice_800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">FIRST CHOICE RETAILING</p>
+											<a href="http://www.multi-pro.com/bestchoice.html" target="blank_" class="corporation-link">www.multi-pro.com/bestchoice.html</a>
 											<p class="business_subtitle">Nigeria</p>
 											<p class="business_desc">First Choice Retailing Limited is the largest chain of organised retail stores providing Nigerians with convenient shopping for their everyday needs. There are currently 250 outlets under the brand of “Best Choice” in Lagos, with plans to extend the brand to other cities.</p>
 										</div>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/udayan.png" class="img-responsive">
+													<img src="assets/img/ceos/udayan.jpg" class="img-responsive">
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
@@ -398,18 +405,19 @@
 					  <!-- project 8 -->
 					  <div class="mix paper estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='paper'>
 					  	<a href="#" class="popup8_open" >
-							<img src="assets/img/our_business/sector/horizon.paper_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/horizon.paper_bg.jpg" alt="">			
 						</a>
 						<div id="popup8">
 							<div class="row">
 								<button class="businessClose popup8_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/horizonpaper_800x600.png" style="width:100%">
+									<img src="assets/img/our_business/horizonpaper_800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">HORIZON PULP & PAPER</p>
+											<a href="http://www.horizon.ee" target="blank_" class="corporation-link">www.horizon.ee</a>
 											<p class="business_subtitle">Estonia</p>
 											<p class="business_desc">Horizon Pulp and Paper Limited is Estonia’s only integrated producer of quality unbleached sack kraft paper, and supplies to over 50 countries around the world.<br/>In 2013, the company celebrated its 75th year of operations.</p>
 										</div>
@@ -436,25 +444,26 @@
 					  <!-- project 9 -->
 					  <div class="mix consumer estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='consumer'>
 					  	<a href="#" class="popup9_open" >
-							<img src="assets/img/our_business/sector/horizon.tisue_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/horizon.tisue_bg.jpg" alt="">			
 						</a>
 						<div id="popup9">
 							<div class="row">
 								<button class="businessClose popup9_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/horizontisue800x600.png" style="width:100%">
+									<img src="assets/img/our_business/horizontisue800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">HORIZON TISSUE</p>
+											<a href="http://www.horizontissue.com" target="blank_" class="corporation-link">www.horizontissue.com</a>
 											<p class="business_subtitle">Estonia</p>
 											<p class="business_desc">Horizon Tissue manufactures toilet rolls, kitchen towels and napkins for export to Baltic and Nordic countries. The brand operates under the name “Daisy” in the private label segment, and counts some of the country’s leading retailers as its customers.</p>
 										</div>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/Pankaj-Mehra.png" class="img-responsive">
+													<img src="assets/img/ceos/Pankaj-Mehra.jpg" class="img-responsive">
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
@@ -479,18 +488,19 @@ management experiences in major companies in Asia.</p>
 					  <!-- Project 10 -->
 					  <div class="mix consumer nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='consumer'>
 					  	<a href="#" class="popup10_open" >
-							<img src="assets/img/our_business/sector/hypo_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/hypo_bg.jpg" alt="">			
 						</a>
 						<div id="popup10">
 							<div class="row">
 								<button class="businessClose popup10_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/hypo_800x600.png" style="width:100%">
+									<img src="assets/img/our_business/hypo_800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">HYPO BLEACH</p>
+											<a href="http://www.hypo.com.ng" target="blank_" class="corporation-link">www.hypo.com.ng</a>
 											<p class="business_subtitle">Nigeria</p>
 											<p class="business_desc">Launched in 2011, Hypo Bleach holds the highest market share in its category, and aims to significantly impact the availability of hygiene and sanitation solutions for Nigerians.</p>
 										</div>
@@ -518,25 +528,26 @@ management experiences in major companies in Asia.</p>
 					  <!-- Project 11 -->
 					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='infrastructure'>
 					  	<a href="#" class="popup11_open" >
-					        <img src="assets/img/our_business/sector/lagosfreetradezone_lftz_bg.png" alt="">
+					        <img src="assets/img/our_business/sector/lagosfreetradezone_lftz_bg.jpg" alt="">
 					    </a>
 						<div id="popup11">
 							<div class="row">
 								<button class="businessClose popup11_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/lftz_800x600.png" style="width:100%">
+									<img src="assets/img/our_business/lftz_800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">LAGOS FREE TRADE ZONE</p>
+											<a href="http://www.lagosftz.com" target="blank_" class="corporation-link">www.lagosftz.com</a>
 											<p class="business_subtitle">Nigeria</p>
 											<p class="business_desc">Spread over an area of 800 hectares, the Lagos Free Trade Zone (LFTZ) serves as an industrial and commercial hub for West Africa. LFTZ is strategically located to facilitate trade and boost the economy of Nigeria as well as neighbouring countries in Africa.</p>
 										</div>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/KS_full_pic.png" class="img-responsive">
+													<img src="assets/img/ceos/KS_full_pic.jpg" class="img-responsive">
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
@@ -557,19 +568,20 @@ management experiences in major companies in Asia.</p>
 					  <!-- Project 12 -->
 					  <div class="mix infrastructure nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='infrastructure'>
 					  	<a href="#" class="popup12_open" >
-							<img src="assets/img/our_business/sector/lekki.port_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/lekki.port_bg.jpg" alt="">			
 						</a>
 
 						<div id="popup12">
 							<div class="row">
 								<button class="businessClose popup12_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/lekki800x600.png" style="width:100%">
+									<img src="assets/img/our_business/lekki800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">LEKKI DEEP SEA PORT</p>
+											<a href="http://www.lekkiport.com" target="blank_" class="corporation-link">www.lekkiport.com</a>
 											<p class="business_subtitle">Nigeria</p>
 											<p class="business_desc">A USD 1.5 billion project, the Lekki Deep Sea Port will be the first privately built port in Nigeria and is slated to become the largest port in the country upon its completion.</p>
 										</div>
@@ -597,26 +609,27 @@ management experiences in major companies in Asia.</p>
 					  <!-- Project 13 -->
 					  <div class="mix textiles indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='textiles'>
 					  	<a href="#" class="popup13_open" >
-							<img src="assets/img/our_business/sector/lotus.indah_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/lotus.indah_bg.jpg" alt="">			
 						</a>
 
 						<div id="popup13">
 							<div class="row">
 								<button class="businessClose popup13_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/lotus_indah_800x600.png" style="width:100%">
+									<img src="assets/img/our_business/lotus_indah_800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">LOTUS INDAH</p>
+											<a href="http://www.lotusindah.com" target="blank_" class="corporation-link">www.lotusindah.com</a>
 											<p class="business_subtitle">Indonesia</p>
 											<p class="business_desc">Lotus Indah Textile Industries produces Synthetic Spun Yarns from Ring Spinning (100% Polyester, 100% Viscose & Poly/Viscose), Open End Spinning (100% Polyester & 100% Viscose) and Murata Vortex Spinning (100% Viscose) in Single, Double (TFO) and Multifold. The company exports to over 30 countries in the world.</p>
 										</div>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/G.Venkatesh.png" class="img-responsive">
+													<img src="assets/img/ceos/G.Venkatesh.jpg" class="img-responsive">
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
@@ -637,26 +650,27 @@ management experiences in major companies in Asia.</p>
 					  <!-- Project 14 -->
 					  <div class="mix textiles nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='textiles'>
 					  	<a href="#" class="popup14_open" >
-							<img src="assets/img/our_business/sector/lucky.fabries_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/lucky.fabries_bg.jpg" alt="">			
 						</a>
 
 						<div id="popup14">
 							<div class="row">
 								<button class="businessClose popup14_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/luckyfibre_800x600.png" style="width:100%">
+									<img src="assets/img/our_business/luckyfibre_800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">LUCKY FIBRES</p>
+											<a href="http://www.nobelafrica.com" target="blank_" class="corporation-link">www.nobelafrica.com</a>
 											<p class="business_subtitle">Nigeria</p>
 											<p class="business_desc">Lucky Fibres PLC is the largest integrated manufacturer of printed, woven and tufted carpets and rugs in West Africa. Marketed under the brand Nobel Carpets, it is a household name for rugs and carpets in Nigeria. Its resources are also employed in contract manufacturing.</p>
 										</div>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/kunal.png" class="img-responsive">
+													<img src="assets/img/ceos/kunal.jpg" class="img-responsive">
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
@@ -677,19 +691,20 @@ management experiences in major companies in Asia.</p>
 					  <!-- Project 15 -->
 					  <div class="mix energy ghana india nigeria tanzania col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' country-2='india' country-3='ghana' country-4='tanzania' sector='energy'>
 					  	<a href="#" class="popup15_open" >
-							<img src="assets/img/our_business/sector/mbh.power_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/mbh.power_bg.jpg" alt="">			
 						</a>
 
 						<div id="popup15">
 							<div class="row">
 								<button class="businessClose popup15_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/energy_power_800x600.png" style="width:100%">
+									<img src="assets/img/our_business/energy_power_800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">MBH POWER</p>
+											<a href="http://www.mbhpower.com" target="blank_" class="corporation-link">www.mbhpower.com</a>
 											<p class="business_subtitle">Ghana, India, Nigeria, Tanzania</p>
 											<p class="business_desc">MBH Power Limited is a total energy solutions company providing world-class services to meet the growing demand of the power sector in emerging markets. It focuses on:
 							            <br/>&#8226;EPC solutions in Transmission and Distribution
@@ -735,6 +750,7 @@ management experiences in major companies in Asia.</p>
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">MULTI PRO ENTERPRISES</p>
+											<a href="http://www.multi-pro.com" target="blank_" class="corporation-link">www.multi-pro.com</a>
 											<p class="business_subtitle">Benin, Ivory Coast, Nigeria, Togo</p>
 											<p class="business_desc">Multi Pro Enterprises Limited is the largest consumer goods distribution company in West Africa. Its reach is about half a million points-of-sales.</p>
 										</div>
@@ -762,14 +778,14 @@ management experiences in major companies in Asia.</p>
 					  <!-- Project 17 -->
 					  <div class="mix real estonia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='estonia' sector='real'>
 					  	<a href="#" class="popup17_open" >
-							<img src="assets/img/our_business/sector/tolaram.investment_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/tolaram.investment_bg.jpg" alt="">			
 						</a>
 
 						<div id="popup17">
 							<div class="row">
 								<button class="businessClose popup17_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/tolaraminevst800x600.png" style="width:100%">
+									<img src="assets/img/our_business/tolaraminevst800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
@@ -802,19 +818,20 @@ management experiences in major companies in Asia.</p>
 					  <!-- Project 18 -->
 					  <div class="mix digital indonesia col-xs-12 col-sm-4 col-md-4 col-lg-4" country='indonesia' sector='digital'>
 					  	<a href="#" class="popup18_open" >
-							<img src="assets/img/our_business/sector/tunaiku_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/tunaiku_bg.jpg" alt="">			
 						</a>
 
 						<div id="popup18">
 							<div class="row">
 								<button class="businessClose popup18_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/tunaiku800x600.png" style="width:100%">
+									<img src="assets/img/our_business/tunaiku800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">TUNAIKU</p>
+											<a href="http://www.tunaiku.com" target="blank_" class="corporation-link">www.tunaiku.com</a>
 											<p class="business_subtitle">Indonesia</p>
 											<p class="business_desc">Tunaiku is an IT data analytics company, focusing on financial services.</p>
 										</div>
@@ -842,26 +859,27 @@ management experiences in major companies in Asia.</p>
 					  <!-- project 19 -->
 					  <div class="mix digital nigeria col-xs-12 col-sm-4 col-md-4 col-lg-4" country='nigeria' sector='digital'>
 					  	<a href="#" class="popup19_open" >
-							<img src="assets/img/our_business/sector/vconnect_bg.png" alt="">			
+							<img src="assets/img/our_business/sector/vconnect_bg.jpg" alt="">			
 						</a>
 
 						<div id="popup19">
 							<div class="row">
 								<button class="businessClose popup19_close">Close</button>
 								<div class="col-md-6">
-									<img src="assets/img/our_business/vconnect800x600.png" style="width:100%">
+									<img src="assets/img/our_business/vconnect800x600.jpg" style="width:100%">
 								</div>
 								<div class="col-md-6">
 									<div class="row box-desc">
 										<div class="col-md-12" style="padding-bottom: 18px;">
 											<p class="business_title">VCONNECT</p>
+											<a href="http://www.vconnect.com" target="blank_" class="corporation-link">www.vconnect.com</a>
 											<p class="business_subtitle">Nigeria</p>
 											<p class="business_desc">VConnect is the largest local search engine and ecommerce company in Nigeria. With more than one million businesses listed, it provides extensive information about products, services and companies in Nigeria.<br/>It has also been recognised as the “Hottest Tech Startup” in Africa by Forbes Magazine.</p>
 										</div>
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/DEEPANKAR.png" class="img-responsive">
+													<img src="assets/img/ceos/DEEPANKAR.jpg" class="img-responsive">
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
