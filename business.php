@@ -120,12 +120,12 @@
 													</div>
 													<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 														<div class="lead-desc">
-															<h5 style="font-size:13px;color:#5d5d5d">Himanshu Naharas</h5>
+															<h5 style="font-size:13px;color:#5d5d5d">HIMANSHU NAHARAS<br>Group Head - Human Capital</h5>
 								       						<p style="font-size:13px;color:#5d5d5d">Himanshu Naharas joined Tolaram Group as the Group Head- Human Capital in Jan 2014. He 
 
 															has a Bachelor’s degree in Computer Science & Technology from Indian Institute of 
 
-															Technology, Roorkee, with an MBA from Indian Institute of Management, Calcutta. <br>He has a 
+															Technology, Roorkee, with an MBA from Indian Institute of Management, Calcutta. <br><br/>He has a 
 
 															total of 24 years of experience, including 17 years with Standard Chartered Bank and 5 years as 
 
@@ -144,8 +144,8 @@
 													</div>
 													<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 														<div class="lead-desc">
-															<h5 style="font-size:13px;color:#5d5d5d">Navin Nahata</h5>
-								       						<p style="font-size:13px;color:#5d5d5d">Navin Nahata has 16 years of experience of working in India, Nigeria and Singapore. Navin started his career with ICICI Ltd., the largest private sector commercial bank in India, wherein he worked in the areas of treasury and corporate relationship management. He joined Tolaram Group in Nigeria in 2004 as the Chief Financial Officer of the Nigerian operations of the Group.  He was given the additional charge of managing the operations of Panabiz International, a subsidiary involved in the business of office automation solutions in 2007.<br>
+															<h5 style="font-size:13px;color:#5d5d5d">NAVIN NAHATA<br>Chief Financial Officer</h5>
+								       						<p style="font-size:13px;color:#5d5d5d">Navin Nahata has 16 years of experience of working in India, Nigeria and Singapore. Navin started his career with ICICI Ltd., the largest private sector commercial bank in India, wherein he worked in the areas of treasury and corporate relationship management. He joined Tolaram Group in Nigeria in 2004 as the Chief Financial Officer of the Nigerian operations of the Group.  He was given the additional charge of managing the operations of Panabiz International, a subsidiary involved in the business of office automation solutions in 2007.<br/><br/>
 															He was promoted as the Chief Finance Officer of Tolaram Group in 2009. Since 2010, he is also part of the Executive Committee of the Lekki Port Project, a mega infrastructure development of the Group.</p>
 														</div>
 														
@@ -381,7 +381,7 @@
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d">UDAYAN DASGUPTA<br>Group CEO</h5>
+														<h5 style="font-size:13px;color:#5d5d5d">UDAYAN DASGUPTA<br>General Manager</h5>
 														<p style="font-size:13px;color:#5d5d5d">Udayan Dasgupta joined the group in 2011 under the Best Choice Division of Multi-Pro Enterprises Ltd. He was appointed the General Manager of First Choice Retailing Ltd. in June 2012, bringing with him a vast amount of experience in Supply Chain Management which he gathered by working in Infosys Technologies Ltd, Bangalore for four years.<br/><br/>Udayan has a post graduate degree in Management from the Indian School of Business, Hyderabad, and completed his B.Tech at the Indian Institute of Technology, Roorkee in 2006.</p>
 													</div>
 
@@ -420,7 +420,7 @@
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d">BASHYAM KRISHNAN<br>Group CEO</h5>
+														<h5 style="font-size:13px;color:#5d5d5d">BASHYAM KRISHNAN<br>CEO</h5>
 														<p style="font-size:13px;color:#5d5d5d">Bashyam Krishnan joined Tolaram in 2013 as Group CEO of Horizon Pulp & Paper. He has over 10 years of senior management experience in various countries. <br/><br/>He holds a Bachelor of Engineering in Chemical Engineering from the Birla Institute of Technology & Science, Pilani, India.</p>
 													</div>
 
@@ -458,7 +458,7 @@
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d">Pankaj Mehra</h5>
+														<h5 style="font-size:13px;color:#5d5d5d">PANKAJ MEHRA<br/>General Manager</h5>
 														<p style="font-size:13px;color:#5d5d5d">Pankaj Mehra joined the Group in May 2012 as Group Head- Sales and Marketing and was promoted 
 
 as CEO of Horizon Tissue in Mar 2013. Prior to that, he has 28 years of sales and general 
@@ -501,7 +501,7 @@ management experiences in major companies in Asia.</p>
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d">Vani Malik<br>General Manager</h5>
+														<h5 style="font-size:13px;color:#5d5d5d">VANI MALIK<br>General Manager</h5>
 														<p style="font-size:13px;color:#5d5d5d">Vani Malik joined the Group in May 2011 and became the General Manager of Hypo in 2014. She was previously in charge of the Power Oil brand, another flagship FMCG brand of the Group.<br>She is a graduate from the India School of Business.</p>
 													</div>
 
@@ -580,13 +580,8 @@ management experiences in major companies in Asia.</p>
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d">SANDEEP PARASRAMKA<br></h5>
-														<p style="font-size:13px;color:#5d5d5d">Sandeep has a wealth of experience of over 16 years in the area of Corporate Finance and Financial Control having worked with several of India’s largest conglomerates. 
-
-Sandeep joined the Tolaram group as Finance Controller for one of the Group companies Panabiz International Ltd in 2006 and moved on to be the General Manager – Corporate Finance for the Group’s Nigerian Operations. Currently, he is the CFO of LPLE and a Key Project Development Team Member.   
- 
-Sandeep is Chartered Accountant and Company Secretary by professional qualifications and holds a degree of Bachelor of Commerce from St. Xavier's College, Calcutta University, India.
-</p>
+														<h5 style="font-size:13px;color:#5d5d5d">SANDEEP PARASRAMKA<br>Chief Financial Officer</h5>
+														<p style="font-size:13px;color:#5d5d5d">Sandeep has a wealth of experience of over 16 years in the area of Corporate Finance and Financial Control having worked with several of India’s largest conglomerates.<br/><br/>Sandeep joined the Tolaram group as Finance Controller for one of the Group companies Panabiz International Ltd in 2006 and moved on to be the General Manager – Corporate Finance for the Group’s Nigerian Operations. Currently, he is the CFO of LPLE and a Key Project Development Team Member.<br/><br/> Sandeep is Chartered Accountant and Company Secretary by professional qualifications and holds a degree of Bachelor of Commerce from St. Xavier's College, Calcutta University, India.</p>
 													</div>
 
 												</div>
@@ -750,7 +745,7 @@ Sandeep is Chartered Accountant and Company Secretary by professional qualificat
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d">Pawan Sharma</h5>
+														<h5 style="font-size:13px;color:#5d5d5d">PAWAN SHARMA<br/>Chief Operating Officer</h5>
 														<p style="font-size:13px;color:#5d5d5d">Pawan Sharma joined Tolaram Group in 2006 as the Head of Marketing in Dufil Prima Foods. Subsequently, he was promoted to become the General Manager of Multipro Enterprises and has progressed to become the COO of Multipro Enterprises.<br><br> He holds a Post-Graduate Diploma in Business Management from IPEM, obtained in 1999.</p>
 													</div>
 
