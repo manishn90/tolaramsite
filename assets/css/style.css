@@ -679,7 +679,7 @@ div.video_bg{
 /* ------ Contact Page ------ */
 
 .contactContent{
-      padding-top: 80px;
+      padding-top: 175px;
       padding-left: 7%;
       color: #58595b;
     }
@@ -1814,7 +1814,7 @@ label {
       height: 93%;
     }
     .contactContent{
-      padding-top: 30px;
+      padding-top: 80px;
     }
     .contactContent h1 {
       font-size: 1.8rem

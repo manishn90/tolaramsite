@@ -105,7 +105,7 @@
 		:-ms-input-placeholder { /* Internet Explorer 10+ */
 		   color:    #FFF !important;
 		}
-
+		.bordered_wrapper{padding-top: 0}
 		/* Contact Form Style */
 		form {
 		    margin:0;
