@@ -27,7 +27,7 @@
 							<div class="col-md-12 col-sm-12 col-xs-12 csr_content">
 								<a class="csr_btn" href="">
 									<h1 class="title">COLLABORATION WITH WTO, <br><span style="font-size: 20px;"> NIGERIA</span></h1>
-									<span class="hiddenContent">A Memorandum of Understanding (MoU) with the World Toilet Organisation (WTO) was signed in 2012. This partnership was created with the goal of improving the hygiene and sanitation in Nigeria. The first hands-on project has commenced in the Lekki region of Lagos,ocusing on promoting good sanitation in schools. The project has begun in the Lekki region of Lagos. By building toilet facilities and providing clean water, the project promotes good sanitation among students of local public schools.</span>
+									<span class="hiddenContent">A Memorandum of Understanding (MoU) with the World Toilet Organisation (WTO) was signed in 2012. This partnership was created with the goal of improving the hygiene and sanitation in Nigeria. The first hands-on project has commenced in the Lekki region of Lagos,focusing on promoting good sanitation in schools. The project has begun in the Lekki region of Lagos. By building toilet facilities and providing clean water, the project promotes good sanitation among students of local public schools.</span>
 								</a>
 							</div>
 						</div>

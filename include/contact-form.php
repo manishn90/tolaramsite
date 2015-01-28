@@ -1,6 +1,6 @@
 <div class="fullContact">    
     <div class="row">
-        <div class="col-md-12" style="padding-bottom: 59px;position: absolute; right: 0;padding-right: 50px;">
+        <div class="col-md-12" style="position: absolute;right: 0;padding-right: 25px;top: 0;">
                 <button type="button" class="closeContact pull-right">close</button>
         </div>
     </div>

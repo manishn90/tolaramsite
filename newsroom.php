@@ -36,7 +36,7 @@
 									<img src="assets/img/newsroom/2014/solar-cells.png"  style="background-position: 20% 100%;" class="newsroom_img">
 								</a>
 								<a href="" class="newsroom_btn">Read More...</a>
-								<p class="hiddenContent">NIGERIA: GE will supple Northern Noodles Ltd., a subsidiary of DUFIL and Tolaram Group, with solar technology to reduce emissions at the noodles manufacturing plant in Kaduna, Nigeria.<br>
+								<p class="hiddenContent">NIGERIA: GE will supply Northern Noodles Ltd., a subsidiary of DUFIL and Tolaram Group, with solar technology to reduce emissions at the noodles manufacturing plant in Kaduna, Nigeria.<br>
 								The 575 kilowatt photovoltaic (PV) plant will be integrated with the company’s existing diesel generators and micro-grid system. Once installed, the hybrid solution is expected to deliver 18 percent reduction in diesel fuel and associated emissions at the site.<br>
 								“Tolaram strives to be an early adopter of advanced technology, and solar energy looks extremely promising. Our goal is to reduce our carbon footprint and create sustainable industrial growth,” explains Mr. Sajen Aswani, CEO of Tolaram Group. “Given GE’s expertise in renewable technology, end-to-end offering, and like-minded commitment to growth here in Nigeria, it was a natural collaboration.</p>
 							</div>
