@@ -108,7 +108,8 @@
 
 		/* Contact Form Style */
 		form {
-		    margin:0
+		    margin:0;
+		    margin-top: 15px;
 		}
 		form label {
 		    margin-bottom:.2em;
