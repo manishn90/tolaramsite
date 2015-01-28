@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tolaram</title>
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="assets/img/logo_new.ico">
     <link rel="stylesheet" type="text/css" href="assets/css/cubeportfolio.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome/css/font-awesome.css" />
