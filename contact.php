@@ -34,7 +34,7 @@
 									<li><h2>Indonesia</h2>
 										<ul>
 											<li><a href="https://goo.gl/maps/KlvGG" target="_blank" style="color:#58595b;">Gedung Sudirman Plaza <br>Plaza Marein Lantai 20<br>Jl Jenderai Sudirman Kav 76-78v<br>Jakarta 12910 - Indonesia</a></li>
-											<li>Tel: (62) 6297 2711<br>Fax: (62) 6297 2769</li>
+											<li>Phone: (62) 6297 2711<br>Fax: (62) 6297 2769</li>
 										</ul>
 									</li>
 								</ul>
@@ -46,7 +46,7 @@
 									<li><h2>Estonia</h2>
 										<ul>
 											<li><a href="https://goo.gl/maps/xTldw" target="_blank" style="color:#58595b;">Kopli Str 35,10412 Tallinn Estonia</a></li>
-											<li>Tel: (35) 7297 2722<br>Fax: (35) 7297 2710</li>
+											<li>Phone: (372) 6129 202<br>Fax: (372) 6603 500</li>
 										</ul>	
 									</li>
 								</ul>
@@ -56,7 +56,7 @@
 									<li><h2>Nigeria</h2>
 										<ul>
 											<li><a href="https://goo.gl/maps/e1PZ2" target="_blank" style="color:#58595b;">38 Eric Moore Road,Surulere, Lagos Nigeria</a></li>
-											<li>Tel: (90) 8628 2829<br>Fax: (90) 8628 2832</li>
+											<li>Phone: (234) 1 7742063<br>Fax : (234) 1 2830316</li>
 										</ul>
 									</li>
 								</ul>
