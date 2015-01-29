@@ -18,6 +18,7 @@
 							<div class="col-md-12 col-sm-12 col-xs-12 csr_content">
 								<a class="csr_btn" href="">
 									<h1 class="title">CENTRE FOR AFRICAN STUDIES, <br><span style="font-size: 20px;"> SINGAPORE </span></h1>
+									<h4 class="hiddenLink">africanstudies.ntu.edu.sg/Pages/index.aspx</h4>
 									<span class="hiddenContent">Tolaram Group is one of the five founding companies of the NTU-SBF Centre for African Studies, the first in Southeast Asia, which was set up at a cost of S$5 million. Jointly established by Nanyang Technological University (NTU) and the Singapore Business Federation (SBF), the Centre was launched in November 2013. It aims to promote understanding of Africa at the economic and policy level to help foster stronger relationships between Singapore and the continent.</span>
 								</a>
 							</div>
@@ -51,7 +52,8 @@
 							<div class="col-md-12 col-sm-12 col-xs-12 csr_content">
 								<a class="csr_btn" href="">
 									<h1 class="title">TOLARAM FOUNDATION, <br> <span style="font-size: 20px;">ESTONIA</span></h1>
-									<span class="hiddenContent"> Tolaram Foundation was established in Estonia in 1999. Initially set up to provide mentally challenged children the opportunity to learn, play and enjoy music, it now also organises Christmas and social events for them, in addition to addressing wider needs in the community, such as repairing the heating system and installing double-glazing at a local hospice. <br/> <br/> Today, Tolaram Foundation also actively supports the Mother Theresa Sisters of Missionaries in running its soup kitchens and providing warm meals to the less fortunate during the cold winters.</span>
+									<h4 class="hiddenLink">www.tolaramfoundation.ee</h4>
+									<span class="hiddenContent">Tolaram Foundation was established in Estonia in 1999. Initially set up to provide mentally challenged children the opportunity to learn, play and enjoy music, it now also organises Christmas and social events for them, in addition to addressing wider needs in the community, such as repairing the heating system and installing double-glazing at a local hospice. <br/> <br/> Today, Tolaram Foundation also actively supports the Mother Theresa Sisters of Missionaries in running its soup kitchens and providing warm meals to the less fortunate during the cold winters.</span>
 								</a>
 							</div>
 						</div>
@@ -91,16 +93,23 @@
 				scrollingSpeed: 500,
 			});
 
+			$('.hiddenLink').hide();
+
 			$('.csr_btn').click(function(e){
                  e.preventDefault();
                  var $parentdiv = $(this).parent().parent('.csr_box');
                  var src = $parentdiv.children('img').attr('src');  
                  var style = $parentdiv.children('img').attr('style');   
-
                  
                  $('.fullWidth').css('left',"-100%");
                  var insertHtml = '<div class="csroverlay fullWidth" ><div class="csrBanner" style="background:url('+src+');'+style+'"></div><button class="businessClose">Close</button><div class="row container">';
-                 insertHtml += '<div class="col-md-12"><div class="csroverlay-desc"><h1>'+$parentdiv.find('h1').text()+'</h1><p>'+$parentdiv.find('.hiddenContent').text()+'</p></div></div>';
+                 console.log($parentdiv.find('h4').text());
+                 if ($parentdiv.find('h4').text() != '') {
+                 	insertHtml += '<div class="col-md-12"><div class="csroverlay-desc"><h1 style="padding-bottom: 0px;">'+$parentdiv.find('h1').text()+'</h1><span style="font-size: 16px;padding-bottom: 20px;">Website: <a class="corporation-link" target="_blank" href="http://'+$parentdiv.find('h4').text()+'" style="font-size: 16px;padding-bottom: 20px;">'+$parentdiv.find('h4').text()+'</a></span><br/><br/><br/><p>'+$parentdiv.find('.hiddenContent').text()+'</p></div></div>';
+                 } else {
+                 	insertHtml += '<div class="col-md-12"><div class="csroverlay-desc"><h1>'+$parentdiv.find('h1').text()+'</h1><p>'+$parentdiv.find('.hiddenContent').text()+'</p></div></div>';
+                 }
+                 
                  insertHtml += '</div></div>';
                  $('body').after(insertHtml);
                  $('.fullWidth').animate({left:"0"});
