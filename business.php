@@ -551,7 +551,7 @@ management experiences in major companies in Asia.</p>
 												</div>
 												<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 													<div class="lead-desc">
-														<h5 style="font-size:13px;color:#5d5d5d">KUNDAN SAINANI<br>Chief Financial Officer</h5>
+														<h5 style="font-size:13px;color:#5d5d5d">KUNDAN SAINANI<br>Director – Finance</h5>
 														<p style="font-size:13px;color:#5d5d5d">Kundan Sainani joined the Group in 1999 as a Group Internal Auditor. He became the Director, Finance for Viva Methanol LFTZ Enterprise in 2003 before moving on to his role as CFO in LFTZ to take charge of the development of this mega-scale integrated industrial park.<br/><br/>He has over 25 years of experience in the steel, paper, textile, chemicals, food sector, infrastructure and construction industries.<br/>He is a commerce graduate and a member of the Institute of Chartered Accountants of India.</p>
 													</div>
 
