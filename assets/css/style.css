@@ -6,22 +6,19 @@ html, body {
 @font-face {
     font-family: gothamMedium;
     src: url('../fonts/gotham/Gotham-Medium.otf');
-    src: url('../fonts/gotham/Gotham-Medium.otf?iefix') format('opentype');
-    src: local('Gotham Medium'), local('Gotham_Medium'), url('../fonts/gotham/Gotham-Medium.otf') format('opentype');
+    src: url('../fonts/gotham/Gotham-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham/Gotham-Medium.otf') format('opentype'), url('../fonts/gotham/Gotham-Medium.woff') format('woff'), url('../fonts/gotham/Gotham-Medium.ttf') format('truetype'), url('../fonts/gotham/Gotham-Medium.svg#Gotham-Medium') format('svg'); font-weight: normal; font-style: normal;
 }
 
 @font-face {
     font-family: gothamBook;
     src: url('../fonts/gotham/Gotham-Book.otf');
-    src: url('../fonts/gotham/Gotham-Book.otf?iefix') format('opentype');
-    src: local('Gotham Book'), local('Gotham_Book'), url('../fonts/gotham/Gotham-Book.otf') format('opentype');
+    src: url('../fonts/gotham/Gotham-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham/Gotham-Book.otf') format('opentype'), url('../fonts/gotham/Gotham-Book.woff') format('woff'), url('../fonts/gotham/Gotham-Book.ttf') format('truetype'), url('../fonts/gotham/Gotham-Book.svg#Gotham-Book') format('svg'); font-weight: normal; font-style: normal; 
 }
 
 @font-face {
     font-family: gothamBookItalic;
     src: url('../fonts/gotham/Gotham-BookIta.otf');
-    src: url('../fonts/gotham/Gotham-BookIta.otf?iefix') format('opentype');
-    src: local('Gotham BookIta'), local('Gotham_BookIta'), url('../fonts/gotham/Gotham-BookIta.otf') format('opentype');
+    src: url('../fonts/gotham/Gotham-BookItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham/Gotham-BookItalic.otf') format('opentype'), url('../fonts/gotham/Gotham-BookItalic.woff') format('woff'), url('../fonts/gotham/Gotham-BookItalic.ttf') format('truetype'), url('../fonts/gotham/Gotham-BookItalic.svg#Gotham-BookItalic') format('svg'); font-weight: normal; font-style: normal;
 }
 
 
