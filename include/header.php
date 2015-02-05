@@ -3,6 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
     <title>Tolaram</title>
     <link rel="shortcut icon" href="assets/img/icon.ico">
     <link rel="stylesheet" type="text/css" href="assets/css/cubeportfolio.min.css">
