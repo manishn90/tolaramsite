@@ -6,19 +6,22 @@ html, body {
 @font-face {
     font-family: gothamMedium;
     src: url('../fonts/gotham/Gotham-Medium.otf');
-    src: url('../fonts/gotham/Gotham-Medium.otf?iefix') format('opentype'),
+    src: url('../fonts/gotham/Gotham-Medium.otf?iefix') format('opentype');
+    src: local('Gotham Medium'), local('Gotham_Medium'), url('../fonts/gotham/Gotham-Medium.otf') format('opentype');
 }
 
 @font-face {
     font-family: gothamBook;
     src: url('../fonts/gotham/Gotham-Book.otf');
-    src: url('../fonts/gotham/Gotham-Book.otf?iefix') format('opentype'),
+    src: url('../fonts/gotham/Gotham-Book.otf?iefix') format('opentype');
+    src: local('Gotham Book'), local('Gotham_Book'), url('../fonts/gotham/Gotham-Book.otf') format('opentype');
 }
 
 @font-face {
     font-family: gothamBookItalic;
     src: url('../fonts/gotham/Gotham-BookIta.otf');
-    src: url('../fonts/gotham/Gotham-BookIta.otf?iefix') format('opentype'),
+    src: url('../fonts/gotham/Gotham-BookIta.otf?iefix') format('opentype');
+    src: local('Gotham BookIta'), local('Gotham_BookIta'), url('../fonts/gotham/Gotham-BookIta.otf') format('opentype');
 }
 
 
@@ -1846,7 +1849,6 @@ label {
 
 .outer {
     display: table;
-    position: absolute;
     height: 100%;
     width: 100%;
 }
