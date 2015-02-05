@@ -263,7 +263,7 @@
 										<div class="col-md-12">
 											<div class="row">
 												<div class="col-md-3 col-xs-4" style="padding-right: 0;">
-													<img src="assets/img/ceos/Dimas_Mulyanto.jpg" class="img-responsive">
+													
 												</div>
 											<div class="col-md-9 col-xs-8" style="padding-right:38px;">
 												<div class="lead-desc">
