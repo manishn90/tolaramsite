@@ -5,17 +5,20 @@ html, body {
 
 @font-face {
     font-family: gothamMedium;
-    src: url(../fonts/gotham/Gotham-Medium.otf);
+    src: url('../fonts/gotham/Gotham-Medium.otf');
+    src: url('../fonts/gotham/Gotham-Medium.otf?iefix') format('opentype'),
 }
 
 @font-face {
     font-family: gothamBook;
-    src: url(../fonts/gotham/Gotham-Book.otf);
+    src: url('../fonts/gotham/Gotham-Book.otf');
+    src: url('../fonts/gotham/Gotham-Book.otf?iefix') format('opentype'),
 }
 
 @font-face {
     font-family: gothamBookItalic;
-    src: url(../fonts/gotham/Gotham-BookIta.otf);
+    src: url('../fonts/gotham/Gotham-BookIta.otf');
+    src: url('../fonts/gotham/Gotham-BookIta.otf?iefix') format('opentype'),
 }
 
 
